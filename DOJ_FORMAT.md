@@ -321,9 +321,13 @@ All text strings are encoded in **Shift-JIS** (CP932). Key properties for correc
   trailing byte must be consumed before checking for `0x00` null terminator.
 - **Half-width Katakana** (`0xA1–0xDF`) is a 1-byte character.
 - **Ideographic space** `U+3000` → Shift-JIS `0x81 0x40`. It appears at the start
-  of most narration lines as an indent.
+  of most narration lines as a leading indent and **must be preserved**.
+  Python's `str.strip()` treats `U+3000` as whitespace and silently removes it.
+  The decoder uses a custom strip that only removes ASCII control characters
+  (`\x00`–`\x1f`, `\x7f`), not Unicode spaces.
 - Lines ending in `\n` (`0x0A`) are **not** separate records — the `0x0A` here is
-  inside the string, not the opcode. The `strip()` call in the decoder removes it.
+  inside the string, not the opcode. The control-character strip in the decoder
+  removes it.
 
 ---
 
@@ -335,8 +339,9 @@ Decoded strings are filtered before inclusion in the output:
   or the Unicode replacement character `U+FFFD` is discarded. This prevents false
   positives from binary data in resource-only files (e.g., `trueblue.doj` which
   contains only animation/resource opcodes and no dialogue).
-- **Minimum length:** second-string sub-record text must be at least 2 characters
-  to avoid picking up stray single-byte values from record headers.
+- **Minimum length:** all text (narration, dialogue, and second-string sub-records)
+  must be at least 2 characters to avoid picking up stray single-byte values from
+  record headers or binary data.
 
 ---
 
@@ -351,7 +356,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 39,057 |
+| Text lines (narration + dialogue) | 39,055 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 

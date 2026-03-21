@@ -92,6 +92,13 @@ SECOND_STRING_TEXT_OFFSET   = 20
 
 # ── String helpers ────────────────────────────────────────────────────────────
 
+# Characters to strip from decoded text.  Only ASCII controls are removed —
+# NOT the ideographic space U+3000 (Shift-JIS 0x81 0x40), which is used as
+# a leading indent in narration lines.  Python's str.strip() treats U+3000
+# as whitespace and would silently remove it.
+_STRIP_CHARS = ''.join(chr(c) for c in range(0x20)) + '\x7f'
+
+
 def read_sjis_string(data: bytes, offset: int) -> tuple[str, int]:
     """
     Read a null-terminated Shift-JIS string starting at `offset`.
@@ -134,8 +141,9 @@ def looks_like_text(data: bytes, offset: int) -> bool:
 
 
 def _is_clean_text(text: str) -> bool:
-    """Reject decoded strings that contain control characters or U+FFFD."""
-    return bool(text) and not any(ord(c) < 0x20 or c == '\ufffd' for c in text)
+    """Reject decoded strings that are too short, contain control chars, or U+FFFD."""
+    return (len(text) > 1
+            and not any(ord(c) < 0x20 or c == '\ufffd' for c in text))
 
 
 # ── Second-string reader ─────────────────────────────────────────────────────
@@ -192,7 +200,7 @@ def try_read_second_string(
             raw = data[pos + sto : end_pos + 1]
 
         try:
-            text = raw.decode('shift-jis', errors='replace').strip()
+            text = raw.decode('shift-jis', errors='replace').strip(_STRIP_CHARS)
         except Exception:
             text = ''
 
@@ -239,7 +247,7 @@ def try_read_choice_subrecord(
         choices: list[str] = []
         while j < end_pos and j < n and looks_like_text(data, j):
             c, j = read_sjis_string(data, j)
-            c = c.strip()
+            c = c.strip(_STRIP_CHARS)
             if c and not any(ord(ch) < 0x20 for ch in c):
                 choices.append(c)
 
@@ -378,7 +386,7 @@ def decode_doj(filepath: str) -> list[dict]:
                     and looks_like_text(data, i + to)):
 
                 text, next_i = read_sjis_string(data, i + to)
-                text = text.strip()
+                text = text.strip(_STRIP_CHARS)
                 if _is_clean_text(text):
                     entries.append({'type': 'narration', 'offset': i, 'text': text})
                 i = _try_subrecords(data, next_i, n, entries, 'narration')
@@ -403,7 +411,7 @@ def decode_doj(filepath: str) -> list[dict]:
                         and looks_like_text(data, i + to)):
 
                     text, next_i = read_sjis_string(data, i + to)
-                    text = text.strip()
+                    text = text.strip(_STRIP_CHARS)
                     if _is_clean_text(text):
                         entries.append({'type': 'dialogue', 'offset': i, 'text': text})
                     i = _try_subrecords(data, next_i, n, entries, 'narration')
@@ -424,7 +432,7 @@ def decode_doj(filepath: str) -> list[dict]:
                         if j >= n:
                             break
                         text, j = read_sjis_string(data, j)
-                        text = text.strip()
+                        text = text.strip(_STRIP_CHARS)
                         # Keep only genuine multi-character text with no control bytes.
                         if (text and len(text) > 1
                                 and not any(ord(c) < 0x20 for c in text)):
@@ -439,7 +447,7 @@ def decode_doj(filepath: str) -> list[dict]:
                         if j >= n or not looks_like_text(data, j):
                             break
                         text, j = read_sjis_string(data, j)
-                        text = text.strip()
+                        text = text.strip(_STRIP_CHARS)
                         if text and not any(ord(c) < 0x20 for c in text):
                             choices.append(text)
 
@@ -472,7 +480,7 @@ def decode_doj(filepath: str) -> list[dict]:
                 if j >= n or not looks_like_text(data, j):
                     break
                 text, j = read_sjis_string(data, j)
-                text = text.strip()
+                text = text.strip(_STRIP_CHARS)
                 if text and not any(ord(c) < 0x20 for c in text):
                     candidates.append(text)
 
