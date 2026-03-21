@@ -40,10 +40,11 @@ import argparse
 OPCODE_0A = 0x0A   # Narration / inner monologue line
 OPCODE_2A = 0x2A   # Character dialogue (single line) OR choice menu
 OPCODE_22 = 0x22   # Character dialogue (alternate form, same layout as 0x2A)
+OPCODE_06 = 0x06   # Choice menu (primary format, 3-option player choices)
 
-# All three of the above can carry text.  Other opcodes (0x11, 0x14, 0x33 …)
+# All four of the above can carry text.  Other opcodes (0x11, 0x14, 0x33 …)
 # are flow-control / resource-load commands and carry no Japanese text.
-DIALOGUE_OPCODES = (OPCODE_0A, OPCODE_2A, OPCODE_22)
+DIALOGUE_OPCODES = (OPCODE_0A, OPCODE_2A, OPCODE_22, OPCODE_06)
 
 
 # ── Record layouts (all offsets relative to the start of the record) ──────────
@@ -204,30 +205,81 @@ def decode_doj(filepath: str) -> list[dict]:
                     i += 2
 
             elif op == OPCODE_2A:
-                # ── Form B: choice menu ────────────────────────────────────
-                # byte[4] = number of choices; strings follow immediately at +6
-                count = data[i + 4] if i + 5 < n else 0
-                j = i + 6   # first choice string begins here
+                # ── Form B: choice menu (two sub-variants) ─────────────────
                 choices = []
-                for _ in range(min(count, 20)):   # cap at 20 as a sanity guard
-                    if j >= n:
-                        break
-                    text, j = read_sjis_string(data, j)
-                    text = text.strip()
-                    # Filter out garbage bytes that slipped through: only keep
-                    # strings that contain at least one printable character
-                    # and no raw control bytes (< 0x20).
-                    if (text
-                            and len(text) > 1
-                            and not any(ord(c) < 0x20 for c in text)):
-                        choices.append(text)
+
+                if param == 0x0022:
+                    # Variant 1 (param=0x0022): count byte at [+4], strings from [+6].
+                    # The count includes trailing control-code entries (e.g. 0x11
+                    # jump targets placed as padding) — filter those out.
+                    count = data[i + 4] if i + 5 < n else 0
+                    j = i + 6
+                    for _ in range(min(count, 20)):
+                        if j >= n:
+                            break
+                        text, j = read_sjis_string(data, j)
+                        text = text.strip()
+                        # Keep only genuine multi-character text with no control bytes.
+                        if (text and len(text) > 1
+                                and not any(ord(c) < 0x20 for c in text)):
+                            choices.append(text)
+
+                elif param == 0x0004:
+                    # Variant 2 (param=0x0004): NO count byte.
+                    # Strings start directly at [+4] and continue until a
+                    # non-text byte (typically 0x11, a flow-control opcode).
+                    j = i + 4
+                    for _ in range(20):   # sanity cap
+                        if j >= n or not looks_like_text(data, j):
+                            break
+                        text, j = read_sjis_string(data, j)
+                        text = text.strip()
+                        if text and not any(ord(c) < 0x20 for c in text):
+                            choices.append(text)
+
+                else:
+                    # Unknown param variant — skip the 2-byte opcode and rescan.
+                    i += 2
+                    continue
+
                 if choices:
                     entries.append({'type': 'choices', 'offset': i, 'choices': choices})
-                i = j   # jump to byte after the last choice string's null
+                i = j   # advance past all choice strings
 
             else:
                 # 0x22 with non-zero param: unknown variant, skip the opcode
                 i += 2
+
+        # ── 0x06: Main choice menu ────────────────────────────────────────────
+        # Strings start immediately at +2 with no count or header bytes.
+        # The list ends at the first byte that cannot start a Shift-JIS / ASCII string.
+        #
+        # This opcode is also used for internal resource-routing blocks that look
+        # similar but contain only short ASCII labels (e.g. "99a04", "@", path refs).
+        # We treat the block as a real choice menu only when at least 2 strings
+        # contain a Japanese character (Shift-JIS 2-byte lead byte).  Otherwise
+        # the whole block is silently skipped.
+        elif op == OPCODE_06:
+            j = i + 2   # strings start right after the 2-byte opcode
+            candidates = []
+            for _ in range(20):   # sanity cap
+                if j >= n or not looks_like_text(data, j):
+                    break
+                text, j = read_sjis_string(data, j)
+                text = text.strip()
+                if text and not any(ord(c) < 0x20 for c in text):
+                    candidates.append(text)
+
+            # Keep the block only if at least 2 options contain Japanese characters.
+            # Japanese strings contain Shift-JIS lead bytes (0x81-0x9F or 0xE0-0xFC).
+            def has_japanese(s: str) -> bool:
+                return any('\u3000' <= c <= '\u9FFF' or '\uFF00' <= c <= '\uFFEF'
+                           or '\u4E00' <= c <= '\u9FFF' for c in s)
+
+            real_choices = [c for c in candidates if has_japanese(c)]
+            if len(real_choices) >= 2:
+                entries.append({'type': 'choices', 'offset': i, 'choices': real_choices})
+            i = j   # advance past all strings (whether we kept them or not)
 
     return entries
 

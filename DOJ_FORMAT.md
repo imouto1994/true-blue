@@ -126,22 +126,67 @@ Byte   Size   Field
 
 ### 0x2A — Choice Menu (Form B)
 
-Presents the player with one or more selectable dialogue choices. Identified by
-`param != 0x0000` (unlike Form A).
+Presents the player with selectable dialogue choices. Identified by `param != 0x0000`.
+Two structural sub-variants exist:
 
+**Variant 1 — param=0x0022 (count-prefixed):**
 ```
 Byte   Size   Field
 ----   ----   -----
 +0     1      0x2A
 +1     1      0x00
-+2     2      u16le  flags  (non-zero; exact meaning unknown)
-+4     1      u8  number_of_choices
++2     2      u16le  0x0022
++4     1      u8  total_string_count  (includes trailing control-byte padding!)
 +5     1      0x00
-+6     …      number_of_choices × null-terminated Shift-JIS strings (no separator)
++6     …      total_string_count × null-terminated Shift-JIS strings
+```
+> The count includes non-choice padding entries (e.g. single bytes like `0x11`). Filter: keep only strings with no control characters (`< 0x20`) and length > 1.
+
+**Variant 2 — param=0x0004 (no count byte):**
+```
+Byte   Size   Field
+----   ----   -----
++0     1      0x2A
++1     1      0x00
++2     2      u16le  0x0004
++4     …      null-terminated Shift-JIS strings directly (no count prefix)
+              terminated when a non-text byte (e.g. 0x11) is encountered
 ```
 
-> **No "has text" marker** — the strings follow directly after `+6`.
-> The count field doubles as the record length indicator.
+---
+
+### 0x06 — Primary Choice Menu (main player-facing choices)
+
+The most common choice format in the game. Presents the player with typically 2–3
+options in Japanese. **No count byte, no header** — strings start immediately at `+2`.
+
+```
+Byte   Size   Field
+----   ----   -----
++0     1      0x06
++1     1      0x00
++2     …      null-terminated Shift-JIS strings, one after another
+              List ends when a non-text byte is encountered (e.g. 0x15, 0x11)
+```
+
+> [!IMPORTANT]
+> Opcode `0x06` is **also** used for internal resource-routing blocks that look
+> structurally identical but contain only short ASCII labels like `"99a04"`, `"@"`, or
+> voice-file path strings (e.g. `"01_01\01v100463"`). These are **not** player-visible.
+>
+> **Distinguish**: a real choice block has **≥ 2 strings containing Japanese characters**
+> (Shift-JIS 2-byte sequences). Routing blocks contain only ASCII strings.
+
+**Example from `06c01.doj`:**
+```
+06 00  81 40 90 53 94 7A 82 C8 82 CC 82 C5 88 A8 82 F0 92 54 82 B7 00
+       ^ ideographic space + 「心配なので葵を探す」\0
+       81 40 8B 43 82 C9 82 B9 82 BA 8B 8F 96 B0 82 E8 00
+       ^ 「気にせず居眠り」\0
+       81 40 82 C6 82 E8 82 A0 82 A6 82 BA ... 00
+       ^ 「とりあえずトイレに行く」\0
+       15  ← non-text byte: end of list
+```
 
 ---
 
