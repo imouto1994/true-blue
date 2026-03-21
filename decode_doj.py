@@ -104,6 +104,10 @@ def read_sjis_string(data: bytes, offset: int) -> tuple[str, int]:
     Read a null-terminated Shift-JIS string starting at `offset`.
 
     Returns (unicode_string, offset_after_null).
+    Decoded with CP932 (Microsoft's Shift-JIS superset) rather than the
+    JIS standard codec, so that characters like the wave dash (0x81 0x60)
+    map to U+FF5E (～) instead of U+301C (〜).
+
     Shift-JIS uses two bytes for lead byte ranges 0x81–0x9F and 0xE0–0xFC,
     so we must advance by 2 for those to avoid mistaking the trailing byte
     of a 2-byte character for a null terminator.
@@ -117,7 +121,7 @@ def read_sjis_string(data: bytes, offset: int) -> tuple[str, int]:
             end += 1   # 1-byte ASCII or Katakana half-width
     raw = data[offset:end]
     try:
-        text = raw.decode('shift-jis', errors='replace')
+        text = raw.decode('cp932', errors='replace')
     except Exception:
         text = raw.decode('latin-1', errors='replace')
     return text, end + 1   # +1 to skip the null terminator
@@ -200,7 +204,7 @@ def try_read_second_string(
             raw = data[pos + sto : end_pos + 1]
 
         try:
-            text = raw.decode('shift-jis', errors='replace').strip(_STRIP_CHARS)
+            text = raw.decode('cp932', errors='replace').strip(_STRIP_CHARS)
         except Exception:
             text = ''
 

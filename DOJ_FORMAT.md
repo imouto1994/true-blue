@@ -315,7 +315,12 @@ bytes often fall outside normal Shift-JIS ranges.
 
 ## Shift-JIS Encoding Notes
 
-All text strings are encoded in **Shift-JIS** (CP932). Key properties for correct parsing:
+All text strings are encoded in **Shift-JIS** (CP932). The decoder uses Python's
+`cp932` codec (Microsoft's Shift-JIS superset) rather than the JIS standard `shift-jis`
+codec, so that characters like the wave dash (`0x81 0x60`) map to `U+FF5E` (～)
+instead of `U+301C` (〜). This matches the Windows runtime the game targets.
+
+Key properties for correct parsing:
 
 - **Lead bytes** `0x81–0x9F` and `0xE0–0xFC` introduce a 2-byte character; the
   trailing byte must be consumed before checking for `0x00` null terminator.
