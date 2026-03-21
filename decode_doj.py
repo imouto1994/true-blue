@@ -133,6 +133,11 @@ def looks_like_text(data: bytes, offset: int) -> bool:
     return is_sjis_lead or is_ascii_print
 
 
+def _is_clean_text(text: str) -> bool:
+    """Reject decoded strings that contain control characters or U+FFFD."""
+    return bool(text) and not any(ord(c) < 0x20 or c == '\ufffd' for c in text)
+
+
 # ── Second-string reader ─────────────────────────────────────────────────────
 
 def try_read_second_string(
@@ -180,13 +185,18 @@ def try_read_second_string(
         null_idx = raw.find(b'\x00')
         if null_idx >= 0:
             raw = raw[:null_idx]
+        elif (raw
+              and (0x81 <= raw[-1] <= 0x9F or 0xE0 <= raw[-1] <= 0xFC)
+              and end_pos < n):
+            # sub_size boundary split a 2-byte SJIS character; include trail byte
+            raw = data[pos + sto : end_pos + 1]
 
         try:
             text = raw.decode('shift-jis', errors='replace').strip()
         except Exception:
             text = ''
 
-        if text and len(text) > 1:
+        if len(text) > 1 and _is_clean_text(text):
             entries.append({'type': entry_type, 'offset': pos, 'text': text})
             return end_pos
 
@@ -255,10 +265,14 @@ def _try_subrecords(
     Returns the final scan position.
     """
     new_pos = try_read_second_string(data, pos, n, entries, entry_type)
-    # Whether or not text2 was found, check the resulting position for choices
-    result = try_read_choice_subrecord(data, new_pos, n, entries)
-    if result > new_pos:
-        return result
+    # Whether or not text2 was found, check the resulting position for choices.
+    # Probe a small window because the sub_size boundary sometimes lands on the
+    # text's null terminator rather than right after it.
+    for probe in range(4):
+        p = new_pos + probe
+        result = try_read_choice_subrecord(data, p, n, entries)
+        if result > p:
+            return result
     return new_pos
 
 
@@ -284,7 +298,7 @@ def _scan_nontxt_for_text(
     j = rec_start + 4
     while j < scan_end:
         if data[j] == 0x00:
-            new_i = try_read_second_string(data, j + 1, n, entries, 'narration')
+            new_i = _try_subrecords(data, j + 1, n, entries, 'narration')
             if new_i > j + 1:
                 return new_i
         j += 1
@@ -341,7 +355,7 @@ def decode_doj(filepath: str) -> list[dict]:
 
                 text, next_i = read_sjis_string(data, i + to)
                 text = text.strip()
-                if text:
+                if _is_clean_text(text):
                     entries.append({'type': 'narration', 'offset': i, 'text': text})
                 i = _try_subrecords(data, next_i, n, entries, 'narration')
             else:
@@ -366,7 +380,7 @@ def decode_doj(filepath: str) -> list[dict]:
 
                     text, next_i = read_sjis_string(data, i + to)
                     text = text.strip()
-                    if text:
+                    if _is_clean_text(text):
                         entries.append({'type': 'dialogue', 'offset': i, 'text': text})
                     i = _try_subrecords(data, next_i, n, entries, 'narration')
                 else:

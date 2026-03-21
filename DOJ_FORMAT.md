@@ -155,6 +155,11 @@ Byte   Size   Field
 
 > **Read the text as:** `data[pos + 20 : pos + sub_size]`, decoding the raw slice as
 > Shift-JIS. If a null byte appears within the slice, truncate there.
+>
+> **SJIS boundary fix:** the `sub_size` boundary occasionally lands in the middle of a
+> 2-byte Shift-JIS character (the last byte of the slice is a lead byte `0x81–0x9F` /
+> `0xE0–0xFC` without its trail byte). When detected, the decoder extends the slice by
+> 1 byte to include the trail byte, preventing garbled output on the final character.
 
 **When the second text is absent**, the bytes at `+0` may begin either a
 resource-load sub-record (e.g., `40 00` followed by an ASCII resource path like
@@ -167,7 +172,7 @@ not be `0x01`, so the parser falls through to the choice sub-record check.
 
 After the first text string's null **or** after the second-string sub-record, an
 optional **choice menu** may be embedded in the same record. This accounts for
-**55 choice menus** across all script files — roughly 60% of all player-facing
+**59 choice menus** across all script files — the majority of player-facing
 choices in the game.
 
 These are distinct from the standalone opcode-based choice formats (0x2A Form B,
@@ -194,6 +199,11 @@ text1 \0  →  [narration sub-record]  →  [choice sub-record]  →  next opcod
               (marker 0x01 at +18)       (no 0x01 marker)
 ```
 Either or both of the narration and choice sub-records may be absent.
+
+> **Boundary alignment:** The narration sub-record's `sub_size` boundary sometimes
+> lands on or near the text's null terminator rather than right after it. The parser
+> probes positions `end_pos` through `end_pos + 3` when looking for a following
+> choice sub-record, to handle this alignment variation.
 
 **Example from `01c04.doj`** (after second narration string "……さて、どうしようかな？"):
 ```
@@ -310,12 +320,33 @@ All text strings are encoded in **Shift-JIS** (CP932). Key properties for correc
 
 ---
 
+## Text Validation
+
+Decoded strings are filtered before inclusion in the output:
+
+- **Control character rejection:** any string containing bytes `< 0x20` (C0 controls)
+  or the Unicode replacement character `U+FFFD` is discarded. This prevents false
+  positives from binary data in resource-only files (e.g., `trueblue.doj` which
+  contains only animation/resource opcodes and no dialogue).
+- **Minimum length:** second-string sub-record text must be at least 2 characters
+  to avoid picking up stray single-byte values from record headers.
+
+---
+
 ## Tooling
 
 | Script | Purpose |
 |--------|---------|
 | `decode_doj.py` | Production text extractor. Reads decoded `.doj` → UTF-8 `.txt` |
 | `analyze_doj.py` | Development tool. Inspects raw binary, confirms opcode layouts, discovers unknown record types |
+
+### Current extraction stats (152 files)
+
+| Metric | Count |
+|--------|-------|
+| Text lines (narration + dialogue) | 35,313 |
+| Choice menus | 59 |
+| Garbled characters (U+FFFD) | 0 |
 
 ### Typical workflow
 
