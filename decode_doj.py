@@ -83,6 +83,12 @@ MARKER_OFFSET_2A_22   = 18   # for 0x2A / 0x22 Form-A records
 TEXT_OFFSET_0A        = 22
 TEXT_OFFSET_2A_22     = 20
 
+# After the first string's null terminator, a second text line may follow
+# with its own sub-record header.  The marker is always at +18 from the byte
+# after the null, and the text starts at +20.
+SECOND_STRING_MARKER_OFFSET = 18
+SECOND_STRING_TEXT_OFFSET   = 20
+
 
 # ── String helpers ────────────────────────────────────────────────────────────
 
@@ -125,6 +131,164 @@ def looks_like_text(data: bytes, offset: int) -> bool:
     is_sjis_lead   = (0x81 <= b <= 0x9F) or (0xE0 <= b <= 0xFC)
     is_ascii_print = 0x20 <= b <= 0x7E
     return is_sjis_lead or is_ascii_print
+
+
+# ── Second-string reader ─────────────────────────────────────────────────────
+
+def try_read_second_string(
+    data: bytes, after_null: int, n: int,
+    entries: list[dict], entry_type: str,
+) -> int:
+    """
+    After the first text string's null terminator, check for an optional second
+    text line embedded in the same record.
+
+    The sub-record layout (relative to `after_null`):
+        +0   u16le  sub_size  (byte distance to the next opcode record)
+        +2   16 bytes  context/padding
+        +18  0x01 0x00  "has text" marker
+        +20  Shift-JIS text  (NOT null-terminated; bounded by sub_size)
+
+    The second string is NOT null-terminated in the traditional sense — it
+    runs right up to the boundary of the next opcode record.  Using
+    read_sjis_string() would overshoot into the next record's opcode byte.
+    Instead we use the sub_size field to slice the exact text bytes.
+
+    Returns the new scan position (start of the next opcode record if text2
+    was found, or `after_null` unchanged so the main loop byte-scans normally).
+    """
+    smo = SECOND_STRING_MARKER_OFFSET  # 18
+    sto = SECOND_STRING_TEXT_OFFSET    # 20
+    pos = after_null
+
+    if pos + 2 > n:
+        return pos
+
+    sub_size = struct.unpack_from('<H', data, pos)[0]
+    if sub_size < sto + 2:
+        return pos
+
+    end_pos = pos + sub_size
+    if end_pos > n:
+        return pos
+
+    if (data[pos + smo]     == 0x01
+            and data[pos + smo + 1] == 0x00
+            and looks_like_text(data, pos + sto)):
+
+        raw = data[pos + sto : end_pos]
+        null_idx = raw.find(b'\x00')
+        if null_idx >= 0:
+            raw = raw[:null_idx]
+
+        try:
+            text = raw.decode('shift-jis', errors='replace').strip()
+        except Exception:
+            text = ''
+
+        if text and len(text) > 1:
+            entries.append({'type': entry_type, 'offset': pos, 'text': text})
+            return end_pos
+
+    return pos
+
+
+# ── Choice sub-record reader ─────────────────────────────────────────────────
+
+def try_read_choice_subrecord(
+    data: bytes, pos: int, n: int, entries: list[dict],
+) -> int:
+    """
+    Check for a choice sub-record at `pos`.  These appear after a text or
+    narration sub-record and have a variable-length header followed by
+    multiple null-terminated Shift-JIS choice strings.
+
+    Layout (relative to `pos`):
+        +0   u16le  sub_size
+        +2   2–4 u16le header fields  (variable; meaning not fully decoded)
+        +6/+8  null-terminated choice strings
+
+    Returns the position past the sub-record if choices were found, or
+    `pos` unchanged.
+    """
+    if pos + 8 >= n:
+        return pos
+
+    sub_size = struct.unpack_from('<H', data, pos)[0]
+    if sub_size < 8 or sub_size > 512:
+        return pos
+
+    end_pos = pos + sub_size
+    if end_pos > n:
+        return pos
+
+    for text_off in (6, 8, 10):
+        if pos + text_off >= n or not looks_like_text(data, pos + text_off):
+            continue
+        j = pos + text_off
+        choices: list[str] = []
+        while j < end_pos and j < n and looks_like_text(data, j):
+            c, j = read_sjis_string(data, j)
+            c = c.strip()
+            if c and not any(ord(ch) < 0x20 for ch in c):
+                choices.append(c)
+
+        def _has_japanese(s: str) -> bool:
+            return any('\u3000' <= c <= '\u9FFF' or '\uFF00' <= c <= '\uFFEF'
+                       or '\u4E00' <= c <= '\u9FFF' for c in s)
+
+        real = [c for c in choices if _has_japanese(c)]
+        if len(real) >= 2:
+            entries.append({'type': 'choices', 'offset': pos, 'choices': real})
+            return end_pos
+
+    return pos
+
+
+def _try_subrecords(
+    data: bytes, pos: int, n: int, entries: list[dict], entry_type: str,
+) -> int:
+    """
+    After a text string's null terminator, try the full chain of possible
+    sub-records: narration second-string, then choice sub-record.
+
+    Returns the final scan position.
+    """
+    new_pos = try_read_second_string(data, pos, n, entries, entry_type)
+    # Whether or not text2 was found, check the resulting position for choices
+    result = try_read_choice_subrecord(data, new_pos, n, entries)
+    if result > new_pos:
+        return result
+    return new_pos
+
+
+# ── Non-text record scanner ──────────────────────────────────────────────────
+
+_NONTXT_SCAN_LIMIT = 256
+
+def _scan_nontxt_for_text(
+    data: bytes, rec_start: int, n: int, entries: list[dict],
+) -> int:
+    """
+    For a non-text 0x0A record (marker at +20 != 0x01), scan forward for
+    null-terminated resource paths and check for a text sub-record after
+    each null terminator.
+
+    Non-text records often contain a resource path (e.g. "SE137", "bg032a")
+    starting at +4.  After the path's null, a second-string sub-record may
+    carry narration text that would otherwise be missed.
+
+    Returns the new scan position.
+    """
+    scan_end = min(rec_start + _NONTXT_SCAN_LIMIT, n - 1)
+    j = rec_start + 4
+    while j < scan_end:
+        if data[j] == 0x00:
+            new_i = try_read_second_string(data, j + 1, n, entries, 'narration')
+            if new_i > j + 1:
+                return new_i
+        j += 1
+    return rec_start + 2
 
 
 # ── Main parser ───────────────────────────────────────────────────────────────
@@ -179,9 +343,13 @@ def decode_doj(filepath: str) -> list[dict]:
                 text = text.strip()
                 if text:
                     entries.append({'type': 'narration', 'offset': i, 'text': text})
-                i = next_i   # jump past the null-terminated string
+                i = _try_subrecords(data, next_i, n, entries, 'narration')
             else:
-                i += 2   # advance past the 2-byte opcode and re-scan
+                # Non-text 0x0A record (resource load, sound cue, etc.).
+                # These records contain null-terminated resource paths, and
+                # a text sub-record may follow after the path's null.  Scan
+                # for null bytes and probe each with try_read_second_string.
+                i = _scan_nontxt_for_text(data, i, n, entries)
 
         # ── 0x2A / 0x22: Dialogue or choice menu ──────────────────────────
         elif op in (OPCODE_2A, OPCODE_22):
@@ -200,7 +368,7 @@ def decode_doj(filepath: str) -> list[dict]:
                     text = text.strip()
                     if text:
                         entries.append({'type': 'dialogue', 'offset': i, 'text': text})
-                    i = next_i
+                    i = _try_subrecords(data, next_i, n, entries, 'narration')
                 else:
                     i += 2
 

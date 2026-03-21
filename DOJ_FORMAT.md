@@ -88,13 +88,17 @@ Byte   Size   Field
 +20    1      "has text" marker: 0x01 = text follows; any other value = no text
 +21    1      0x00  (second byte of marker)
 +22    …      Null-terminated Shift-JIS string  (only present when [+20] == 0x01)
+               ↓
+             [Second-string sub-record — see below]
 ```
 
 > **Key offsets:** marker at `+20`, text at `+22`.
 
 **No-text variant:** When `data[i+20] != 0x01`, the record is a control/flow command
-(e.g., sound cue, scene transition). The parser advances past the 2-byte opcode only
-and rescans from `i+2`.
+(e.g., sound cue, scene transition) carrying a null-terminated ASCII resource path
+at `+4` (e.g., `"SE137"`, `"bg032a"`). However, a **second-string sub-record with
+narration text may still follow** after the resource path's null terminator. The
+parser scans forward for null bytes and probes each with the second-string logic.
 
 ---
 
@@ -114,6 +118,8 @@ Byte   Size   Field
 +18    1      "has text" marker: 0x01
 +19    1      0x00
 +20    …      Null-terminated Shift-JIS string
+               ↓
+             [Second-string sub-record — see below]
 ```
 
 > **Key offsets:** marker at `+18`, text at `+20`.
@@ -121,6 +127,86 @@ Byte   Size   Field
 > Both `0x2A` and `0x22` use this layout; `0x22` was observed only in Form A
 > (always `param == 0`). The difference in opcode value may encode speaker type
 > (e.g., scene partner vs secondary character) but this has not been confirmed.
+
+---
+
+### Second-String Sub-Record (continuation text)
+
+After the first text string's null terminator in 0x0A, 0x2A (Form A), and 0x22 records,
+an optional **second text line** may follow in the same record. This accounts for roughly
+**89% of text records** across all script files and was the source of the "missing
+alternate lines" issue.
+
+```
+Byte   Size   Field
+----   ----   -----
++0     2      u16le  sub_size  (byte distance from here to the next opcode record)
++2     16     Context / padding  (usually all zeros)
++18    1      "has text" marker: 0x01  (anything else → no second text)
++19    1      0x00
++20    …      Shift-JIS text  (NOT null-terminated — bounded by sub_size)
+```
+
+> **Key difference from the first string:** the second string is **not null-terminated**.
+> It runs right up to the boundary defined by `sub_size`. Using a null-seeking reader
+> would overshoot into the next record's opcode byte (typically `0x0A`, which is not
+> `0x00`) and then consume the next record's `0x00` sub-byte as the false terminator,
+> silently skipping the next record.
+
+> **Read the text as:** `data[pos + 20 : pos + sub_size]`, decoding the raw slice as
+> Shift-JIS. If a null byte appears within the slice, truncate there.
+
+**When the second text is absent**, the bytes at `+0` may begin either a
+resource-load sub-record (e.g., `40 00` followed by an ASCII resource path like
+`prg\99vpf00002`) or a **choice sub-record** (see below). The marker at `+18` will
+not be `0x01`, so the parser falls through to the choice sub-record check.
+
+---
+
+### Choice Sub-Record (embedded in text records)
+
+After the first text string's null **or** after the second-string sub-record, an
+optional **choice menu** may be embedded in the same record. This accounts for
+**55 choice menus** across all script files — roughly 60% of all player-facing
+choices in the game.
+
+These are distinct from the standalone opcode-based choice formats (0x2A Form B,
+0x06) documented below.
+
+```
+Byte   Size   Field
+----   ----   -----
++0     2      u16le  sub_size  (byte distance to the next opcode record)
++2     2–6    Variable header fields  (u16le values; purpose not fully decoded)
++6/+8  …      Null-terminated Shift-JIS choice strings, one after another
+```
+
+> **Variable header size:** the choice strings start at either `+6` or `+8` from
+> the sub-record start. The parser probes offsets `+6`, `+8`, `+10` for the first
+> valid Shift-JIS lead byte.
+
+> **Validation:** a real choice sub-record has **≥ 2 strings containing Japanese
+> characters**. The `sub_size` field must point to a valid next-opcode boundary.
+
+**Sub-record chain:** The full chain after a text string's null terminator is:
+```
+text1 \0  →  [narration sub-record]  →  [choice sub-record]  →  next opcode
+              (marker 0x01 at +18)       (no 0x01 marker)
+```
+Either or both of the narration and choice sub-records may be absent.
+
+**Example from `01c04.doj`** (after second narration string "……さて、どうしようかな？"):
+```
+48 00       ← sub_size = 72
+36 00       ← header field (purpose unclear)
+2E 00       ← header field
+04 00       ← header field (possibly related to number of choices)
+81 40 88 A8 82 C6 82 CD 81 41 96 BE 93 FA 82 E0 89 EF 82 A6 82 E9 00
+            ^ 「葵とは、明日も会える」\0
+81 40 83 68 83 89 83 7D 82 E6 82 E8 82 E0 88 A8 82 AA 91 E5 8E 96 00
+            ^ 「ドラマよりも葵が大事」\0
+11 00 …    ← control/jump data (within sub_size boundary)
+```
 
 ---
 
