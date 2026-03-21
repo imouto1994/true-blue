@@ -193,12 +193,19 @@ Byte   Size   Field
 > **Validation:** a real choice sub-record has **≥ 2 strings containing Japanese
 > characters**. The `sub_size` field must point to a valid next-opcode boundary.
 
-**Sub-record chain:** The full chain after a text string's null terminator is:
+**Sub-record chain:** The full chain after a text string's null terminator can be
+several levels deep:
 ```
-text1 \0  →  [narration sub-record]  →  [choice sub-record]  →  next opcode
-              (marker 0x01 at +18)       (no 0x01 marker)
+text1 \0  →  [resource sub-record(s)]  →  [narration sub-record]  →  [choice sub-record]  →  next opcode
+              e.g. "40 00 prg\…"            (marker 0x01 at +18)       (no 0x01 marker)
 ```
-Either or both of the narration and choice sub-records may be absent.
+Any or all of the resource, narration, and choice sub-records may be absent.
+
+> **Deep chain handling:** When neither narration text nor choices are found at the
+> immediate position after text1's null, the parser scans forward for null bytes
+> (up to 256 bytes) and probes each with the narration second-string logic. This
+> follows chains where resource-path sub-records (image/sound loads) separate text1
+> from text2 — recovering text that would otherwise be invisible to the opcode scanner.
 
 > **Boundary alignment:** The narration sub-record's `sub_size` boundary sometimes
 > lands on or near the text's null terminator rather than right after it. The parser
@@ -344,7 +351,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 35,313 |
+| Text lines (narration + dialogue) | 39,057 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 

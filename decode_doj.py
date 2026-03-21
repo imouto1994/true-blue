@@ -255,25 +255,49 @@ def try_read_choice_subrecord(
     return pos
 
 
+_SUBRECORD_PROBE = 4
+
+
 def _try_subrecords(
     data: bytes, pos: int, n: int, entries: list[dict], entry_type: str,
 ) -> int:
     """
-    After a text string's null terminator, try the full chain of possible
-    sub-records: narration second-string, then choice sub-record.
+    After a text string's null terminator, walk the chain of sub-records:
+    narration text, choice menus, and non-text sub-records (resource loads).
 
     Returns the final scan position.
     """
+    # 1. Narration second-string (exact position)
     new_pos = try_read_second_string(data, pos, n, entries, entry_type)
-    # Whether or not text2 was found, check the resulting position for choices.
-    # Probe a small window because the sub_size boundary sometimes lands on the
-    # text's null terminator rather than right after it.
-    for probe in range(4):
+
+    # 2. Choice sub-record (probe a small window for alignment)
+    for probe in range(_SUBRECORD_PROBE):
         p = new_pos + probe
         result = try_read_choice_subrecord(data, p, n, entries)
         if result > p:
             return result
-    return new_pos
+
+    if new_pos > pos:
+        return new_pos
+
+    # 3. Neither narration nor choices at the exact position.
+    #    Scan forward for null bytes and probe each — handles cases
+    #    where a resource-path sub-record separates text1 from text2.
+    scan_end = min(pos + _NONTXT_SCAN_LIMIT, n - 1)
+    j = pos + 2
+    while j < scan_end:
+        if data[j] == 0x00:
+            nxt = try_read_second_string(data, j + 1, n, entries, entry_type)
+            if nxt > j + 1:
+                for probe in range(_SUBRECORD_PROBE):
+                    p = nxt + probe
+                    result = try_read_choice_subrecord(data, p, n, entries)
+                    if result > p:
+                        return result
+                return nxt
+        j += 1
+
+    return pos
 
 
 # ── Non-text record scanner ──────────────────────────────────────────────────
