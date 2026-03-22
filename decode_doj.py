@@ -138,6 +138,12 @@ def looks_like_text(data: bytes, offset: int) -> bool:
     """
     if offset >= len(data):
         return False
+    # Skip leading 0x0A (newline) bytes — they appear at the start of some
+    # text strings and are stripped from the final output.
+    while offset < len(data) and data[offset] == 0x0A:
+        offset += 1
+    if offset >= len(data):
+        return False
     b = data[offset]
     is_sjis_lead   = (0x81 <= b <= 0x9F) or (0xE0 <= b <= 0xFC)
     is_ascii_print = 0x20 <= b <= 0x7E
@@ -148,6 +154,85 @@ def _is_clean_text(text: str) -> bool:
     """Reject decoded strings that are too short, contain control chars, or U+FFFD."""
     return (len(text) > 1
             and not any(ord(c) < 0x20 or c == '\ufffd' for c in text))
+
+
+# ── Chain concatenation ──────────────────────────────────────────────────────
+
+_MAX_CHAIN_DEPTH = 20
+
+
+def _concat_chain(
+    data: bytes, n: int,
+    chain_pos: int,
+    text: str, end_pos: int,
+) -> tuple[str, int]:
+    """
+    After reading a null-terminated second-string, check for continuation
+    sub-records that should be concatenated into one line.
+
+    The game engine chains multiple short sub-records for repeating effects
+    (e.g. "グラグラ" × 5 + "グラグラッ！").  Each has the standard layout:
+    sub_size, 16 context bytes, 0x01 0x00 marker, text.
+
+    Only triggers when the text IS null-terminated and a valid continuation
+    sub-record immediately follows.  Returns the (possibly extended) text
+    and the final end_pos.
+    """
+    smo = SECOND_STRING_MARKER_OFFSET  # 18
+
+    for _ in range(_MAX_CHAIN_DEPTH):
+        # Probe a small window for the next sub-record header
+        found = False
+        for probe in range(4):
+            p = chain_pos + probe
+            if p + 22 > n:
+                break
+            ss = struct.unpack_from('<H', data, p)[0]
+            if not (22 <= ss <= 512 and p + ss <= n):
+                continue
+            if data[p + smo] != 0x01 or data[p + smo + 1] != 0x00:
+                continue
+
+            txt_off = p + 20
+            if txt_off < n and data[txt_off] == 0x0A:
+                txt_off += 1
+            if txt_off >= n or not looks_like_text(data, txt_off):
+                continue
+
+            raw2 = data[p + 20 : p + ss]
+            null2 = raw2.find(b'\x00')
+            if null2 >= 0:
+                raw2 = raw2[:null2]
+            elif (raw2
+                  and (0x81 <= raw2[-1] <= 0x9F or 0xE0 <= raw2[-1] <= 0xFC)
+                  and p + ss < n):
+                raw2 = data[p + 20 : p + ss + 1]
+
+            try:
+                chunk = raw2.decode('cp932', errors='replace').strip(_STRIP_CHARS)
+            except Exception:
+                break
+
+            if not chunk or not _is_clean_text(chunk):
+                break
+
+            # Stop concatenating when the chunk looks like a new independent
+            # line rather than a continuation of a repeating effect.
+            # Chain texts are short sound effects (e.g. "グラグラ") without
+            # dialogue brackets or leading indent.
+            if '\u3000' in chunk or '「' in chunk or '」' in chunk:
+                break
+
+            text += chunk
+            end_pos = p + ss
+            chain_pos = p + 20 + (null2 + 1 if null2 >= 0 else len(raw2))
+            found = True
+            break
+
+        if not found:
+            break
+
+    return text, end_pos
 
 
 # ── Second-string reader ─────────────────────────────────────────────────────
@@ -189,15 +274,9 @@ def try_read_second_string(
     if end_pos > n:
         return pos
 
-    # Text at +20 may start with a 0x0A newline byte (stripped later).
-    # Check the next byte too so we don't reject the whole record.
-    text_start = pos + sto
-    if text_start < n and data[text_start] == 0x0A:
-        text_start += 1
-
     if (data[pos + smo]     == 0x01
             and data[pos + smo + 1] == 0x00
-            and looks_like_text(data, text_start)):
+            and looks_like_text(data, pos + sto)):
 
         raw = data[pos + sto : end_pos]
         null_idx = raw.find(b'\x00')
@@ -215,6 +294,15 @@ def try_read_second_string(
             text = ''
 
         if len(text) > 1 and _is_clean_text(text):
+            # Check for chained continuation sub-records (e.g. repeating
+            # sound effects like "グラグラ" × N + "グラグラッ！").
+            # Triggers when a null terminator is found in or just past the
+            # raw slice, meaning continuation data can follow.
+            raw_len = len(raw)
+            null_file_pos = pos + sto + (null_idx if null_idx >= 0 else raw_len)
+            if null_file_pos < n and data[null_file_pos] == 0x00:
+                text, end_pos = _concat_chain(
+                    data, n, null_file_pos + 1, text, end_pos)
             entries.append({'type': entry_type, 'offset': pos, 'text': text})
             return end_pos
 
@@ -280,8 +368,12 @@ def _try_subrecords(
     data: bytes, pos: int, n: int, entries: list[dict], entry_type: str,
 ) -> int:
     """
-    After a text string's null terminator, walk the chain of sub-records:
-    narration text, choice menus, and non-text sub-records (resource loads).
+    After a text string's null terminator, try the chain of possible
+    sub-records: narration second-string, then choice sub-record.
+
+    When neither is found at the exact position, a one-time null-scan
+    (up to 256 bytes) bridges resource-path sub-records that separate
+    text1 from text2.
 
     Returns the final scan position.
     """
@@ -298,9 +390,8 @@ def _try_subrecords(
     if new_pos > pos:
         return new_pos
 
-    # 3. Neither narration nor choices at the exact position.
-    #    Scan forward for null bytes and probe each — handles cases
-    #    where a resource-path sub-record separates text1 from text2.
+    # 3. Neither found at exact position. One-time null-scan forward
+    #    to bridge resource-path sub-records.
     scan_end = min(pos + _NONTXT_SCAN_LIMIT, n - 1)
     j = pos + 2
     while j < scan_end:

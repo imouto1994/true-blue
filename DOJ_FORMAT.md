@@ -161,11 +161,12 @@ Byte   Size   Field
 > `0xE0–0xFC` without its trail byte). When detected, the decoder extends the slice by
 > 1 byte to include the trail byte, preventing garbled output on the final character.
 >
-> **Leading `0x0A` byte:** the text at `+20` sometimes starts with a `0x0A` (newline)
-> byte before the actual Shift-JIS content (e.g., `0A 81 40 83 6F…` → "　バンッ！").
-> This is common for sound-effect and action-description lines. The `looks_like_text`
-> heuristic would reject `0x0A` as a non-text byte, so the decoder peeks past it to
-> check the next byte. The leading newline is stripped from the final output.
+> **Leading `0x0A` bytes:** text can start with one or more `0x0A` (newline) bytes
+> before the actual Shift-JIS content (e.g., `0A 81 40 83 6F…` → "　バンッ！", or
+> `0A 0A 0A 81 40…` → "　これからさらに、"). The `looks_like_text` heuristic skips
+> past all leading `0x0A` bytes before checking for valid Shift-JIS content. This
+> applies globally — both to first-string text in the main parser and to
+> second-string sub-records. The leading newlines are stripped from the final output.
 
 **When the second text is absent**, the bytes at `+0` may begin either a
 resource-load sub-record (e.g., `40 00` followed by an ASCII resource path like
@@ -217,6 +218,13 @@ Any or all of the resource, narration, and choice sub-records may be absent.
 > lands on or near the text's null terminator rather than right after it. The parser
 > probes positions `end_pos` through `end_pos + 3` when looking for a following
 > choice sub-record, to handle this alignment variation.
+
+**Chain concatenation:** When a second-string's text is null-terminated (null found
+within the raw slice), the decoder checks for continuation sub-records immediately
+after the null. Continuations are concatenated into a single output line — this
+handles repeating sound effects like `グラグラ × 5 + グラグラッ！`. Concatenation
+stops when a chunk contains an ideographic space (`U+3000`) or dialogue brackets
+(`「」`), both of which indicate a new independent line.
 
 **Example from `01c04.doj`** (after second narration string "……さて、どうしようかな？"):
 ```
@@ -367,7 +375,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 39,377 |
+| Text lines (narration + dialogue) | 39,648 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 
