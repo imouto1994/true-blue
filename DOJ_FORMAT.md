@@ -219,12 +219,19 @@ Any or all of the resource, narration, and choice sub-records may be absent.
 > probes positions `end_pos` through `end_pos + 3` when looking for a following
 > choice sub-record, to handle this alignment variation.
 
-**Chain concatenation:** When a second-string's text is null-terminated (null found
-within the raw slice), the decoder checks for continuation sub-records immediately
-after the null. Continuations are concatenated into a single output line — this
-handles repeating sound effects like `グラグラ × 5 + グラグラッ！`. Concatenation
-stops when a chunk contains an ideographic space (`U+3000`) or dialogue brackets
-(`「」`), both of which indicate a new independent line.
+**Chain concatenation:** When a second-string's text is null-terminated, the decoder
+checks for continuation sub-records immediately after the null. Continuations that
+are repetitions of the existing text (substring match) are concatenated into a single
+output line — this handles repeating sound effects like `グラグラ × 5 + グラグラッ！`.
+Concatenation stops when a chunk doesn't match the repetition pattern (e.g. contains
+an ideographic space `U+3000` or dialogue brackets `「」`).
+
+> **Post-chain recovery:** After chain concatenation, the rejected non-matching
+> sub-record at the chain boundary may contain text that would otherwise be lost
+> (e.g. `秋人「な、なんだなんだ！？」` after the earthquake effect). The parser does
+> a targeted 10-byte null-scan **only when chain concatenation actually merged
+> chunks** — this avoids the collateral damage that an unconditional scan causes
+> to other files' text and choice menus.
 
 **Example from `01c04.doj`** (after second narration string "……さて、どうしようかな？"):
 ```
@@ -375,7 +382,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 39,648 |
+| Text lines (narration + dialogue) | 39,649 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 

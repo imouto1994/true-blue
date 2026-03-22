@@ -165,6 +165,7 @@ def _concat_chain(
     data: bytes, n: int,
     chain_pos: int,
     text: str, end_pos: int,
+    entries: list[dict], entry_type: str,
 ) -> tuple[str, int]:
     """
     After reading a null-terminated second-string, check for continuation
@@ -174,9 +175,11 @@ def _concat_chain(
     (e.g. "グラグラ" × 5 + "グラグラッ！").  Each has the standard layout:
     sub_size, 16 context bytes, 0x01 0x00 marker, text.
 
-    Only triggers when the text IS null-terminated and a valid continuation
-    sub-record immediately follows.  Returns the (possibly extended) text
-    and the final end_pos.
+    Only concatenates chunks that are repetitions of the existing text
+    (substring match).  Non-matching chunks are added as separate entries
+    so they aren't lost between the chain and the next opcode record.
+
+    Returns (text, end_pos).  Appended entries go directly into `entries`.
     """
     smo = SECOND_STRING_MARKER_OFFSET  # 18
 
@@ -194,8 +197,6 @@ def _concat_chain(
                 continue
 
             txt_off = p + 20
-            if txt_off < n and data[txt_off] == 0x0A:
-                txt_off += 1
             if txt_off >= n or not looks_like_text(data, txt_off):
                 continue
 
@@ -216,11 +217,11 @@ def _concat_chain(
             if not chunk or not _is_clean_text(chunk):
                 break
 
-            # Stop concatenating when the chunk looks like a new independent
-            # line rather than a continuation of a repeating effect.
-            # Chain texts are short sound effects (e.g. "グラグラ") without
-            # dialogue brackets or leading indent.
-            if '\u3000' in chunk or '「' in chunk or '」' in chunk:
+            # Only concatenate when the chunk looks like a repetition of the
+            # existing text (e.g. "グラグラ" repeating).
+            base = text.replace('\u3000', '')
+            if not (chunk in base or base in chunk
+                    or chunk.rstrip('ッ！!') in base):
                 break
 
             text += chunk
@@ -296,13 +297,18 @@ def try_read_second_string(
         if len(text) > 1 and _is_clean_text(text):
             # Check for chained continuation sub-records (e.g. repeating
             # sound effects like "グラグラ" × N + "グラグラッ！").
-            # Triggers when a null terminator is found in or just past the
-            # raw slice, meaning continuation data can follow.
-            raw_len = len(raw)
-            null_file_pos = pos + sto + (null_idx if null_idx >= 0 else raw_len)
-            if null_file_pos < n and data[null_file_pos] == 0x00:
+            if null_idx >= 0:
+                chain_start = pos + sto + null_idx + 1
+            else:
+                chain_start = pos + sto + len(raw)
+            if chain_start < n and data[chain_start] == 0x00:
+                orig_text = text
                 text, end_pos = _concat_chain(
-                    data, n, null_file_pos + 1, text, end_pos)
+                    data, n, chain_start + 1, text, end_pos,
+                    entries, entry_type)
+                if text != orig_text:
+                    entries.append({'type': 'chain_concat', 'offset': pos, 'text': text})
+                    return end_pos
             entries.append({'type': entry_type, 'offset': pos, 'text': text})
             return end_pos
 
@@ -378,7 +384,14 @@ def _try_subrecords(
     Returns the final scan position.
     """
     # 1. Narration second-string (exact position)
+    entries_before = len(entries)
     new_pos = try_read_second_string(data, pos, n, entries, entry_type)
+
+    # Detect if chain concatenation happened (tagged as 'chain_concat')
+    chain_did_concat = (len(entries) > entries_before
+                        and entries[-1].get('type') == 'chain_concat')
+    if chain_did_concat:
+        entries[-1]['type'] = entry_type  # normalize back to narration
 
     # 2. Choice sub-record (probe a small window for alignment)
     for probe in range(_SUBRECORD_PROBE):
@@ -388,6 +401,18 @@ def _try_subrecords(
             return result
 
     if new_pos > pos:
+        # 2b. After a chain concatenation, the sub-record right at the
+        #     boundary was rejected (non-repeating text).  A tiny null-scan
+        #     captures it.  Only runs when the chain actually merged chunks,
+        #     to avoid consuming unrelated content in non-chain records.
+        if chain_did_concat:
+            for j in range(new_pos, min(new_pos + 10, n)):
+                if data[j] == 0x00:
+                    nxt = try_read_second_string(
+                        data, j + 1, n, entries, entry_type)
+                    if nxt > j + 1:
+                        new_pos = nxt
+                        break
         return new_pos
 
     # 3. Neither found at exact position. One-time null-scan forward
@@ -396,7 +421,8 @@ def _try_subrecords(
     j = pos + 2
     while j < scan_end:
         if data[j] == 0x00:
-            nxt = try_read_second_string(data, j + 1, n, entries, entry_type)
+            nxt = try_read_second_string(
+                data, j + 1, n, entries, entry_type)
             if nxt > j + 1:
                 for probe in range(_SUBRECORD_PROBE):
                     p = nxt + probe
