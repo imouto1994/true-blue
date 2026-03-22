@@ -184,6 +184,7 @@ def _concat_chain(
     Returns (text, end_pos).  Appended entries go directly into `entries`.
     """
     smo = SECOND_STRING_MARKER_OFFSET  # 18
+    had_short_chunk = False  # tracks typewriter mode
 
     for _ in range(_MAX_CHAIN_DEPTH):
         # Probe a small window for the next sub-record header
@@ -216,15 +217,28 @@ def _concat_chain(
             except Exception:
                 break
 
-            if not chunk or not _is_clean_text(chunk):
+            if not chunk or any(ord(c) < 0x20 or c == '\ufffd' for c in chunk):
                 break
 
-            # Only concatenate when the chunk looks like a repetition of the
-            # existing text (e.g. "グラグラ" repeating).
-            base = text.replace('\u3000', '')
-            if not (chunk in base or base in chunk
-                    or chunk.rstrip('ッ！!') in base):
+            # A leading ideographic space always means a new independent line.
+            if chunk[0] == '\u3000':
                 break
+
+            is_short = len(chunk) <= 3
+
+            if is_short:
+                # Short chunks are always part of a typewriter/reveal effect.
+                had_short_chunk = True
+            elif had_short_chunk:
+                # In typewriter mode: accept longer final chunks (the reveal
+                # completes with a longer tail like "ろーーーーーっ！！！」").
+                pass
+            else:
+                # Not in typewriter mode: only accept repetitions.
+                base = text.replace('\u3000', '')
+                if not (chunk in base or base in chunk
+                        or chunk.rstrip('ッ！!') in base):
+                    break
 
             text += chunk
             end_pos = p + ss
@@ -370,6 +384,81 @@ def try_read_choice_subrecord(
 
 
 _SUBRECORD_PROBE = 4
+
+
+def _complete_short_brackets(
+    data: bytes, pos: int, n: int, entries: list[dict],
+) -> int:
+    """
+    When the most recent entry is very short (≤5 chars) and has unmatched
+    「…」 brackets, scan forward for continuation sub-records and concatenate
+    them until brackets balance.  This handles typewriter/reveal effects
+    where text is split into single-character sub-records.
+
+    The short-text restriction prevents false triggers on normal multi-page
+    dialogue where 「 and 」 are in separate records by design.
+
+    Uses relaxed sub_size minimum (21) to capture single-SJIS-character
+    sub-records that the standard threshold (22) would reject.
+    """
+    if not entries:
+        return pos
+
+    last = entries[-1]
+    text = last.get('text', '')
+    if len(text) > 5 or text.count('「') <= text.count('」'):
+        return pos
+
+    smo = SECOND_STRING_MARKER_OFFSET  # 18
+
+    for _ in range(50):
+        if text.count('「') <= text.count('」'):
+            break
+
+        found = False
+        for probe in range(4):
+            pp = pos + probe
+            if pp + 21 > n:
+                break
+            ss = struct.unpack_from('<H', data, pp)[0]
+            if not (21 <= ss <= 512 and pp + ss <= n):
+                continue
+            if data[pp + smo] != 0x01 or data[pp + smo + 1] != 0x00:
+                continue
+
+            txt_off = pp + 20
+            while txt_off < n and data[txt_off] == 0x0A:
+                txt_off += 1
+            if txt_off >= n or not looks_like_text(data, txt_off):
+                continue
+
+            raw = data[pp + 20 : pp + ss]
+            null_idx = raw.find(b'\x00')
+            if null_idx >= 0:
+                raw = raw[:null_idx]
+            elif (raw
+                  and (0x81 <= raw[-1] <= 0x9F or 0xE0 <= raw[-1] <= 0xFC)
+                  and pp + ss < n):
+                raw = data[pp + 20 : pp + ss + 1]
+
+            try:
+                chunk = raw.decode('cp932', errors='replace').strip(_STRIP_CHARS)
+            except Exception:
+                break
+
+            if not chunk or any(ord(c) < 0x20 or c == '\ufffd' for c in chunk):
+                break
+
+            text += chunk
+            last['text'] = text
+            pos = pp + ss
+            found = True
+            break
+
+        if not found:
+            break
+
+    return pos
 
 
 def _try_subrecords(
@@ -526,6 +615,7 @@ def decode_doj(filepath: str) -> list[dict]:
                 text = text.strip(_STRIP_CHARS)
                 if _is_clean_text(text):
                     entries.append({'type': 'narration', 'offset': i, 'text': text})
+                    next_i = _complete_short_brackets(data, next_i, n, entries)
                 i = _try_subrecords(data, next_i, n, entries, 'narration')
             else:
                 # Non-text 0x0A record (resource load, sound cue, etc.).
@@ -551,6 +641,7 @@ def decode_doj(filepath: str) -> list[dict]:
                     text = text.strip(_STRIP_CHARS)
                     if _is_clean_text(text):
                         entries.append({'type': 'dialogue', 'offset': i, 'text': text})
+                        next_i = _complete_short_brackets(data, next_i, n, entries)
                     i = _try_subrecords(data, next_i, n, entries, 'narration')
                 else:
                     i += 2

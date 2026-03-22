@@ -224,7 +224,7 @@ checks for continuation sub-records immediately after the null. Continuations th
 are repetitions of the existing text (substring match) are concatenated into a single
 output line — this handles repeating sound effects like `グラグラ × 5 + グラグラッ！`.
 Concatenation stops when a chunk doesn't match the repetition pattern (e.g. contains
-an ideographic space `U+3000` or dialogue brackets `「」`).
+a leading ideographic space `U+3000`).
 
 > **Post-chain recovery:** After chain concatenation, the rejected non-matching
 > sub-record at the chain boundary may contain text that would otherwise be lost
@@ -232,6 +232,16 @@ an ideographic space `U+3000` or dialogue brackets `「」`).
 > a targeted 10-byte null-scan **only when chain concatenation actually merged
 > chunks** — this avoids the collateral damage that an unconditional scan causes
 > to other files' text and choice menus.
+
+**Bracket completion (typewriter effects):** Some text is revealed character by
+character — e.g. `？「お` + `・` + `き` + `・` + `ろーーーーーっ！！！」`. Each
+character is a separate sub-record (sub\_size=21, just 1 SJIS character). These are
+below the standard minimum threshold (22) and would normally be skipped.
+
+When text1 is **≤ 5 characters** and has **unmatched `「…」` brackets**, the decoder
+activates bracket completion: it scans forward with a relaxed sub\_size minimum (21)
+and concatenates chunks until brackets balance. This is extremely targeted — across
+all 152 files, only one instance qualifies (`？「お` in `d01s01.doj`).
 
 **Example from `01c04.doj`** (after second narration string "……さて、どうしようかな？"):
 ```
@@ -390,7 +400,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 39,707 |
+| Text lines (narration + dialogue) | 39,705 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 
