@@ -400,7 +400,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 39,705 |
+| Text lines (narration + dialogue) | 39,706 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 

@@ -615,8 +615,13 @@ def decode_doj(filepath: str) -> list[dict]:
                 text = text.strip(_STRIP_CHARS)
                 if _is_clean_text(text):
                     entries.append({'type': 'narration', 'offset': i, 'text': text})
-                    next_i = _complete_short_brackets(data, next_i, n, entries)
-                i = _try_subrecords(data, next_i, n, entries, 'narration')
+                    adjusted = _complete_short_brackets(data, next_i, n, entries)
+                    if adjusted > next_i:
+                        i = adjusted
+                    else:
+                        i = _try_subrecords(data, next_i, n, entries, 'narration')
+                else:
+                    i = _try_subrecords(data, next_i, n, entries, 'narration')
             else:
                 # Non-text 0x0A record (resource load, sound cue, etc.).
                 # These records contain null-terminated resource paths, and
@@ -641,8 +646,13 @@ def decode_doj(filepath: str) -> list[dict]:
                     text = text.strip(_STRIP_CHARS)
                     if _is_clean_text(text):
                         entries.append({'type': 'dialogue', 'offset': i, 'text': text})
-                        next_i = _complete_short_brackets(data, next_i, n, entries)
-                    i = _try_subrecords(data, next_i, n, entries, 'narration')
+                        adjusted = _complete_short_brackets(data, next_i, n, entries)
+                        if adjusted > next_i:
+                            i = adjusted
+                        else:
+                            i = _try_subrecords(data, next_i, n, entries, 'narration')
+                    else:
+                        i = _try_subrecords(data, next_i, n, entries, 'narration')
                 else:
                     i += 2
 
