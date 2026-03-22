@@ -389,6 +389,29 @@ Decoded strings are filtered before inclusion in the output:
 
 ---
 
+## Post-Processing: Missing Text Injection
+
+After the main parser finishes, a second pass scans the entire binary for **all valid
+text sub-records** (sub\_size 21–512, `0x01 0x00` marker at +18, valid Shift-JIS at +20)
+and compares them against the entries already captured. Any text that was missed by the
+main parser is injected at the correct position (ordered by binary offset).
+
+This recovers narration lines that the main parser's `_scan_nontxt_for_text` jumped
+past — typically text between two choice sets in the same sub-record chain:
+
+| File | Recovered line |
+|------|---------------|
+| `01c05.doj` | `　どうするか……？` (between two choice menus) |
+| `03c06.doj` | `　俺は部活へ行く前に、職員室へと寄っていた。` |
+| `06c06.doj` | `秋人「………………」` + 3 more lines |
+
+**Deduplication** prevents double-counting:
+- **Offset proximity** (±30 bytes): if an entry already exists near the same position.
+- **Substring match** (±512 bytes): if the text is contained in or contains an existing
+  entry's text (handles chain-concatenated lines like `グラグラ × 5`).
+
+---
+
 ## Tooling
 
 | Script | Purpose |
@@ -400,7 +423,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 39,706 |
+| Text lines (narration + dialogue) | 39,721 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 

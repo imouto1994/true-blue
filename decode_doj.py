@@ -588,7 +588,9 @@ def decode_doj(filepath: str) -> list[dict]:
 
         # Non-text opcodes (0x07, 0x08, 0x14, etc.) can have text sub-records
         # following their resource path.  Scan them the same way as non-text
-        # 0x0A records.
+        # 0x0A records.  After the scan, also try sub-records at the landing
+        # position to capture narration text that the scan may have jumped past
+        # (e.g. text between two choice sets in the same chain).
         if op in NONTXT_OPCODES:
             i = _scan_nontxt_for_text(data, i, n, entries)
             continue
@@ -733,7 +735,93 @@ def decode_doj(filepath: str) -> list[dict]:
                 entries.append({'type': 'choices', 'offset': i, 'choices': real_choices})
             i = j   # advance past all strings (whether we kept them or not)
 
+    entries = _inject_missing_text(data, n, entries)
     return entries
+
+
+def _inject_missing_text(
+    data: bytes, n: int, entries: list[dict],
+) -> list[dict]:
+    """
+    Post-processing pass: scan the binary for ALL valid text sub-records and
+    inject any that the main parser missed.
+
+    This recovers narration lines between choice sets (e.g. "どうするか" in
+    01c05.doj) without modifying the main scanning logic — avoiding collateral
+    damage.
+    """
+    smo = SECOND_STRING_MARKER_OFFSET  # 18
+
+    # Collect all text already captured (by file offset ranges)
+    captured_offsets: set[int] = set()
+    for e in entries:
+        captured_offsets.add(e['offset'])
+
+    # Scan binary for ALL valid text sub-records
+    found: list[dict] = []
+    i = 0
+    while i < n - 22:
+        ss = struct.unpack_from('<H', data, i)[0]
+        if not (21 <= ss <= 512 and i + ss <= n):
+            i += 1
+            continue
+        if data[i + smo] != 0x01 or data[i + smo + 1] != 0x00:
+            i += 1
+            continue
+
+        txt_off = i + 20
+        while txt_off < n and data[txt_off] == 0x0A:
+            txt_off += 1
+        if txt_off >= n or not looks_like_text(data, txt_off):
+            i += 1
+            continue
+
+        raw = data[i + 20 : i + ss]
+        null_idx = raw.find(b'\x00')
+        if null_idx >= 0:
+            raw = raw[:null_idx]
+        elif (raw
+              and (0x81 <= raw[-1] <= 0x9F or 0xE0 <= raw[-1] <= 0xFC)
+              and i + ss < n):
+            raw = data[i + 20 : i + ss + 1]
+
+        try:
+            text = raw.decode('cp932', errors='replace').strip(_STRIP_CHARS)
+        except Exception:
+            i += 1
+            continue
+
+        if len(text) > 1 and _is_clean_text(text):
+            # Check if this text is already captured
+            already = False
+            for off in range(max(0, i - 30), min(n, i + 30)):
+                if off in captured_offsets:
+                    already = True
+                    break
+            if not already:
+                # Check by text content: exact match OR substring of a nearby
+                # entry (handles chain-concatenated text like "グラグラ×5")
+                for e in entries:
+                    if abs(e['offset'] - i) > 512:
+                        continue
+                    e_text = e.get('text', '')
+                    if not e_text:
+                        continue
+                    if e_text == text or text in e_text or e_text in text:
+                        already = True
+                        break
+            if not already:
+                found.append({'type': 'narration', 'offset': i, 'text': text})
+
+        i += 1
+
+    if not found:
+        return entries
+
+    # Merge found entries into the main list, ordered by offset
+    all_entries = entries + found
+    all_entries.sort(key=lambda e: e['offset'])
+    return all_entries
 
 
 # ── Output formatting ─────────────────────────────────────────────────────────
