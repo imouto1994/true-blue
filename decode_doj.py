@@ -42,9 +42,11 @@ OPCODE_2A = 0x2A   # Character dialogue (single line) OR choice menu
 OPCODE_22 = 0x22   # Character dialogue (alternate form, same layout as 0x2A)
 OPCODE_06 = 0x06   # Choice menu (primary format, 3-option player choices)
 
-# All four of the above can carry text.  Other opcodes (0x11, 0x14, 0x33 …)
-# are flow-control / resource-load commands and carry no Japanese text.
+# All four of the above can carry text.  Other opcodes are flow-control or
+# resource-load commands — they carry no text in their primary payload, but
+# a text sub-record may follow their resource path's null terminator.
 DIALOGUE_OPCODES = (OPCODE_0A, OPCODE_2A, OPCODE_22, OPCODE_06)
+NONTXT_OPCODES = (0x07, 0x08, 0x11, 0x14, 0x33)
 
 
 # ── Record layouts (all offsets relative to the start of the record) ──────────
@@ -491,10 +493,18 @@ def decode_doj(filepath: str) -> list[dict]:
         op  = data[i]
         sub = data[i + 1]
 
-        # Skip anything that isn't one of the three text-bearing opcodes with
-        # a 0x00 sub-byte.  Non-text opcodes advance by 1 so we don't skip over
-        # the next real record.
-        if sub != 0x00 or op not in DIALOGUE_OPCODES:
+        if sub != 0x00:
+            i += 1
+            continue
+
+        # Non-text opcodes (0x07, 0x08, 0x14, etc.) can have text sub-records
+        # following their resource path.  Scan them the same way as non-text
+        # 0x0A records.
+        if op in NONTXT_OPCODES:
+            i = _scan_nontxt_for_text(data, i, n, entries)
+            continue
+
+        if op not in DIALOGUE_OPCODES:
             i += 1
             continue
 

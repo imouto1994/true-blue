@@ -314,18 +314,26 @@ Byte   Size   Field
 
 ---
 
-## Other Opcodes (not text-bearing)
+## Other Opcodes (non-text, but may embed text sub-records)
 
-These opcodes were observed in the wild but carry no Japanese text. They control
-game flow, resource loading, and audio/visual state:
+These opcodes carry no Japanese text in their primary payload — they control game
+flow, resource loading, and audio/visual state. However, a **text sub-record may
+follow** their resource path's null terminator, using the same second-string layout
+(`sub_size` + context + `0x01 0x00` marker + text).
 
 | Opcode | Likely purpose          |
 |--------|-------------------------|
+| `0x07` | Animation command       |
+| `0x08` | Audio / SE trigger (often followed by ASCII label like `"SE137"`) |
 | `0x11` | Flow control / jump     |
 | `0x14` | Resource load (images, animations) |
 | `0x33` | Scene-level command     |
-| `0x08` | Audio / SE trigger (often followed by ASCII label like `"SE137"`) |
-| `0x07` | Animation command       |
+
+The decoder scans these records for embedded text using `_scan_nontxt_for_text` —
+the same null-scanning logic used for non-text `0x0A` records. This recovers
+opening narration and dialogue lines that would otherwise be invisible to the
+opcode scanner (e.g., `？「…なさい…いってば…コラ…」` in `d01s01.doj` follows
+a `0x08` audio trigger).
 
 The first file-level record in most scripts is a special `0x0A` whose ASCII payload
 is a sound effect key (e.g., `"SE137"`), not a Shift-JIS dialogue line. The
@@ -382,7 +390,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 39,649 |
+| Text lines (narration + dialogue) | 39,707 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 
