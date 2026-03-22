@@ -160,6 +160,12 @@ Byte   Size   Field
 > 2-byte Shift-JIS character (the last byte of the slice is a lead byte `0x81–0x9F` /
 > `0xE0–0xFC` without its trail byte). When detected, the decoder extends the slice by
 > 1 byte to include the trail byte, preventing garbled output on the final character.
+>
+> **Leading `0x0A` byte:** the text at `+20` sometimes starts with a `0x0A` (newline)
+> byte before the actual Shift-JIS content (e.g., `0A 81 40 83 6F…` → "　バンッ！").
+> This is common for sound-effect and action-description lines. The `looks_like_text`
+> heuristic would reject `0x0A` as a non-text byte, so the decoder peeks past it to
+> check the next byte. The leading newline is stripped from the final output.
 
 **When the second text is absent**, the bytes at `+0` may begin either a
 resource-load sub-record (e.g., `40 00` followed by an ASCII resource path like
@@ -330,9 +336,9 @@ Key properties for correct parsing:
   Python's `str.strip()` treats `U+3000` as whitespace and silently removes it.
   The decoder uses a custom strip that only removes ASCII control characters
   (`\x00`–`\x1f`, `\x7f`), not Unicode spaces.
-- Lines ending in `\n` (`0x0A`) are **not** separate records — the `0x0A` here is
-  inside the string, not the opcode. The control-character strip in the decoder
-  removes it.
+- **Embedded `0x0A` (newline)** bytes can appear both at the start and end of text
+  strings — they are part of the string content, not opcode bytes. The
+  control-character strip in the decoder removes them from the output.
 
 ---
 
@@ -361,7 +367,7 @@ Decoded strings are filtered before inclusion in the output:
 
 | Metric | Count |
 |--------|-------|
-| Text lines (narration + dialogue) | 39,055 |
+| Text lines (narration + dialogue) | 39,377 |
 | Choice menus | 59 |
 | Garbled characters (U+FFFD) | 0 |
 

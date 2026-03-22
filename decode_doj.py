@@ -189,9 +189,15 @@ def try_read_second_string(
     if end_pos > n:
         return pos
 
+    # Text at +20 may start with a 0x0A newline byte (stripped later).
+    # Check the next byte too so we don't reject the whole record.
+    text_start = pos + sto
+    if text_start < n and data[text_start] == 0x0A:
+        text_start += 1
+
     if (data[pos + smo]     == 0x01
             and data[pos + smo + 1] == 0x00
-            and looks_like_text(data, pos + sto)):
+            and looks_like_text(data, text_start)):
 
         raw = data[pos + sto : end_pos]
         null_idx = raw.find(b'\x00')
