@@ -25,10 +25,20 @@
  */
 
 import { readFile, writeFile } from "fs/promises";
+import { glob } from "glob";
 
-const ORIGINAL_FILE = "merged-original.txt";
-const TRANSLATED_FILE = "merged-translated.txt";
+const ORIGINAL_CHUNKS_DIR = "original-merged-chunks";
+const TRANSLATED_CHUNKS_DIR = "translated-merged-chunks";
 const OUTPUT_FILE = "translation-map.json";
+
+/**
+ * Read and concatenate all chunk files from a directory.
+ */
+async function readChunks(dir) {
+  const files = (await glob(`${dir}/part-*.txt`)).sort();
+  const parts = await Promise.all(files.map((f) => readFile(f, "utf-8")));
+  return parts.join("\n");
+}
 
 const SECTION_SEPARATOR = "--------------------";
 const HEADER_SEPARATOR = "********************";
@@ -137,9 +147,9 @@ function stripBracketsEN(line) {
 }
 
 async function main() {
-  // Step 1: Read both merged files.
-  const originalText = await readFile(ORIGINAL_FILE, "utf-8");
-  const translatedText = await readFile(TRANSLATED_FILE, "utf-8");
+  // Step 1: Read and concatenate all chunks from both directories.
+  const originalText = await readChunks(ORIGINAL_CHUNKS_DIR);
+  const translatedText = await readChunks(TRANSLATED_CHUNKS_DIR);
 
   // Step 2: Parse into section maps keyed by filename.
   const origSections = parseSections(originalText);

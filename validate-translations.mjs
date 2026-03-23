@@ -1,8 +1,8 @@
 /**
- * Validate Translations
+ * Validate Translations (chunk-based)
  *
- * Compares `merged-translated.txt` against `merged-original.txt` to ensure
- * structural consistency across all file sections.
+ * Compares translated chunks in `translated-merged-chunks/` against original
+ * chunks in `original-merged-chunks/` to ensure structural consistency.
  *
  * Checks performed per section:
  *   1. Every original section has a matching translated section (by filename).
@@ -10,18 +10,18 @@
  *   3. Line types match (source / speech / normal).
  *   4. Speech source names match via SPEAKER_MAP (JP → EN).
  *
- * Original lines use full-width ＃ for speech source and 「」 for speech
- * content. Translated lines use half-width # for speech source and \u201C\u201D
- * for speech content.
+ * Errors are collected and printed in reverse order so the first mismatch
+ * appears at the bottom of the terminal (most visible).
  *
  * Usage:
  *   node validate-translations.mjs
  */
 
 import { readFile } from "fs/promises";
+import { glob } from "glob";
 
-const ORIGINAL_FILE = "merged-original.txt";
-const TRANSLATED_FILE = "merged-translated.txt";
+const ORIGINAL_CHUNKS_DIR = "original-merged-chunks";
+const TRANSLATED_CHUNKS_DIR = "translated-merged-chunks";
 
 const SECTION_SEPARATOR = "--------------------";
 const HEADER_SEPARATOR = "********************";
@@ -111,62 +111,83 @@ const SPEAKER_MAP = new Map([
 ]);
 
 /**
- * Parse a merged text file into a Map of { fileName → nonEmptyLines[] }.
+ * Parse all chunk files in a directory into a Map of
+ * { fileName → { lines, chunkPath, startLine } }.
  */
-function parseSections(text) {
-  // Step 1: Split file into raw blocks by the section separator line.
-  const raw = text.split(`${SECTION_SEPARATOR}\n`);
+async function parseSectionsFromChunks(dir) {
+  const chunkFiles = (await glob(`${dir}/part-*.txt`)).sort();
   const sections = new Map();
 
-  for (const block of raw) {
-    // Step 2: Locate the header separator to split filename from body.
-    const headerEnd = block.indexOf(`\n${HEADER_SEPARATOR}\n`);
-    if (headerEnd === -1) continue;
+  for (const chunkPath of chunkFiles) {
+    const text = await readFile(chunkPath, "utf-8");
+    const allLines = text.split("\n");
 
-    const fileName = block.slice(0, headerEnd).trim();
-    const body = block.slice(headerEnd + HEADER_SEPARATOR.length + 2);
+    let i = 0;
+    while (i < allLines.length) {
+      // Scan for the next section separator.
+      if (allLines[i] !== SECTION_SEPARATOR) { i++; continue; }
 
-    // Step 3: Keep only non-empty lines (empty lines are ignored per spec).
-    const lines = body.split("\n").filter((l) => l.length > 0);
-    sections.set(fileName, lines);
+      const sectionStartLine = i + 1; // 1-indexed
+      i++; // skip separator
+      if (i >= allLines.length) break;
+
+      const fileName = allLines[i].trim();
+      i++; // skip filename
+      if (i >= allLines.length || allLines[i] !== HEADER_SEPARATOR) continue;
+      i++; // skip header separator
+
+      // Collect non-empty content lines until next separator or EOF.
+      const contentLines = [];
+      while (i < allLines.length && allLines[i] !== SECTION_SEPARATOR) {
+        if (allLines[i].length > 0) contentLines.push(allLines[i]);
+        i++;
+      }
+
+      sections.set(fileName, {
+        lines: contentLines,
+        chunkPath,
+        startLine: sectionStartLine,
+      });
+    }
   }
 
   return sections;
 }
 
 async function main() {
-  // Step 1: Read both merged files.
-  const originalText = await readFile(ORIGINAL_FILE, "utf-8");
-  const translatedText = await readFile(TRANSLATED_FILE, "utf-8");
-
-  // Step 2: Parse into section maps keyed by filename.
-  const origSections = parseSections(originalText);
-  const transSections = parseSections(translatedText);
+  // Step 1: Parse sections from both chunk directories.
+  const origSections = await parseSectionsFromChunks(ORIGINAL_CHUNKS_DIR);
+  const transSections = await parseSectionsFromChunks(TRANSLATED_CHUNKS_DIR);
 
   let checked = 0;
   let mismatched = 0;
+  const errors = [];
 
-  // Step 3: Validate each original section against its translated counterpart.
-  for (const [fileName, origLines] of origSections) {
-    // Step 3a: Check that the translated file has a matching section.
+  // Step 2: Validate each original section against its translated counterpart.
+  for (const [fileName, origEntry] of origSections) {
+    const { lines: origLines, chunkPath: origChunk, startLine: origStart } = origEntry;
+
+    // Step 2a: Check that the translated chunks have a matching section.
     if (!transSections.has(fileName)) {
-      console.log(`\n✗  ${fileName}`);
-      console.log("   Missing from translated file");
       mismatched++;
+      errors.push({
+        header: `✗  ${origChunk}:${origStart} > ${fileName}`,
+        details: ["   Missing from translated chunks"],
+      });
       continue;
     }
 
     checked++;
-    const transLines = transSections.get(fileName);
+    const transEntry = transSections.get(fileName);
+    const { lines: transLines, chunkPath: transChunk, startLine: transStart } = transEntry;
     const sectionErrors = [];
 
     if (origLines.length !== transLines.length) {
-      // Step 3b: Non-empty line counts must match.
+      // Step 2b: Non-empty line counts must match.
       sectionErrors.push(
         `Line count mismatch: original has ${origLines.length} lines, translated has ${transLines.length} lines`,
       );
 
-      // Report the first line where the type diverges to aid debugging.
       const minLen = Math.min(origLines.length, transLines.length);
       for (let i = 0; i < minLen; i++) {
         const origType = lineType(origLines[i], false);
@@ -179,7 +200,7 @@ async function main() {
         }
       }
     } else {
-      // Step 3c: Line-by-line structural comparison.
+      // Step 2c: Line-by-line structural comparison.
       for (let i = 0; i < origLines.length; i++) {
         const origLine = origLines[i];
         const transLine = transLines[i];
@@ -191,7 +212,6 @@ async function main() {
             `Line ${i + 1}: type mismatch (${origType} vs. ${transType})\n     original:   ${origLine}\n     translated: ${transLine}`,
           );
         } else if (origType === "source") {
-          // Step 3d: Verify speaker name maps correctly (JP ＃ → EN #).
           const origName = origLine.slice(1);
           const transName = transLine.slice(1);
           const expectedEN = SPEAKER_MAP.get(origName);
@@ -211,21 +231,36 @@ async function main() {
 
     if (sectionErrors.length > 0) {
       mismatched++;
-      console.log(`\n✗  ${fileName}`);
-      for (const err of sectionErrors) {
-        console.log(`   ${err}`);
-      }
+      errors.push({
+        header: `✗  ${origChunk}:${origStart} | ${transChunk}:${transStart} > ${fileName}`,
+        details: sectionErrors.map((e) => `   ${e}`),
+      });
     }
   }
 
-  // Step 4: Warn about extra sections in translated that have no original.
+  // Step 3: Warn about extra sections in translated that have no original.
   const extraInTranslated = [...transSections.keys()].filter(
     (f) => !origSections.has(f),
   );
   if (extraInTranslated.length > 0) {
-    console.log(`\n⚠  Extra sections in translated file not in original:`);
-    for (const f of extraInTranslated) {
-      console.log(`   ${f}`);
+    const details = extraInTranslated.map((f) => {
+      const entry = transSections.get(f);
+      return `   ${entry.chunkPath}:${entry.startLine} > ${f}`;
+    });
+    errors.push({
+      header: "⚠  Extra sections in translated chunks not in original:",
+      details,
+    });
+  }
+
+  // Step 4: Print errors in reverse order (first mismatch at bottom).
+  if (errors.length > 0) {
+    console.log("\n--- Errors (first mismatch at bottom) ---");
+    for (let i = errors.length - 1; i >= 0; i--) {
+      console.log(`\n${errors[i].header}`);
+      for (const d of errors[i].details) {
+        console.log(d);
+      }
     }
   }
 
