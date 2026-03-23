@@ -45,6 +45,7 @@ function lineType(line, isTranslated) {
     if (line.startsWith("[") && line.endsWith("]")) return "speech-bracket";
   } else {
     if (line.startsWith("「") && line.endsWith("」")) return "speech-quote";
+    if (line.startsWith("『") && line.endsWith("』")) return "speech-quote";
     if (line.startsWith("（") && line.endsWith("）")) return "speech-paren";
     if (line.startsWith("【") && line.endsWith("】")) return "speech-bracket";
   }
