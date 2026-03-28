@@ -45,12 +45,16 @@ function lineType(line, isTranslated) {
   if (isTranslated ? line.startsWith("$") : line.startsWith("＃"))
     return "source";
 
-  if (line === CHOICE_MARKER_ORIG || (isTranslated && line === CHOICE_MARKER_TRANS))
+  if (
+    line === CHOICE_MARKER_ORIG ||
+    (isTranslated && line === CHOICE_MARKER_TRANS)
+  )
     return "choice-marker";
   if (CHOICE_ITEM_RE.test(line)) return "choice-item";
 
   if (isTranslated) {
-    if (line.startsWith("\u201C") && line.endsWith("\u201D")) return "speech-quote";
+    if (line.startsWith("\u201C") && line.endsWith("\u201D"))
+      return "speech-quote";
     if (line.startsWith('"') && line.endsWith('"')) return "speech-quote";
     if (line.startsWith("(") && line.endsWith(")")) return "speech-paren";
     if (line.startsWith("[") && line.endsWith("]")) return "speech-bracket";
@@ -67,16 +71,16 @@ function lineType(line, isTranslated) {
 const SPEAKER_MAP = new Map([
   ["葵", "Aoi"],
   ["秋人", "Akito"],
-  ["流一", "Ryuuichi"],
+  ["流一", "Ryuichi"],
   ["沙莉亜", "Saria"],
   ["正田", "Shouda"],
   ["冬樹", "Fuyuki"],
   ["福井", "Fukui"],
-  ["光輝", "Kouki"],
+  ["光輝", "Mitsuteru"],
   ["桜子", "Sakurako"],
   ["鳴海", "Narumi"],
   ["？", "?"],
-  ["女子学生", "Female Student"],
+  ["女子学生", "Schoolgirl"],
   ["ジョージ", "George"],
   ["男子学生", "Male Student"],
   ["責任者", "Manager"],
@@ -91,7 +95,7 @@ const SPEAKER_MAP = new Map([
   ["担任教師", "Homeroom Teacher"],
   ["テニス部員", "Tennis Club Member"],
   ["茅", "Kaya"],
-  ["男", "Man"],
+  ["男", "Male Voice"],
   ["葵の母", "Aoi's Mother"],
   ["保健医", "School Nurse"],
   ["友人", "Friend"],
@@ -106,7 +110,7 @@ const SPEAKER_MAP = new Map([
   ["女子２", "Girl 2"],
   ["女子３", "Girl 3"],
   ["体育教師", "PE Teacher"],
-  ["女", "Woman"],
+  ["女", "Female Voice"],
   ["顧問", "Advisor"],
   ["通行人１", "Passerby 1"],
   ["通行人２", "Passerby 2"],
@@ -137,7 +141,10 @@ async function parseSectionsFromChunks(dir) {
     let i = 0;
     while (i < allLines.length) {
       // Scan for the next section separator.
-      if (allLines[i] !== SECTION_SEPARATOR) { i++; continue; }
+      if (allLines[i] !== SECTION_SEPARATOR) {
+        i++;
+        continue;
+      }
 
       const sectionStartLine = i + 1; // 1-indexed
       i++; // skip separator
@@ -182,7 +189,12 @@ async function main() {
 
   // Step 2: Validate each original section against its translated counterpart.
   for (const [fileName, origEntry] of origSections) {
-    const { lines: origLines, lineNos: origLineNos, chunkPath: origChunk, startLine: origStart } = origEntry;
+    const {
+      lines: origLines,
+      lineNos: origLineNos,
+      chunkPath: origChunk,
+      startLine: origStart,
+    } = origEntry;
 
     // Step 2a: Check that the translated chunks have a matching section.
     if (!transSections.has(fileName)) {
@@ -196,7 +208,12 @@ async function main() {
 
     checked++;
     const transEntry = transSections.get(fileName);
-    const { lines: transLines, lineNos: transLineNos, chunkPath: transChunk, startLine: transStart } = transEntry;
+    const {
+      lines: transLines,
+      lineNos: transLineNos,
+      chunkPath: transChunk,
+      startLine: transStart,
+    } = transEntry;
     const sectionErrors = [];
     let firstErrorLineIdx = -1;
 
@@ -254,10 +271,14 @@ async function main() {
 
     if (sectionErrors.length > 0) {
       mismatched++;
-      const origErrLine = firstErrorLineIdx >= 0 && origLineNos[firstErrorLineIdx]
-        ? origLineNos[firstErrorLineIdx] : origStart;
-      const transErrLine = firstErrorLineIdx >= 0 && transLineNos[firstErrorLineIdx]
-        ? transLineNos[firstErrorLineIdx] : transStart;
+      const origErrLine =
+        firstErrorLineIdx >= 0 && origLineNos[firstErrorLineIdx]
+          ? origLineNos[firstErrorLineIdx]
+          : origStart;
+      const transErrLine =
+        firstErrorLineIdx >= 0 && transLineNos[firstErrorLineIdx]
+          ? transLineNos[firstErrorLineIdx]
+          : transStart;
       errors.push({
         header: `✗  ${origChunk}:${origErrLine} | ${transChunk}:${transErrLine} > ${fileName}`,
         details: sectionErrors.map((e) => `   ${e}`),
