@@ -7,8 +7,9 @@
  * Checks performed per section:
  *   1. Every original section has a matching translated section (by filename).
  *   2. Non-empty line counts match.
- *   3. Line types match (source / speech / normal).
+ *   3. Line types match (source / speech / choice / normal).
  *   4. Speech source names match via SPEAKER_MAP (JP → EN).
+ *   5. Choice markers and choice items are preserved verbatim.
  *
  * Errors are collected and printed in reverse order so the first mismatch
  * appears at the bottom of the terminal (most visible).
@@ -26,9 +27,15 @@ const TRANSLATED_CHUNKS_DIR = "translated-merged-chunks";
 const SECTION_SEPARATOR = "--------------------";
 const HEADER_SEPARATOR = "********************";
 
+const CHOICE_MARKER_ORIG = "[選択肢 / Choices:]";
+const CHOICE_MARKER_TRANS = "[Choices]";
+const CHOICE_ITEM_RE = /^\d+\.\s/;
+
 /**
  * Classify a line into a structural type with bracket-specific subtypes:
  *   "source"         — speaker name (＃ in original, $ in translated)
+ *   "choice-marker"  — choice header ([選択肢 / Choices:] / [Choices])
+ *   "choice-item"    — numbered choice option (1. …, 2. …)
  *   "speech-quote"   — quoted speech (「」 / \u201C\u201D / "")
  *   "speech-paren"   — thought/parenthetical (（） / ())
  *   "speech-bracket" — emphasis (【】 / [])
@@ -37,6 +44,10 @@ const HEADER_SEPARATOR = "********************";
 function lineType(line, isTranslated) {
   if (isTranslated ? line.startsWith("$") : line.startsWith("＃"))
     return "source";
+
+  if (line === CHOICE_MARKER_ORIG || (isTranslated && line === CHOICE_MARKER_TRANS))
+    return "choice-marker";
+  if (CHOICE_ITEM_RE.test(line)) return "choice-item";
 
   if (isTranslated) {
     if (line.startsWith("\u201C") && line.endsWith("\u201D")) return "speech-quote";

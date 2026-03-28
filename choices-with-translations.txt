@@ -1,0 +1,374 @@
+--------------------
+01c01
+********************
+Group 1
+1. 　声をかける → [UNTRANSLATED]
+2. 　聞き耳をたてる → [UNTRANSLATED]
+3. 　放っておく → [UNTRANSLATED]
+--------------------
+01c02
+********************
+Group 1
+1. 　……黙って立ち去る → [UNTRANSLATED]
+2. 　遠目から様子を見る → [UNTRANSLATED]
+3. 　近づいて声をかける → [UNTRANSLATED]
+--------------------
+01c04
+********************
+Group 1
+1. 　葵とは、明日も会える → [UNTRANSLATED]
+2. 　ドラマよりも葵が大事 → [UNTRANSLATED]
+--------------------
+01c05
+********************
+Group 1
+1. 　先に行っててくれ → [UNTRANSLATED]
+2. 　ここで待っててくれ → [UNTRANSLATED]
+
+Group 2
+1. 　朝メシを食べる → [UNTRANSLATED]
+2. 　朝メシは我慢だ → [UNTRANSLATED]
+--------------------
+01c06
+********************
+Group 1
+1. 　適当にしてて → [UNTRANSLATED]
+2. 　俺の部屋で待ってて → [UNTRANSLATED]
+--------------------
+01c10
+********************
+Group 1
+1. 　いいことでもあったのかな → [UNTRANSLATED]
+2. 　大丈夫か、アイツ…… → [UNTRANSLATED]
+--------------------
+01c12
+********************
+Group 1
+1. 　そんなことより… → [UNTRANSLATED]
+2. 　もしかして… → [UNTRANSLATED]
+--------------------
+02c09
+********************
+Group 1
+1. 　葵を抱きしめる → [UNTRANSLATED]
+2. 　自らの手で葵を…！ → [UNTRANSLATED]
+--------------------
+02c10
+********************
+Group 1
+1. 　葵にキスする → [UNTRANSLATED]
+2. 　このまま葵を自分の物に… → [UNTRANSLATED]
+--------------------
+02c12
+********************
+Group 1
+1. 　野球部の部室に避難する → [UNTRANSLATED]
+2. 　校門までダッシュする → [UNTRANSLATED]
+--------------------
+02c13
+********************
+Group 1
+1. 　葵と一緒に逃げる → [UNTRANSLATED]
+2. 　迎え撃つ → [UNTRANSLATED]
+
+Group 2
+1. 　葵の傷を背負って生きていく → [UNTRANSLATED]
+2. 　葵の傷を背負いきれない → [UNTRANSLATED]
+--------------------
+03c01
+********************
+Group 1
+1. 　放っておく → [UNTRANSLATED]
+2. 　止める → [UNTRANSLATED]
+3. 　後をつける → [UNTRANSLATED]
+--------------------
+03c02
+********************
+Group 1
+1. 　かまわず通りすぎる → [UNTRANSLATED]
+2. 　割って入る → [UNTRANSLATED]
+3. 　引き返す → [UNTRANSLATED]
+--------------------
+03c03
+********************
+Group 1
+1. 　気にせず部活へ行く → [UNTRANSLATED]
+2. 　様子を見守る → [UNTRANSLATED]
+3. 　葵たちについていく → [UNTRANSLATED]
+--------------------
+03c06
+********************
+Group 1
+1. 　放っておく → [UNTRANSLATED]
+2. 　近付いてみる → [UNTRANSLATED]
+3. 　呼びとめる → [UNTRANSLATED]
+--------------------
+03c07
+********************
+Group 1
+1. 　いや、違うな → [UNTRANSLATED]
+2. 　大声で呼んでみる → [UNTRANSLATED]
+--------------------
+03c09
+********************
+Group 1
+1. 　遠目から見守る → [UNTRANSLATED]
+2. 　後をつける → [UNTRANSLATED]
+--------------------
+03c10
+********************
+Group 1
+1. 　立ち去る → [UNTRANSLATED]
+2. 　呼びとめる → [UNTRANSLATED]
+--------------------
+03c11
+********************
+Group 1
+1. 　ここで待っている → [UNTRANSLATED]
+2. 　先に教室に戻る → [UNTRANSLATED]
+--------------------
+03c12
+********************
+Group 1
+1. 　一人で考える → [UNTRANSLATED]
+2. 　沙莉亜の様子を見に行く → [UNTRANSLATED]
+--------------------
+03c13
+********************
+Group 1
+1. 　気にせずトイレに行く → [UNTRANSLATED]
+2. 　様子をうかがう → [UNTRANSLATED]
+3. 　話しかける → [UNTRANSLATED]
+--------------------
+03c14
+********************
+Group 1
+1. 　とにかく校門前へ → [UNTRANSLATED]
+2. 　一言言っておこう → [UNTRANSLATED]
+--------------------
+04c01
+********************
+Group 1
+1. 　しばらく桜子と話す → [UNTRANSLATED]
+2. 　桜子と一緒に登校する → [UNTRANSLATED]
+3. 　桜子を無視して、葵と話す → [UNTRANSLATED]
+--------------------
+04c02
+********************
+Group 1
+1. 　ロードワークに出る → [UNTRANSLATED]
+2. 　後から様子を見に行く → [UNTRANSLATED]
+3. 　今すぐ行く → [UNTRANSLATED]
+--------------------
+04c03
+********************
+Group 1
+1. 　気にする事はない → [UNTRANSLATED]
+2. 　少し待って様子を見に行く → [UNTRANSLATED]
+3. 　すぐに後をつける → [UNTRANSLATED]
+--------------------
+04c04
+********************
+Group 1
+1. 　すぐに校門前に向かう → [UNTRANSLATED]
+2. 　少しブラブラしてから校門前に行く → [UNTRANSLATED]
+3. 　テニス部部室に行ってみる → [UNTRANSLATED]
+--------------------
+04c05
+********************
+Group 1
+1. 　今日は一人で食う → [UNTRANSLATED]
+2. 　気づかれないように追いかける → [UNTRANSLATED]
+3. 　すぐに追いかける → [UNTRANSLATED]
+--------------------
+04c06
+********************
+Group 1
+1. 　ひたすら待つ → [UNTRANSLATED]
+2. 　もう少し待つ → [UNTRANSLATED]
+3. 　迎えに行ってやる → [UNTRANSLATED]
+--------------------
+04c07
+********************
+Group 1
+1. 　ひたすら待つ → [UNTRANSLATED]
+2. 　少しだけ待つ → [UNTRANSLATED]
+3. 　迎えに行ってやる → [UNTRANSLATED]
+--------------------
+04c08
+********************
+Group 1
+1. 　気にしない → [UNTRANSLATED]
+2. 　ちょっと迷う → [UNTRANSLATED]
+3. 　すぐ追いかける → [UNTRANSLATED]
+--------------------
+04c09
+********************
+Group 1
+1. 　桜子の誘いに乗る → [UNTRANSLATED]
+2. 　ちょっと迷う → [UNTRANSLATED]
+--------------------
+04c10
+********************
+Group 1
+1. 　来るまで待つ → [UNTRANSLATED]
+2. 　もう少しだけ待つ → [UNTRANSLATED]
+--------------------
+04c11
+********************
+Group 1
+1. 　心配しすぎだな → [UNTRANSLATED]
+2. 　後で様子を見に行く → [UNTRANSLATED]
+3. 　すぐに追いかける → [UNTRANSLATED]
+--------------------
+04c12
+********************
+Group 1
+1. 　桜子の話を聞く → [UNTRANSLATED]
+2. 　適当に切り上げる → [UNTRANSLATED]
+--------------------
+04c13
+********************
+Group 1
+1. 　先に桜子の用事を済ます → [UNTRANSLATED]
+2. 　葵の元へ急ぐ → [UNTRANSLATED]
+--------------------
+05c01
+********************
+Group 1
+1. 　気にせず寝る → [UNTRANSLATED]
+2. 　物思いにふける → [UNTRANSLATED]
+3. 　葵の傍に行く → [UNTRANSLATED]
+--------------------
+05c02
+********************
+Group 1
+1. 　ちょっと野暮用に → [UNTRANSLATED]
+2. 　廊下に出る → [UNTRANSLATED]
+--------------------
+05c03
+********************
+Group 1
+1. 　とっとと行って来い → [UNTRANSLATED]
+2. 　そういえば、俺も → [UNTRANSLATED]
+3. 　しょうがないな → [UNTRANSLATED]
+--------------------
+05c04
+********************
+Group 1
+1. 　窓でも開けるか → [UNTRANSLATED]
+2. 　散歩に行くか → [UNTRANSLATED]
+--------------------
+05c05
+********************
+Group 1
+1. 　確か、アイツ… → [UNTRANSLATED]
+2. 　…おかしいな → [UNTRANSLATED]
+--------------------
+05c06
+********************
+Group 1
+1. 　ここで待ってやる → [UNTRANSLATED]
+2. 　やっぱり先に行く → [UNTRANSLATED]
+--------------------
+05c07
+********************
+Group 1
+1. 　二度寝する → [UNTRANSLATED]
+2. 　起きる → [UNTRANSLATED]
+--------------------
+05c08
+********************
+Group 1
+1. 　職員室へ行く → [UNTRANSLATED]
+2. 　葵に声を掛ける → [UNTRANSLATED]
+--------------------
+05c10
+********************
+Group 1
+1. 　部活に行く前に… → [UNTRANSLATED]
+2. 　葵と一緒に部活に行く → [UNTRANSLATED]
+--------------------
+05c11
+********************
+Group 1
+1. 　あきらめる → [UNTRANSLATED]
+2. 　鍵を借りてくる → [UNTRANSLATED]
+3. 　蹴り開ける → [UNTRANSLATED]
+--------------------
+06c01
+********************
+Group 1
+1. 　心配なので葵を探す → [UNTRANSLATED]
+2. 　気にせず居眠り → [UNTRANSLATED]
+3. 　とりあえずトイレに行く → [UNTRANSLATED]
+--------------------
+06c02
+********************
+Group 1
+1. 　とりあえず行ってみれば？ → [UNTRANSLATED]
+2. 　用事は何だ？ → [UNTRANSLATED]
+3. 　行く必要なんかない → [UNTRANSLATED]
+--------------------
+06c03
+********************
+Group 1
+1. 　授業中だし、気にする事は無い → [UNTRANSLATED]
+2. 　後で様子を見に行く → [UNTRANSLATED]
+3. 　今すぐ体育館に行く → [UNTRANSLATED]
+--------------------
+06c04
+********************
+Group 1
+1. 　気にしない → [UNTRANSLATED]
+2. 　ちょっと気になる → [UNTRANSLATED]
+3. 　大声で呼び止める → [UNTRANSLATED]
+--------------------
+06c05
+********************
+Group 1
+1. 　ほっとく → [UNTRANSLATED]
+2. 　気づかれないように追いかける → [UNTRANSLATED]
+3. 　すぐに追いかける → [UNTRANSLATED]
+--------------------
+06c06
+********************
+Group 1
+1. 　とっさにガードした → [UNTRANSLATED]
+2. 　とっさによけた → [UNTRANSLATED]
+--------------------
+07c01
+********************
+Group 1
+1. 　パンだけでもくわえてくか… → [UNTRANSLATED]
+2. 　メシはちゃんと食わないとな → [UNTRANSLATED]
+3. 　メシは諦めるか → [UNTRANSLATED]
+--------------------
+07c02
+********************
+Group 1
+1. 　今すぐ寝てしまおう… → [UNTRANSLATED]
+2. 　せっかくの自習時間なのに… → [UNTRANSLATED]
+
+Group 2
+1. 　優しい言葉をかける → [UNTRANSLATED]
+2. 　自分なりに元気づける → [UNTRANSLATED]
+--------------------
+07c06
+********************
+Group 1
+1. 　放っておく → [UNTRANSLATED]
+2. 　もう少し待つ → [UNTRANSLATED]
+3. 　それはそうと… → [UNTRANSLATED]
+--------------------
+d01s02
+********************
+Group 1
+1. 　すぐに部活へ行く → [UNTRANSLATED]
+2. 　しばらく教室に居る → [UNTRANSLATED]
+--------------------
+d02s02
+********************
+Group 1
+1. 　強敵の目に触れない安全な場所に行く → [UNTRANSLATED]
+2. 　気にすることはない、早速昼メシだ → [UNTRANSLATED]
