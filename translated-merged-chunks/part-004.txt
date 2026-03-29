@@ -1,752 +1,752 @@
 --------------------
 01c05
 ********************
-Fuyuki: Episode 05
-I started running, shouting back at the two of them—
+■ Fuyuki Episode 05 ~n
+I shouted toward the two of them as I started to run——
 [Choices]
-1. Go on ahead without me
-2. Wait for me here
-What should I do...?
+1. 　Go on ahead
+2. 　Wait for me here
+What to do……?
 [Choices]
-1. Eat breakfast
-2. Endure the hunger
-I finished changing, left my room, and headed down the stairs. Aoi and Big Bro were talking by the entryway.
+1. 　Eat breakfast
+2. 　Skip breakfast
+I finished changing, left my room, and headed down the stairs to find Aoi and Big Bro talking by the entrance.
 Big Bro usually leaves the house at least fifteen minutes earlier than I do.
-Even though we go to the same academy, the reason he leaves so early remains a mystery for now.
-Because of that, it’s practically unheard of for him to still be home at this time.
+Even though we go to the same academy, the reason why he leaves so early remains a mystery for now.
+That’s why Big Bro being home at this hour is something that almost never happens.
 $Akito
-“Big Bro, you’re still home? That’s a rarity.”
+“Big Bro, you’re still home? That’s rare.”
 $Aoi
-“I’m the one who made him stay.”
+“I’m the one who stopped him.”
 Aoi puffed out her chest proudly.
 $Fuyuki
-“I thought I’d take it slow for once. I still intended to leave before you two, but Aoi-chan caught me.”
+“I thought I’d take it slow for once. Even so, I intended to leave before Akito and the others, but Aoi-chan caught me.”
 $Aoi
-“We were waiting for you, Akito. Normally, I’d have just left you behind. You should be grateful.”
+“We were both waiting for Akito. Normally, we’d have just left you behind. You should be grateful.”
 $Akito
-“Ugh, shut up.”
+“Ah~, shut up.”
 $Aoi
-“What was that?! I’m always telling you to get ready faster!”
+“What was that?! I’m always telling you to get ready faster, aren't I!”
 $Akito
-“And I’m always telling you—I don’t remember giving you permission to boss me around.”
+“And I’m always telling you, right? I don't recall asking for your orders.”
 $Aoi
-“Don’t act so high and mighty when you can’t even wake up by yourself!”
+“Don't act so high and mighty when you can't even wake up by yourself!”
 $Fuyuki
 “Ahaha.”
-Big Bro suddenly let out a gentle laugh.
+Suddenly, Big Bro let out a gentle laugh.
 $Fuyuki
-“No matter when I see you two, you look just like a married couple.”
+“No matter when I see you two, you’re just like a married couple.”
 $Aoi
 “O-Oniichan!”
 $Akito
 “Ugh.”
 $Aoi
-“Akito... did you just say 'ugh'?”
+“Akito…… did you just say ‘ugh’?”
 $Akito
-“Eh? Who knows...”
-Aoi’s cold glare pierced right through me.
-Ignore, ignore...
+“Eh? W-Well……”
+Aoi’s cold stare pierced through me.
+Ignore, ignore……
 $Fuyuki
-“More importantly, Akito, aren’t you going to eat breakfast?”
+“More importantly, Akito, aren't you going to eat breakfast?”
 $Akito
-“I don’t need it today.”
+“I don't need it today.”
 $Aoi
-“In that case, let’s get going!”
+“Then, let’s get going!”
 The three of us filed out of the house together.
 $Aoi
-“Ehehe, it’s been so long since the three of us were together like this.”
-Aoi was acting unusually high-spirited.
-Well, it’s true that walking to school as a trio really is a rare occurrence lately.
-Since Aoi’s in a good mood, I guess I can enjoy it for once.
-After walking for a bit, it hit me.
+“Ehehe, it’s been a while since the three of us were together.”
+Aoi is acting unusually high-spirited.
+Well, it’s true that it really has been a long time since the three of us walked to school together.
+Since Aoi seems to be in a good mood, I guess it’s fine once in a while.
+After walking for a bit, I suddenly froze.
 $Akito
 “Ah—!”
 $Fuyuki
-“Akito, you’re being a nuisance to the neighbors.”
+“Akito, you’re bothering the neighbors.”
 $Aoi
 “What’s wrong?”
 $Akito
 “I forgot my uniform.”
-I’d left it behind while it was still being laundered.
+I’d left it behind right after washing it.
 $Aoi
-“Normally, people don’t forget things like that.”
+“Usually, people don't forget things like that.”
 $Akito
 “It’s because someone was rushing me to get ready faster!”
 $Aoi
-“Are you talking about me—?”
-I ignored Aoi and spun on my heel.
-If I don’t run back and grab it, I’ll be late.
+“Is that supposed to be me—?”
+I ignored Aoi and turned on my heel.
+If I don't run back to get it, I’ll be late.
 $Akito
-“Sorry, I’ll catch up with you guys later. Go on ahead without me!”
-Shouting that, I scrambled back toward the house.
+“Sorry, I’ll catch up later, so go on ahead!”
+I shouted that and dashed back toward the house in a panic.
 $Akito
-“Mom—!”
-I burst into the entryway and headed straight for the kitchen.
-Luckily, I found my mother there. I bombarded her with questions about the uniform, finally located it, and stuffed it into my bag.
-Then, my eyes fell upon the breakfast sitting quietly on the table.
-In that instant, my stomach let out a loud “growl.”
-...Ugh, I don’t think I can resist.
-I already told Aoi and Big Bro to "go on ahead," so it should be fine.
+“Mom~~!”
+Rushing into the entryway, I headed straight for the kitchen.
+Luckily, my mother was in the kitchen; I rattled off a demand for my uniform’s location and finally found it, stuffing it into my bag.
+Just then, the breakfast sitting quietly on the dining table caught my eye.
+At that exact moment, my stomach let out a loud “Grumble~~.”
+……Ugh, I don't think I can hold back.
+I already told Aoi and Big Bro to “go on ahead,” so it should be fine.
 $Akito
-“(Aoi might complain about it later, though.)”
+“(……Though Aoi might complain about it later.)”
 And so, I decided to eat breakfast.
 $Fuyuki
-“Good grief...”
-Watching Akito’s retreating back, Fuyuki-oniichan let out an exasperated sigh.
+“Honestly……”
+Watching Akito’s retreating back as he ran off, Fuyuki-oniichan let out an exasperated sigh.
 $Aoi
-“He really is such a child, no matter how much time passes.”
-I wonder how someone like Fuyuki-oniichan, who’s so composed, ended up with a brother like that.
+“No matter how much time passes, he’s really such a child.”
+I wonder why he’s like that, even though he’s the younger brother of someone as composed as Fuyuki-oniichan.
 $Aoi
 “Oniichan, let’s go.”
 $Fuyuki
 “Right.”
-We both shared a wry smile and started walking.
+We both started walking with wry smiles.
 $Aoi
-“It’s honestly shocking. I even went to the trouble of holding you back so we could wait for him.”
-I was in such a good mood, thinking the three of us could walk to school together for once.
-Akito went and ruined it.
+“I’m amazed. Even after I went to the trouble of holding back Oniichan so we could wait for him.”
+I was in a good mood because I thought the three of us could walk to school for once.
+Akito ruined it.
 $Fuyuki
-“He is my brother, but Akito really does lack composure.”
+“He is my brother, after all; Akito just lacks composure.”
 $Aoi
-“Seriously! Being hot-blooded is one thing, but he’s basically on the same level as a neighborhood brat.”
-I was starting to feel genuinely annoyed.
-Fuyuki-oniichan just gave a strained smile.
+“Truly! Being hot-blooded is fine and all, but his level isn't any different from a neighborhood brat.”
+Gradually, I started to get irritated.
+Fuyuki-oniichan was giving a wry smile.
 $Aoi
-“Compared to him, you’re so mature, Fuyuki-oniichan.”
+“Compared to him, Fuyuki-oniichan is so mature.”
 $Fuyuki
 “That’s not true.”
 $Aoi
-“Yes, it is!”
-Oniichan was being humble, so I pressed the point.
+“It is true!”
+I prattled on to Oniichan as he acted humble.
 $Aoi
-“You’re always calm, kind, and you’re always watching over me. You always say exactly what I need to hear.”
+“You’re always calm, kind, watching over me, and you say exactly the words I want to hear.”
 I let out a sigh.
 $Aoi
-“Haaah... it’s such a waste for you to just be Akito’s older brother.”
+“Ah~, it’s such a waste for you to just be Akito’s older brother.”
 $Fuyuki
-“You think so...?”
+“Is that so……?”
 $Aoi
-“I do! To me, you’re the older brother I can always rely on, Fuyuki-oniichan.”
+“It is! To me, Fuyuki-oniichan is a dependable older brother.”
 $Fuyuki
-“There’s only a year’s difference in our ages, though.”
+“There’s only a one-year difference in our ages.”
 $Aoi
-“That just shows how much more grown-up you are.”
+“That just shows how mature you are.”
 $Fuyuki
-“Hmm... I suppose you could also say I just look old.”
-There he goes, playing dumb again.
-But even that is so like him.
+“Hmm…… you could also say I just look old.”
+He’s playing dumb again.
+But even that is just like Oniichan.
 $Aoi
-“With such a great example like you right there, I wonder why Akito turned out that way.”
+“With such a good example like Fuyuki-oniichan right there, why is Akito like that?”
 $Fuyuki
-“Siblings don’t always turn out alike.”
+“Brothers don't necessarily take after each other.”
 $Aoi
-“I know, but even so, he’s just way too restless.”
+“But still, he’s just way too restless.”
 $Fuyuki
-“You’re quite harsh when it comes to Akito, Aoi-chan.”
+“Aoi-chan, you’re quite harsh toward Akito.”
 $Aoi
-“Well... if he doesn’t get his act together, I’m the one who feels embarrassed just being seen with him.”
-Just thinking about Akito made my blood boil again.
+“Well, yeah. If he doesn't pull himself together a bit more, it’s embarrassing for me to be with him.”
+Thinking about Akito made me get irritated all over again.
 $Aoi
-“Take my birthday last year... the 'present' he gave me was a baseball ticket. I couldn't believe it!”
+“On my birthday last year, you know, the present he gave me was a baseball ticket. I couldn't believe it!”
 $Fuyuki
-“Maybe he just wanted to go see a game with you?”
+“Didn't he want to go see it together with you?”
 $Aoi
-“Well... I went with him... but he ignored me for the entire game because he was so fired up on his own.”
-I didn't even get to enjoy myself because of that...
-Ugh, what a bitter memory...
+“Well…… I went with him…… But during the game, he totally ignored me and was just getting all fired up by himself.”
+Thanks to that, I couldn't enjoy it much……
+Haa, a bitter memory……
 $Fuyuki
-“Haha, that sounds just like Akito.”
+“Haha, that sounds like Akito.”
 $Aoi
-“Don’t you think that’s rude? Just enjoying himself while I’m right there.”
+“Don't you think it’s rude? Just enjoying himself.”
 $Fuyuki
-“I’m not trying to make excuses for him, but in a way, he’s just pure.”
-As Oniichan spoke, his expression was that of a brother worried about his sibling.
-He looked so incredibly kind...
+“I’m not trying to make excuses for him, but in a certain sense, he’s pure.”
+Oniichan’s face as he said that was the face of an older brother worried about his younger sibling.
+Such a kind-looking face……
 $Fuyuki
-“He probably thinks seriously about even the trivial things.”
+“He probably thinks seriously about even the most trivial things.”
 I snapped out of it.
-No, no, I can’t let myself be swayed by Oniichan’s wonderful words.
+No, no, I can't let myself be swayed by Oniichan’s wonderful words.
 $Aoi
-“Calling him 'pure' is giving him way too much credit, Oniichan. Akito is just an idiot.”
+“Calling him pure, you’re making too many excuses for him, Oniichan. Akito is just an idiot.”
 $Fuyuki
-“Well... I suppose you could call it that, too.”
+“Well…… you could say that too.”
 $Aoi
-“Exactly. He’s an idiot, he’s simple, he’s hot-blooded, he can’t wake up in the morning, his head is filled with nothing but baseball, and, and...”
+“Exactly—he’s an idiot, simple-minded, hot-blooded, can't wake up by himself in the morning, has nothing but baseball on his mind, and then, and then……”
 $Fuyuki
-“Hahaha. If Akito heard you, he’d probably start pouting again.”
+“Hahaha, if Akito heard that, he’d probably pout again.”
 $Aoi
-“He’s always making me take care of him. I just wish he’d give me a break already.”
+“Anyway, he makes me do nothing but take care of him. I really wish he’d give me a break.”
 $Fuyuki
-“You’ll make a great wife, Aoi-chan. I can guarantee that much.”
+“Aoi-chan would make a good wife. I guarantee it.”
 $Aoi
-“Eh?! Oniichan, what are you saying?!”
+“Eh!? Oniichan, what are you saying!?”
 $Fuyuki
-“Hm? What?”
+“Hm? What is it?”
 Fuyuki-oniichan tilted his head with a puzzled expression.
 $Aoi
-“...Whatever.”
-Still... walking to school with Oniichan for the first time in a while is actually fun.
-Being with the three of us is nice, but I rarely get the chance to be alone with Oniichan like this.
-The walk to the academy was over in the blink of an eye.
-Even after reaching the academy, Akito didn’t catch up.
-He only went back for something he forgot; what on earth is he doing? Honestly...
-Once we reached the student entrance, I parted ways with Fuyuki-oniichan.
+“……Well, whatever.”
+But…… it’s kind of fun being able to walk to school with Oniichan for the first time in a while.
+The three of us together with Akito is fine too, but chances to be alone with Oniichan are rare, after all.
+The path to the academy passed by in the blink of an eye.
+Even when we reached the academy, Akito hadn't caught up.
+He was only supposed to go back for something he forgot; I wonder what he’s doing? Honestly……
+When we reached the student entrance, I parted ways with Fuyuki-oniichan.
 $Aoi
 “See you later, Oniichan.”
 $Fuyuki
 “Give my regards to Akito.”
-There he goes with that playful sarcasm again...
+He’s saying something silly again……
 I couldn't help but laugh.
 I wish I could walk to and from school with Oniichan like this every day.
 I truly felt that from the bottom of my heart.
-In the end, Akito barely made it in time right before homeroom started.
-When I asked him why, he said, “I got hungry after all, so I ate breakfast.”
-He was the one who said he didn’t need any before we left! Seriously, him!
-I watched Akito’s back as he ran off, staring blankly.
-Lately, I feel like I’ve been spending a lot of time watching Akito’s silhouette as it moves further away from me...
-It feels like the happy times are drifting away from me...
-I don't know why, but that was the sensation I had.
-I’ve been trying my best to act cheerful, but it feels like the version of me that’s exhausted from crying, the one sleeping in the corner of my heart, has suddenly woken up...
+In the end, Akito barely made it right before HR started.
+When I asked for the reason, he said, “I was hungry after all, so I was eating breakfast.”
+Even though Akito was the one who said “I don't need it today” before leaving the house! Honestly, really!
+I was blankly watching Akito’s retreating back.
+Lately, I feel like I’ve been staring at Akito’s back as he moves away more often……
+It’s like the happy times are moving away from me……
+I don't know why, but I was feeling that way.
+I’d been trying to act cheerful until now, but it’s as if the version of me that was tired from crying and sleeping in a corner of my heart has suddenly woken up……
 $Fuyuki
-“Well, shall we head on ahead?”
-Snapped back to reality by Fuyuki-oniichan’s voice, I hurriedly started walking.
-Oh, stop it, me. What’s wrong with me...?
-If I just keep living my life like usual, the happy times will come back eventually...
-Besides, it’s impossible for Akito to never show his face in front of me again...
+“Well then, shall we go on ahead?”
+Prompted by Fuyuki-oniichan, I snapped out of it. I hurriedly began to walk.
+Oh no, what’s wrong with me. I wonder what happened……
+If I just spend my time as usual, the happy times will come again……
+Besides, there’s no way Akito would never show his face before me again……
 $Fuyuki
-“...Aoi-chan?”
+“……Aoi-chan?”
 $Aoi
-“...Eh?”
-Suddenly I realized Fuyuki-oniichan was peering into my eyes with a worried look.
+“……Eh?”
+Suddenly noticing, Fuyuki-oniichan looked into my eyes with a worried expression.
 $Fuyuki
-“Did that Akito do something to you?”
+“Did that guy Akito do something?”
 $Aoi
-“Eh? Why?”
+“Eh, why?”
 $Fuyuki
-“No... if it’s nothing, that’s fine.”
-Oniichan gave a soft laugh.
-His profile looked so incredibly kind.
-It’s blinding... Oniichan’s smile is just too gentle... I can’t even meet his eyes...
-Before I knew it, I was speaking out, as if seeking salvation from him.
+“No…… if it’s nothing, then it’s fine.”
+Oniichan gave a soft smile.
+His profile looked so kind.
+It’s dazzling…… Oniichan’s smile is too kind…… I can't even meet his eyes……
+Before I knew it, I started to speak as if seeking salvation from Oniichan.
 $Aoi
-“...Oniichan, um.”
+“……Oniichan, you see.”
 $Fuyuki
 “Hm?”
 $Aoi
-“Um...”
-I still hesitated a little.
+“You see……”
+I still had a little hesitation.
 I couldn't quite find the resolve to start talking.
-Is it really okay to say it...?
-Is it okay to confide in Fuyuki-oniichan...?
-If I actually put the vague anxiety I’m feeling into words...
-I’m terrified that it might actually become reality.
-But keeping it all to myself felt even more restless and lonely.
-I’m trying to lean on Oniichan’s kind smile...
-Because I can’t take it anymore... I feel like I’m going to be crushed by this anxiety...
+Is it okay if I say it……
+Is it okay to consult Fuyuki-oniichan……
+If I were to actually put this vague anxiety I feel into words……
+I’m afraid that it might really become a reality.
+But keeping it all to myself was even more anxious and lonely.
+I was trying to lean on Oniichan’s kind smile……
+Because I can't take it anymore…… I feel like I’m being crushed by anxiety……
 $Aoi
-“...Lately, maybe it’s just my imagination, but Akito... he’s been acting strange.”
-I said it...
-There might be no going back now...
+“……Lately, it might just be my imagination, but Akito’s behavior…… is strange.”
+I said it……
+Now, I might not be able to go back……
 $Fuyuki
 “Strange?”
-Normally, Oniichan would probably tease him, saying “That guy’s always strange.”
-But right now, he listened to me with total seriousness.
-That attitude was something I was deeply grateful for in my current state.
+Normally, Oniichan would probably make a joke like, “That guy being strange is nothing new.”
+But right now, he listened to me seriously.
+Oniichan’s attitude was very much appreciated by the current me.
 $Aoi
-“I feel like... his usual attitude is subtly different... I can’t explain exactly how or where, but...”
-I continued speaking, even as my words became disjointed.
+“Somehow…… I feel like his usual attitude is slightly different…… I can't explain exactly how, but……”
+Even as I became faltering, I continued to talk.
 $Aoi
-“Akito... he tries to act cheerful like usual... but we’ve been together so long, I can just feel it from the atmosphere...”
+“Akito…… is trying to act cheerful as usual…… But we've been together for a long time, so I can tell by the atmosphere……”
 $Aoi
-“And, you know... lately I’ve started thinking... that maybe I’m the cause of it...”
+“And then…… lately I've been thinking that maybe…… I’m the cause of it……”
 $Fuyuki
-“You are, Aoi-chan?”
+“Aoi-chan is?”
 I gave a small nod.
-That’s right... I’ve changed.
-I’ve been defiled...
-Is that why Akito looks strange to me? Because I’m the one who’s changed...?
-The thought sent a shiver of terror through me.
-The anxiety of Akito changing, the anxiety of my surroundings changing, the anxiety of *me*... having been changed.
-I feel like I’m being crushed...
+That’s right…… I have changed.
+I’ve become defiled……
+So, because I’ve changed, does Akito look strange to me……?
+When I think that, I feel a chill of fear.
+Anxiety that Akito has changed, anxiety that the surroundings have changed, and anxiety that I…… have been changed.
+I feel like I’m going to be crushed……
 The only one who hasn't changed is Fuyuki-oniichan. That’s how it feels to me.
-Maybe that’s why I ended up venting to him.
-That was how mentally exhausted I’d become.
+That might be why I ended up venting to Oniichan.
+That’s how much I was mentally exhausted.
 I hung my head and bit my lip.
-How did things turn out like this?
-Why...?
+Why did things turn out this way?
+Why……
 $Fuyuki
-“...I knew you were troubled by something, Aoi-chan.”
+“……I knew Aoi-chan was troubled by something.”
 $Aoi
-“............”
+“…………”
 $Fuyuki
-“You haven't been yourself lately.”
+“Because Aoi-chan hasn't been energetic lately.”
 $Fuyuki
-“I think those worries might be causing a temporary shift in your feelings.”
+“I wonder if those troubles have temporarily changed Aoi-chan’s feelings.”
 $Aoi
-“...Eh?”
-Oniichan spoke to me gently, as if explaining something to a child.
+“……Eh?”
+Oniichan spoke to me carefully, as if reasoning with me.
 $Fuyuki
-“So, once those worries are resolved, I’m sure everything will go back to the way it was.”
+“So, if you just solve your troubles, I’m sure things will go back to the way they were.”
 $Aoi
-“...Go back... to the way it was...?”
-Stunned by words I hadn't expected, I stared at Oniichan blankly.
+“……Go back to the way they were……?”
+At those unexpected words, I stared blankly at Oniichan.
 $Fuyuki
-“That’s right. It’ll go back.”
-As if to reassure me, Oniichan wore a gentle smile.
+“That’s right, go back to the way they were.”
+As if to reassure me, Oniichan wore a kind smile.
 $Fuyuki
-“Besides, Akito could never hate you, Aoi-chan. Absolutely never.”
+“Besides, Akito hasn't come to hate Aoi-chan, absolutely not.”
 $Aoi
-“...You think so?”
+“……I wonder.”
 $Fuyuki
-“Yeah. I guarantee it. He’s too embarrassed to show it in his words or attitude, but that guy is always worried about you.”
-Then, he gave me a playful wink.
+“Yeah. I guarantee it. He doesn't show it in his words or attitude because he’s bashful, but he’s always worried about Aoi-chan, that guy.”
+He added an elusive wink.
 $Fuyuki
-“And of course, so am I.”
+“Of course, so am I.”
 $Aoi
-“Oniichan...”
-Ah... Oniichan...
-Once again, he said exactly what I wanted to hear most.
-How could a single sentence from him make me feel so much lighter...?
-It really is like a magic spell.
+“Oniichan……”
+Ah…… Oniichan……
+Once again, he said the words I wanted to hear most.
+To think that just one word from Oniichan could make me feel this much better……
+It’s like I’ve been placed under a spell.
 $Fuyuki
-“I’m sure you’re overthinking it, but if anything happens, don’t hesitate to talk to me. I can at least try to ask Akito about it subtly.”
-Oniichan didn't forget a final touch of consideration.
-I’m so glad... I’m so glad I talked to him.
-Tears... out of relief, tears began to overflow.
-I looked down and wiped the tears pooling in the corners of my eyes before Oniichan could notice.
-Then, I forced the best smile I could manage.
+“I’m probably overthinking it, but if anything happens, don't hesitate to consult me. I can at least try to casually ask Akito about it.”
+Oniichan didn't forget even the final bit of consideration.
+I’m glad…… I’m glad I consulted Oniichan.
+Tears…… out of relief, tears began to overflow.
+I looked down and wiped the tears that had pooled in the corners of my eyes so Oniichan wouldn't notice.
+Then, I made the best smile I could.
 $Aoi
-“Yeah... thanks, Oniichan...”
-It was a bit of a stiff smile... but truly, thank you, Oniichan.
+“Yeah…… thanks, Oniichan……”
+It was a slightly awkward smile…… but really, thank you, Oniichan.
 $Fuyuki
-“See? Aoi-chan, a smile really does suit you best.”
-Oniichan smiled back warmly.
-I’m sure he noticed my tears.
-But he’s pretending not to.
-Oniichan is amazing...
-To think he could make me feel this much lighter...
+“Yes, a smile suits Aoi-chan best, after all.”
+Oniichan also smiled back cheerfully.
+I’m sure Oniichan had noticed my tears too.
+But he’s pretending not to notice.
+Oniichan is amazing……
+To think he could lighten my feelings this much……
 $Aoi
-“Oniichan the magician...”
-The words slipped out of my mouth as a murmur.
-Oniichan looked at me with a puzzled gaze.
+“A wizard oniichan……”
+I accidentally murmured it out loud.
+Oniichan looked at me with a dubious eye.
 $Aoi
-“Ehehe...”
-I laughed to cover it up.
+“Ehehe……”
+I laughed to hide it.
 Before I knew it, the school was right in front of us.
-It was fine that I’d told Big Bro I didn’t need breakfast when he asked as I was leaving...
-But I’d told them "I’ll catch up with you later."
-If I don’t catch up properly, I have no idea what Aoi will say to me later.
-Besides, if I give in to my appetite now, I’ll likely have to run like my life depends on it just to avoid being late.
+As I was leaving, Big Bro asked “Breakfast?” and I said “I don't need it today,” well, that’s fine but……
+I left them with the words “I’ll catch up later.”
+If I don't catch up properly, who knows what Aoi will say to me later.
+Besides, if I give in to my appetite right now, I might have to run like my life depends on it or risk being late.
 $Akito
-“No choice, I’ll just have to endure it.”
-And so, shaking off my lingering attachment to breakfast, I dashed out of the house.
-I ran for a while, but I still couldn't see Aoi and the others.
-They could’ve at least walked a bit slower. Heartless bastards.
-Well, I guess it’s my own fault...
-I was about halfway to school when I finally spotted their silhouettes from behind.
-Phew, I finally caught up.
-The two of them were talking happily... wait, no they weren't.
-Aoi was bombarding Big Bro with words, looking visibly pissed.
-It didn't seem like she was angry, exactly, but...
-What happened?
-On the other hand, Big Bro was just giving a wry smile.
-Even as I ran closer, the two of them—Aoi in particular—didn't notice me at all.
+“It can't be helped, I’ll endure.”
+And so, I shook off my lingering attachment to breakfast and dashed out of the house.
+Even after running for a while, I couldn't quite see Aoi and the others.
+They could at least walk slowly. What a heartless bunch.
+Well, it’s my own fault, but……
+When I’d gone about halfway to school, I finally saw Aoi and the others’ backs.
+Haa, finally caught up.
+The two of them are talking cheerfully…… no, they aren't.
+Aoi is prattling on to Big Bro about something with veins popping on her forehead.
+It doesn't seem like she's angry, though.
+What’s wrong?
+On the other hand, Big Bro is giving a wry smile.
+Even as I ran closer, the two—especially Aoi—didn't notice me at all.
 I was about to call out.
-But right before I could, I heard Aoi’s voice.
+But before that, I heard Aoi’s voice.
 $Aoi
-“With such a great example like Fuyuki-oniichan right there, I wonder why Akito turned out that way.”
-Whoa, wait a second. Calling me "that way" all of a sudden?
+“With such a good example like Fuyuki-oniichan right there, why is Akito like that?”
+Hey, hey, calling me “like that” out of nowhere.
 $Fuyuki
-“Siblings don’t always turn out alike.”
+“Brothers don't necessarily take after each other.”
 $Aoi
-“I know, but even so, he’s just way too restless.”
+“But still, he’s just way too restless.”
 $Fuyuki
-“You’re quite harsh when it comes to Akito, Aoi-chan.”
+“Aoi-chan, you’re quite harsh toward Akito.”
 $Aoi
-“Well... if he doesn’t get his act together, I’m the one who feels embarrassed just being seen with him.”
-Aoi was breathing heavily.
-It looks like she’s angry about me.
+“Well, yeah. If he doesn't pull himself together a bit more, it’s embarrassing for me to be with him.”
+Aoi was breathing heavily through her nose.
+Apparently, she's angry about me.
 Well, it’s true that I lack composure.
 That’s a fact. I admit it.
-But that’s no reason to talk behind my back...
+But still, don't talk behind my back……
 $Aoi
-“Take my birthday last year... the 'present' he gave me was a baseball ticket. I couldn't believe it!”
-Ah... yeah, that did happen...
+“On my birthday last year, you know, the present he gave me was a baseball ticket. I couldn't believe it!”
+Ah…… did that happen too……
 $Fuyuki
-“Maybe he just wanted to go see a game with you?”
+“Didn't he want to go see it together with you?”
 $Aoi
-“Well... I went with him... but he ignored me for the entire game because he was so fired up on his own.”
-Yeah, that game was intense...
+“Well…… I went with him…… But during the game, he totally ignored me and was just getting all fired up by himself.”
+Yeah, that game was intense……
 $Fuyuki
-“Haha, that sounds just like Akito.”
+“Haha, that sounds like Akito.”
 $Aoi
-“Don’t you think that’s rude? Just enjoying himself while I’m right there.”
+“Don't you think it’s rude? Just enjoying himself.”
 Sorry about that.
-What the hell, dammit.
-Don’t just trample all over someone’s kindness.
-I was starting to get pissed.
+What the hell, damn it.
+Don't trample on someone’s kindness like that.
+I was gradually starting to get pissed off.
 I continued to eavesdrop.
-If I faced Aoi now, a massive shouting match would definitely break out.
+If I were to face Aoi right now, a fierce argument would surely break out.
 $Fuyuki
-“I’m not trying to make excuses for him, but in a way, he’s just pure.”
-Oh, as expected of Big Bro. Well said!
+“I’m not trying to make excuses for him, but in a certain sense, he’s pure.”
+Oh, as expected of Big Bro. He says good things!
 $Fuyuki
-“He probably thinks seriously about even the trivial things.”
-Exactly, exactly. See? He gets it.
-Aoi, instead of insulting people, you should take a page out of Big Bro’s book.
-But Aoi didn't seem like she had any intention of following his example.
+“He probably thinks seriously about even the most trivial things.”
+Yeah, yeah. You understand, don't you.
+Hey Aoi, instead of badmouthing people, you should learn from Big Bro.
+However, Aoi didn't even show any sign of learning from him.
 $Aoi
-“Calling him 'pure' is giving him way too much credit, Oniichan. Akito is just an idiot.”
-You really said it... Aoi...
+“Calling him pure, you’re making too many excuses for him, Oniichan. Akito is just an idiot.”
+You sure can talk…… Aoi……
 $Fuyuki
-“Well... I suppose you could call it that, too.”
-Wait, even Big Bro?!
-That’s not what you said a second ago!
-Now I’m really mad!
+“Well…… you could say that too.”
+Ah, even Big Bro!?
+That’s different from what you were just saying!
+I’m really mad now!
 $Aoi
-“Exactly. He’s an idiot, he’s simple, he’s hot-blooded, he can’t wake up in the morning, his head is filled with nothing but baseball, and, and...”
+“Exactly—he’s an idiot, simple-minded, hot-blooded, can't wake up by himself in the morning, has nothing but baseball on his mind, and then, and then……”
 $Fuyuki
-“Hahaha. If Akito heard you, he’d probably start pouting again.”
+“Hahaha, if Akito heard that, he’d probably pout again.”
 $Akito
-“Hahaha, you’re damn right he would.”
+“Hahaha, you’re absolutely right.”
 $Aoi
-“You think so too, Akito? See... EEEEEKKK!!”
+“Does Akito think so too? You’re right…… wait, kyaah!!”
 $Akito
 “Good morning, Aoi-chan.”
-I gave Aoi the most intense glare I could manage.
+I glared at Aoi with all my might.
 $Akito
-“I’ve been listening to you run your mouth for a while now!”
-Aoi, who had practically jumped out of her skin in surprise, turned her cold eyes on me in response to my words.
+“I’ve been listening for a bit now, and you sure have a lot to say!”
+Aoi, who had been so surprised she practically jumped, instead turned a cold eye toward me at those words.
 $Aoi
-“W-What, Akito, were you eavesdropping? How creepy!”
+“W-What is it, Akito, eavesdropping? How nasty!”
 $Akito
-“Shut up! It’s a hell of a lot better than someone who talks behind people’s backs!”
+“Don't mess with me! It’s a hell of a lot better than someone who talks behind people’s backs!”
 $Aoi
-“It’s not talking behind your back if it’s the truth.”
+“It wasn't behind your back, it was a fact.”
 $Akito
-“Don’t just act like that makes it okay!”
+“Don't try to play it off!”
 $Aoi
 “What, you stupid Akito!”
 $Akito
-“Don’t call me stupid!”
+“Don't call me stupid!”
 $Fuyuki
-“Now, now, you two...”
-I pushed Big Bro aside as he tried to gently mediate.
+“Now, now, you two……”
+I pushed aside Big Bro as he tried to gently mediate.
 $Akito
 “Stay out of this, Big Bro!”
 $Aoi
-“How mean! Apologize to Oniichan, you stupid Akito!”
+“That’s awful! Apologize to Oniichan, you stupid Akito!”
 $Akito
-“I said, don’t call me stupid!”
+“I told you, stop calling me stupid!”
 $Aoi
-“What’s wrong with calling a stupid person stupid?!”
+“What’s wrong with calling a stupid person stupid!”
 $Akito
-“You... you really want to make me mad, don’t you? Fine, let’s take this outside!”
+“You…… you really pissed me off now, didn't you? Fine then, step outside!”
 $Aoi
-“We *are* outside.”
+“We’re already outside.”
 $Akito
-“Shut up! You know that’s not what I meant!”
+“Shut up! That’s not what I meant!”
 $Fuyuki
-“I get it already. You two are just having a childish fight.”
-Big Bro said with an utterly exhausted look on his face.
-Aoi immediately quieted down.
+“Alright, that’s enough, both of you…… it’s just a childish fight at this rate.”
+Big Bro said with an utterly exasperated face.
+Aoi easily became quiet.
 $Aoi
 “Sorry, Oniichan.”
 $Akito
-“Hey...”
-She listens to Big Bro just like that?
-Dammit.
-My anger had completely fizzled out because of that.
-I had mixed feelings.
-What Aoi said just now... was at least partially true.
-I... am a child.
-Because I know that myself, I want to deny her words, but I can't.
-Big Bro’s presence forces me to realize my own immaturity, whether I like it or not.
-Dammit... I’ll surpass him one day!
-Maybe not right now... or even for a while.
-But one day...
-And I’ll make Aoi acknowledge me, too.
-For sure...
-As I glared at Big Bro, my fighting spirit surged. I made a firm vow to surpass him.
-Big Bro just stared back at me with a puzzled look.
+“Hey now……”
+So you’ll listen to what Big Bro says.
+Damn it.
+Thanks to that, my anger completely cooled down.
+ I was feeling complicated.
+What Aoi was saying just now…… was true to some extent.
+I’m…… a child.
+Because I know that myself, I want to deny Aoi’s words but I can't.
+Big Bro’s existence makes me realize my own childishness, whether I like it or not.
+Damn it…… I’ll surpass him someday!
+Right now…… no, it might be impossible for the time being.
+But, someday……
+And, I’ll make Aoi acknowledge me too.
+Absolutely……
+As I glared at Big Bro, a fighting spirit welled up inside me. I firmly resolved to surpass him.
+Big Bro looked back at me with a puzzled expression.
 $Fuyuki
 “Akito, what are you doing?”
-Before I knew it, the school was right in front of us.
-Something about the atmosphere was serious.
+When I suddenly came to my senses, I saw the school in front of me.
+Somehow, it’s a serious atmosphere.
 I wonder what happened?
-I ran up close, but the two of them didn't notice me.
-It was hard to call out to them, so I found myself eavesdropping.
+I ran up close, but the two didn't notice me.
+It was hard to call out, so I ended up eavesdropping.
 $Aoi
-“...Lately, maybe it’s just my imagination, but Akito... he’s been acting strange.”
-I gasped.
+“……Lately, it might just be my imagination, but Akito’s behavior…… is strange.”
+I froze.
 $Aoi
-“I feel like... his usual attitude is subtly different... I can’t explain exactly how or where, but...”
+“Somehow…… I feel like his usual attitude is slightly different…… I can't explain exactly how, but……”
 $Aoi
-“Akito... he tries to act cheerful like usual... but we’ve been together so long, I can just feel it from the atmosphere...”
+“Akito…… is trying to act cheerful as usual…… But we've been together for a long time, so I can tell by the atmosphere……”
 $Aoi
-“And, you know... lately I’ve started thinking... that maybe I’m the cause of it...”
-I... couldn't take it anymore and ducked into a side street right in front of me.
-I leaned against a wall, hanging my head in defeat.
-She saw right through me...
-Even though I thought I was being careful.
-Even though Aoi shouldn't know anything about the circumstances.
+“And then…… lately I've been thinking that maybe…… I’m the cause of it……”
+I…… couldn't take it anymore and immediately ducked into a side street right in front of me.
+I leaned against a wall and hung my head in despair.
+She saw right through me……
+Even though I was supposed to be careful.
+Aoi wasn't supposed to know any of the details.
 I regretted my own inadequacy.
-About the organization...
-About the project...
-I’d been so careful to make sure Aoi never found out.
-Even though I’d resolved to protect Aoi while keeping everything hidden so she wouldn't be hurt.
-Maybe I was the one hurting her instead...
-But there was no choice. There was nothing else I could do.
-Still... why won't Aoi say anything to me directly?
+About the organization……
+About the project……
+Even though I was careful not to let Aoi know.
+Even though I resolved to protect Aoi while hiding everything, for the sake of not hurting her.
+On the contrary, was I hurting Aoi……?
+But, it can't be helped. There’s nothing else I can do.
+But…… why doesn't Aoi tell me directly.
 I asked myself, but the answer was obvious.
 Because Aoi relies on Big Bro more than me.
-Because Big Bro is more reliable.
-I felt a twinge of envy toward Big Bro.
-But it was a fact.
-As I am now, I can’t compete with Big Bro.
-I know that better than anyone.
-And knowing that is what hurts.
-I stood there in a daze for a while.
-In the end, I didn't chase after Aoi and the others.
-Because of that, I barely made it to school. I just managed to avoid being late.
+Because Big Bro is more dependable.
+I was a little envious of Big Bro.
+But, it’s a fact.
+The current me is no match for Big Bro.
+I know that better than anyone else.
+Because I know it, it’s painful.
+I stood there blankly for a while.
+In the end, I didn't catch up to Aoi and the others.
+Because of that, I arrived at school at the last minute. I barely avoided being late.
 $Akito
 “Wait a second!”
-I shouted that and scrambled back toward the house.
-I bombarded my mother with questions about the uniform, finally located it, and stuffed it into my bag.
-Then I immediately turned back.
+I shouted that and dashed back toward the house in a panic.
+I rattled off a demand to my mother for my uniform’s location, finally found it, and stuffed it into my bag.
+And then I immediately headed back.
 $Akito
-“Hah! Hah!”
-I ran at full speed, and Aoi and Big Bro were waiting for me at the same spot.
+“Haa! Haa!”
+As I ran at full speed, Aoi and Big Bro were properly waiting for me at the previous spot.
 $Akito
 “Sorry, sorry.”
 Catching up to them, I immediately urged them to start walking.
 $Akito
 “Whew, that was close.”
 $Aoi
-“Honestly, Akito, you’re such a klutz!”
-Aoi ran ahead of me and turned back with a mischievous, teasing smile.
-Usually she’d be insulting me, but I guess she really is in a good mood today.
-I walked alongside Big Bro and let out a snort.
+“Geez, really, Akito is such a scatterbrain!”
+Aoi trotted around in front of me and wore a mischievous smile as if teasing me.
+Normally she’d be berating me, but she really does seem to be in a good mood today.
+Walking side-by-side with Big Bro, I let out a snort.
 $Akito
-“Hey, if you walk while looking backward, you’re gonna trip.”
+“Hey, if you walk while looking backward, you’ll trip.”
 $Aoi
-“Heh, I’m not that clumsy... wait, eek!”
-As soon as she said it, Aoi tripped and stumbled.
-She managed to stay on her feet without falling.
+“Hehe~n, I won't make such a clumsy mistake…… wait, kyaah.”
+Just as I said it, Aoi stumbled and faltered.
+She barely managed to keep her footing without falling.
 $Akito
-“See that? My prophecies always come true!”
+“See that? My predictions always come true!”
 $Aoi
-“Which means what just happened is Akito’s fault. Take responsibility.”
+“That means what just happened was Akito’s fault. Take responsibility.”
 $Akito
-“Shut up! That’s passing the buck if I’ve ever seen it!”
+“Don't mess with me! That’s taking shifting the blame too far!”
 $Fuyuki
-“You two are so young. Truly energetic.”
+“You both are so young. Truly energetic.”
 $Akito
-“Big Bro, don't say it like you’re an old man. You’re being way too earnest.”
+“Big Bro, don't say it so solemnly. You sound way too much like you mean it.”
 $Fuyuki
-“I don't have the energy to be that high-spirited so early in the morning.”
-So, in Big Bro’s eyes, the back-and-forth between me and Aoi is just a loud ruckus.
-Dammit, I’m not doing this because I want to.
-It’s honestly exhausting every morning.
-Someone, please understand my struggle...
+“I don't have the energy to act that high-spirited from the morning.”
+As expected, in Big Bro’s eyes, the interaction between Aoi and me just looks like a silly commotion.
+Damn it, I’m not doing this because I want to.
+I’m really exhausted every morning.
+Someone, please understand this hardship……
 $Aoi
-“Don't get the wrong idea, Oniichan. I’m usually much more quiet. It’s because Akito’s an idiot that my voice ends up getting so loud when I’m angry.”
+“Don't misunderstand, Oniichan. I’m usually much more quiet. Because Akito is an idiot, my angry voice just ends up getting loud.”
 $Akito
-“You’re trying to blame me for that too?! And what do you mean, idiot!”
+“Are you trying to blame it on me! And what’s with calling me an idiot!”
 $Aoi
-“It’s a fact, isn't it?”
+“It’s a fact, isn't it.”
 $Akito
-“Hmph. I’m the one who’s going out of my way to keep you company. I’m the one being misunderstood here.”
+“Hmph. I’m just humoring you. I’m the one who’s being misunderstood.”
 $Aoi
-“What did you say! Say that again!”
+“What did you say! Try saying that again!”
 $Akito
-“Fine! I’ll say it as many times as you want!”
+“Yeah! I’ll say it as many times as you want!”
 $Fuyuki
-“Now, now, you two. If you keep shouting at each other like that, you’ll be a nuisance to the neighbors.”
-Looking around, the adults passing by were giving us cold looks.
-Dammit, talking to Aoi really throws me off my game.
-Big Bro was smiling warmly, yet his attitude was dignified.
-Even though he spoke gently, before we knew it, we’d been mysteriously calmed down.
-I guess that’s what it means to be mature.
+“Now, now, you two. If you shout at each other that loudly, it’ll be a nuisance to the neighbors.”
+Looking around, the adults passing by were giving us cold stares.
+Damn, whenever I talk to Aoi, I really lose my pace.
+Big Bro was smiling cheerfully, yet his attitude was dignified.
+Even though he uses gentle phrasing, before we know it, we’re mysteriously calmed down.
+So this is what it means to be mature.
 I’m such a brat.
-I always feel that way when I’m around Big Bro. Maybe it’s a complex.
+Whenever I’m in front of Big Bro, I always end up thinking that. It might be a complex.
 $Aoi
 “Sorry, Oniichan.”
-Aoi had become completely obedient. She’s submissive in front of Big Bro too.
-Tch, what’s with the difference?
+Aoi has become completely docile. This girl is also obedient in front of Big Bro.
+Tch, what’s with this difference.
 $Aoi
-“Being with Oniichan really is so calming.”
+“As expected, I feel calm when I’m with Oniichan.”
 $Akito
-“Whatever, I’m not mature like Big Bro anyway.”
+“I’m just not as mature as Big Bro anyway.”
 $Aoi
-“You’re right.”
+“That’s true.”
 $Akito
-“You admitted it so easily! You... no, never mind.”
-I don't want to be seen as a brat again.
-By who? Big Bro? Aoi?
+“You just acknowledged it so easily! You…… no, never mind.”
+I don't want to be thought of as a brat again.
+By whom? Big Bro? Aoi?
 $Aoi
-“Hey, from tomorrow on, let's all walk to school together like this. Like we used to.”
-...It’s true, a long time ago, the three of us went everywhere together.
-I wonder when it started. When Big Bro stopped coming with us.
+“Hey, from tomorrow onward, let’s all three go to school together like this. Like we used to.”
+……It’s true, a long time ago, the three of us went everywhere together.
+I wonder when it was. When Big Bro stopped being with us.
 $Aoi
-“Akito doesn't even have to come along.”
+“Akito doesn't have to be with us, though.”
 $Akito
-“I’m the one who doesn't want to go with you!”
-Hah, dammit. I did it again.
+“I’m the one who’s refusing!”
+Hah, no good. I did it again.
 $Fuyuki
-“Hmm. But I leave the house much earlier than you two.”
+“Hmm. But I leave the house earlier than you two, after all.”
 $Aoi
-“That’s because Akito is so slow.”
+“It’s because Akito is slow.”
 $Akito
-“Then just don't wait for me. I tell you every morning, don't go out of your way to wake me up.”
+“Then you don't have to wait, do you. I say it every morning, don't go out of your way to come wake me up.”
 $Aoi
-“If you keep saying things like that, I really won't go wake you up!”
+“If you say that, I really won't go wake you up!”
 $Akito
-“That’s what I’m telling you to do!”
+“That’s why I’m telling you to do that!”
 $Fuyuki
 “Now, now, you two. Calm down.”
-Big Bro stepped between me and Aoi at the perfect timing.
-As usual, he’s great at mediating.
-Maybe that’s because Aoi and I have been doing nothing but fighting since we were kids.
-Big Bro naturally took on the role of stopping us.
-Big Bro always accepted my selfishness. He just forgave me with a smile.
-I’ve never been able to stand up to Big Bro. That’s probably why I have this complex.
+Big Bro stepped in between Aoi and me at the perfect timing.
+As usual, he’s good at mediating.
+Maybe he became that way because Aoi and I have been doing nothing but fighting since way back.
+Inevitably, Big Bro took on the role of stopping it.
+Big Bro always accepted my selfishness. He just smiled cheerfully and forgave me.
+I’ve never been able to hold a candle to Big Bro since way back. That’s probably why I have a complex.
 $Aoi
-“But Oniichan, you leave so early every morning. You’re not even in a club, so why are you so early?”
+“But Oniichan, you leave early every morning, don't you. Even though you’re not in a club, why are you so early?”
 $Fuyuki
-“Well, various reasons. For a walk, maybe.”
+“Well, for various reasons. A stroll, perhaps.”
 $Akito
-“A walk?!”
-Why would you wake up early just to go for a walk in the morning?! I don't get it.
+“A stroll!?”
+Why would you wake up early just to go for a stroll first thing in the morning!? I can't understand it.
 $Aoi
-“Heh, that sounds just like Oniichan. A real free spirit.”
+“Heh, that’s just like Oniichan. You’re a wanderer.”
 $Fuyuki
-“You think so...?”
+“Is that so……?”
 $Aoi
-“I do.”
-Aoi let out a deep sigh. She glanced at me.
+“It is.”
+Aoi let out a deep sigh. She gave me a sideways glance.
 $Akito
-“W-What?”
+“W-What is it.”
 $Aoi
-“Oniichan is so composed. I wonder why Akito is such an idiot.”
+“Even though Oniichan is so composed. Why is Akito such an idiot?”
 $Akito
 “Are you making fun of me?”
 $Aoi
-“Yes. Because you are an idiot.”
+“I am. Because you’re an idiot, aren't you.”
 $Akito
-“Stop calling me... idiot.”
-I don't want Big Bro to treat me like a brat anymore.
-I have to show more restraint.
-Is Aoi intentionally trying to provoke me?
+“Don't…… call me an idiot.”
+I don't want to be treated like a brat by Big Bro any more than this.
+I have to exercise more self-restraint.
+Is Aoi intentionally provoking me?
 $Akito
-“Dammit.”
+“Damn it.”
 I turned my face away.
-Why do I get so fired up so easily?
+Why do I get fired up so easily?
 $Fuyuki
 “Akito.”
 Big Bro gently placed a hand on my shoulder.
 $Fuyuki
-“Your spirit is your best quality, isn't it?”
+“Being spirited is your strong point, isn't it.”
 $Akito
-“Hey. At least call it energy.”
+“Hey now. At least call it being energetic.”
 $Fuyuki
-“You could call it that, too. My point is, if Akito was as composed as me, it would actually be kind of creepy.”
+“You could call it that too. In other words, if Akito were as composed as I am, it would actually be creepy.”
 $Akito
 “Big Bro, is that supposed to be a compliment?”
 $Aoi
-“Pfft, it definitely would be creepy.”
+“Pfft, it certainly would be creepy.”
 $Akito
 “Aoi! Don't laugh!”
 $Aoi
-“But just imagining it... giggle.”
+“But, if I imagine it…… *giggles*”
 $Akito
 “I’d think it was creepy too!”
 $Fuyuki
-“Exactly, Akito. That spirit—that energy—is what makes you 'you'.”
+“That’s right, Akito. That spirit——that energy is what makes you you.”
 $Akito
-“Big Bro...”
+“Big Bro……”
 $Fuyuki
-“There’s no need to compare yourself to me. Everyone is different.”
+“There’s no need to try and compare yourself with me. People are all different, after all.”
 $Aoi
-“As expected of Oniichan, well said.”
+“As expected of Oniichan, he says good things.”
 $Akito
-“I... I knew that much!”
-Big Bro gave a slight smile.
-That’s it. Big Bro always says exactly the words that make me feel most at ease.
-And in the end, he smiles to reassure me.
-Man, I really can't compete.
+“I…… I know that much myself!”
+Big Bro smiled faintly.
+That’s right. Just like that, Big Bro says the words that make me feel most at ease.
+And finally, as if to reassure me, he shows a smile.
+Honestly, I’m no match for him.
 $Fuyuki
-“Besides...”
+“Besides……”
 Big Bro looked at Aoi and continued.
 $Fuyuki
-“Aoi-chan, you get energized thanks to the energetic Akito, don't you?”
+“Aoi-chan becomes energetic thanks to the energetic Akito, right?”
 $Aoi
-“...Eh?”
-Suddenly having the conversation turned on her, Aoi became flustered.
+“……Eh?”
+Suddenly being the subject of conversation, Aoi became flustered.
 $Aoi
-“N-No, that’s not it! Akito is just a massive nuisance... yeah, a nuisance. A total nuisance.”
+“T-That’s not true! Because of Akito I’m being greatly inconvenienced…… yeah, inconvenienced. Truly inconvenienced.”
 $Akito
-“Aoi! Why are you emphasizing that part so much!”
+“Aoi! Why are you emphasizing only that part!”
 $Fuyuki
-“Ahaha, Aoi-chan is just being shy.”
+“Ahaha, Aoi-chan is just being bashful.”
 $Aoi
-“O-Oniichan! I’m not being shy...!”
+“O-Oniichan! I’m not being bashful or anything……!”
 $Fuyuki
-“But when you’re talking to Akito, Aoi-chan, you look the most lively and happy. I’m actually envious of Akito.”
+“But, Aoi-chan looks most lively and happy when talking with Akito, after all. I’m actually envious of Akito.”
 $Akito
-“Man, I really can’t compete with you.”
+“Ku-haa, I’m seriously no match for him.”
 I looked up at the sky.
-Aoi was completely flustered by Big Bro’s words.
-Even Aoi is treated like a child in front of him.
-As for Big Bro, he’s smiling warmly as usual.
-He says the words that make you feel the most at ease.
-He makes you feel like it’s okay to not be able to compete with him.
-Seriously, he’s quite the older brother.
+At Big Bro’s words, Aoi was completely faltering.
+Even that Aoi is treated like a child in front of Big Bro.
+As for Big Bro himself, he was smiling as cheerfully as ever.
+He says the words that make one feel most at ease.
+I’m no match for him, but he makes me think that it’s okay.
+Truly, he’s an accomplished older brother.
 $Fuyuki
-“But even so, I think you’re both being a bit too loud. Akito, and Aoi-chan too.”
+“But well, even so, I feel like you both are a bit too noisy. Both Akito and Aoi-chan.”
 $Aoi
-“M-Me too?!”
+“M-Me too—!?”
 $Akito
-“See, Aoi? Are you that shocked? Serves you right.”
+“I see, Aoi. You’re that shocked. Serves you right.”
 $Aoi
-“Yeah, it’s a huge shock... To think Oniichan sees me on the same level as stupid Akito.”
+“Yeah, I’m really shocked…… to be seen on the same level as stupid Akito by Oniichan.”
 $Akito
-“Actually, you’re ranked lower than me, yeah.”
+“No, rather, you’re ranked lower than me, yeah.”
 $Aoi
-“Even if I give you a hundred yards, I’m still a step ahead of you.”
+“Oh, even if I were to concede a hundred steps, I’m still one step above.”
 $Akito
-“Hmph, if I give you a hundred yards, I’m still a hundred and one steps ahead.”
+“Hmph, if I were to concede a hundred steps, I’d be a hundred and one steps above.”
 $Aoi
-“What, you stupid Akito!”
+“What, stupid Akito!”
 $Akito
-“What did you say!”
+“What was that!”
 $Fuyuki
-“Basically, it’s six of one and half a dozen of the other. It’s actually admirable that you can get so fired up.”
+“In other words, you’re six of one and half a dozen of the other. Being able to get that fired up is worthy of respect.”
 $Akito
-“Big Bro! Stop with the calm analysis!”
-In the end, Aoi and I kept bickering all the way to school. Eventually, Big Bro gave up on mediating.
-Actually, to me, it looked like he was enjoying it.
-But having a loud ruckus with the three of us in the morning for the first time in a while... it made me remember when we were all still little.
+“Big Bro! Don't analyze us so calmly!”
+In the end, Aoi and I continued to argue all the way to school. Finally, even Big Bro gave up on mediating.
+No, rather, it looked to me like he was finding it amusing.
+But, having a silly commotion with the three of us since the morning for the first time in a while…… somehow, it reminded me of when the three of us were still small.
 It was a nostalgic feeling.
-For some reason, I felt good.
+Somehow, I felt good.
 $Aoi
-“Oniichan, you have a mysterious power, don't you?”
+“Oniichan has a mysterious power, doesn't he.”
 $Akito
-“Like a magic touch?”
+“Hand power?”
 $Aoi
 “Akito, that’s old.”
 $Akito
-“Is it...”
+“I see……”
 $Aoi
-“Of course—”
-Aoi poked my cheek with her index finger and gave a bashful smile.
+“Of course——”
+Aoi poked my cheek with her index finger and looked bashful.
 $Aoi
-“You have one too, Akito. A mysterious power, different from Oniichan’s.”
+“Akito has one too, a mysterious power that’s different from Oniichan’s.”
 $Akito
-“............”
-A wry smile slipped from my mouth.
+“…………”
+A wry smile leaked from my mouth in spite of myself.
 $Akito
-“Yeah. ...A magic touch!”
+“Yeah. ……It’s hand power!”
 $Aoi
-“Honestly. You idiot.”
-Aoi mimed punching me.
+“Geez. Idiot.”
+Aoi mimicked a punch toward me.

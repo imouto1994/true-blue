@@ -1,649 +1,649 @@
 --------------------
 04c09
 ********************
-■Ryuichi Episode 09~
-There's the matter of Aoi, but... what should I do?
+■ Ryuichi Episode 09~
+There's the matter with Aoi too, but... what should I do?
 [Choices]
-1. 　Take Sakurako up on her offer
-2. 　Hesitate for a bit
+1. Accept Sakurako's invitation
+2. Hesitate a bit
 $Akito
-“...Nn, mumble mumble.”
+“...Mmm, mumble mumble.”
 $Akito
 “............ What is it?”
-On a Sunday afternoon, I was enjoying a pleasant nap, bathed in the warm sunlight.
-That was when the chime of the front doorbell reached my ears.
+On a Sunday afternoon, I was having a pleasant nap while bathed in the warm sunlight.
+That was when the sound of the front doorbell reached my ears.
 $Akito
-“...Oh right, Dad and Mom... let alone my brother, they’re all out today.”
-Rubbing my sleepy eyes, I decided to head toward the front door.
+“...Come to think of it, Dad and Mom... and even my brother aren't home today.”
+Rubbing my sleepy eyes, I decided to head to the front door.
 $Sakurako
-“Helloooo~!”
+“Helloooo!”
 When I opened the door, Sakurako, the baseball club manager, was standing right there.
-It’s rare for Sakurako to come to my house......
+It’s rare for Sakurako to come to my house.........
 $Akito
-“Yo, what's up?”
-Sakurako offered a beaming smile.
+“Oh, what’s up?”
+Then Sakurako gave a bright, beaming smile.
 $Sakurako
-“Senpai. Won't you spend the day with me today?”
-Spend the day...... looks like an invitation for a date.
+“Senpai. Would you go out with me today?”
+Go out...... apparently, this was an invitation for a date.
 $Akito
-“Let’s see...... well, since you went through the trouble of coming all this way......”
-Sakurako started jumping up and down, looking absolutely delighted.
+“Well... yeah, since you went through the trouble of coming all the way here...”
+Sakurako was overjoyed, jumping up and down.
 $Akito
-“Ah, hahaha...... you seem pretty happy.”
+“Ah, ahaha... you sure look happy.”
 $Sakurako
 “Yes, very!”
-To me, as I offered a forced smile to hide my embarrassment, Sakurako suddenly threw her arms around me.
-As I hurriedly tried to pull back, Sakurako gave my cheek a quick, wet kiss.
+While I wore a forced smile to hide my embarrassment, Sakurako suddenly lunged at me.
+As I hurriedly tried to pull back, Sakurako planted a quick kiss on my cheek.
 $Akito
-“Whoa, whoa, just... just calm down for a second.”
-When I firmly gripped Sakurako’s shoulders, her movements came to a sudden halt.
-But her expression still looked incredibly happy.
-Well... I guess it doesn't feel too bad.
+“Whoa, whoa, j-just calm down for a second.”
+When I grabbed Sakurako’s shoulders firmly, her movements stopped instantly.
+But her expression looked somehow joyful.
+Well... it didn’t feel bad.
 $Akito
 “Now then... what should we do......”
 $Sakurako
-“I want to see Senpai’s room!”
+“I want to see Senpai's room!”
 $Akito
-“Eh......?”
-I was a bit taken aback.
-Why the hell would she suddenly say that...... as usual, she’s completely unpredictable.
-In the end, I gave in to Sakurako’s request and decided to lead her up to my room.
-——Tennis clubroom.
+“Eh...?”
+I was a bit bewildered.
+Why would she suddenly say that...... as always, she’s an unpredictable girl.
+In the end, I gave in to Sakurako's request and decided to guide her to my room.
+—Tennis Clubroom.
 $Aoi
-“Um, Senpai... about what you wanted to talk about......?”
-Though I tried to broach the subject, Saeki-senpai gave me no answer.
-This was just a bit ago.
-Since club was off today, I’d been planning to just lounge around at home for the first time in a while, when Senpai suddenly showed up at my front door.
-While I was standing there with my eyes wide as saucers, thinking "how rare," the first thing out of Senpai’s mouth was......
+“Um, Senpai... what did you want to talk about......?”
+Even though I tried to start the conversation, Saeki-senpai gave no answer.
+This was from just a moment ago.
+The club was off, and I was just thinking about lounging around at home for the first time in a while when Senpai suddenly visited my house.
+While I was wide-eyed with surprise that he’d actually come, Senpai’s first words were......
 $Ryuichi
-“Won't you... spend some time with me today? I have something important...... to tell you.”
-Having said only that, Senpai turned his back and started walking.
-I couldn't exactly just ignore him, so I ended up following after him.
-I mean, if someone says it’s important...... right?
+“Won’t you spend time with me today? There's something important... I need to talk about.”
+Having said only that, Senpai turned his back and began walking.
+I couldn't exactly ignore him, so for now I followed after him.
+When someone says it’s important talk...... well.
 The place Senpai headed for was Mikage Academy.
-Senpai stepped inside the academy grounds without a moment's hesitation.
-Thinking "I wonder if it’s okay to just barge in like this," I followed behind him.
-And the place we ended up was the familiar tennis clubroom.
-During the whole walk, Senpai hadn't spoken a single word to me.
-Since he was usually constantly talking to me, it felt strangely off.
-I stood there by the entrance of the clubroom, feeling completely bewildered.
+Senpai entered the school grounds without a moment's hesitation.
+While thinking "I wonder if it's okay to just barge in," I followed behind him.
+And the place we arrived at was the familiar tennis clubroom.
+During that whole time, Senpai didn't say a single word to me.
+Since he’s usually constantly talking to me, it felt strangely off.
+I stood there at the entrance of the clubroom, completely bewildered.
 $Aoi
-“(Honestly...... I’m an idiot for following him without a second thought, but Senpai is just as bad for not saying anything......)”
+“(Honestly...... I'm something else for just following him without thinking, but Senpai is really something for not saying anything at all......)”
 Senpai remained silent, sitting in a chair facing me.
-And then...... finally, he opened his heavy lips.
+And then...... finally, he opened those heavy lips of his.
 $Ryuichi
-“Aoi-kun.... I believe you already understand my feelings, but......”
-Suddenly being told that, I felt the palms of my clenched hands grow damp with sweat.
-Certainly, Senpai and I have grown rapidly closer lately.
-But I still find it hard to say that my own feelings are truly directed toward him.
-Because...... I’ve been through so many extreme experiences that can hardly be called normal romance......
+“Aoi-kun.... I think you already understand my feelings, but......”
+Suddenly being told that, sweat began to bead in my clenched hands.
+It's true that Senpai and I have grown rapidly closer recently.
+However, it’s still hard to say that my own heart has turned toward him.
+Because...... I’ve been through nothing but extreme experiences that are hard to call normal romance......
 I’m aware of that.
-I’m aware, yet...... my body is already craving Senpai’s caresses.
+I’m aware, and yet...... my body has begun to crave Senpai’s caresses.
 And today, once again......
 $Aoi
-“(Why is this happening...... just being stared at by Saeki-senpai makes my heart ache...... and makes me feel so restless down there.)”
-I find it hard to believe myself...... but this is who I am now.
-This is the reality.
-I’m being made to do things that are deathly embarrassing by Senpai.
-And yet, I desire it. I crave it.
-I wonder what kind of shameful things he’ll teach me today?
+“(I wonder why...... just being stared at by Saeki-senpai makes my heart ache...... and makes my lower body start to throb.)”
+It’s hard even for me to believe...... but this is the current me.
+This is reality.
+I’m being subjected to things by Senpai that are embarrassingly shameful.
+But I desire it. I seek it out.
+Today, I wonder what kind of shameful thing he’ll teach me?
 What can I do to make Senpai feel good?
-And how can I feel even more pleasure myself?
-Despite my heart telling me this is wrong, my body is seeking ecstasy——.
-I think I might have gone a little crazy.
-To no one——
-I can't tell anyone, but——
-Lately, all I can think about is being made to come by Senpai.
-During class, I’ll suddenly remember him...... and when no one is looking, I’ve even reached a hand under my skirt.
-Remembering the way Senpai moves his fingers, I’ll stimulate my clitoris through my panties with a mechanical pencil.
-Even if someone caught me......... I’d probably keep moving the pen until I came.
-And then, after I finish, I think to myself:
-*I want to be made to come by Senpai’s real fingers......*
-I really have lost it......
-This is all so wrong.
-I know that. I know, and yet......
-My...... my body is craving Senpai............
+And what can I do to feel even more pleasure?
+Contrary to my heart telling me this is wrong, my body is seeking out the ecstasy—.
+I might have already gone crazy.
+To no one—
+I can't tell anyone, but—
+Lately, all I think about is being made to come by Senpai.
+During class, I’ll suddenly remember Senpai...... and without letting anyone see, I’ll sneak my hand into my skirt.
+While remembering the movement of Senpai’s fingers, I use a mechanical pencil to stimulate my clitoris through my panties.
+Even if I were caught......... I’d probably keep moving the pen until I came.
+And after I finish, I find myself thinking.
+That I want to be made to come by the real Senpai’s fingers......
+I'm truly losing it......
+This is so wrong.
+I know that. I know, but......
+My...... my body is calling out for Senpai.........
 $Ryuichi
 “Fufu...... Aoi-kun.”
-Senpai stood up from his chair and, with his usual gentle smile, walked over to where I was standing.
-Just imagining what was about to happen made my cheeks flush red naturally, and my body began to shake with anticipation.
-Then, he rested a hand gently on my shoulder and pulled me into an embrace.
-Ah...... it’s beginning again today............
+Senpai stood up smoothly from his chair and, with his usual gentle smile, walked over to me.
+When I imagine what’s about to happen, my cheeks naturally flush, and my body shivers with anticipation.
+Then he gently places his hands on my shoulders and pulls me into an embrace.
+Ah...... it’s beginning again today.........
 Just like that, I sat down on the bench with Senpai.
 $Aoi
-“Se-Senpai... wait, pleas......”
-Senpai’s mouth smothered mine, as if to swallow the words I was about to say.
+“S-Senpai... wait a......”
+Senpai’s mouth blocked mine, as if swallowing my unfinished words.
 $Aoi
-“Nn......”
-Senpai’s slimy tongue tangled with mine like a serpent.
-A kiss from Senpai that felt like it would melt me......
-As his tongue crawled around inside, I felt myself growing more and more lewd......
-Already, my panties were growing damp with the juices seeping from my secret place.
+“Mnn......”
+Senpai’s viscous tongue entwined with mine like a snake.
+Senpai’s melting kiss......
+As his tongue crawls around, I feel more and more obscene......
+Already, my panties are damp with the love juices seeping from my private place.
 $Aoi
-“(Ah, god... today too, with Saeki-senpai......)”
-——Akito's room.
+“(Ah, I... today again with Saeki-senpai......)”
+—Akito’s Room.
 $Akito
-“Ah, hey look...”
+“Ah, hey...”
 $Sakurako
-“What is it, Senpai?”
+“What is it? Senpai.”
 $Akito
-“......Would you mind moving?”
+“...Could you move over?”
 $Sakurako
-“But it’s easier to talk this way.”
+“But it's easier to talk this way.”
 $Akito
-“No...... that's not really the point.”
+“No...... that's not the point.”
 $Sakurako
 “?”
-Right now, Sakurako has me in a mount position.
-Usually, a mount means sitting on someone’s stomach, but with Sakurako, it was a bit different.
-She wasn't on my stomach; she was sitting right on top of my groin.
+Right now, Sakurako has taken the mount position on me.
+Usually, a mount means sitting on the stomach, but in Sakurako’s case, it was a bit different.
+Sakurako wasn't on my stomach; she was sitting right on top of my groin.
 The so-called...... cowgirl position.
-It’s shameful, but if I let my guard down for even a second, I feel like I’m gonna get a full-blown erection.
-I desperately tried to think of something else.
-But the more I tried to distract myself, the more I couldn't help but be aware of Sakurako sitting right on my junk.
-Gradually, it felt like I could feel the heat radiating from Sakurako’s secret place.
-I started to feel a surge of panic.
-Then, as if she knew exactly how I was feeling, Sakurako began to slowly move her hips.
-It was as if she were using her secret place to rub against my member......
+It’s inappropriate, but if I let my guard down for a second, my thing is going to get erect.
+I desperately try to think of something else.
+But the more I try to distract myself, the more I can't help but be aware of Sakurako on top of my groin.
+Slowly, it feels like heat is being transmitted from Sakurako's private place.
+I started to feel a sense of panic.
+Then Sakurako, as if she knew exactly what I was feeling, began to move her hips slowly.
+It was as if Sakurako were rubbing my thing with her private place......
 $Akito
-“H-hey! What the hell do you think you’re doing?!”
+“H-Hey! What do you think you're doing!”
 $Sakurako
-“What am I doing~? Isn't it obvious? We’re going to have sex, of course!”
+“What do I think I'm doing~? Well, something erotic, obviously~!”
 $Akito
-“L-look, you’d better stop with the jokes before things get out of hand...”
+“H-Hey, you’d better stop joking around or...”
 $Sakurako
-“Kyaha! Senpai, you are so~ cute!”
-No sooner were the words out than Sakurako threw herself onto me and sealed my lips with hers.
-Caught completely off guard, I easily allowed Sakurako’s tongue to invade my mouth.
-Her tongue sought out mine, wriggling and licking all around inside.
-While we kissed, she ground her groin relentlessly against my member.
+“Kyaha! Senpai, you're so~ cute!”
+No sooner had she spoken than Sakurako lunged over me in a hug and blocked my lips.
+Caught off guard, I easily allowed Sakurako’s tongue to invade.
+Sakurako’s tongue sought mine out, wriggling around in my mouth.
+While we kissed, Sakurako ground her groin against my business.
 $Akito
 “(I... I can't take it anymore......)”
-I’d reached my limit. My member finally achieved a rock-hard erection.
+I reached my limit. My thing finally became erect.
 $Sakurako
-“Fufufufu......♪”
-Sakurako pulled her lips away and let out a happy giggle.
-Then, for some reason, she began to unzip my pants.
+“Fufufu......♪”
+Sakurako pulled her lips away and let out a joyful laugh.
+Then, for whatever reason, she began to lower my zipper.
 $Akito
-“Wha! Hey, stop it!”
+“Wha! H-Hey, stop it!”
 $Sakurako
-“Kyaha! Look how big it’s gotten.”
-Sakurako pulled my member out of my pants and gripped it firmly.
+“Kyaha! Look how big it's gotten.”
+Sakurako took my thing out of my trousers and gripped it tight.
 $Akito
 “Whoa!”
 $Sakurako
-“Hehe, well then... time to dig in!”
-Without a moment’s hesitation, Sakurako took my member into her mouth.
-Just like that, she began to move her face up and down while tangling her tongue around it.
+“Fufu, well then... time to dig in!”
+Without a moment's hesitation, Sakurako took my thing into her mouth with a pop.
+Just like that, Sakurako moved her face up and down while entwining her tongue.
 $Akito
-“Uwoooooh!?”
-Washed over by the sudden pleasure and Sakurako’s outrageous actions, I completely forgot to even try and resist.
+“Uoooooh!?”
+Between the surging pleasure and Sakurako's outrageous behavior, I completely forgot to resist.
 $Sakurako
-"*Suck, slurp, lick, lap, squelch, pop, squish, squish...*"
-With loud, deliberate, wet noises, Sakurako began to rhythmically suck on my penis.
-She toyed with the head with her tongue, sucking hard.
-While she vigorously stroked the shaft with her right hand, she used her left to knead and squeeze my testicles.
-Aside from those lewd noises, the only other sounds were Sakurako’s occasional breathy gasps and my own ragged breathing......
+“Mgu-ngu-uku-ub-chpu-pcha-chb-chu-bpu-chu-pchu-pchu......”
+With a deliberate, loud squelching sound, Sakurako rhythmically suckled on my penis.
+She toyed with the glans with her tongue, sucking hard.
+While stroking the shaft hard with her right hand, she kneaded my balls with her left.
+Aside from those obscene sounds, the only things I could hear were Sakurako’s occasional moans and my own excited breathing......
 $Akito
-“Haa, hah...... ahhh.”
-An intense urge to ejaculate washed over me.
-It felt like my seed was about to burst out at any second.
+“Haah, haah...... aaaah.”
+The urge to ejaculate suddenly surged.
+It felt like my semen was about to burst forth at any second.
 $Akito
-“Ah, ah, ah...... uwaaaah!”
-In the next instant, my member gave a massive, violent shudder.
-At the same time, a hot fluid shot out from the tip of the head!
+“Ah, ah, ah...... uwaaa-ah!”
+The next instant, my thing gave a large, violent convulsion.
+At the same time, hot liquid burst from the tip of the glans!
 $Sakurako
-“Nn, nnnnnnn!”
-I finally ended up firing my seed right into Sakurako’s mouth.
-She knit her brows slightly, but she caught every single drop without letting anything spill.
+“Mnn, mnnnn—!”
+I finally fired my semen into Sakurako's mouth.
+Sakurako frowned slightly, but she took every single drop without spilling any.
 $Sakurako
-“............ *gulp*. ...Ehehe... it’s yummy.”
-Without a trace of disgust, Sakurako swallowed my semen in one go.
-I was stunned by the sight, but Sakurako just wore an innocent smile.
+“............ *Gulp*. ...Ehehe... it's tasty.”
+Without a single look of disgust, Sakurako swallowed all of my semen in one go.
+I was shocked by the sight, but Sakurako herself just wore an innocent smile.
 $Akito
 “A-Are you okay......?”
 $Sakurako
-“I’m perfectly fine, tee-hee. ...Now then, it’s your turn to make me feel good.”
-Saying that, Sakurako began to undress herself.
+“I’m perfectly fine, tee-hee. ...Well then, next it's my turn to be made to feel good.”
+Saying that, Sakurako began to undress on her own.
 $Akito
-“H-hey......”
-Sakurako smothered my words with another kiss.
-Her hand was still gripping my member.
-I......... rested my hand against Sakurako’s small yet firm breasts.
+“H-Hey......”
+Sakurako blocked my mouth again, as if to swallow my words.
+Her hand was still gripping my business.
+I......... placed my hand on Sakurako's small but elastic breast.
 $Sakurako
 “Ahn......”
-The second my finger touched her nipple, Sakurako let out a small gasp.
-I hesitated and almost stopped, but Sakurako wrapped her arms around my shoulders and began to whisper through hot, panted breaths.
+The moment my finger touched her nipple, Sakurako let out a small moan.
+I hesitated and almost stopped my hand, but Sakurako wrapped her arms around my shoulders and began to spin words while letting out hot sighs.
 $Sakurako
-“Please keep going...... make me come......”
-At those words, my member, which had started to go limp, stiffened right back up.
-Sakurako pressed the penis against her secret place and began to rub and grind her hips against it.
+“Please, keep going...... make me come......”
+At those words, my softened thing stood erect once more.
+Sakurako pressed that penis against her private place and began to squirm her hips, rubbing against it.
 $Akito
-“Ahhhhhhh......”
+“Aaaaaah......”
 $Sakurako
-“Senpai, it’s so hot down there...... hey, touch me.”
-I began to rub Sakurako’s clitoris with the tip of my middle finger.
+“Senpai, it’s getting so hot down there...... hey, touch me.”
+I used the tip of my middle index finger to rub Sakurako’s clitoris.
 $Sakurako
-“Ahhhnnn!”
-Sakurako began to rub my penis against her secret place again, which was now slimy and wet with her own juices.
-......Squelch, slide, thrust!
+“Aaaahn!!”
+Sakurako once again rubbed my penis against her private place, which had become slippery with love juices.
+......*Squelch*!!!
 $Sakurako
-“Nn! Nn-uaaaaa-uuu!!”
-The head of my penis dove deep into Sakurako’s vagina.
-And just like that, Sakurako slowly began to sink her hips down onto me......
-——Tennis clubroom.
+“Mnn! N-uaaaaaa-uuu!!”
+My glans dove into Sakurako's vagina.
+And just like that, Sakurako slowly lowered her hips......
+—Tennis Clubroom.
 $Ryuichi
-“Let's try licking each other. It will feel wonderful.”
+“Let's try licking each other. It feels wonderful, you know.”
 $Aoi
-“Y-yes......”
-In the next instant, Senpai’s tongue entered my secret place.
+“Y... Yes......”
+The next instant, Senpai’s tongue entered my private place.
 $Aoi
-“Ngh!”
-Taking that as my signal, I took Senpai’s penis into my mouth.
-Inside my mouth, Senpai’s member grew larger and larger.
-I began to suck on it with loud, wet sounds.
+“Kun!”
+Taking that as a signal, I took Senpai’s penis into my mouth.
+Inside my mouth, Senpai’s penis grew larger and larger.
+I suckled on it with a wet sound.
 $Ryuichi
-“Yes. ......It feels so very good.”
-His tongue began to crawl all over my clitoris.
-A pleasure like an electric shock raced through my entire body.
-A cry spilled from my lips naturally......
+“That's it. ...It feels very good.”
+His tongue crawled across my clitoris.
+A pleasure like an electric current raced through my body.
+My voice overflowed naturally......
 $Aoi
-“Nn... nn... nn... n-ah, fwaaaaahn...!”
-In that instant, my mind went completely white.
+“Mnn... mnn... mnn... mnn-ah, fuaaaa-nn...!”
+In that instant, my head went completely white.
 $Aoi
-“Ahn... ahn... haa... right there, it feels... so good......”
-My secret place was being traced by Senpai’s tongue.
-My attention was so taken by the movement of his tongue that I forgot to keep giving him a blowjob.
+“Ahn... ahn... hah... right there, it feels... so good......”
+My private place was being traced by Senpai’s tongue.
+Distracted by the movement of his tongue, I forgot to continue the fellatio.
 $Ryuichi
-“Aoi-kun...... you’ve stopped using your mouth.”
+“Aoi-kun... your mouth is falling behind.”
 I hurriedly took Senpai’s penis back into my mouth.
 $Aoi
-"*Suck, slurp, lick, lap, squelch, pop, squish, squish...*"
-I began to stimulate the shaft, hungrily devouring him.
-Believing that if I served Senpai, he would give me even more pleasure in return......
-Just as I’d hoped, Senpai began to focus his efforts on my clitoris, my most sensitive spot.
-He flicked it with his tongue, then gave it a sharp, sucking kiss.
+“Mgu-ngu-ubu-chpu-pcha-chb-chu-bpu-chu-pchu-pchu......”
+And as if devouring it, I began to stimulate the shaft.
+Believing that if I served Senpai, he would give me even more pleasure......
+Just as I’d hoped, Senpai began to focus his assault on my clitoris, my most sensitive spot.
+He flicked it with his tongue and then suckled hard with a pop.
 $Aoi
-“Nnnnnnnn!”
-I increased my own speed even more.
+“Mnnnnnn—!”
+I increased the speed even more.
 $Ryuichi
-“Ah...... that’s incredible. Aoi-kun, h-hold on, stop for a second.”
+“Ah... that’s incredible. Aoi-kun, h-hey, wait a second.”
 $Aoi
-“Nngh?”
-Being stopped just as I was about to come made me knit my brows in frustration.
+“Mnn?”
+Being stopped just as I was about to come, I instinctively frowned.
 $Ryuichi
 “...Do you want to feel even better?”
-While we were still in the 69 position, Senpai asked me that.
-I nodded without a moment’s hesitation.
+While still in the 69 position, Senpai questioned me.
+I nodded to that question without a moment's hesitation.
 $Ryuichi
-“I see... then, finally......”
+“I see... well then, finally......”
 $Aoi
-“Ahhh...... it’s so embarrassing......”
-I felt a bit anxious, but I couldn't bring myself to refuse.
-Senpai spoke to me with a gentle smile.
+“Aaaaah...... it’s so embarrassing......”
+I felt a bit of anxiety, but I simply couldn't refuse.
+Senpai spoke to me with a gentle laugh.
 $Ryuichi
-“...Aoi-kun...... you are so wet...... I simply cannot hold back any longer.”
-While stroking his own vein-pulsing penis, he began to rub the head against my secret place, over and over.
-As my sensitive spots were stimulated, I felt better and better.
-Even then, I was still hesitating.
+“...Aoi-kun... you’re so wet...... I can't contain myself anymore.”
+While stroking his own vein-pulsing penis, he began to rub the glans against my private place with small, rhythmic taps.
+Having my sensitive spot stimulated, I gradually started to feel better.
+Even so, I was still hesitating.
 $Aoi
-“(I’m not afraid of having sex...... but, but, here... with Saeki-senpai......?)”
-But that hesitation grew smaller and smaller under the stimulation of his penis, until it finally vanished.
+“(It’s not that I’m afraid of sex...... but, but, in this place... with Saeki-senpai......?)”
+But as I continued to be stimulated by Senpai’s penis, that hesitation grew smaller and smaller until it vanished.
 $Aoi
-“I... I want to feel even better too... please, make me come......”
+“I want to... feel even better too... I want you to make me come......”
 $Ryuichi
-“Fufu, very well then. I shall grant your wish.”
-Senpai began to slowly bury his penis inside my secret place.
-A wet, sliding sound reached my ears.
+“Fufu, well then, I shall... grant that wish.”
+Senpai began to bury his penis into my private place bit by bit.
+The sound of a squelch reached my ears.
 With only the tip inside, Senpai stopped his hips.
 $Ryuichi
-“Ah, Aoi-kun. Look, only the head has slipped inside......”
-"No, stop!" My last shred of reason screamed in my head.
+“Ah, Aoi-kun. Look, only the head has entered......”
+"Not that!" My final shred of reason raced through my head.
 But it was too late.
-Senpai’s penis was inside me.........
+Senpai’s penis was inside my pussy.........
 $Aoi
-“Eh!? Ah, no......! Ahn, it’s going in...... Senpai’s is inside me... nooooo......!”
+“Eh!? Ah, no......!! Yan, it’s entering...... Senpai’s is inside me... noooooo......!”
 $Ryuichi
-“Fufufu, you say that, but this place seems quite satisfied. Now then......”
-Senpai began to move his hips while keeping that position.
-Deliberately teasing me by not going all the way to the base yet......
-——Akito's room.
-Squelch, squelch, slosh, squirt!
+“Fufufu, even if you say that, this part of you looks satisfied. Well then......”
+Senpai began to move his hips while staying in that position.
+Without yet entering all the way to the base... as if to tease me......
+—Akito’s Room.
+*Gchu, gchu, gchu-gchu!*
 $Sakurako
-“Haa, haa, haa, haa......!”
+“Haah-haah-haah-haah......!”
 $Akito
-“Haa, haa, haa, haa...!”
-My room was filled with even more obscene sounds than the ones from the blowjob earlier.
-The sound of the inserted penis and Sakurako’s secret place rubbing together.
-And yet... despite it happening right before my eyes... despite experiencing it myself... it somehow didn't feel real......
+“Haah-haah-haah-haah...!”
+My room was now filled with sounds even more obscene than the fellatio from earlier.
+It was the sound of the inserted penis and Sakurako’s private place rubbing together.
+But... even though it was happening right before my eyes...... even though I was the one experiencing it...... for some reason, it didn't feel real......
 How should I put it...... it felt like something happening in a world far away, or like an event in a dream.
 $Sakurako
 “Ahn, aahn!”
-But Sakurako’s gasps reached my ears.
-This was undeniably real.
-Before I knew it, I was thrusting my hips upward to find my own pleasure!
+But Sakurako’s moans reached my ears.
+This was undeniably reality.
+Before I knew it, seeking pleasure myself, I thrust my body up toward Sakurako!
 $Sakurako
-“Ahhhhhhhnnn!!”
-Perhaps not expecting the movement, Sakurako bounced up on my stomach.
-She began to move her hips in rhythm with mine.
-When our movements perfectly aligned, Sakurako’s body began to bounce powerfully on my bed.
+“Aaaaaahn!!”
+Perhaps not expecting the movement of my hips, Sakurako bounced up as if being toyed with on top of my stomach.
+Sakurako also began to move in time with the rhythm of my swaying hips.
+When our movements synced perfectly, Sakurako’s body bounced vigorously on top of my bed.
 $Akito
-“Uwoh, this feels incredible......”
+“Whoa, this feels incredibly good......”
 $Sakurako
-“Aahn, you’re so intense~. It’s so good...... Senpai, your thing feels wonderful!”
+“Aahn, it's so intense~. It's so good...... Senpai's is so good!”
 Sakurako wore a bewitching, alluring smile unlike anything I’d ever seen from her.
-Then, she began to move her body with even shorter, faster strokes, squeezing my member tightly with her secret place.
+Then Sakurako began to move her body even faster and more finely, squeezing my business tight with her private place.
 $Akito
-“Whoa, I’m gonna cum, I’m cumming!!!”
+“Whoa, I'm coming, I'm cominggggg!!!”
 $Sakurako
-“You’re gonna go?! Come on, give me everything!!”
-Finally reaching my limit, I forgot to even pull out and discharged my seed directly into Sakurako’s vagina.
+“Are you going to come!? Come on, come on, spray it all inside me!!”
+Finally reaching my limit, forgetting even to pull my penis out, I fired my semen directly into Sakurako's vagina.
 $Akito
-“Whoa, crap! Sorry, Sakurako!”
-I hurriedly apologized, but Sakurako just gave an innocent laugh.
+“Whoa, whoa, crap! Sorry, Sakurako!”
+I hurriedly apologized, but Sakurako only gave an innocent laugh.
 $Sakurako
-“Hehe, it’s fine. I love you, Senpai!”
-Saying that, she leaned down and kissed me while our secret places were still joined.
+“Hehe, I don’t mind. Because I love you, Senpai!”
+Saying that, Sakurako leaned in to kiss my lips while our private parts were still connected.
 $Akito
-“(Forgive me... Aoi......)”
+“(I’m sorry... Aoi......)”
 Inside my fading consciousness, I kept apologizing to Aoi......
-——Tennis clubroom.
-Squelch, squelch, grind......
+—Tennis Clubroom.
+*Kchu, kchu-kchu......*
 $Aoi
-“Ahn, ahn-ahn... no, stop... stop it......”
-Only the head of Senpai’s penis was inside my secret place.
-I almost wanted to accept all of it, but when it came down to it, my body still resisted.
+“Ahn, ahn-ahn... no, stop...... stop it......”
+Inside my pussy, only the head of Senpai’s penis remained.
+I almost wanted to accept the whole thing, but at the last second, my body refused.
 $Ryuichi
-“I want to pierce you all the way to the back, Aoi-kun...... to be unable to do so...... it is painful for me.”
+“I want to impale you to your very depths, Aoi-kun...... but since I can't, it’s so painful.”
 $Aoi
 “Even if you say that... aahn!”
-My secret place simply wouldn't allow Senpai’s penis to enter any further.
-Unconsciously, I suppose I was still terrified of crossing that final line.
+My pussy simply wouldn't welcome Senpai’s penis inside.
+Maybe I was still unconsciously afraid of crossing that final line.
 $Aoi
-“Haa, haa, haa...... ah, no... aaahn!”
-I feebly rested my hands on Senpai’s hips, trying to stop him from going any deeper, but it was hardly any resistance at all.
-If Senpai really wanted to, he could have easily thrust all the way inside.
-But why didn't he?
-Though I wondered, I felt a surge of gratitude toward him in my heart.
+“Haah-haah-haah...... ah, no... aahn!”
+I weakly placed my hand on Senpai’s to prevent his penis from entering any further, but there was no way that counted as resistance.
+If Senpai were to thrust his hips hard now, he’d impale me in no time.
+But why did he stop there?
+While wondering, I felt grateful to Senpai in my heart.
 $Aoi
-“(He... he understands my feelings. He’s being careful with me.)”
-Senpai began to move his hips in short, rapid strokes while stimulating my clitoris with his finger.
+“(He understands my feelings...... he’s treasureing me.)”
+While stimulating my clitoris with his finger, Senpai began to move his hips in short, rapid strokes.
 $Aoi
-“Ah, ah, aaaaaaaaaahhhhhh!!!”
-I couldn't take the sensation anymore, and...... I came.
-My body shook with violent tremors, and then a wave of lethargy washed over me.
-A pleasant lethargy...... and it still felt so good down there......
-Senpai then grabbed my thighs and sandwiched his penis between them, moving back and forth.
+“Ah, ah, aaaaaaaaahhhhh!!!”
+Unable to take the sensation, I...... came.
+My body shivered and twitched violently, followed by a wave of lethargy.
+A comfortable lethargy...... my pussy still feels so good......
+Just as I was, Senpai grabbed my thighs and sandwiched his penis between them, moving back and forth.
 $Ryuichi
-“Ngh......!”
-Senpai began to rub his penis violently against my secret place!
+“Tch......!”
+Senpai rubbed his penis violently against my private place!
 And then!
 $Ryuichi
-“Uaaaaah!!”
-A white semen shot powerfully from the tip of his penis.
+“Uwaaa-ah!!”
+White semen burst forth from the tip of the glans with great force.
 $Aoi
-“Ah! ......Ah... aah... it’s so warm on my stomach...... nnn-ah...... haa... haa... haa......”
-Senpai’s semen rained down over my stomach.
-For a second I felt the warm sensation on my belly, but it quickly grew cold.
+“Ah! ......Ah...... aah...... it’s so warm on my stomach...... mnn-ah...... haah... haah... haah......”
+Senpai’s semen poured onto my stomach in abundance.
+For a moment I felt a lukewarm sensation on my belly, which quickly grew cold.
 $Aoi
-“Haa... haa... haa...... Senpai’s...... so much......”
-Gasping for breath, I stared blankly at the semen on my stomach......
+“Haah-haah-haah...... Senpai...... there’s so...... much......”
+While breathing heavily, I blankly stared at the semen that had been released on my stomach......
 $Aoi
-“......I’m sorry.”
+“...I’m sorry.”
 $Ryuichi
-“......Why are you apologizing?”
+“...Why are you apologizing?”
 $Aoi
-“Because...... you really wanted to do it properly with me, didn't you, Senpai? But......”
-Senpai gave a gentle laugh and stroked my head.
+“Because...... Senpai, you actually wanted to do it properly with me, didn't you? And yet......”
+Senpai smiled gently and stroked my head.
 $Ryuichi
-“Hahaha, that is true. ......But your feelings come first, Aoi-kun.”
-I turned red all the way to my ears and hung my head, unable to say a word.
+“Hahaha, that's true. ...But Aoi-kun's feelings come first, you see.”
+My face turned bright red all the way to my ears, and I could only look down in silence.
 $Ryuichi
-“Next time...... we shall make you feel good all the way to the end.”
+“There will be another time...... next time we can go all the way to the end.”
 Saying that, Senpai kissed me.
-Even after the kiss was over, I could only stare blankly at him......
-After that, Senpai drove me all the way home.
-We walked the path with his arm around my shoulder.
-The whole way back, I leaned all my weight against him......
+Even after the kiss, I just continued to stare blankly at Senpai......
+After that, Senpai walked me home.
+We walked the path home while he held me by the shoulder.
+During the walk, I leaned my entire weight against Senpai the whole time......
 $Aoi
-“....................”
-We arrived near Akito’s house.
+“………………”
+We arrived near Akito's house.
 $Aoi
 “Ah......”
-It was Akito and...... Sakurako-chan?
-The moment I saw them, my eyes met Akito’s.
-I reflexively looked away from him.
-At the same time, Akito looked away from me too.
+Akito and...... Sakurako-chan?
+The moment I spotted them, my eyes met Akito's.
+I instinctively looked away from Akito.
+At the same time, Akito also looked away from me.
 Why......?
 $Ryuichi
-“Hm? Is that Sakurako-kun?”
+“Hm? If it isn't Sakurako-kun.”
 $Sakurako
 “Ah, Saeki-senpai!”
-In the end, I didn't say a single word to Akito......
+In the end, I wasn't able to exchange a single word with Akito......
 $Aoi
 “Senpai, thank you for today.”
-Senpai gave my cheek a light kiss before we parted.
+As we parted, Senpai gave me a light kiss on the cheek.
 $Ryuichi
-“......See you.”
-I watched him until he was out of sight.
-My heart was still pounding in my chest......
+“...See ya.”
+I watched Senpai until his figure was out of sight.
+While feeling a distinct pounding in my chest......
 $Akito
-“Hmm, but still......”
-Despite everything, I couldn't get Aoi out of my head.
-That’s why I couldn't give Sakurako an immediate answer.
-Oblivious to my feelings, Sakurako kept pulling my arm and making a fuss.
+“Ugh, but still......”
+Despite everything, I couldn't help but be concerned about Aoi.
+That's why I couldn't immediately answer Sakurako's question.
+Oblivious to my feelings, Sakurako was making a fuss, pulling on my arm.
 $Sakurako
-“Come on, Senpai. Let’s go somewhere~”
+“Hey~, Senpai. Let’s go somewhere~”
 If we stayed like this, we’d be a nuisance to the neighbors.
-I reluctantly led Sakurako up to my room.
+Reluctantly, I guided Sakurako to my room.
 $Sakurako
-“Whoa, so this is Senpai’s room. It’s my first time in here......”
+“He~h, so this is Senpai's room. It's my first time seeing it......”
 $Akito
 “Yeah......”
-I have to think of a way to get out of this situation......
+I have to think of a way to break out of this situation......
 $Sakurako
-“Heeey, Senpaaaaai......”
-For some reason, Sakurako tried to climb on top of me as I sat there.
-And her voice had turned into this sweet, needy kitten-like purr.
-......Wait, is this really happening?
-I told myself I shouldn't think about it and looked away from her.
+“Hey~, Senpai~......”
+For whatever reason, Sakurako tried to straddle me while I was sitting.
+What’s more, her voice was a spoiled whimper like a kitten's.
+......No way, is this development...?
+Thinking I shouldn't think about it, I quickly looked away from Sakurako.
 $Akito
-“....................”
-I could see Aoi’s room from here.
-Despite it being Sunday, the room was dark.
+“………………”
+I could see Aoi's room.
+Even though it was Sunday, Aoi wasn't in her room.
 $Akito
-“(...No way!?)”
-A bad premonition flashed through my mind.
-Could Aoi be......?!
+“(……No way!?)”
+A bad premonition crossed my mind.
+Could Aoi be......!?
 $Akito
 “Dammit!!”
 $Sakurako
 “Kyan!”
-I shoved Sakurako off of me and bolted from the room.
-I think I heard her complaining behind me, but I didn't have time for that.
+I brushed Sakurako off of me and immediately dashed out of the room.
+I thought I heard Sakurako complaining behind me, but I didn't have time to care about that now.
 $Akito
-“(...Where the hell is Aoi?)”
-I’d rushed out of the house, but I had no idea where she’d gone.
-Was I just going to end up being unable to do a damn thing......?
-Just then, Ryuichi’s cold, mocking smirk flashed in my mind.
-I had no proof, but I headed straight for the academy.
+“(……Where is Aoi?)”
+I’d rushed out of the house, but I had no way of knowing where Aoi had gone.
+Is it going to end with me unable to do anything after all......?
+Just then, Ryuichi’s cold, mocking smirk suddenly appeared in my mind.
+Without any evidence, I headed straight for the Academy.
 I jumped over the closed school gate and, following my intuition, headed toward the tennis clubroom.
-Just as I was about to reach the room, I came to a halt.
+Just as I was about to reach the clubroom, I stopped for a moment.
 $Akito
-“Haa, haa, haa...”
-I’d run all the way here at full speed, so my breathing was ragged.
-My heart was thumping so hard it felt like it would leap out of my chest.
-I tried to calm my breathing and heart rate as I slowly, quietly approached the clubroom door.
+“*Pant, pant, pant*...”
+Naturally, since I’d run all the way here at full speed, my breathing was ragged.
+My heart was thumping so hard it felt like it would burst out of my chest.
+While calming my breath and heartbeat, I slowly and quietly approached the front of the tennis clubroom.
 And then...
 $?
-“Ahhhhhnnn!”
-A sudden, high-pitched scream reached my ears, sending a jolt like electricity through my body.
-I froze, unable to move a single inch.
-Because I knew that voice...
+“Aaaahn!”
+A sudden high-pitched moan reached my ears, and an electric current raced through my entire body.
+At the same time, I froze, unable to move a single step.
+Because that voice was one I recognized......
 $Akito
-“(No way...... Aoi...... is that you...!?)”
-My heart began to race again, the sound echoing in my ears.
-Enveloped in the silence of the school, I managed to regain a shred of composure and decided to peek through the small window.
+“(No way...... Aoi...... Is that Aoi!?)”
+The pounding of my heart, which had intensified again, echoed in my ears.
+Enveloped in the silence, I regained a shred of composure and steeled myself to peek inside through a small window.
 $Male Voice
-“Let's try licking each other. It will feel wonderful.”
+“Let's try licking each other. It feels wonderful, you know.”
 $Female Voice
-“Y-yes......”
-As I brought my face closer to the window, those words reached my ears.
+“Y... Yes......”
+As I brought my face closer to the window, that conversation reached my ears.
 And then——.
 $Akito
 “(————Wha!?)”
-My eyes widened at the scene before me.
-<69> - The term flashed through my mind.
-It was my first time actually seeing it......
-To think Aoi was doing such a depraved thing...... and with someone who wasn't me.
-I reflexively bit my lip hard.
+I instinctively stared in shock at the scene before my eyes.
+"69." That word appeared in my mind.
+It was my first time seeing it in reality......
+To think that *that* Aoi was doing such a lewd act...... and with someone other than myself.
+I instinctively bit my lip hard.
 $Aoi
-“Auh...... aaahn.”
-Aoi was greedily devouring Ryuichi’s stiffened penis.
-She was sucking on it with wet, sloppy sounds, moving her face up and down.
-At the same time, Ryuichi was licking Aoi’s secret place with a lewd, practiced tongue.
+“Au...... aahn.”
+Aoi was devouring Ryuichi’s erect penis.
+And with a wet sound, she suckled on it, moving her face up and down.
+At the same time, Ryuichi was licking Aoi’s private place with a lewd tongue technique.
 $Aoi
-“Ngh!”
-Aoi gasped with a sweet, agonizing sound.
-Before I knew it, I was becoming aroused by Aoi’s lewd voice.
-My member began to stiffen rapidly.
+“Kun!”
+Aoi panted with a sweet, aching cry.
+Before I knew it, I was feeling excitement at Aoi’s lustful voice.
+My own business rapidly increased in hardness.
 $Aoi
-“Ahn... ahn... haa... right there, it feels... so good......”
+“Ahn... ahn... hah... right there, it feels... so good......”
 $Ryuichi
-“Aoi-kun...... you’ve stopped using your mouth.”
-Ryuichi commanded Aoi to take him back into her mouth as she’d stopped to moan.
-Aoi began to suck on his penis as if it were the most delicious thing in the world.
-Ryuichi flicked his tongue over Aoi’s clitoris and then sucked hard.
+“Aoi-kun... your mouth is falling behind.”
+Ryuichi ordered Aoi, who had stopped her fellatio to cry out, to take it back into her mouth.
+Aoi began to suckle on the penis as if it were delicious.
+Ryuichi flicked Aoi’s clitoris with his tongue and then sucked hard.
 $Aoi
-“Nnnnnnnnnn!”
-While still holding the penis in her mouth, Aoi began to violently move her head up and down.
+“Mnnnnnn—!”
+Aoi moved her head violently up and down while the penis was in her mouth.
 $Ryuichi
-“Ah...... that’s incredible. Aoi-kun, h-hold on, stop for a second.”
+“Ah... that’s incredible. Aoi-kun, h-hey, wait a second.”
 $Aoi
-“Nngh?”
-Stopped just as she was about to come, Aoi wore a look of dissatisfaction.
-But deep down, I was relieved.
+“Mnn?”
+Stopped just before she was about to come, Aoi wore a look of dissatisfaction.
+But I was relieved deep down.
 $Ryuichi
 “...Do you want to feel even better?”
-Aoi’s cheeks flushed red at his words, but she nodded without a moment's hesitation.
+Aoi’s cheeks flushed at Ryuichi’s words, but she nodded without hesitation.
 $Akito
-“(You idiot! What are you saying? Don't do this!!!)”
-I stomped the ground in frustration, screaming at her in my head.
-But she couldn't hear me......
+“(You idiot! What are you saying, don't you dare do something like that!!!)”
+I stomped the ground while screaming in my heart.
+But that voice wouldn't reach Aoi......
 $Ryuichi
-“I see... then, finally......”
-Ryuichi laid Aoi down on the bench and forced her legs wide open.
-Aoi stared at him with eyes full of anxiety.
+“I see... well then, finally......”
+Ryuichi laid Aoi down on the bench and made her open her legs wide.
+With anxious eyes, Aoi stared fixedly at Ryuichi.
 $Ryuichi
-“...Aoi-kun...... you are so wet...... I simply cannot hold back any longer.”
-While stroking his own vein-pulsing, stiffened member, Ryuichi pressed the head against Aoi’s secret place.
-Aoi’s eyes widened and she tried to pull back, but she was already thrusting her hips forward to make penetration easier.
+“...Aoi-kun... you’re so wet...... I can't contain myself anymore.”
+While stroking his own erect, vein-pulsing penis, Ryuichi pressed the glans against Aoi’s private place.
+Aoi widened her eyes and tried to pull back, but she still thrust her hips out to make insertion easier.
 $Aoi
-“I... I want to feel even better too... please, make me come......”
+“I want to... feel even better too... I want you to make me come......”
 $Akito
-“(............You’ve gotta be kidding me?)”
-I couldn't believe it; I kept trying to tell myself this was all a bad dream.
+“(…………You've got to be kidding.)”
+I couldn't believe it and pleaded with myself that the scene before my eyes was just a dream.
 But the reality was cruel.
-The scene before my eyes was everything.
+What was being reflected before my eyes was everything.
 $Ryuichi
-“Fufu, very well then. I shall grant your wish.”
-Ryuichi rubbed the head against her even more and began to move his hips.
+“Fufu, well then, I shall... grant that wish.”
+Ryuichi rubbed the glans even more and moved his hips.
 $Akito
-“(Stop it! Anything but that!!)”
-But my prayer went unanswered; as her clitoris was targeted relentlessly, Aoi’s face began to fill with ecstasy.
-Yet, even in that expression, I could see a flicker of hesitation.
-But Ryuichi didn't hesitate for a second, sinking his penis just a little bit into Aoi’s secret place.
+“(Stop! Anything but that!!)”
+But contrary to my wish, Aoi, having her clitoris targeted, gradually began to wear a look of ecstasy.
+However, even within that expression, Aoi looked like she was hesitating.
+But Ryuichi didn't hesitate to sink his penis, which he had been rubbing, just a little bit into Aoi’s private place.
 $Akito
 “(!?)”
-A wet, lewd sliding sound reached my ears.
-I doubted my own hearing at first, but looking closely, the head of Ryuichi’s penis was definitely buried inside Aoi.
+A lewd squelching sound reached my ears.
+I doubted my own ears at first, but looking closely, just the head of Ryuichi’s penis was sunken into Aoi’s private place.
 $Ryuichi
-“Ah, Aoi-kun. Look, only the head has slipped inside......”
+“Ah, Aoi-kun. Look, only the head has entered......”
 $Aoi
-“Eh!? Ah, no......! Ahn, it’s going in...... Senpai’s is inside me... nooooo......!”
+“Eh!? Ah, no......!! Yan, it’s entering...... Senpai’s is inside me... noooooo......!”
 $Ryuichi
-“Fufufu, you say that, but this place seems quite satisfied. Now then......”
+“Fufufu, even if you say that, this part of you looks satisfied. Well then......”
 $Akito
-“(Stop it! Please, stop it!!)”
-My silent plea didn't reach him, and Ryuichi began to move his hips in short, rapid strokes with only the head inside.
-I was speechless, able only to stare blankly at them.
-I couldn't believe it. I didn't want to believe it.
-My whole body was shaking with tremors, and cold sweat was pouring down my back.
-My mouth was bone-dry, and I couldn't move a single muscle, as if I were paralyzed.
-But despite all that, watching Aoi in such a depraved state made my groin throb like never before.
-......I felt so pathetic.
-Squelch, squelch, grind......
-Obscene noises filled the room.
+“(Stop it! Get the hell out of her!!)”
+The thought didn't get through, and Ryuichi began to move his hips in short, rapid strokes with only the head inside.
+I was speechless, just standing there in a daze.
+I couldn't believe the scene before my eyes. I didn't want to believe it.
+My entire body was shivering, and cold sweat was dripping down my back.
+My mouth was dry, and I was unable to move a muscle, as if I were under a spell.
+But despite that, my groin had become erect beyond anything I’d ever experienced at the sight of Aoi’s lewd figure.
+......I felt incredibly pathetic for myself.
+*Kchu, kchu-kchu......*
+Obscene sounds echoed through the room.
 $Aoi
-“Ahn, ahn-ahn... no, stop... stop it......”
-I thought he was going all the way in, but for some reason, he stopped there.
-Was Aoi still hesitating?
-Or was there still some hope for me......?
+“Ahn, ahn-ahn... no, stop...... stop it......”
+I thought Aoi was going to accept all of Ryuichi’s penis, but for some reason it hadn't gone that far yet.
+Was there hesitation within Aoi?
+Or did it mean there was still hope......?
 $Ryuichi
-“I want to pierce you all the way to the back, Aoi-kun...... to be unable to do so...... it is painful for me.”
+“I want to impale you to your very depths, Aoi-kun...... but since I can't, it’s so painful.”
 $Aoi
 “Even if you say that... aahn!”
-Ryuichi moved his hips slowly, shaking Aoi’s body.
-If anything, that only made it more lewd.
-However, seeing that Aoi hadn't been completely taken from me yet made me feel a tiny bit relieved.
-Still, I was furious at my own helplessness.
+Ryuichi moved his hips slowly, rocking Aoi’s body.
+On the contrary, that only served to increase the obscenity.
+However, I felt a tiny bit of relief when I realized Aoi hadn't been completely taken.
+Still, the irritation toward my own helplessness only grew.
 $Aoi
-“Haa, haa, haa...... ah, no... aaahn!”
-Aoi looked like she didn't want him to go all the way in, feebly resting her hands on his hips.
-That was about the extent of her resistance.
-If Ryuichi really wanted to, he could have easily thrust all the way inside.
+“Haah-haah-haah...... ah, no... aahn!”
+Perhaps not wanting to be completely penetrated, Aoi weakly rested her hand against Ryuichi’s waist.
+That was about the only thing that counted as resistance.
+If Ryuichi were to thrust his hips hard now, he’d impale Aoi in no time.
 $Akito
-“(Aoi, shove him away! Punch him or something!)”
-I knew it was useless, but I couldn't help screaming it in my head.
-Eventually, Ryuichi began to move his hips faster, targeted her clitoris relentlessly with his finger.
+“(Aoi, shove a guy like that away!)”
+Even knowing it was useless, I couldn't help but scream.
+Before long, Ryuichi began to move his hips faster while lewdly targeting Aoi’s clitoris with his finger.
 $Aoi
-“Ah, ah, aaaaaaaaaahhhhhh!!!”
-Aoi let out a scream that sounded almost like a final breath and then arched her back hard.
-It looked like she’d...... come.
+“Ah, ah, aaaaaaaaahhhhh!!!”
+Aoi let out a scream that sounded like a death rattle and then arched her back sharply.
+It looked like Aoi... had come.
 $Akito
-“Dammit...... goddammit!!”
-Pathetically enough, I felt a surge of intense jealousy at Ryuichi’s sexual technique, something I could never hope to match.
-Ryuichi grabbed Aoi’s limp thighs and began to move his hips violently in a dry-humping motion.
+“Dammit...... SON OF A BITCH!!”
+Pathetically, I felt intense jealousy toward Ryuichi’s sexual skill, which was something I could never hope to imitate.
+Ryuichi grabbed Aoi’s limp thighs and moved his hips violently in an intercrural position.
 And then!
 $Ryuichi
-“Uaaaaah!!”
-Ryuichi shouted, and then discharged his seed all over Aoi’s stomach.
-It felt like all the strength had left my body as I watched.
-Aoi gasped for breath, staring blankly at the pool of semen on her stomach.
+“Uwaaa-ah!!”
+Ryuichi shouted and then released his semen onto Aoi’s stomach.
+Feeling a massive sense of exhaustion throughout my body, I watched the scene.
+Aoi blankly stared at the semen poured over her stomach while her breathing was ragged.
 $Aoi
-“......I’m sorry.”
+“...I’m sorry.”
 $Ryuichi
-“......Why are you apologizing?”
+“...Why are you apologizing?”
 $Aoi
-“Because...... you really wanted to do it properly with me, didn't you, Senpai? But......”
-Aoi turned bright red and hung her head. There were tears in her eyes.
-I didn't want to see her like this...... I really didn't.
+“Because...... Senpai, you actually wanted to do it properly with me, didn't you? And yet......”
+Aoi hung her head, her face bright red. Her eyes were full of tears.
+I didn't want to see Aoi like this.........
 $Ryuichi
-“Hahaha, that is true. ......But your feelings come first, Aoi-kun.”
-Aoi looked up at him with moist eyes.
-She looked...... like she had completely become his prisoner......
+“Hahaha, that's true. ...But Aoi-kun's feelings come first, you see.”
+Aoi looked up, her moist eyes fixed on Ryuichi’s face.
+Aoi’s figure...... looked like she had been completely captivated by Ryuichi......
 $Akito
-“(Aoi, why are you believing those words! Snap out of it, Aoi!!)”
-I knew it was hollow, but I kept screaming in my head.
+“(Aoi, why are you believing words like that! Get it together, Aoi!!)”
+Even knowing it was futile, I kept screaming.
 $Ryuichi
-“Next time...... we shall make you feel good all the way to the end.”
-Saying that, Ryuichi kissed her.
-Aoi accepted the kiss without any resistance at all......
+“There will be another time...... next time we can go all the way to the end.”
+Saying that, Ryuichi kissed Aoi.
+Aoi accepted that kiss without a single shred of resistance......
 $Akito
-“......Aoi, you complete idiot.”
-Carrying a heavy heart, I left the scene.
-I’d made it back home first and was staring blankly out the window.
-When I’d returned, Sakurako was already gone.
-There was a note on my desk in her handwriting that just said "IDIOT!".
-I guess I was a bit of a dick to her.
-After watching for a while, I saw Aoi and Ryuichi walking together.
+“...Aoi, you big idiot.”
+Carrying a sense of emptiness, I departed the spot.
+Having returned home first, I was idly staring outside from my room's window.
+When I got back, Sakurako was already gone.
+On my desk was a single note with the word "IDIOT!" written in Sakurako's handwriting......
+I might have done something a bit bad to Sakurako.
+After staring outside for a while, the figures of Aoi and Ryuichi walking together were reflected.
 $Akito
-“(Those bastards......)”
-Aoi headed back to her house with Ryuichi’s arm around her shoulder.
-I could see her blushing and shyly saying goodbye to him.
-Ryuichi gave her a light kiss before leaving.
-Aoi stood at her front door and watched his back until he was completely out of sight.
+“(Those two......)”
+Aoi returned home while being held by the shoulder by Ryuichi.
+I could see her blushing and shyly giving Ryuichi a parting greeting.
+Ryuichi gave her a light kiss as they parted.
+Aoi stood in front of her door and continued to watch Ryuichi’s back until he was out of sight.
 $Akito
-“............Dammit.”
-Seeing them like that left me with a whirlpool of agonizing, complicated emotions.
-I pulled the covers over my head and closed my eyes......
+“……………… Dammit.”
+Seeing the two of them, I felt an incredibly unbearable, complex mix of emotions.
+I pulled the covers over my head and just closed my eyes......

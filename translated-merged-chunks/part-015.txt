@@ -1,603 +1,603 @@
 --------------------
 03c01
 ********************
-Saria Episode 01~
-What should I do...?
+■ Saria Chapter 01
+What should I do……?
 [Choices]
-1. Leave her alone
+1. Leave her be
 2. Stop her
 3. Follow her
-Lunch break. I was having lunch in the cafeteria with Aoi.
-Usually, I bring my own lunch and eat in the classroom, but Aoi didn't bring hers today.
-Both of Aoi's parents work, so I guess her aunt has her hands full with all sorts of things.
-So, I ended up being dragged along by Aoi to the cafeteria for the first time in a while.
-By the way, I brought my lunch as usual.
-Honestly, why do I have to come all the way to the cafeteria just to eat my own lunch?
+During lunch break, I was having a meal in the cafeteria with Aoi.
+Normally, I bring my own lunch and eat in the classroom, but Aoi didn't bring hers today.
+Since both of Aoi's parents work, her aunt must have a lot on her plate.
+So, I got dragged along by Aoi and ended up in the cafeteria for the first time in a while.
+For the record, I brought my lunch as usual.
+Seriously, why do I have to come all the way to the cafeteria just to eat my own lunch?
 The cafeteria is packed with students looking for a meal.
-It’s practically a war zone.
-They're all fighting to buy meal tickets, swarming the counter, and scrambling for seats.
-I don't know how they can stand this every day. It’s impossible for me.
-What’s so great about standing in line just to eat?
-That’s exactly why I always avoid the cafeteria.
-To tell the truth, I didn't want to come with Aoi today either.
-I secured a seat for Aoi too and waited with a grumpy look on my face.
+It's practically a war zone.
+They scramble to buy meal tickets, swarm the counter, and fight for seats.
+I don't know how they endure this every day. I certainly couldn't.
+What’s the point of lining up just to eat?
+That's exactly why I always give the cafeteria a wide berth.
+To be honest, I didn't want to go along with Aoi today either.
+I secured a seat for Aoi as well and sat there waiting with a sour look on my face.
 Even though I was starving, Aoi told me to "wait until I buy mine."
-The reason is simple: she wants to steal side dishes from my lunch box.
-What a woman, damn it.
-Well, I’m the idiot for actually waiting for her.
-It’s not like she’s got me whipped or anything.
-It's just that when Aoi gets mad, she's a nightmare to handle. It's such a pain that I just pretend to go along with her.
-Man, what a great guy I am.
+The reason is simple: she wants to hijack the side dishes from my lunch box.
+What a woman, dammit.
+Well, I guess I'm the one who's actually waiting for her.
+It's not like she's got me whipped or anything.
+It's just that when Aoi gets angry, she’s a nightmare to deal with. It's too much trouble, so I just pretend to go along with it.
+Man, I'm such a nice guy.
 $Aoi
-“Got a problem with something?”
-With that, Aoi arrived carrying her ramen.
-It’s a staple of the cafeteria menu. It’s unbelievably cheap at 250 yen, but the taste matches the price.
-I hate it. This isn't even ramen.
+"Do you have a problem or something?"
+And then, Aoi arrived with her ramen.
+It's a staple on the cafeteria menu. At 250 yen, it's unbelievably cheap. But the taste matches the price.
+I hate it. That stuff isn't ramen.
 $Akito
-“Not really...”
-Aoi looked annoyed and sat in the seat across from me.
+"Not really……"
+Aoi sat in the seat across from me, looking annoyed.
 $Aoi
-“What is it? It wouldn't kill you to just hang out for a bit.”
+"What? It wouldn't kill you to just go along with me for once."
 $Akito
-“I didn't say anything, did I?”
+"I didn't say anything, did I?"
 $Aoi
-“Then why do you have that dissatisfied look on your face?”
+"Then why do you have that dissatisfied look on your face?"
 $Akito
-“I don't have a dissatisfied look.”
+"I don't have a dissatisfied look."
 $Aoi
-“Look at you, all sulky. Such a child.”
+"Look at you, sulking. Such a child."
 $Akito
-“Shut up!”
-Just then, my stomach let out a loud growl.
-This is bad. I can't be wasting time on a pointless argument.
+"Shut up!"
+Just then, my stomach let out a massive growl.
+No, no. This is no time for a pointless argument.
 Anyway, I'm starving.
-I quickly unwrapped my lunch.
-Food! Food! A hungry soldier can't fight.
-Then, as expected, Aoi's eyes lit up.
+I hurriedly unwrapped my lunch.
+Food! Food! A hungry soldier can't fight a war.
+Then, as expected, Aoi’s eyes lit up.
 $Aoi
-“Wow, simmered squid... looks delicious...”
-She leaned over, practically drooling as she peeked into my lunch box.
+"Wow, simmered squid... that looks delicious……"
+She peered into my lunch box as if she were about to drool.
 $Akito
-“This is my lunch!”
+"This is my lunch!"
 $Aoi
-“But a single bowl of ramen is so lonely...”
+"But a single bowl of ramen leaves me so hungry……"
 $Akito
-“Then you should have gotten a set meal or something!”
+"Then you should have gotten a set meal or something!"
 Aoi started throwing a tantrum.
 $Aoi
-“Ehh~, just give me a little bit.”
+"Aww, come on, give me a little piece."
 $Akito
-“Don't try to act cute, it's disgusting.”
+"Don't try to act cute, it’s gross."
 $Aoi
-“Who did you just call disgusting?”
+"Who are you calling gross?"
 $Akito
-“You.”
+"You."
 $Aoi
-“Hmm, you’ve certainly grown a spine, haven't you?”
-Aoi smiled while tightly gripping her disposable chopsticks.
+"Hmph, you’ve certainly grown a spine, haven't you?"
+Aoi smiled as she gripped her disposable chopsticks tightly.
 They looked like they were about to snap at any second.
 $Akito
-“V-Violence is never the answer!”
+"I-I’m against violence!"
 $Aoi
-“Hey... what exactly do you think I am?”
+"Listen…… what exactly do you think I am?"
 $Akito
-“A savage woman who resorts to violence immediately.”
+"A savage woman who resorts to violence at the drop of a hat."
 $Aoi
-“Are you picking a fight?”
+"Are you picking a fight?"
 $Akito
-“...No.”
-Just then.
+"……No."
+Right then.
 The cafeteria suddenly became noisy.
-And then, as if a wave were receding, it went deathly quiet.
+And then, as if the tide were receding, it went dead silent.
 $Akito
-“...Hm?”
+"……Hmm?"
 $Aoi
-“Chance! I’ll take that simmered squid!”
+"My chance! I’ll take that simmered squid!"
 $Akito
-“Ah...!”
-With lightning-fast chopstick skills, Aoi effortlessly snatched my side dish. She stuffed her cheeks, looking perfectly happy.
+"Ah……!"
+With a swift flick of her chopsticks, Aoi easily snatched my side dish. She was stuffing her face with a look of pure bliss.
 $Akito
-“You bitch...”
-Even so, the cafeteria remained silent.
+"You brat……"
+Even so, the cafeteria was still hushed.
 Everyone was staring toward the entrance with blank expressions.
-What is it...?
-I squinted.
-There was a woman standing at the entrance of the cafeteria.
-She scanned the room with a gaze that seemed almost mocking.
+What is it……?
+I strained my eyes to see.
+Standing at the entrance of the cafeteria was a single woman.
+She was scanning the room with a look of utter derision.
 $Akito
-“That woman, she's definitely...”
-She’s the woman who suddenly picked a fight with me before.
-I think she’s a third-year... what was her name?
+"That woman, if I recall……"
+She’s the one who suddenly picked a fight with me before.
+I think she's a third-year…… what was her name?
 $Aoi
-“Oh, it's Shinjou-senpai...”
-That's it, Shinjou. Shinjou Saria, I think she said.
-Even so... what the hell is she wearing?
-She was dressed in gaudy, bright red clothes that clearly set her apart from the other students, with an expensive-looking brooch on her chest.
-In the center of that brooch was a large, brilliant blue gemstone.
-Who the hell does she think she is?
+"Oh, it's Shinjou-senpai……"
+Right, Shinjou. She said her name was Saria Shinjou.
+But still…… what the hell is she wearing?
+She was dressed in gaudy red clothes that clearly set her apart from the other students, and she wore an expensive-looking brooch at her chest.
+A large, blue-glittering gem was embedded in the center of that brooch.
+Who does she think she is?
 $Aoi
-“I heard from a friend that Shinjou-senpai is a major ojou-sama.”
-Aoi leaned in and whispered into my ear.
+"I heard from a friend that Shinjou-senpai is a huge ojou-sama."
+Aoi leaned in and whispered in my ear.
 $Akito
-“An ojou-sama? I see, so that's why she's dressed like that.”
-Still, I wanted to tell her there's a limit to these things.
+"An ojou-sama? I see, so that's why she’s dressed like that."
+Even so, you’d want to tell her there’s a limit.
 $Aoi
-“Do you know the Shinjou Zaibatsu?”
-Of course I do; they’re one of the leading conglomerates in Japan.
-I don't know exactly what they do, being as dim-witted as I am, but either way, they’re one of the groups that reigns at the peak of the economic world.
+"Have you heard of the Shinjou Zaibatsu?"
+Heard of it? It’s one of the biggest conglomerates in Japan.
+I don't know exactly what they do since I’m not that bright, but either way, they’re one of the financial groups reigning at the top of the business world.
 $Akito
-“You're saying she's the daughter of that family? If so... does that mean she's insanely rich?”
-Ah... what a seductive sound.
-"Stinking rich"!
+"You mean she’s the daughter of that family? If so…… does that mean she’s incredibly rich?"
+Ah…… what a captivating sound.
+"Filthy rich"!
 I wonder what kind of life she leads. It must be so luxurious that a commoner like me can't even imagine it.
-But... wait a second.
-Why would an ojou-sama as wealthy as Saria show up in a commoner’s hangout like the school cafeteria?
-I see, that's why everyone in the cafeteria is so quiet.
-Saria appearing here is an unbelievable turn of events.
-Saria walked briskly into the cafeteria, completely ignoring the reactions around her.
+But…… wait.
+Why would a filthy rich ojou-sama like Saria show up in a commoners' haunt like the school cafeteria?
+I see, so that's why all the students here are silenced.
+Saria appearing in a place like this is an unbelievable turn of events.
+Saria, completely unbothered by the reactions around her, strode into the cafeteria.
 Is she going to buy a meal ticket?
-I was curious.
-I wondered what an insanely rich ojou-sama would actually eat in a cafeteria. I had to know.
+I was intrigued.
+I was curious to see what a rich ojou-sama would actually eat in a cafeteria.
 But Saria didn't even glance at the ticket machine.
-She kept walking straight ahead, getting closer to us.
-I... have a bad feeling about this...
-As expected, Saria came straight to us—to be precise, she stopped right in front of Aoi.
+She kept walking straight ahead, approaching us.
+I—I have a bad feeling about this……
+As expected, Saria came straight toward us—or rather, stopped right in front of Aoi.
 She looked at Aoi as if she had just noticed her.
 $Saria
-“Oh, Kanzaki-san. What a coincidence to run into you here.”
+"My, Kanzaki-san. What a coincidence to run into you in a place like this."
 $Akito
-“Hey, now...”
-That is as transparent as it gets...
-She was after Aoi from the start.
-As for the person herself, Aoi was casually slurping her ramen, paying no mind to her surroundings.
-She’s something else, too...
-Aoi, you’re going to be someone big in the future...
+"Hey, now……"
+That’s as blatant as it gets……
+She was after Aoi from the very start.
+Aoi herself was nonchalantly slurping her ramen, paying no mind to her surroundings.
+This girl is something else in her own right……
+Aoi, you’re going to be someone big in the future……
 $Aoi
-“H-Hello.”
-Aoi hurriedly covered her mouth while chewing and gave a quick bow.
-The cafeteria started buzzing again.
-Looking around, everyone was watching Aoi and Saria talk with bated breath.
-What’s going on?
+"H-Hello."
+Aoi hurriedly covered her chewing mouth with her hand and gave a small bow.
+The cafeteria began to buzz again.
+Looking around, everyone was watching Aoi and Saria's interaction with bated breath.
+What's going on?
 Is the combination of Aoi and Saria really that noteworthy?
 Before I knew it, Saria had taken a seat next to Aoi.
 $Saria
-“Is that all you are having for your meal today?”
+"Is that all you are having for your meal today?"
 $Aoi
-“Y-Yes...”
+"Y-Yes……"
 Aoi looked embarrassed.
-Well, I can understand how she feels. Being seen eating a 250-yen bowl of ramen by a filthy rich person like Saria must be pretty humiliating.
-Or should I say, degrading...?
-Even so, why is Saria so obsessed with picking on Aoi?
+Well, I can understand her feelings. Compared to the rich Saria, being seen having a single bowl of 250-yen ramen for lunch is quite humiliating.
+No, should I call it a disgrace……?
+But why is Saria picking on Aoi like this?
 $Akito
-“Shinjou-senpai, do you have some business with us?”
-I tried to subtly check her.
-However...
+"Shinjou-senpai, do you have some business with us?"
+I tried to casually check her.
+But……
 $Saria
-“That surely isn't enough, is it? Shall I treat you to something?”
+"Won't that be insufficient for you? Shall I treat you to something?"
 $Akito
-“H-Hey...”
+"H-Hey……"
 I was completely ignored.
 $Aoi
-“N-No, I couldn't possibly.”
-Aoi was flustered by Saria's proposal.
+"O-Oh, no, I couldn't possibly."
+Aoi was flustered by Saria’s proposal.
 $Saria
-“There is no need to worry.”
+"There is no need to worry about it."
 $Aoi
-“N-No... I appreciate the thought, though. Really, please don't worry about it.”
-Saria's expression darkened.
+"N-No…… I appreciate the thought. Really, please don't worry about it."
+Saria’s face clouded over.
 $Saria
-“That is a pity. I truly wanted to treat you, Kanzaki-san.”
+"That is a pity. I truly wanted to treat you, Kanzaki-san."
 $Akito
-“We aren't so desperate that we need charity from the rich.”
-To be honest, I was actually dying for a free meal.
-At my words, Aoi made a troubled face.
+"We haven't fallen so low that we need charity from the rich."
+Actually, I’m dying for someone to buy me lunch.
+Aoi made a troubled face at my words.
 $Aoi
-“A-Akito... that's rude.”
+"A-Akito…… that’s rude."
 $Akito
-“Well, excuse me then.”
-Actually, I had provoked her on purpose.
-I was getting a bit annoyed at being ignored.
-But...
+"Well, excuse me then."
+In truth, I had deliberately tried to provoke her.
+I was getting a bit ticked off by being ignored.
+But……
 $Saria
-“Setting that aside, Kanzaki-san, I am looking forward to this year’s school festival.”
+"Setting that aside, Kanzaki-san, I am looking forward to this year’s school festival."
 $Akito
-“Ugh...”
+"Ugh……"
 Saria wouldn't even look at me.
 $Aoi
-“Eh, the school festival?”
+"Huh, the school festival?"
 $Saria
-“You are surely aiming to be Miss Mikage Academy for the second year in a row, aren't you?”
-Damn it, I'm going to get through to her no matter what.
+"You are aiming for the title of Miss Mikage Academy for the second year in a row, are you not?"
+Dammit, I’m going to bite back no matter what.
 $Akito
-“The school festival is still a long way off. Aren't you getting ahead of yourself?”
+"The school festival is still a long way off. Aren't you getting ahead of yourself?"
 $Saria
-“Kanzaki-san, did you know? Not a single person has ever been chosen as Miss Academy two years in a row.”
+"Kanzaki-san, did you know? There hasn't been a single person who has been chosen as Miss Academy for two consecutive years."
 $Akito
-“So you're just going to keep ignoring me.”
+"So you’re just going to keep ignoring me, then."
 $Aoi
-“N-No... there's no way someone like me could do that.”
-Aoi kept glancing at me with an awkward expression.
-She seemed to want to tell me to "calm down."
+"N-No way…… someone like me couldn't possibly."
+Aoi looked back and forth at me with an awkward expression.
+She seemed like she wanted to tell me to "calm down."
 But I was already completely fed up.
-So what if she’s a rich ojou-sama? Thinking she's so high and mighty.
+What’s the big deal about a rich ojou-sama? Acting all high and mighty.
 $Saria
-“There is no need for such modesty. You are very lovely, Kanzaki-san.”
-Saria laughed elegantly and gave Aoi's cheek a little poke.
-Aoi's face turned beet red in an instant.
-Ugh, Aoi is being completely reeled in.
+"There is no need for modesty. You are quite lovely, Kanzaki-san."
+Saria laughed elegantly and gave Aoi’s cheek a playful poke.
+Aoi’s face turned bright red in an instant.
+Ugh, Aoi is being completely won over.
 $Akito
-“Why is an ojou-sama like you so obsessed with Miss Academy anyway?”
-Aoi immediately reacted to my words.
+"Why is the ojou-sama so obsessed with Miss Academy anyway?"
+Instantly, Aoi reacted to me.
 $Aoi
-“Shinjou-senpai was Miss Mikage Academy the year before last.”
+"Shinjou-senpai was Miss Mikage Academy the year before last."
 Ah, I see.
-That's why the other students were buzzing about the two of them together.
-The Miss Mikage Academy winners from last year and the year before.
-The combination of the number one and number two beauties in the school would certainly be a topic of conversation.
-Well, if you ask me, Aoi is still just a brat who reeks of piss, and Saria is nothing more than a stuck-up, cheeky ojou-sama.
-Alright, let's use this topic to poke at Saria.
+So that's why the other students were buzzing about Aoi and Saria being together.
+The Miss Mikage Academy from last year and the year before last.
+The pairing of the number one and number two beauties in the academy would certainly be a hot topic.
+Well, if you ask me, Aoi is still just a snot-nosed kid, and Saria is nothing more than a stuck-up, cheeky ojou-sama.
+Alright, I’ll use this topic to poke at Saria.
 $Akito
-“Heh, so Shinjou-senpai had her title as Miss Academy stolen by Aoi.”
+"Heh, so Shinjou-senpai had the title of Miss Academy snatched away by Aoi."
 Come on, take the bait.
 $Saria
-“Perhaps I shall vote for you this year as well, Kanzaki-san.”
-Saria still refused to look at me.
+"Perhaps I shall vote for you this year, Kanzaki-san."
+As usual, Saria refused to look at me.
 Even when provoked, she didn't even change her expression.
-Dammit...
+Dammit……
 $Aoi
-“N-No. Shinjou-senpai is much more beautiful. I still don't understand why I was chosen as Miss Academy.”
+"N-No way. Shinjou-senpai is far more beautiful. I still don't understand why I was chosen as Miss Academy."
 $Saria
-“Fufu. You are so humble, Kanzaki-san. Perhaps that is the secret to your popularity.”
+"Ufufu. You are so humble, Kanzaki-san. Perhaps that is the secret to your popularity."
 $Akito
-“And you, Shinjou-senpai, don't have a single shred of humility, do you?”
+"And you, Shinjou-senpai, don't have a shred of humility, do you?"
 $Saria
-“Have more confidence, Kanzaki-san. You are truly adorable.”
-Agggh, damn it!
-If Saria weren't a woman, I would have kicked her by now.
+"Have some confidence, Kanzaki-san. You are truly adorable."
+Grrr, dammit!
+If Saria weren't a woman, I’d have kicked her by now.
 Aoi looked at me again with anxious eyes.
 $Aoi
-“H-Hey Akito. Shinjou-senpai is incredibly beautiful, isn't she?”
+"H-Hey, Akito. Shinjou-senpai is incredibly beautiful, isn't she?"
 $Akito
-“Incredibly impudent.”
+"Incredibly cheeky."
 $Aoi
-“A-Akito...!”
+"A-Akito……!"
 $Saria
-“Kanzaki-san, would you mind accompanying me for a moment?”
-She really intends to ignore me to the very end.
-I guess commoners don't even register in the eyes of a great zaibatsu's daughter.
-I gave up on trying to engage with Saria.
-It was just a waste of energy.
-If that's how it's going to be, I'll ignore her too.
+"Kanzaki-san, would you mind accompanying me for a moment?"
+It seems she plans to ignore me to the very end.
+Does a daughter of a great zaibatsu not even see commoners?
+I finally gave up on engaging with Saria.
+It’s just an exhausting waste of time.
+If that's how it's going to be, I’ll ignore her too.
 $Aoi
-“A-Accompany you... where... exactly...?”
+"A-Accompany you…… where……?"
 $Saria
-“Are you going to make me say it? Honestly, Kanzaki-san.”
-I started eating my lunch in silence, letting Aoi's conversation wash over me.
-Aoi looked at me as if she were pleading for help.
+"Are you going to make me say it? Honestly, Kanzaki-san."
+I began to eat my lunch in silence, tuning out Aoi and Saria's exchange.
+Aoi looked at me as if pleading for help.
 But I shook my head.
-It's no use. Saria is determined to ignore me. If I don't get a reaction no matter what I say, there's nothing I can do.
+It’s impossible. Saria will ignore me out of pure spite. If I don't get a reaction no matter what I say, there's nothing I can do.
 Just do whatever you want.
 $Saria
-“...To the restroom. Please come with me.”
+"……To the restroom. Please come with me."
 $Aoi
-“Eh, um... well...”
-Aoi was getting increasingly bewildered.
-Saria placed a hand on Aoi's shoulder.
+"U-Um…… well……"
+Aoi was getting more and more bewildered.
+Saria placed a hand on Aoi’s shoulder.
 $Saria
-“I am asking you. I feel quite lonely going by myself.”
-What the hell does loneliness have to do with going to the bathroom?
-I really can't understand the logic of these rich girls.
-I thought that, but of course, I didn't say it out loud. It would only end with me being ignored anyway.
+"I beg of you. It is lonely to go alone."
+Lonely to go to the bathroom? Give me a break.
+I swear, the logic of an ojou-sama is incomprehensible to us commoners.
+I thought that, but of course, I didn't say it out loud. I’d just be ignored anyway.
 $Saria
-“I truly wish to become close friends with you, Kanzaki-san. So, as a token of our budding friendship, won't you join me?”
-I'm telling you, that logic is weird. What kind of "token of friendship" is going to the bathroom together?
+"I truly wish to become friends with you, Kanzaki-san. So, as a token of our burgeoning friendship, won't you join me?"
+Like I said, that logic is weird. What kind of token of friendship is going to the bathroom together?
 $Aoi
-“H-Haha...”
-Aoi was left speechless by Saria's pushiness.
+"Y-Yes……"
+Aoi was silenced by Saria’s persistence.
 Aoi probably won't be able to refuse.
-She has a strangely good-natured side to her.
-She’ll definitely be overwhelmed by Saria.
-Aoi has been glancing at me for a while now.
-Is she asking me to save her?
-Hmm. Well, I can totally understand why she's confused.
-Hmph, I'm not dealing with this.
-I felt bad for Aoi, but I didn't even want to look at Saria's face anymore.
-I've been irritated this whole time.
-She’s a woman with a really nasty personality.
-Well, Saria is a girl. It probably has nothing to do with the project. Even if I leave the two of them alone, Aoi won't be in any danger.
-I shrugged my shoulders to show Aoi my decision.
-Sorry, Aoi. Just get that ojou-sama out of my sight as quickly as possible.
-Aoi saw my attitude and gave a small sigh.
+She’s got a strangely good-natured side to her.
+She’ll surely be pushed into it by Saria.
+Aoi had been glancing at me repeatedly for a while now.
+Does she want me to help her?
+Hmm. Well, I can understand why Aoi is flustered.
+Hmph, I’m not playing along.
+I feel bad for Aoi, but I didn't want to see Saria’s face anymore.
+I’ve been feeling sick to my stomach for a while now.
+Seriously, what a nasty woman.
+Well, Saria is a girl. She probably has nothing to do with the project. Even if I leave Aoi and Saria alone together, Aoi won't be in any danger.
+I shrugged my shoulders, signaling my intention to Aoi.
+Sorry, Aoi. Get that ojou-sama out of my sight as quickly as possible.
+Seeing my attitude, Aoi gave a small sigh.
 $Aoi
-“I-I understand.”
+"I-I understand."
 $Saria
-“Truly? I am so happy.”
-Why the hell is she so happy about something as simple as going to the bathroom together?
+"Is that true? I am so pleased."
+Why is she so happy about something like going to the bathroom together?
 Aoi looked regretfully at her ramen, more than half of which was still left.
-Then she reluctantly stood up.
+Then, she reluctantly stood up.
 $Aoi
-“Well, Akito. I'll be back in a bit.”
+"Well, Akito. I’ll be right back."
 $Akito
-“Yeah, yeah.”
-And so, Aoi and Saria left the cafeteria together, side by side.
-Of course, it goes without saying that another cheer rose up from the students in the cafeteria.
-I followed Shinjou-senpai into the ladies' room.
-Still, Shinjou-senpai is such a beautiful person.
-She really feels like a mature woman.
-Even walking down the hallway, everyone was staring at her. I felt so out of place walking beside her.
-When we entered the restroom, Shinjou-senpai stopped in front of the vanity.
-She started fixing her makeup.
+"Yeah, yeah."
+And so, Aoi and Saria left the cafeteria side-by-side.
+Needless to say, cheers erupted from the students in the cafeteria again.
+I followed Shinjou-senpai into the girls' restroom.
+Still, Shinjou-senpai is a really beautiful person.
+She has the air of a mature woman.
+Even walking down the hallway, everyone was staring at her. I felt so out of place walking with her.
+Once Shinjou-senpai entered the restroom, she stopped in front of the vanity.
+She began to touch up her makeup.
 $Saria
-“...Is that noisy man from earlier your lover, Kanzaki-san?”
+"……Is that talkative boy from earlier your lover, Kanzaki-san?"
 $Aoi
-“...Eh? Hwah?”
-Being asked such an outrageous thing out of the blue, I was completely flustered.
-W-What are you talking about, Senpai?
+"……Huh? Wh-What?"
+Being asked something so outrageous out of the blue, I was flustered.
+W-What are you saying, Senpai?
 $Aoi
-“Oh, stop it. There's no way that's true!”
-I shook my head violently.
-My face felt like it was burning. I wonder why.
+"O-Oh, stop it. There’s no way."
+I shook my head desperately.
+For some reason, my face felt hot. I wonder why.
 $Aoi
-“H-He's just a childhood friend! Truly, he's just a childhood friend!”
+"H-He’s just a childhood friend! Really, just a childhood friend!"
 $Saria
-“Is that so?”
-Shinjou-senpai looked at me through the mirror and gave an elegant smile.
-I found myself unintentionally captivated.
+"Is that so?"
+Shinjou-senpai stared at me through the mirror and gave an elegant smile.
+I unintentionally became captivated.
 $Aoi
-“I-It's true! The thought of someone like him being my lover gives me goosebumps!”
-I wonder why I'm making such a desperate excuse...
+"Y-Yes! The thought of someone like him being my lover... it gives me goosebumps just thinking about it!"
+Why am I making such a desperate excuse……
 $Saria
-“You seemed to be quite close. I see, it seems I jumped to conclusions.”
+"You two seemed so close. I see, it appears I was mistaken."
 $Aoi
-“T-That's right. We aren't close at all. I'm always the one having to take care of him. Honestly, he's such an idiot.”
+"T-That’s right. We aren't close at all. I’m always the one having to take care of him. Honestly, he’s such an idiot."
 $Saria
-“But the last time we met, you two were together as well.”
+"But you two were together when we met before as well, were you not?"
 $Aoi
-“I-It's an inseparable bond! It's not like I choose to be with him!”
-What does Shinjou-senpai intend by asking about my relationship with Akito?
+"I-It’s an inseparable bond! It's not like we're together because we want to be~!"
+What is Shinjou-senpai planning, asking about my relationship with Akito?
 Then, it hit me.
-C-Could it be that Shinjou-senpai... likes Akito...?
+C-Could it be that Shinjou-senpai…… likes Akito……?
 No way.
 I immediately dismissed the thought.
-There's no way a beautiful person like Shinjou-senpai would like an idiot like him. Yeah, it's absolutely impossible.
+There’s no way a beautiful person like Shinjou-senpai would like an idiot like him. Yeah, it’s absolutely impossible.
 $Saria
-“In that case, you have no experience, Kanzaki-san...”
+"Then, Kanzaki-san, you have no experience……"
 $Aoi
-“...Huh?”
+"……Huh?"
 Experience? What is she talking about?
-Shinjou-senpai had a smile so sultry it made my heart skip a beat.
-Then, she turned around.
-She looked me straight in the eyes.
+Shinjou-senpai gave a smile so seductive it made my heart skip a beat.
+Then, Shinjou-senpai turned around.
+She stared straight into my eyes.
 $Saria
-“Kanzaki-san... actually, there is something I would like to discuss. Would that be alright?”
+"Kanzaki-san…… actually, I have something to discuss with you. Would you mind?"
 $Aoi
-“...Eh?”
+"……Huh?"
 Shinjou-senpai’s expression suddenly became grave.
 My heart pounded.
-The same thought as before crossed my mind again.
-No way...
-If she asks me to introduce her to Akito because she likes him... what should I do...?
-No, no matter how I look at it, that's not it.
+That thought from earlier crossed my mind again.
+Could it be……
+If she asks me to introduce her to Akito because she likes him…… what should I do……
+No, no matter how you look at it, that’s not it.
 Yeah, definitely not. Impossible.
-...Why am I being so desperate? This is strange.
-I forced my stupid thoughts away.
+……Why am I being so desperate? This is weird.
+I forcibly brushed aside my foolish thoughts.
 $Aoi
-“What is it? So formal all of a sudden.”
+"What is it? So suddenly."
 Shinjou-senpai hesitated slightly.
 $Saria
-“Might I have your ear for a moment?”
-With that, she leaned her face close to my ear.
-W-What is she going to say...?
-I was nervous for some reason.
-As Shinjou-senpai leaned in, I could smell the lovely scent of her perfume. Such an elegant fragrance...
+"Might I have a word in your ear?"
+As she spoke, she brought her face close to my ear.
+W-What is she going to say……
+For some reason, I was nervous.
+As Shinjou-senpai leaned in, I caught the lovely scent of her perfume. Such an elegant fragrance……
 $Saria
-“Fufu.”
+"Fufu"
 $Aoi
-“Kyah!?”
-Soft lips were pressed lightly against my ear!
-I instinctively ducked my head and jumped back.
-I felt a shiver of goosebumps.
-W-What? What was that just now?
+"Eek!?"
+I felt her soft lips pressed lightly against my ear!
+In spite of myself, I ducked my head and jumped back.
+I felt a shiver run down my spine.
+Wh-What? What was that?
 Shinjou-senpai was giggling as if she found it amusing.
 $Saria
-“Fufufu. You are so innocent.”
+"Fufufu. You are so innocent."
 $Aoi
-“Wha... wha...!”
-...She kissed me... a woman...
-My mind was completely muddled, and I couldn't find the words.
+"Wh…… wh……!"
+……I was kissed…… by a woman…….
+My mind was completely scrambled, and I couldn't find the words.
 $Saria
-“It was a small joke. You truly are adorable, Kanzaki-san.”
-Shinjou-senpai smiled brightly and left the restroom, leaving me standing there.
+"It was just a little joke. You really are adorable, Kanzaki-san."
+Shinjou-senpai gave a bright smile and left the restroom, leaving me standing there stunned.
 The lingering scent of her perfume tickled my nose.
-...My heart is still racing.
+……My heart is still pounding.
 $Aoi
-“That was... a cruel joke...”
-Ah, that surprised me...
-I leaned my hands on the sink and stared blankly into the mirror. I tried my best to calm myself down.
+"That joke…… was too much……"
+Ah, that was a shock……
+I leaned my hands on the sink and stared blankly into the mirror. I tried to calm my heart somehow.
 My face in the mirror was as red as a boiled octopus.
-Just thinking about what happened makes me feel embarrassed.
-I feel strangely as if I’ve done something very wrong...
-What was Shinjou-senpai thinking...?
+Just thinking about what happened earlier made me embarrassed.
+I felt a strange sensation, as if I had done something very wrong……
+What could Shinjou-senpai be thinking……
 $Aoi
-“Sigh...”
-Well, there's no point in worrying about it.
-That's right, it was just a joke... it must have been.
+"Sigh……"
+Well, worrying about it won't help.
+That’s right, it was just a joke…… it must have been.
 I let out a sigh, washed my face to pull myself together, and left the restroom.
-There was still plenty of time left in the lunch break.
+There was still plenty of lunch break left.
 I didn't feel like going straight back to the classroom, so I went back to the cafeteria.
 Akito was sitting in the same spot, eating his lunch alone.
-...Honestly, he’s so carefree.
+……Honestly, he’s so carefree.
 $Akito
-“Oh, you're back? Where's that cheeky ojou-sama?”
+"Oh, you're back? Where’s that cheeky ojou-sama?"
 He asked while chewing his food.
 $Aoi
-“...I-I don't know.”
+"……I-I don't know."
 $Akito
-“Your face is pretty red.”
-...Sharp.
+"Your face is kind of red, you know?"
+……He’s sharp.
 $Aoi
-“T-That's not true. Yeah, not at all!”
-I desperately laughed it off.
+"N-No it isn't. Yeah, not at all."
+I laughed desperately to cover it up.
 $Akito
-“What's wrong? Do you have a fever or something?”
+"What’s wrong? Do you have a fever?"
 $Aoi
-“It's nothing. Really, truly. Ahahaha...!”
+"It’s nothing. Really, I mean it. Ahahaha……!"
 Akito kept tilting his head in confusion.
-While I was hesitating, Saria forcefully took Aoi's hand.
+While I was hesitating, Saria forcibly took Aoi by the hand.
 $Saria
-“Come, let us go.”
+"Come, let us go."
 $Aoi
-“Ah, yes... I understand.”
-In the end, Aoi was forcefully persuaded.
-She gave one last regretful glance at her half-eaten ramen before being pulled out of the cafeteria by Saria.
-Of course, it goes without saying that another cheer rose up from the students in the cafeteria.
-As I shoveled my lunch into my mouth alone, I started getting angry again.
-Dammit, she treated me like garbage.
+"Ah, yes…… I understand."
+In the end, Aoi was completely pushed into it.
+After giving her half-eaten ramen a regretful glance, she was pulled out of the cafeteria by Saria.
+Needless to say, cheers erupted from the students in the cafeteria again.
+As I shoveled my lunch into my mouth alone, I started to get angry again.
+Dammit, treating me like garbage.
 Who the hell does she think she is?
-I’m getting more and more pissed off.
-I really need to say something to her or I won't be satisfied.
-I finished my lunch in less than a minute and hurriedly followed Aoi and the others.
-I went to the ladies' room closest to the cafeteria.
-That said, I couldn't exactly go inside. That would make me a pervert.
+I was getting more and more pissed off.
+I won't be satisfied until I’ve had my say.
+I finished my lunch in less than a minute and hurriedly followed after Aoi and Saria.
+I went to the girls' restroom closest to the cafeteria.
+That said, I couldn't exactly walk inside. That would make me a pervert.
 For now, I checked the situation from the outside.
-Are Aoi and the other one there...?
-As I strained my ears, I heard Saria's voice, just as I expected.
+Are Aoi and the others in there……?
+As I strained my ears, sure enough, I heard Saria’s voice.
 $Saria
-“...Is that noisy man from earlier your lover, Kanzaki-san?”
+"……Is that talkative boy from earlier your lover, Kanzaki-san?"
 $Aoi
-“...Eh? Hwah?”
-Somehow... the conversation is heading in an odd direction.
-Anyway... who’s a noisy man!?
-While I was annoyed, I also felt a bit flustered.
-I wonder what Aoi will say...
-N-Not that I care about Aoi at all!
-B-But anyone would be curious!
-Yeah, exactly. Absolutely!
+"……Huh? Wh-What?"
+The conversation seems to be headed in a…… strange direction.
+Anyway…… who are you calling a talkative boy!?
+I was annoyed, but also a bit flustered.
+I wonder how Aoi…… will answer……
+I-It’s not like I care about Aoi or anything!
+N-No, anyone would be curious!
+Yeah, that’s right. Definitely!
 $Aoi
-“H-He's just a childhood friend! Truly, he's just a childhood friend!”
+"H-He’s just a childhood friend! Really, just a childhood friend!"
 $Akito
-“............”
-There's no need to emphasize "just" that much.
+"…………"
+You don't have to emphasize "just" that much.
 $Saria
-“Is that so?”
+"Is that so?"
 $Aoi
-“I-It's true! The thought of someone like him being my lover gives me goosebumps!”
-Look who’s talking...
+"Y-Yes! The thought of someone like him being my lover... it gives me goosebumps just thinking about it!"
+You’ve got a lot of nerve saying that……
 I wouldn't want you either!
 $Saria
-“You seemed to be quite close. I see, it seems I jumped to conclusions.”
+"You two seemed so close. I see, it appears I was mistaken."
 $Aoi
-“T-That's right. We aren't close at all. I'm always the one having to take care of him. Honestly, he's such an idiot.”
+"T-That’s right. We aren't close at all. I’m always the one having to take care of him. Honestly, he’s such an idiot."
 $Saria
-“But the last time we met, you two were together as well.”
+"But you two were together when we met before as well, were you not?"
 $Aoi
-“I-It's an inseparable bond! It's not like I choose to be with him!”
-I felt like walking right in and berating Aoi this instant.
-I was getting more and more livid.
-How can she say whatever she wants like that?
+"I-It’s an inseparable bond! It's not like we're together because we want to be~!"
+I felt like walking in right now and giving Aoi a piece of my mind.
+My anger was boiling over.
+How can she just say whatever she wants like that?
 What does she think of me!
-Dammit, I can't take this!
-I turned on my heel with my shoulders squared and started walking toward the cafeteria.
-I'm going to stress-eat! I'm eating ramen!
-Otherwise, I can't deal with this!
-As I was slurping down the terrible ramen, Aoi came back.
+Dammit, I can't take this anymore!
+With my shoulders squared in anger, I turned on my heel and walked back toward the cafeteria.
+I’m going to eat my feelings! I’m getting ramen!
+I can't deal with this!
+As I was slurping down the nasty ramen, Aoi came back.
 For some reason, her face was bright red.
 She sat in the seat across from me without a word and remained silent.
 $Akito
-“What happened to that ojou-sama?”
+"What happened to the ojou-sama?"
 $Aoi
-“...I-I don't know.”
+"……I-I don't know."
 She seemed flustered for some reason.
-What? She's acting weird.
+What? This girl is acting weird.
 But I didn't care about that.
-My anger toward Saria had vanished somewhere.
-More than that, I was pissed off at Aoi.
+My anger toward Saria had already vanished somewhere.
+More than that, I was pissed at Aoi.
 $Akito
-“...Hmph.”
+"……Hmph."
 $Aoi
-“W-What?”
+"Wh-What?"
 $Akito
-“Nothing.”
+"Nothing."
 $Aoi
-“What is it?”
+"What is it?"
 $Akito
-“I said it's nothing.”
+"I said it’s nothing."
 $Aoi
-“Then why do you have that dissatisfied look on your face?”
+"Then why do you have that dissatisfied look on your face?"
 $Akito
-“I don't have a dissatisfied look.”
+"I don't have a dissatisfied look."
 $Aoi
-“Oh, I get it. You're sulking because Shinjou-senpai ignored you.”
+"Ah, I see. You’re sulking because Shinjou-senpai ignored you."
 $Akito
-“If that's what you want to think, then go ahead.”
+"If that's what you want to think, then go ahead."
 $Aoi
-“You’re being strangely thorny.”
+"You’re being strangely prickly."
 $Akito
-“I’m telling you, I’m not.”
-Then, a question suddenly occurred to me.
-Why am I so moody?
-It doesn't matter what Aoi thinks of me, right?
-And yet, I'm acting like I'm sulking...
-Am I actually a really petty guy?
-This is bad.
-I need to be more manly.
+"I told you it’s nothing."
+Then, a question suddenly popped into my mind.
+Why am I in such a bad mood?
+It shouldn't matter to me what Aoi thinks of me.
+And yet, I’m acting like I’m sulking……
+Am I actually a pretty pathetic guy?
+No, no.
+I have to be more manly.
 $Akito
-“Hey, Aoi...”
+"Hey, Aoi……"
 $Aoi
-“W-What?”
+"Y-Yes?"
 I quietly pushed the bowl of ramen toward her.
 $Akito
-“Do you want some ramen?”
+"Want some ramen?"
 $Aoi
-“...Are you joking?”
+"……Are you joking?"
 $Akito
-“I'm dead serious.”
+"I’m dead serious."
 $Aoi
-“I don't want your leftovers!”
-Tch. Stepping all over my manly gesture.
+"I don't want your leftovers!"
+Cheh. Trampling all over my manly gesture.
 Honestly, she’s a woman who just doesn't get it.
-I quietly ate the ramen by myself.
-For some reason, Aoi kept staring blankly at me as I ate.
-Fine.
-I'll give Aoi a hand.
+I ate the ramen in silence.
+Aoi continued to stare blankly at me as I ate, for reasons I couldn't fathom.
+I guess I have no choice.
+I’ll give Aoi a hand.
 $Akito
-“Hey, ojou-sama. Aoi is still in the middle of her meal. Don't make her go along with your selfishness.”
-But as expected, Saria ignored me and placed a hand on Aoi's shoulder.
+"Hey, ojou-sama. Aoi is in the middle of her meal. Don't drag her along on your whims."
+But as expected, Saria ignored me and placed a hand on Aoi’s shoulder.
 $Saria
-“Come, shall we go?”
+"Come, shall we go?"
 $Aoi
-“B-But...”
+"B-But……"
 $Akito
-“Listen, go to the bathroom by yourself. Or does a rich ojou-sama need someone to help her pee too?”
+"I mean, go to the bathroom by yourself. Or can a rich ojou-sama not even pee without someone helping her?"
 $Aoi
-“A-Akito... you're going too far...”
-I let out a snort.
+"A-Akito…… you’ve said too much……"
+I gave a snort.
 $Akito
-“Aoi, you don't have to go. Teach this ojou-sama some common manners.”
-Aoi hesitated for a moment, looking troubled, but eventually turned toward Saria.
-She bowed her head apologetically.
+"Aoi, you don't have to go. Teach the ojou-sama some common manners."
+Aoi wavered, looking troubled, but finally turned back to Saria.
+She gave an apologetic bow.
 $Aoi
-“U-Um... I'm in the middle of eating, so...”
-Then, Saria’s eyebrows twitched.
-Combined with her strong-willed features, it was incredibly intimidating...
-This ojou-sama might actually be quite terrifying...
+"U-Um…… I’m in the middle of eating, so……"
+Saria’s brow twitched.
+Combined with her strong-willed features, she looked incredibly intimidating……
+This ojou-sama might actually be quite terrifying……
 $Saria
-“...In that case, very well.”
-Her tone shifted from her previously familiar one to a displeased one.
+"……Very well, then."
+Her tone shifted from overly familiar to one of pure displeasure.
 Then she suddenly stood up and left the cafeteria without looking back.
-Aoi and I could only watch her leave in a daze.
+Akito and Aoi could only watch her back in stunned silence.
 $Aoi
-“W-What was that all about...?”
+"Wh-What was that all about……?"
 $Akito
-“Who knows...”
-In any case, it was certain that Saria was impudent and exactly the type of person I dislike most.
-I’ll make sure to stay away from her from now on.
+"Who knows……"
+Either way, it’s certain that Saria is cheeky and the type of person I hate most.
+I’ll stay away from her as much as possible from now on.
 I made a secret vow to myself.
 $Aoi
-“Oh, I'll take the meat and potatoes too!”
+"Ah, I’ll take the meat and potatoes too!"
 $Akito
-“Huh?”
-Aoi was casually reaching for my lunch with her chopsticks.
+"Huh?"
+Aoi had smartly reached her chopsticks into my lunch box.
 $Akito
-“H-Hey! Don't mess with me!”
-Dammit... this is all Saria's fault!
+"H-Hey! Don't mess around!"
+Dammit…… this is all Saria’s fault!

@@ -1,394 +1,394 @@
 --------------------
 03c02
 ********************
-Saria Episode 02~
-I—
+■ Saria Chapter 02
+I——
 [Choices]
-1. Pass by without a word
+1. Pass by without a care
 2. Intervene
 3. Turn back
-Club activities had ended, and I was walking down the hallway toward the school gate.
-Up ahead, a crowd had gathered.
-What's going on...?
-A tense atmosphere hung thick in the air.
-Ugh, they're in the way. This hallway is the shortest route to the shoe lockers, and now I can't get through.
-Who the hell is at the center of this?
-I stood on my tiptoes and peeked over the shoulders of the onlookers.
-Suddenly, a woman's sharp voice rang out.
+Club activities were over, and I was walking down the hallway toward the school gates.
+Then, I saw a crowd gathered up ahead.
+What is it……?
+A tense atmosphere hung over the area.
+Man, they’re in the way. This hallway is the shortest route to the lockers, and now I can't get through.
+Who the hell is at the center of this commotion?
+I stood on my tiptoes to peek over the back of the onlookers.
+That’s when I heard a woman’s sharp voice.
 $Saria
-“I said you are in my way. Move aside at once.”
-That gaudy woman... it's the third-year, Shinjou Saria.
+"I said you are in my way. Move aside."
+That gaudy woman is…… the third-year, Saria Shinjou.
 Facing her was a trio of guys.
 $Narumi
-“The hell did you say, bitch?! Don't you go acting all high and mighty with us! You want me to carve you up?!”
+"The hell’d you say, bitch!? Don't act so high and mighty! You want me to carve you up!?"
 $Mitsuteru
-“............”
+"…………"
 $George
-“............”
-That gang of delinquents...
-Honestly, those guys will pick a fight with anyone.
-Still, Saria didn't flinch at all, even standing before the three members of the notorious Kanda gang. Impressive.
+"…………"
+It’s that gang of delinquents……
+Seriously, those guys pick fights with anyone and everyone.
+Still, Saria’s impressive—she doesn't flinch at all even standing before the three members of the notorious Kanda Gang.
 $Mitsuteru
-“I'm the one who has business with you. Heh... with the beautiful, stinking rich princess.”
+"I've got business with you. Heh... with the filthy rich, beautiful little princess."
 $Narumi
-“Yeah, exactly. Hyah-hyah-hyah! Come hang out with us, let’s go do something fun.”
+"Yeah, exactly. Hyah-hyah-hyah, come hang out with us, let's have some fun."
 $Saria
-“I have no business with the likes of you.”
-I felt a wave of exhaustion hit me.
+"I have no business with the likes of you."
+I felt exhausted just listening.
 Why does that woman have to say things that just fan the flames?
 $Narumi
-“You little bitch! Stop looking down your nose at us!”
-I knew it...
-At this rate, there's no end in sight.
-It looks like it'll take a while for this commotion to die down.
-It's probably best to just turn back.
-Better to let sleeping dogs lie, as they say.
-Besides, I have no obligation to help Saria. Even if we've met, we've never actually had a proper conversation.
-If they’re going to fight, I wish they’d do it somewhere else and stop inconveniencing everyone.
-I turned on my heel and decided to take the long way around to the shoe lockers.
+"You little bitch! Don't you look down on us!"
+I knew this would happen……
+At this rate, there’s no end in sight.
+It looks like it’ll take a while for this mess to settle down.
+It’s probably best if I just turn back.
+Better to let sleeping dogs lie.
+Besides, I’m under no obligation to help Saria. We’ve met, but we’ve never even had a proper conversation.
+If they want to fight, I wish they’d take it somewhere else and stop bothering everyone else, seriously.
+I turned on my heel and decided to take a detour to the shoe lockers.
 Three lowly thugs were surrounding me, blocking my path.
 $Saria
-“Did you not hear me say you are in my way? Or are you simply incapable of understanding human speech?”
+"Do you not understand when I tell you that you are in my way? Or are you simply incapable of comprehending language?"
 I was irritated.
-I could not tolerate these vulgar men interfering with my plans.
+I cannot allow my plans to be obstructed by such vulgar men.
 $Narumi
-“It seems you don't know the first thing about showing people respect, do you?!”
-The short, scrawny man was barking like a pathetic, defeated cur.
-Honestly, what an utterly bothersome group...
+"Looks like you don't know the first thing about respect, you bitch!"
+A short, scrawny man was barking like a defeated cur.
+Honestly, what a tiresome bunch……
 $Mitsuteru
-“Just shut up, Naru.”
+"Just shut up, Naru."
 The man who seemed to be the leader of the three restrained the scrawny one and took a step toward me.
-I glared at him intensely.
+I stared him down intently.
 $Mitsuteru
-“As expected of the Shinjou Zaibatsu's little princess. Quite the bold attitude you've got there.”
-The man wore a mocking sneer, clearly looking down on me.
-Hmph, a mere monkey...
+"As expected of the Shinjou Zaibatsu princess. Quite the bold attitude."
+The man wore a sneer that mocked me.
+Hmph, a mere ape……
 $Mitsuteru
-“Well, one could also call it ignorance of the world. It seems a hothouse-grown princess can't even read the room.”
-As the man smirked, the other two following him like leeches broke into laughter.
+"Well, one could also call it ignorance of the world. It seems the greenhouse-raised princess can't read the room."
+When the man said that and smirked, the other two following him like parasites also burst into laughter.
 $Saria
-“And have you managed to comprehend my words yet? How many times must I repeat that you are in my way?”
+"And have you understood my words yet? How many times must I say you are in my way?"
 $Mitsuteru
-“Heh, so you're saying you can't even lower yourself to talk to commoners like us?”
+"Hmph, so you won't even talk to commoners like us?"
 $Saria
-“Naturally. Our stations are worlds apart. Even a monkey should be capable of grasping that much.”
+"Naturally, we are of different social standing. Even an ape should be able to grasp that much."
 $Narumi
-“I'll fucking kill you—”
+"I’ll fucking kill you——"
 $Mitsuteru
-“Wait, Naru.”
+"Wait, Naru."
 $Narumi
-“But, boss!”
-The leader kept that disgusting smirk plastered on his face.
-I found his attitude intolerable.
+"B-But, boss!"
+The leader kept up his persistent, smirking grin.
+I found his attitude loathsome.
 $Saria
-“If you understand the difference in our status, then perhaps you could do me the favor of never appearing before me again?”
+"If you understand the difference in our status, then I trust you will never appear before me again?"
 $Mitsuteru
-“Heh... and if I say no?”
+"Hmph, and if I say no?"
 $Saria
-“You have no right to refuse. This is not a request; it is an order.”
+"You have no right to refuse. This is not a request; it is an order."
 $Mitsuteru
-“I don't recall ever taking orders from the likes of you.”
+"I don't recall taking orders from you."
 $Saria
-“The feeling is mutual. I have no desire to speak with such lowly individuals anyway.”
+"I feel the same. I have no desire to speak with such lowly people."
 $Mitsuteru
-“Heh, since we're so stupid, why don't you explain exactly what 'lowly' means to us? Be real thorough about it.”
+"Heh, see, we're stupid. Why don't you explain exactly what 'lowly' means? Nice and slow."
 $Saria
-“It means you are worth less than trash; your very existence is without value.”
-Honestly, taking up my time with these primate-level creatures is beyond unpleasant.
-I had intended to go and properly domesticate Kanzaki Aoi.
-Suddenly, the scrawny man pulled a knife from his jacket.
-Screams erupted from the surrounding crowd.
+"It means you are less than trash, with no reason to exist."
+Honestly, having my time wasted by these ape-like creatures is beyond unpleasant.
+And I was just about to go and tame Kanzaki Aoi.
+Then, the scrawny man pulled a knife from his jacket.
+Screams erupted from the crowd of onlookers.
 $Narumi
-“A cheeky bitch like you... this'll be enough to shut you up. Uhyhyhy!”
-He brandished the knife and started closing in on me.
-Furthermore, the silent, large Black man approached as if in response.
+"This cheeky bitch... this'll shut her up. Uhyahyahya."
+He brandished the knife and began to close in on me.
+Furthermore, the large black man who had been silent also approached in response.
 $Saria
-“Hmph. Swarming together and relying on weapons... those are the actions of a loser.”
+"Hmph. Banding together, relying on weapons... such things are the hallmarks of a loser."
 $Narumi
-“The hell did you say?! I've had enough of you, I'll carve you up!”
+"What’d you say!? That's it, I’m gonna carve you!"
 $Mitsuteru
-“Stop it.”
-Once again, the leader held him back.
+"Stop it."
+Once again, the leader intervened.
 $George
-“............”
+"…………"
 $Narumi
-“But, boss!”
-The leader glared at the scrawny man and the Black man, who both looked dissatisfied.
-They withered under his gaze and slunk back.
+"But, boss!"
+The leader glared at the scrawny one and the black man, who both looked dissatisfied.
+Wavering under his gaze, the two retreated sullenly.
 $Saria
-“You really should train your pet dogs better.”
+"You really ought to train your lapdogs better."
 $Mitsuteru
-“Heh heh... if you're looking for an owner, I wouldn't mind keeping you myself.”
-The leader continued to sneer at me.
+"Heheh, maybe I'll make you my pet instead."
+The leader continued to sneer.
 $Saria
-“You certainly have nerves of steel...”
-To think a mere monkey would dare to mock me...
-I suppose I must teach him the true meaning of the difference in our status...
+"You certainly have nerve……"
+A mere ape, daring to mock me……
+I suppose I must teach him the true meaning of the difference in our status……
 $Mitsuteru
-“If you hate commoners so much, why is a princess like you attending a school like this anyway?”
+"If you hate commoners that much, why is the princess attending a school like this anyway?"
 $Saria
-“I have no intention of answering a monkey.”
+"I have no intention of answering an ape."
 $Mitsuteru
-“Well, as the monkey serving the princess, I'm dying to know more about my boss.”
+"As an ape serving the princess, I'm just curious about my boss."
 I checked my watch.
-Club activities should be finished by now.
-I won't be able to see Kanzaki Aoi today...
+Club activities should be over by now.
+I won't be able to see Kanzaki Aoi at this rate……
 $Saria
-“If you are so desperate to hear something so trivial, I shall tell you as a parting gift.”
+"If you want an answer to such a trivial question, I shall give it to you as a parting gift."
 $Mitsuteru
-“Heh heh... make it simple for me. So even idiots like us can understand.”
+"Heheh, keep it simple. So even idiots like us can understand."
 $Saria
-“It is quite simple. It is a necessary step for me to eventually take over the Zaibatsu.”
+"It is quite simple. It is necessary for me to eventually inherit the Zaibatsu."
 $Saria
-“I must study the lifestyle of the common people while I can. Once I enter society, such opportunities will no longer exist.”
-With that, I turned sharply on my heel.
+"I must study the lifestyle of the commoners while I can. I will have no such opportunity once I enter society."
+Having said that, I turned sharply on my heel.
 $Narumi
-“H-Hey!”
+"H-Hey!"
 $Saria
-“That being said, I am far too busy to waste any more time dealing with trivial monkeys like yourselves.”
-I glanced back over my shoulder at the three primates.
+"That being said, I am far too busy to waste any more time on trivial apes like you."
+I looked back over my shoulder and gave the three apes a single glance.
 $Saria
-“If you will excuse me.”
-I decided to head home for the day.
-Even though I came specifically to see Kanzaki Aoi, it has been a complete waste of my time.
-I felt their murderous, intense gazes on my back, but I ignored them.
-Such things are nothing more than the howling of defeated curs.
-I was displeased that my plans were interrupted.
-If I take my time here, I'll be late for my meeting with Aoi.
-If that happens, I'll have to deal with her temper.
-...I'm not dealing with that.
-I pushed through the crowd and tried to pass by.
+"Now, if you will excuse me."
+I shall head home for today.
+To think I came all this way to see Kanzaki Aoi. What a waste of time.
+I felt a sharp, murderous gaze on my back, but I ignored it.
+That is nothing more than the howling of a loser.
+The fact that I was obstructed was most unpleasant.
+If I keep taking it easy like this, I’ll be late for my meeting with Aoi.
+If that happens, I’ll never hear the end of it from her.
+…I can't be bothered with this.
+I pushed through the crowd, intending to just pass by.
 $Saria
-“Did you not hear me say you are in my way? Or are you simply incapable of understanding human speech?”
+"Do you not understand when I tell you that you are in my way? Or are you simply incapable of comprehending language?"
 Saria spat out more provocative words.
-That woman... she can't complain even if she gets stabbed...
-Saria looked clearly offended.
-She seemed quite irritated.
-I guess the princess is in a bad mood because the delinquent gang is in her way...
-Then, Narumi, the loudest one of the Kanda gang, started making a scene as expected.
+That woman…… she can't complain even if she gets stabbed……
+Saria looked visibly annoyed.
+She seemed to be extremely irritated.
+The princess is in a bad mood because a gang of delinquents is in her way, huh……
+Then, Narumi—the loudest member of the Kanda gang—started making a scene as expected.
 $Narumi
-“It seems you don't know the first thing about showing people respect, do you?!”
+"Looks like you don't know the first thing about respect, you bitch!"
 $Mitsuteru
-“Just shut up, Naru.”
+"Just shut up, Naru."
 Surprisingly, it was Kanda who stopped him.
-Kanda wore a smirk, a look of mocking amusement.
-Oh, has he mellowed out?
+Kanda wore a smirking, mocking grin.
+Hoh, has he mellowed out?
 But Kanda didn't move to leave.
 Instead, he took a step toward Saria.
 $Mitsuteru
-“As expected of the Shinjou Zaibatsu's little princess. Quite the bold attitude you've got there.”
-His eyes, however, weren't laughing at all.
-He hadn't mellowed out one bit.
+"As expected of the Shinjou Zaibatsu princess. Quite the bold attitude."
+His eyes definitely weren't smiling.
+He hasn't mellowed out at all.
 $Mitsuteru
-“Well, one could also call it ignorance of the world. It seems a hothouse-grown princess can't even read the room.”
-At that, Narumi and George burst out laughing.
-Tension crackled in the air, and I found myself watching with bated breath.
+"Well, one could also call it ignorance of the world. It seems the greenhouse-raised princess can't read the room."
+Narumi and George both burst into laughter.
+Wrapped in a prickly tension, I found myself watching with bated breath.
 $Saria
-“And have you managed to comprehend my words yet? How many times must I repeat that you are in my way?”
-Saria didn't flinch and continued to provoke them.
-This is bad. Saria clearly doesn't know how to back down.
-If they lay a hand on her, she'll have brought it on herself.
-Still, Saria is a girl. If Kanda and the others actually try to do something, I'll have to step in.
-Not that I owe her anything...
-Man, what a great guy I am!
-I decided to blend into the crowd for a while and see how things played out.
+"And have you understood my words yet? How many times must I say you are in my way?"
+Saria continued to egg them on without flinching.
+This is hopeless. It seems Saria doesn't know the meaning of backing down.
+If they lay a hand on her, she’s bringing it on herself.
+Still, Saria is a girl. If Kanda and the others actually try something, I’ll have to step in.
+Not that I owe her anything……
+Man, I'm such a good guy!
+I decided to stay among the onlookers and watch the situation for a while.
 $Mitsuteru
-“Heh, so you're saying you can't even lower yourself to talk to commoners like us?”
+"Hmph, so you won't even talk to commoners like us?"
 $Saria
-“Naturally. Our stations are worlds apart. Even a monkey should be capable of grasping that much.”
+"Naturally, we are of different social standing. Even an ape should be able to grasp that much."
 $Narumi
-“I'll fucking kill you—”
+"I’ll fucking kill you——"
 $Mitsuteru
-“Wait, Naru.”
+"Wait, Naru."
 $Narumi
-“But, boss!”
+"B-But, boss!"
 $Saria
-“If you understand the difference in our status, then perhaps you could do me the favor of never appearing before me again?”
-She just keeps fanning the flames...
-It's fine to be fearless, but I feel like she's just digging her own grave.
+"If you understand the difference in our status, then I trust you will never appear before me again?"
+There she goes, egging them on again……
+It’s one thing to be fearless, but I feel like she’s just digging her own grave.
 Saria seems like the type who won't live a long life.
 $Mitsuteru
-“Heh... and if I say no?”
+"Hmph, and if I say no?"
 $Saria
-“You have no right to refuse. This is not a request; it is an order.”
+"You have no right to refuse. This is not a request; it is an order."
 $Mitsuteru
-“I don't recall ever taking orders from the likes of you.”
+"I don't recall taking orders from you."
 $Saria
-“The feeling is mutual. I have no desire to speak with such lowly individuals anyway.”
+"I feel the same. I have no desire to speak with such lowly people."
 $Mitsuteru
-“Heh, since we're so stupid, why don't you explain exactly what 'lowly' means to us? Be real thorough about it.”
+"Heh, see, we're stupid. Why don't you explain exactly what 'lowly' means? Nice and slow."
 $Saria
-“It means you are worth less than trash; your very existence is without value.”
-Well.
-I'm not really sure what's going on anymore. What exactly are those two trying to say to each other?
-Just then... Narumi flashed a knife from his pocket.
+"It means you are less than trash, with no reason to exist."
+Uh……
+I’m starting to get lost here. What are those two even trying to say?
+Then, Narumi suddenly flashed a knife from his pocket.
 Screams rose from the onlookers.
 $Narumi
-“A cheeky bitch like you... this'll be enough to shut you up. Uhyhyhy!”
-He let out a vulgar laugh as he closed in on Saria. George silently followed suit.
+"This cheeky bitch... this'll shut her up. Uhyahyahya."
+He closed in on Saria with a vulgar laugh. George silently followed suit.
 This is bad.
-I tried to step in to stop it. But the crowd was in a state of panic, and I couldn't break through the wall of people.
+I tried to step in. But the crowd had fallen into a panic, and I couldn't push through the wave of people.
 $Saria
-“Hmph. Swarming together and relying on weapons... those are the actions of a loser.”
-Hey, hey, stop provoking them. This isn't a joke anymore.
+"Hmph. Banding together, relying on weapons... such things are the hallmarks of a loser."
+Hey, seriously, stop provoking them. This isn't a joke anymore.
 $Narumi
-“The hell did you say?! I've had enough of you, I'll carve you up!”
-Oh, for god's sake!
-But it was Kanda who ended the chaos.
+"What’d you say!? That's it, I’m gonna carve you!"
+Oh, for crying out loud!
+Then, Kanda was the one who settled the chaos.
 $Mitsuteru
-“Stop it.”
-With that one phrase and a sharp glare, he silenced Narumi and George.
+"Stop it."
+With that single word and a sharp glare, he silenced Narumi and George.
 I was stunned.
-To think the short-tempered Kanda would stop them. Apparently, he has no intention of causing a scene here.
+That short-fused Kanda actually stopped them. It seems he doesn't want to cause a major incident here.
 $Saria
-“You really should train your pet dogs better.”
-Yet, Saria still keeps provoking him.
-I can't believe this. I was appalled.
+"You really ought to train your lapdogs better."
+Yet Saria still provokes him.
+Seriously, I can't take this. I was appalled.
 $Mitsuteru
-“Heh heh... if you're looking for an owner, I wouldn't mind keeping you myself.”
-Kanda looked completely unbothered.
+"Heheh, maybe I'll make you my pet instead."
+Kanda looked completely composed.
 $Saria
-“You certainly have nerves of steel...”
-Saria's sharp gaze pierced Kanda.
-Whoa, scary...
-It's like she's emitting some kind of intense aura... I guess an ojou-sama really is on another level...
-Not that I'd ever want to be friends with her.
-Then, Kanda changed the subject.
+"You certainly have nerve……"
+Saria’s sharp gaze pierced Kanda.
+Whoa, that’s scary……
+It felt like some incredible aura was being released…… The princess really is in a different league……
+Not that I’d ever want to be her friend.
+Then Kanda changed the subject.
 $Mitsuteru
-“If you hate commoners so much, why is a princess like you attending a school like this anyway?”
+"If you hate commoners that much, why is the princess attending a school like this anyway?"
 $Saria
-“I have no intention of answering a monkey.”
+"I have no intention of answering an ape."
 $Mitsuteru
-“Well, as the monkey serving the princess, I'm dying to know more about my boss.”
+"As an ape serving the princess, I'm just curious about my boss."
 What is Kanda trying to get at?
 For some reason, Saria was looking at her watch.
-Then, she gave a small click of her tongue.
+Then she gave a small click of her tongue.
 Man, I don't understand this fight at all.
 $Saria
-“If you are so desperate to hear something so trivial, I shall tell you as a parting gift.”
+"If you want an answer to such a trivial question, I shall give it to you as a parting gift."
 $Mitsuteru
-“Heh heh... make it simple for me. So even idiots like us can understand.”
+"Heheh, keep it simple. So even idiots like us can understand."
 $Saria
-“It is quite simple. It is a necessary step for me to eventually take over the Zaibatsu.”
-Saria let out a snort. She answered as if it were a huge chore.
+"It is quite simple. It is necessary for me to eventually inherit the Zaibatsu."
+Saria gave a snort. She answered as if it were a total chore.
 $Saria
-“I must study the lifestyle of the common people while I can. Once I enter society, such opportunities will no longer exist.”
+"I must study the lifestyle of the commoners while I can. I will have no such opportunity once I enter society."
 Hmm.
-As a commoner myself, Saria's words are a bit irritating.
-She's so stuck-up, it's unpleasant.
-Suddenly, Saria turned on her heel.
-Narumi was flustered.
+As a commoner myself, Saria’s words were a bit grating.
+She’s so stuck-up, it’s annoying.
+Then Saria suddenly turned on her heel.
+Narumi looked flustered.
 $Narumi
-“H-Hey!”
+"H-Hey!"
 $Saria
-“That being said, I am far too busy to waste any more time dealing with trivial monkeys like yourselves.”
-She glanced back over her shoulder and smirked. Her eyes weren't laughing.
+"That being said, I am far too busy to waste any more time on trivial apes like you."
+She looked back over her shoulder and smirked. Her eyes weren't smiling.
 $Saria
-“If you will excuse me.”
-Leaving that parting shot behind, she walked off with an air of arrogant confidence.
-I stood there blankly, watching Saria go.
-All the onlookers were stunned as well.
-Man... what can I say...
+"Now, if you will excuse me."
+Leaving behind those parting words, she walked away with her head held high.
+I stood there blankly watching Saria’s back.
+The onlookers were all stunned as well.
+Man…… what can I even say……
 $Narumi
-“The hell are you all staring at?! We ain't a show!”
-Narumi, coming back to his senses, started taking his anger out on the crowd.
-I quickly slipped away along with the dispersing crowd.
-Still...
-Whoever picks a fight with that person must be a real glutton for punishment.
-I suddenly thought that, but I wasn't sure if that "person" referred to Kanda or Saria.
-Either way, I realized one thing.
+"The hell are you all looking at!?"
+Coming to his senses, Narumi started taking his frustration out on the onlookers.
+I slipped away in the midst of the scattering crowd.
+Still……
+To pick a fight with her... what a glutton for punishment.
+That thought occurred to me, but I wasn't even sure if "her" referred to Kanda or Saria.
+Either way, I learned one thing.
 Saria is definitely a strange woman.
-And she's a cheeky, arrogant woman.
-I definitely don't want to get close to her.
-With those thoughts in mind, I headed toward the school gate.
-I hesitated for a moment, but my body moved on its own.
-I pushed my way through the crowd.
-I didn't really know the details, and Saria is an insufferable, unpleasant person, but a girl is a girl.
-The Kanda gang is quick to resort to violence, so there's no telling what they might do.
-I had to step in.
-Maybe my hot-blooded side is acting up. I've got such an inconvenient personality, sigh.
-I pushed through the crowd and stood beside Saria.
+And she’s a cheeky, arrogant one at that.
+I definitely don't want to get involved with her.
+With those thoughts in mind, I headed toward the school gates.
+I hesitated for a split second, but my body moved on its own.
+I pushed my way through the crowd of onlookers.
+I didn't fully understand the situation, and Saria was an insufferable jerk, but a girl is a girl.
+The Kanda Gang is quick to violence; there’s no telling what they might do.
+I have no choice but to step in.
+I guess my hot-headed instincts are acting up. I’ve got such a troublesome personality, sheesh.
+I pushed through the crowd and stood next to Saria.
 $Akito
-“What the hell do you think you're doing?”
-As I intervened, Saria and Kanda both looked at me, taken aback.
-They were silent for a moment.
-But soon, they both turned their fire on me.
+"What do you think you’re doing?"
+When I intervened, both Saria and Kanda looked at me as if they’d been caught off guard.
+They went silent for a moment.
+But they immediately turned their fire on me.
 $Mitsuteru
-“Back off, Kurusu.”
+"Stay out of this, Kurusu."
 $Saria
-“This has nothing to do with you. Please remain silent.”
+"This has nothing to do with you. Please remain silent."
 $Akito
-“Wha...!”
-Kanda aside, why do I have to take that from Saria?
-When I’m going out of my way to help her.
-I felt a surge of irritation and immediately lost interest.
-But now that I’ve stepped in, I can't just back down.
-The crowd is watching with bated breath.
-Ugh, I really do have an inconvenient personality...
-Anyway, I need to settle things here.
+"What……!"
+Kanda aside, why the hell did I have to hear that from Saria too?
+I was only trying to help out of the goodness of my heart.
+I was ticked off, and my motivation vanished instantly.
+But now that I’d intervened like this, I couldn't exactly back down.
+The onlookers were watching with bated breath.
+Ugh, I really do have a troublesome personality……
+Anyway, time to settle things.
 $Akito
-“I don't care what's going on, but you guys are putting on quite a show.”
-I don't think words like that will be enough to calm them down...
-Please don't provoke them anymore, Saria.
-Kanda glared between Saria and me for a while, but eventually shrugged his shoulders.
+"I don't care what you do, but you’re putting on quite a show for everyone."
+I didn't think these words would actually work……
+Please don't egg them on anymore, Princess Saria.
+Kanda glared back and forth between me and Saria for a while, but finally shrugged.
 $Mitsuteru
-“Tch. Boring.”
-Apparently, he lost interest.
-Leaving those parting words, Kanda walked away with Narumi and George in tow.
-The onlookers started to disperse as well.
-Some looked disappointed that it didn't turn into a fight, complaining as they left.
-Honestly, these people...
+"Hmph. Boring."
+It seems he’d lost interest.
+Leaving behind those parting words, Kanda walked away, taking Narumi and George with him.
+The onlookers also began to scatter.
+Some were grumbling as if they were disappointed there wasn't a fight.
+Seriously, these people……
 Before I knew it, only Saria and I were left.
 Saria stood there with her arms crossed.
-Contrary to her calm demeanor and expression, the way she looked at me was sharp and uninviting.
-Well, at least nothing happened. I'd like a little thanks, though.
-I was about to say that, but Saria spoke first.
+Contrary to her composed demeanor and expression, the gaze she directed at me was sharp, creating a somewhat unapproachable atmosphere.
+Well, I’m glad nothing happened. I’d like a little thanks, though.
+Just as I was about to say that, Saria spoke first.
 $Saria
-“I did not ask for anyone to save me.”
-I was stunned by those words.
+"I never asked for your help."
+I was stunned by her words.
 Who the hell does she think she is?
-Anger bubbled up inside me.
+Anger welled up inside me.
 I couldn't help but snap back.
 $Akito
-“Well, it seems my help was uncalled for then.”
+"Seems it was an unwanted favor, then."
 $Saria
-“Precisely. If you understand that, then perhaps you should refrain from interfering in the first place.”
-Ugh. What an arrogant woman.
+"Precisely. If you understand that, perhaps you could refrain from sticking your nose in from the beginning."
+Guh. What a cheeky woman.
 $Akito
-“It seems the Shinjou Zaibatsu's little princess doesn't even know how to thank someone.”
+"I see the Shinjou Zaibatsu princess doesn't even know how to thank someone."
 $Saria
-“Are you expecting me to be grateful? How cunning of you.”
+"Are you planning to hold this over me? How cunning."
 $Akito
-“It's not that, I'm just saying—”
-I suppressed the urge to complain.
-This would make me no different from Kanda.
+"No, I’m saying that I——"
+I held back the urge to keep arguing.
+If I did, I’d be no different from Kanda.
 $Akito
-“Fine, do whatever you want. I'm never helping you again.”
+"Fine, do whatever you want. I won't help you a second time."
 $Saria
-“I am glad to hear you understand.”
-Maintaining her arrogant attitude, Saria glanced at me.
-Then, she quickly turned and walked away.
-Wh-wh... what the hell does she mean, "I'm glad you understand"?!
-I was boiling with rage. But I didn't know where to direct that anger, so I could only stomp my feet in frustration.
-I really do hate that woman!
+"I am glad you understand."
+With an arrogant attitude, Saria gave me a single glance.
+Then, she quickly turned on her heel.
+Wh-Wh…… what do you mean, "I am glad you understand"!?
+My blood was boiling. But I didn't know where to direct my anger, so I could only stomp my feet in frustration.
+I really do hate women like her!
 $Saria
-“Well, for today at least—”
-Saria murmured, still with her back turned to me.
+"Well, for today at least——"
+Saria murmured with her back still turned toward me.
 $Saria
-“I shall say thank you.”
+"I shall say thank you."
 $Akito
-“...Huh?”
-Her words were so incredibly haughty that for a moment, I didn't realize what she had said.
-After a moment of thought, it finally clicked.
-Apparently, she had thanked me...
-But by the time I looked up to respond, Saria’s figure had already grown small in the distance.
-I stood there blankly, watching her go.
-What was that all about?
+"……Huh?"
+Her tone was so overbearingly haughty that for a moment, I didn't even realize what she had said.
+I thought about it for a bit before it finally clicked.
+It seems she actually thanked me……
+But when I looked up to respond, Saria’s figure was already far away.
+I stood there blankly, watching her back as she left.
+What the hell was that?
 $Akito
-“Yup, she's a strange woman.”
-I don't understand what Saria is thinking at all.
-I guess the heads of rich ojou-samas and commoners just work differently.
+"She really is a strange woman."
+I have absolutely no idea what Saria is thinking.
+I guess the brains of rich ojou-samas and commoners are just wired differently.
 But strangely, my anger had vanished.
-Realizing it was because of Saria's parting words, I could only give a wry smile.
-I'm so simple.
-Feeling strangely embarrassed, I scratched my head and hurried toward the school gate.
+Realizing it was because of that one parting word from Saria, I could only give a wry smile.
+I really am a simple guy.
+Feeling oddly embarrassed, I scratched my head and hurried toward the school gates.

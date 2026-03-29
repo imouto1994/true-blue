@@ -1,552 +1,552 @@
 --------------------
 04c02
 ********************
-■Ryuichi Episode 02~
+■ Ryuichi Episode 02~
 Now then, what should I do...?
 [Choices]
-1. 　Head out for roadwork
-2. 　Check on her later
-3. 　Go right now
+1. Head out for roadwork
+2. Go check on them later
+3. Go right now
 $Akito
 “...Alright!”
-Club activities had begun.
-However, for us in the baseball club, we don't dive straight into team practice.
-For the first 45 minutes, everyone starts with their own independent training.
-While some guys go straight to toss batting, I make it a point to start with roadwork and steady running.
-First, I worked through a full-body stretch to loosen up.
-...As I was doing leg extensions, the tennis courts caught my eye.
+Club activities have begun.
+But we in the baseball club don't start with joint practice right away.
+For the first 45 minutes, everyone begins their own independent training.
+Some members start toss batting immediately, but I make it a point to start with steady running.
+First, I loosen up my whole body with some stretches.
+...While I was doing leg extensions, the tennis courts caught my eye.
 $Akito
-“(Come to think of it, that Ryuichi guy is the captain of the tennis club...)”
-And of course, Aoi is in the tennis club too.
+“(Come to think of it, that Ryuichi guy was the captain of the tennis club...)”
+Naturally, Aoi is in the tennis club too.
 $Akito
-“....................”
-...I’ve got a bad feeling about this.
+“………………”
+.........For some reason, I’m getting a strange premonition.
 $Akito
-“Aoi and Saeki-senpai in the same club... so what! Who gives a damn!”
-I shook my head violently from side to side to clear out the intrusive thoughts.
-The tennis club is co-ed, they all practice together.
-It’s perfectly normal for Aoi to talk to other guys.
-More importantly, I need to focus on my own training, for myself and for the team.
+“Aoi and Saeki-senpai are in the same club... so what?!”
+I shook my head vigorously to brush away the stray thoughts.
+The tennis club practices with both boys and girls together.
+It's not strange at all for Aoi to talk to other guys.
+More importantly, I have to pour my heart into practice for myself and for the team right now.
 $Akito
-“Next stop, the Nationals! Let's gooooo!”
-Letting out a massive shout, I headed out for my roadwork.
+“Goal: NATIONAL CHAMPIONSHIP!!!”
+I let out a particularly loud shout and headed out for roadwork.
 Club time.
-I was off in the corner of the tennis courts, focused on my practice swings.
+I was focused on practicing my swings alone at the edge of the tennis courts.
 $Aoi
-“—!?”
-Suddenly, Akito's booming voice echoed from the direction of the school gates.
-Startled by the sudden noise, I reflexively flinched.
-"The Nationals!" he's screaming...
-Honestly, sometimes Akito is just like a big kid.
-But I guess that’s one of his better traits.
+“---!?”
+Suddenly, a loud voice that sounded like Akito’s echoed from the direction of the school gate.
+Startled, I felt a small shiver run through my body.
+Shouting "National Championship!!!" and all that...
+I really think Akito is just like a child sometimes.
+But I suppose that might be one of his better qualities.
 $Aoi
-“....................”
-I stopped swinging and stared blankly at Akito's back as he ran off into the distance.
+“………………”
+I stopped my swings and blankly watched Akito’s retreating back as he ran off.
 $Ryuichi
 “—Aoi-kun.”
 $Aoi
 “...Eh? Ah, S-Saeki-senpai!”
-Before I knew it, Saeki-senpai was standing right behind me.
-Overcome with surprise and a twinge of guilt for being caught daydreaming, I bowed my head deeply.
+Before I knew it, Saeki-senpai was standing behind me.
+Between the guilt of spacing out and the surprise, I instinctively bowed my head deep.
 $Ryuichi
-“Hahaha, no need to bow so formally.”
-Saeki-senpai gave my shoulder a few casual, friendly pats.
+“Hahaha, you don't have to bow that low.”
+Saeki-senpai gave me a friendly pat on the shoulder.
 $Aoi
 “Ah, um, I’m sorry...”
-I gave another quick bow and tried to get back to my practice.
-Whew, he really startled me.
-He just appeared behind me without making a sound...
+I gave a polite bow for now and tried to restart my practice.
+Whew, he startled me.
+Standing right behind me without a sound like that...
 $Ryuichi
-“Ah, that reminds me, Aoi-kun.”
+“Ah, that’s right, Aoi-kun.”
 $Aoi
 “Y-Yes?”
 $Ryuichi
-“Hmm, well, I’ve been watching your form for a bit... and there are a few things that concern me.”
-Saeki-senpai rested a finger on his chin, looking me over with a very serious gaze.
+“Hmm, actually, I’ve been watching your form for a bit... and there's something that’s bothering me.”
+Saeki-senpai put a finger to his chin, casting serious glances at me.
 $Aoi
-“Eh, um...”
-Every look and movement of his only made my anxiety grow.
-I hadn't thought there was anything wrong with my form, but I couldn't ignore the advice of the captain—especially one as skilled as Saeki-senpai.
-He can spot things I’d never even notice...
-I really am lucky to have such a reliable upperclassman.
+“E-Eh, well...”
+Every one of his gestures stirred up my anxiety.
+While I personally didn't think there was a problem, I couldn't ignore the words of Saeki-senpai, who was more skilled than me and the captain.
+Saeki-senpai notices things even when I don't...
+I'm glad to have such a reliable senior.
 $Aoi
-“I-Is something wrong with my swing?”
+“I-Is there something wrong with my form?”
 $Ryuichi
-“Hmm, it’s not really something I can explain with just words. ...I know, I’ll give you some direct coaching.”
-Saying that, Saeki-senpai offered me a bright smile.
+“Hmm, this isn't something I can just explain with words. ...I know, I’ll give you some direct guidance myself.”
+Saeki-senpai said that and gave me a bright smile.
 $Aoi
 “Y-Yes! Thank you very much!”
-I gave him another polite bow.
+I gave another bow just like before.
 $Ryuichi
-“Right. ...Now then, show me those practice swings again, would you?”
+“Yeah. ...Well then, could you show me those swings one more time?”
 $Aoi
 “Yes...”
-Obediently, I performed several large practice swings right in front of him.
+As I was told, I performed several large swings with my racket in front of Saeki-senpai.
 $Ryuichi
 “...Hmm.”
-Saeki-senpai kept his finger on his chin, letting out a contemplative hum.
-My anxiety spiked further.
-There really is something wrong that I’m just not seeing...
-But I have no idea what it could be...
+Saeki-senpai kept his finger on his chin, humming to himself.
+My sense of anxiety only grew.
+So there really is a bad habit I haven't noticed...
+But I can't tell what it is myself...
 $Ryuichi
-“Alright, I see it now.”
+“I see, alright.”
 Suddenly, Saeki-senpai stepped up directly behind me.
 $Ryuichi
 “Do you mind?”
-With those words, he gently wrapped his hand around my right wrist, the one holding the racket.
+Saying only that, Saeki-senpai gripped my right wrist—the one holding the racket—as if gently enveloping it.
 $Aoi
 “...Ah.”
-Then, he placed his left hand against my waist.
-He’s just steadying me, but he is a man, after all, and I can't help but be aware of it...
-I was a bit flustered by the contact, but his gaze remained serious, with no hint of anything untoward.
+Furthermore, Saeki-senpai placed his left hand on my waist.
+He’s only resting it there, but since Saeki-senpai is a man, I can't help but be aware of him...
+I was a bit flustered by his actions, but I couldn't sense anything wicked from his serious gaze.
 $Ryuichi
-“Hm? What is it...?”
+“Hm? What’s the matter...?”
 $Aoi
 “N-No... it’s nothing.”
-Calling it "nothing" was a lie.
-Deep down, I was thrilled that the captain was personally coaching me.
-But because our bodies were pressed closer than necessary, my heart started to race.
-I was probably just imagining it, but the place where he was touching me felt like it was growing hot...
+Calling it "nothing" would be a lie.
+In my heart, I was very happy that the captain was personally coaching me.
+But because our bodies were pressed closer than necessary, my heart started pounding.
+It’s probably just my imagination, but the place where he’s touching me feels hot...
 $Aoi
-“(Stop thinking weird things and focus!)”
-Trying to clear my mind, I spent the next while following Saeki-senpai’s instructions for my swings.
-Eventually, I got so caught up in the practice that I stopped noticing how much our skin was touching.
+“(I shouldn't think about weird things; I have to concentrate!)”
+As if to brush away the idle thoughts, I continued swinging exactly as Saeki-senpai instructed for a while.
+Eventually, as I kept going, I became absorbed in the practice and stopped caring about our skin being pressed together.
 $Ryuichi
-“Hmm, you’re putting too much strength into this area here.”
-As he spoke, Saeki-senpai moved his hand from my waist around toward my stomach.
+“Hmm, you’re putting too much strength into this area.”
+Saying that, Saeki-senpai moved the hand he had on my waist toward my stomach.
 $Aoi
-“Ah, ahn... that tickles.”
-I’m incredibly ticklish around my sides, and I couldn't help but writhe a little.
+“A-Ahn... that tickles.”
+I'm weak to being tickled on my sides, and I instinctively squirmed.
 $Ryuichi
-“Aoi-kun, this is coaching.”
+“Aoi-kun, this is coaching, you know.”
 $Aoi
 “Ah... I’m sorry.”
-Even if he says that...
-I apologized sincerely, but the tickling sensation was almost unbearable.
-I tried desperately to stay focused on the practice.
-However, Saeki-senpai’s hand slowly began to slide down from my waist, eventually creeping toward my lower abdomen.
-Wait, what...?!
+E-Even if you say that...
+I apologized submissively, but the tickling was still hard to bear.
+I did my best to concentrate on the practice.
+However, Saeki-senpai’s hand gradually stretched down from my waist, eventually creeping toward my lower abdomen.
+Wh-What...!?
 $Aoi
-“...Ah... kuuh...!”
-The sensation was too much, and a small cry escaped my lips.
-Then, with his hand resting on my lower belly, Saeki-senpai leaned in and whispered in my ear.
+“...Ah... kuuu...”
+It became too much, and a small cry escaped my lips.
+Then Saeki-senpai, with his hand still on my lower abdomen, whispered softly into my ear.
 $Ryuichi
-“Your hair, Aoi-kun... it has such a lovely scent.”
-His sweet words made my whole body shiver.
-I could feel my face flushing red.
-Then he whispered again.
+“Aoi-kun, your hair... it smells wonderful.”
+My body gave a start at those sweet words.
+My face naturally flushed hot.
+Saeki-senpai continued to whisper into my ear.
 $Ryuichi
-“Not just your hair. ...The nape of your neck is quite beautiful too. Just looking at it makes my heart pound.”
-My heart is pounding too...!
-Saeki-senpai stroked the back of my head, then suddenly turned my face toward his.
-Naturally, our eyes met.
-No... being stared at from this close... it's so embarrassing.
+“It’s not just your hair. ...The nape of your neck is very beautiful too. Just looking at it makes my heart pound.”
+My heart is pounding too...
+Just as I thought Saeki-senpai was stroking the back of my head, he suddenly forced my face to turn to the side.
+Our eyes met naturally.
+No... being stared at from this close......... i-it’s embarrassing.
 $Ryuichi
-“Such pure, innocent eyes... and so moist and beautiful. ...I feel like I could be sucked right into them.”
-...Eh? Wha-whaaat?!
-I’d never had anyone say something like that to me before.
+“Such pure and innocent eyes, so beautifully moist. ...It’s like I could be pulled right into them.”
+......Eh? Eeeeeh!?
+This was the first time anyone had ever said something like that to me.
 $Aoi
-“A-Ah, um, er...”
-I was spiraling into a total panic.
-Saeki-senpai moved his right hand just below my breasts and began to trace the area with his fingertips.
-Ugh... it t-tickles so much...!
+“A-Ah, um, um...”
+I fell further into a panic.
+Saeki-senpai moved his right hand to just below my chest and began to trace it with his fingertips.
+Uuuugh... t-that tickles...
 $Aoi
-“Ah... uuuh...”
-Overwhelmed with shame, my body began to quiver and twitch.
-Ah... n-not... there.
-Before I knew it, Saeki-senpai’s hand was brushing against my breasts.
-A touch so light I could barely tell if he was touching me or not.
-It felt like he was teasing me... an agonizing, frustrating, unbearable sensation.
-Waves of shivering pleasure began to ripple through my entire body.
-I knew well enough what was being done to me.
-And yet, whether it was the tension or something else, I couldn't bring myself to pull away.
+“Ah... uuuugh...”
+My body began to twitch and shiver from sheer embarrassment.
+Ah... n-no... not there.
+Before I knew it, Saeki-senpai’s hand was touching my breast.
+A touch so soft I couldn't tell if he was actually touching me or not.
+It felt like I was being teased... I started to feel an unbearable sensation, both aching and frustrating.
+Waves of slow, tingling pleasure began to race through my entire body.
+I'm well aware of what is being done to me.
+But even though I tried to pull away, my body refused to move, perhaps out of tension.
 $Aoi
-“(This is so embarrassing... what do I do...?)”
-Sweat began to bead on my forehead. My mind was starting to fill with a white fog.
+“(I-I'm so embarrassed... Wh-What should I do...?)”
+Sweat began to bead on my forehead before I knew it. A white mist gradually started to settle in my head.
 $Aoi
 “(Eh...? What is this...??)”
-I felt something pressing against my rear...?
-Every nerve in my body suddenly focused on that one spot.
+Is there something pressing against my bottom...?
+All my nerves suddenly concentrated on that spot.
 $Aoi
-“(C-Could this be... Saeki-senpai’s?)”
-It was undeniable—what was pressing against my butt was Saeki-senpai’s penis.
-And it was growing hard...
-N-No... why... why now...?
+“(C-Could this be... Saeki-senpai’s...?)”
+It was obvious; I realized that what was pressing against my bottom was Saeki-senpai’s penis.
+And it’s gotten so big...
+N-No... not that... why at a time like this...?
 $Aoi
-“A... um...”
-Unable to help myself, I looked at Saeki-senpai.
-As if he understood exactly what I wanted to say, his expression turned sorrowful.
+“U-Um...”
+Unable to take it, I looked at Saeki-senpai.
+Then Saeki-senpai, as if understanding what I wanted to say, wore a sorrowful expression.
 $Ryuichi
-“I’m sorry... and in the middle of our sacred club time, too. ...But it’s your fault, you know. You’re simply... far too alluring.”
-It sounded like he was just trying to justify himself, but coming from the captain I respected so much, I found myself accepting it.
-No, his words had a strangely persuasive ring to them.
-Even though I knew in my head this was wrong, I couldn't deny him...
+“I'm sorry... even though we're in the middle of a sacred club activity... But it's your fault. It's because... you are far too alluring.”
+His words sounded like he was justifying himself, but because it was Saeki-senpai whom I respect, I somehow found myself convinced.
+No, his words had a resonance that made me feel strangely accepting.
+Even though my mind knew it was wrong, I couldn't deny it...
 I couldn't escape...
-I desperately tried to ignore the hard object pressing against my rear.
+I desperately tried to endure the foreign sensation pressing against my bottom.
 $Ryuichi
-“Aoi-kun... if you move too strangely, the others will notice. You must act normal.”
+“Aoi-kun... if you make any strange movements, everyone will notice. So, act natural.”
 $Aoi
 “...Y-Yes, I understand...”
-Words completely opposite to my true will left my mouth.
-I wanted to pull away from him... I didn't want this... but my body refused to listen.
+Words completely opposite to my own will were murmured from my lips.
+Even though I really want to pull away from Saeki-senpai... even though I hate this... my body won't listen to me.
 $Aoi
-“Nngh...! Kuu, n-ah!”
-Every time I performed a practice swing, Saeki-senpai’s fingers would toy with my nipples through my clothes.
-Over and over, those teasing movements repeated—.
-The sensation of his fingers through my tennis gear and the sports bra underneath was slowly stripping away my reason...
+“Mnn...! Kuu... n!”
+Every time we repeated the swing motion, Saeki-senpai’s fingers would toy with my nipples through the fabric.
+Over and over, those teasing hand movements were repeated—
+The wriggling of his fingers transmitted through my tennis gear and the sports bra beneath it began to strip away my reason bit by bit...
 $Aoi
-“(I-If you’re going to tease me like this, just toy with them harder...!)”
-That urge warred with the desire for him to stop.
+“(I-If you're going to tease me like this, then just play with them harder...!)”
+The feeling of wanting to scream that out clashed with the feeling of wanting him to stop.
 $Ryuichi
-“You mustn't... if you make such a scandalous face, everyone will wonder what's going on, won't they?”
+“You mustn't... if you make such a messy face, everyone will think it's strange, don't you think?”
 $Aoi
-“I’m sor... I’m sorry...”
-I had no choice but to try and maintain a calm expression.
-But the more I told myself I shouldn't feel this, the harder and more peaked my nipples became.
-Pressed against my rear, Saeki-senpai’s penis was becoming even harder, even larger.
+“Sorr... I’m sorry...”
+I had no choice but to pretend to be as natural as possible.
+But the more I told myself I shouldn't feel it, the harder and sharper my nipples became.
+Saeki-senpai’s penis, pressed against my bottom, grew even harder and larger.
 $Aoi
-“(Ah... Saeki-senpai’s... it’s right against my butt. ...It feels so thick and hard... I feel so strange...)”
-My head was starting to grow fuzzy.
-With every movement of my body, Saeki-senpai rubbed his hardened cock against the crack of my buttocks.
-The short skirt of my uniform was riding up, leaving my underskirt exposed.
-Worse, with every move Senpai made, the fabric of the underskirt rubbed against the panties underneath...
+“(Ah... Saeki-senpai’s... it's hitting my bottom. ...It feels so stiff... I feel so strange...)”
+My head was starting to feel fuzzy.
+Every time my body swayed, Saeki-senpai rubbed his hardened penis against the crack of my bottom.
+The back of my short skirt was bunched up, and it felt like my undershorts were exposed.
+Moreover, every time Saeki-senpai moved, the undershorts moved and rubbed against the panties beneath them...
 $Aoi
-“Haah... ah... haah... nnnngh...”
-If we weren't being watched, I might have screamed for him to do something to me.
+“Haah... ah... haah... mnnnn...!”
+If everyone wasn't watching, I might have screamed for him to do something.
 $Ryuichi
 “Ah, Aoi-kun...”
 $Aoi
-“Ah... aah...!”
-A sound that was almost a gasp escaped my lips.
+“A... aah...!”
+I instinctively let out a sound that was almost a moan.
 I hurriedly looked around, but no one had noticed.
-My relief was short-lived, as Saeki-senpai’s onslaught continued immediately...
+My relief was short-lived, as Saeki-senpai’s assault immediately resumed...
 $Ryuichi
-“Ah, Aoi-kun. Your rear is so soft... it feels wonderful.”
+“Ah, Aoi-kun. Your bottom is so soft... and it feels so good.”
 $Aoi
-“Th-That's...”
+“S-Such a thing...”
 $Ryuichi
-“To think you can make me feel this way just like this... what an incredible body you have... your body is marvelous, Aoi-kun.”
+“To think you could make me feel this much just from this... what a wonderful body you have... Aoi-kun.”
 $Aoi
-“...No...”
-I was fully aware of the lewd things he was whispering into my ear.
-And yet, right now, I was accepting every single word.
-It was starting to feel so good...
+“...Y-Yan.”
+I'm aware that he is whispering incredibly lewd things into my ear over and over.
+But right now, I was accepting all of those words.
+It had begun to feel comfortable...
 $Ryuichi
 “...Aoi-kun!”
-Before I knew it, Saeki-senpai’s hand was kneading my breasts right through my tennis top.
-I could feel my breasts changing shape under his touch.
-The sheer lewdness of the situation only excited me further...
+Before I knew it, Saeki-senpai’s hand was violently kneading my breasts over my tennis gear.
+My breasts changed shape within Saeki-senpai’s hands.
+I grew increasingly excited at that obscene sight...
 $Aoi
-“A... ahn... n-no... aaahn...”
-For a body that was craving intense stimulation, his rough caresses sent waves of ecstasy straight to my brain.
-I... I don't even know what's happening anymore!
+“A... ahn... n-no... aaaa-hn...”
+To a body seeking intense stimulation, the rough caresses were transmitted to my brain as waves of pleasure.
+I... I don't know what's what anymore!
 $Ryuichi
-“You’re so cute, Aoi-kun.”
-I was becoming intoxicated by Saeki-senpai’s enchanting words.
+“You're cute, Aoi-kun.”
+I was intoxicated by Saeki-senpai’s enchanting words.
 $Aoi
-“(My body... is making Saeki-senpai feel good...?)”
-Deep down, perhaps there was a part of me that wanted to be completely toyed with by him.
-The thought consumed me, filling my head with shameful fantasies.
-But just as my confusion was reaching its peak, Saeki-senpai suddenly stopped.
+“(Is Saeki-senpai... feeling pleasure because of my body...?)”
+Deep in my heart, there might be a part of me that wants to be Ravished by Saeki-senpai.
+My mind had become so filled with lewd imaginations that I could even think that.
+But just as the confusion was reaching its peak, Saeki-senpai suddenly stopped kneading my chest.
 $Ryuichi
-“It’s a pity... but time is almost up.”
-He muttered that, then gave the nape of my neck a hard, sucking kiss.
-*Mwah.*
+“It’s a shame... but it's almost time.”
+Saeki-senpai murmured that and gave the nape of my neck a hard suck.
+*Mwa*.
 $Aoi
 “...Eh?”
-Suddenly, Saeki-senpai was no longer behind me.
-I looked toward the courts to see him already calling the rest of the club together.
+When I suddenly came to, Saeki-senpai, who should have been behind me until just now, was gone.
+Shifting my gaze toward the tennis court, I saw Saeki-senpai was already in the middle of calling everyone together.
 $Aoi
-“...Wait, what? Wha?!”
-Completely bewildered, I stood there dazed for a long moment.
-No way... what was all that? Ehhh...??
+“...Wait, what!?”
+I didn't understand what was happening and stood there in a daze for a while.
+What... what was that just now? Eeeeeh...??
 $Ryuichi
-“Hey there, Aoi-kun. What’s wrong? We’re finishing up, come over for the dismissal!”
+“Hey, Aoi-kun. What’s wrong? We’re finishing up, so I’m going to give the signal!”
 $Aoi
-“...Eh? Ah, sorry!”
+“...Eh? Ah, I’m sorry!”
 I hurriedly ran to the center of the court.
 $Ryuichi
 “Is something the matter?”
 $Aoi
-“N-No... it’s nothing...”
-I couldn't bring myself to look Saeki-senpai in the eye, answering with my gaze fixed on the ground.
+“N-No... it’s... nothing...”
+I couldn't bring myself to stare at Saeki-senpai, so I answered while looking down.
 $Aoi
-“....................”
-My eyes naturally drifted toward his groin.
-But his pants showed no sign of any arousal.
+“………………”
+Naturally, my eyes drifted toward Saeki-senpai’s groin.
+However, Saeki-senpai’s penis didn't look particularly swollen.
 $Ryuichi
-“Are you alright? Well, if you say so...”
-With that, Saeki-senpai gave the dismissal order to the team.
-After we were dismissed, everyone headed off to grab their gear or went toward the changing rooms.
+“Are you alright? If you say so, then...”
+Saying that, Saeki-senpai gave the signal to everyone.
+After dismissal, everyone went to get their belongings or headed for the locker room.
 $Aoi
-“(Was that... was that all a dream?)”
-...If so, it was a bizarre one.
-I’d have to have fallen asleep while standing up in the middle of practice.
-And besides... I was soaking wet down there...
+“(Could it be... was that a dream?)”
+...If it was, that would be a very strange story.
+If it were a dream, it would mean I had fallen asleep while standing... in the middle of club practice.
+And besides... my private place was soaking wet...
 $Aoi
-“(It... it really happened, didn't it.)”
-The thought made my face flush hot again.
-As I headed back to the clubroom, my eyes met Saeki-senpai’s for a moment.
-Suddenly overcome with shame, I reflexively looked away.
+“(...It really was reality after all.)”
+Thinking that, my face flushed hot.
+While returning to the clubroom, I happened to lock eyes with Saeki-senpai.
+But for some reason, I felt so embarrassed that I reflexively looked down.
 $Ryuichi
-“Fufufu, what is it, Aoi-kun?”
+“Fufufu, what’s the matter, Aoi-kun?”
 $Aoi
-“.................... P-Please excuse me!”
-There was no way... I couldn't even lift my head.
+“……………… P-Please excuse me!”
+There was no way... I could lift my face.
 $Akito
-“Well... guess I’ll check things out while I’m doing my roadwork.”
-I muttered that and headed out of the school gates to start my run.
+“Well... I guess I'll go take a look while I’m doing my roadwork.”
+Muttering that, I headed outside the school grounds alone to go for a run.
 ...30 minutes later.
-I detoured slightly from my usual route to a spot where I could peer into the tennis courts.
-From here, I could see the whole area through the chain-link fence.
+I deviated slightly from my usual running course and came to a spot where I could peek at the tennis courts.
+From this spot, I could see the tennis courts through the wire mesh.
 $Akito
-“Though... if I stare too much, someone’s gonna get suspicious.”
-Trying to act natural, I turned my gaze toward the courts.
-There, in a corner of the court, I spotted Aoi doing practice swings all by herself.
+“Though... if I stare too much, I'll look suspicious.”
+While pretending to be natural, I turned my eyes toward the court.
+There, I found Aoi practicing her swings alone in a corner of the court.
 $Akito
-“What the hell is she doing over there?”
-The fact that she was off in a secluded spot practicing alone seemed more than a little weird to me.
-Curious, I shifted my position to get a better look at her.
+“What’s Aoi doing in a place like that?”
+I felt more than a little suspicious of Aoi practicing by herself in a spot where she wouldn't be noticed.
+Thinking it was strange, I moved a bit and looked toward Aoi again.
 $Akito
-“Hm...? Is someone behind her?”
-She’d been in a blind spot before, but now I could see another figure standing right behind Aoi.
+“Hm...? Is someone behind Aoi?”
+I hadn't noticed because they were in my blind spot, but it looked like there was another person right behind Aoi.
 $Akito
-“Wait!”
-The person behind Aoi... it was Ryuichi, the captain of the tennis club.
-And the bastard was standing so close he was practically stuck to her!
-The other members didn't seem to have noticed, but Aoi’s movements were definitely off.
+“Ah!”
+The person behind Aoi... was Ryuichi, the captain of the tennis club.
+To my horror, he was standing practically glued to Aoi!
+The other tennis club members didn't seem to notice, but Aoi's movements were a bit strange.
 $Akito
-“I can't see well enough from here...”
-I decided to move in a bit closer.
+“I can't see well from here...”
+I decided to move a bit closer to Aoi.
 $Akito
 “This spot is perfect.”
-The grove of trees I was in now was directly opposite from where I’d been at the fence.
-From here, I could stay hidden behind the trees while keeping an eye on them.
-And since I was closer, I could easily hear their conversation.
-I felt like a total stalker, but if Aoi got into any trouble, I was ready to bolt over there in a heartbeat.
-I held my breath and focused my ears on them.
-Then, the sound of their voices reached me.
+The grove where I am now is located exactly on the opposite side from the wire mesh where I was just now.
+From here, I can monitor the situation while hiding among the trees.
+And since the distance has closed, I can easily hear their conversation.
+I'm acting like a total stalker, but if Aoi finds herself in a pinch, I plan to dash right over to her.
+I held my breath and decided to listen in quietly.
+Then, the voices of Aoi and Ryuichi reached my ears.
 $Ryuichi
-“Your hair, Aoi-kun... it has such a lovely scent.”
-.................... Gross!
-My whole body felt itchy from the sheer cringe.
-What the hell kind of cheesy line was that?!
-But Ryuichi wasn't done yet.
+“Aoi-kun, your hair... it smells wonderful.”
+……………… That makes me cringe!
+My whole body suddenly felt intensely itchy.
+Wh-wh-what is with that cheesy line!?
+But Ryuichi didn't stop there.
 $Ryuichi
-“Not just your hair. ...The nape of your neck is quite beautiful too. Just looking at it makes my heart pound.”
-It was making MY heart pound, but in a bad way.
-How does he just spout lines like that one after another?
-But Aoi wasn't making fun of him at all; if anything, she looked like she was actually enjoying it.
+“It’s not just your hair. ...The nape of your neck is very beautiful too. Just looking at it makes my heart pound.”
+It's making *me* heart pound just listening to it.
+How can he just come up with lines like that one after another?
+But far from mocking Ryuichi's words, Aoi seemed to be accepting them as if they felt good.
 $Akito
-“(If that was me, I’d be throwing a punch by now.)”
+“(If that were me, I’d be delivering a fist of justice by now.)”
 $Ryuichi
-“Such pure, innocent eyes... and so moist and beautiful. ...I feel like I could be sucked right into them.”
+“Such pure and innocent eyes, so beautifully moist. ...It’s like I could be pulled right into them.”
 $Akito
-“(...Seriously, what the hell is he saying.)”
-Just as I thought that...
-Ryuichi slowly moved his right hand just below Aoi’s breasts and began to trace the area.
+“(...Seriously, what the hell is he saying?)”
+It was just as I thought that.
+Ryuichi slowly moved his right hand toward the area just below Aoi's chest and began to trace it.
 $Akito
-“(Wha?!)”
-From my angle, it didn't look like he was touching her chest directly, but the way he was teasing her, hovering his hand right there, made my blood boil.
-And yet, Aoi was just twitching and quivering, showing absolutely no sign of resisting.
+“(Wha!?)”
+From my perspective, it didn't look like he was directly touching Aoi's breast, but a small surge of anger welled up at Ryuichi's "touching-but-not-touching" hand movements.
+But as expected, the Aoi in question only shivered her body and showed no sign of trying to resist.
 $Akito
-“(What is wrong with you, Aoi?!)”
-I almost leaned out from my hiding spot.
-But I was still a fair distance away. There wasn't much I could do.
-Then I noticed Aoi was shifting her hips restlessly.
+“(What the hell is wrong with you, Aoi!?)”
+I instinctively leaned forward.
+But even from here, there's still some distance. There's nothing I can do.
+Furthermore, looking closely, Aoi was wiggling her bottom for some reason.
 $Akito
-“(Don't tell me... is Ryuichi’s thing pressing against her rear?!)”
-My annoyance was now at a full-blown breaking point.
-I wanted to jump out right then and there and beat the crap out of him.
-But as long as Aoi wasn't resisting, if I interfered, I’d just be the one looking bad.
+“(No way, is what’s hitting Aoi’s bottom... Ryuichi's thing!?)”
+My small anger was now reaching the point of eruption.
+To be honest, I wanted to jump out right now and punch Ryuichi in the face.
+But as long as Aoi wasn't resisting, if I stepped in, I’d be the one in the wrong.
 $Akito
-“(Dammit, if I jump in now, they’ll just say I’m interfering with club practice...!)”
-This wasn't the time to be thinking so rationally, but I found myself hesitating.
-Meanwhile, Ryuichi and Aoi stayed pressed tightly together.
-And Ryuichi’s stiffened member was clearly rubbing right against Aoi’s backside.
+“(Dammit, if I go out there now, I’ll just end up being accused of interfering with club practice...!)”
+Normally this wouldn't be the time for such easygoing thoughts, but I couldn't help but hesitate to jump out.
+In the meantime, Ryuichi and Aoi remained stuck together.
+Of course, Aoi's bottom and Ryuichi's erect thing remained pressed against each other.
 I felt like I was going to lose it.
-My head was in a total panic!
+My mind was in a complete panic!
 $Aoi
-“A... um...”
-Aoi muttered that, looking like she couldn't take any more.
+“U-Um...”
+As if unable to take it anymore, Aoi murmured in confusion.
 $Ryuichi
-“I’m sorry... and in the middle of our sacred club time, too. ...But it’s your fault, you know. You’re simply... far too alluring.”
-The bastard was actually trying to justify himself.
+“I'm sorry... even though we're in the middle of a sacred club activity... But it's your fault. It's because... you are far too alluring.”
+It’s a phrasing that sounds like he’s justifying himself.
 $Akito
-“(Argh! Get away from her! Get the hell away from Aoi!!)”
-I wanted to scream it out loud, but the words wouldn't come.
-It felt pathetic, but I was overwhelmed with jealousy at Ryuichi for being able to touch Aoi like that.
+“(Daaaaah! Get away from Aoi! Get the hell away from her!!)”
+I wanted to scream at the top of my lungs, but the words wouldn't come out.
+I know it’s pathetic, but I was feeling intense jealousy toward Ryuichi, who was pressing his business against Aoi's bottom.
 $Ryuichi
-“Aoi-kun... if you move too strangely, the others will notice. You must act normal.”
+“Aoi-kun... if you make any strange movements, everyone will notice. So, act natural.”
 $Aoi
 “...Y-Yes, I understand...”
-Aoi answered as if she were perfectly okay with being groped like that.
-It only made my confusion grow.
-To an outsider, she looked like she was just doing her practice swings.
-But I could clearly see that her focus was entirely on Ryuichi’s member.
-In other words... even though she knew exactly what was happening, she wasn't trying to pull away from him. If anything, she looked like she was enjoying it.
+It was as if Aoi was giving her consent to being subjected to what was essentially public molestation.
+That only made the questions in my mind grow larger.
+From an outsider's perspective, Aoi looked like she was practicing her swings while pretending to be normal.
+But it was obvious that her consciousness was entirely focused on Ryuichi's thing.
+In other words... even though she knows what's happening, Aoi makes no move to distance herself from Saeki. No, her face actually looks like she's enjoying it.
 $Akito
-“(Could it be... that Aoi wants this?)”
-No, there’s no way.
-She’s just unable to defy him because he’s Ryuichi!
-I shook my head violently to dismiss the thought.
+“(Could it be... is this something Aoi desires?)”
+No, that can't be right.
+It’s just because it’s Ryuichi that Aoi can't bring herself to defy him!
+I shook my head vigorously to brush away the thoughts I’d just had.
 $Ryuichi
 “Ah, Aoi-kun...”
 $Aoi
-“Ah... aah...!”
+“A... aah...!”
 $Akito
-“(Why the hell are you making sounds like that, Aoi!)”
-Aoi seemed completely intoxicated with pleasure.
-Ryuichi continued to rub his hardened length against her rear.
-It almost felt like he was doing it specifically to show off to me.
+“(Wh-Why are you making a sound like that, Aoi!?)”
+Aoi seems to be intoxicated by the pleasure.
+Ryuichi rubbed his hardened, enlarged thing against Aoi's bottom.
+It was almost as if he were showing off to me.
 $Ryuichi
-“Ah, Aoi-kun. Your rear is so soft... it feels wonderful.”
+“Ah, Aoi-kun. Your bottom is so soft... and it feels so good.”
 $Aoi
-“Th-That's...”
+“S-Such a thing...”
 $Ryuichi
-“To think you can make me feel this way just like this... what an incredible body you have... your body is marvelous, Aoi-kun.”
+“To think you could make me feel this much just from this... what a wonderful body you have... Aoi-kun.”
 $Aoi
-“...No...”
-Does she even realize the lewd things he’s whispering in her ear?
-From where I was standing, it looked like she was just soaking it all in.
-And now, he was kneading her breasts right through her top!
-Does Aoi... not even notice?!
+“...Y-Yan.”
+Does Aoi even realize she’s having lewd things whispered into her ear?
+No matter how I look at it, it only looks like Aoi is submissively accepting Ryuichi's whispers.
+On top of that, before I knew it, Aoi was having her breasts kneaded over her tennis gear!
+Is Aoi... not noticing!?
 $Akito
 “(Aoi! Aoiiiiiii!!)”
-I let out a silent scream in my head.
-Then, as if he’d heard me, Ryuichi suddenly pulled away from her.
+I instinctively shouted a voiceless cry in my heart.
+Then, as if his thoughts had reached him, Ryuichi suddenly pulled his body away from Aoi.
 $Akito
-“(...Wait?!)”
-For a split second—just an instant—I thought our eyes met.
-And I could have sworn he shot me a cold, mocking smirk.
-But in the next moment, his gaze was back on Aoi.
+“(...!?)”
+In that instant... for just a fleeting moment, I felt like Ryuichi's eyes met mine.
+What’s more, I felt like he shot a cold, mocking smirk in my direction.
+But in the next instant, Ryuichi's gaze had returned to Aoi.
 $Akito
-“...Was I just imagining it?”
-I rubbed my eyes hard.
+“...Was it my imagination?”
+I instinctively rubbed my eyes.
 $Ryuichi
-“It’s a pity... but time is almost up.”
-Ryuichi muttered that to Aoi, then gave her neck a sharp, sucking kiss.
+“It’s a shame... but it's almost time.”
+Ryuichi murmured that to Aoi, then gave her neck a slightly strong suck.
 $Aoi
 “...Eh?”
-Aoi blinked, looking around frantically.
-It seemed she’d finally come back to her senses.
+Aoi wore a startled expression and began to look around restlessly.
+It looks like she finally came back to her senses.
 $Aoi
-“...Wait, what? Wha?!”
-She looked like she’d just woken up from a dream.
+“...Wait, what!?”
+Aoi wore an expression as if she had been dreaming until just now.
 $Akito
-“(What the hell is with her?)”
+“(What the hell is with Aoi?)”
 $Ryuichi
-“Hey there, Aoi-kun. What’s wrong? We’re finishing up, come over for the dismissal!”
+“Hey, Aoi-kun. What’s wrong? We’re finishing up, so I’m going to give the signal!”
 $Aoi
-“...Eh? Ah, sorry!”
+“...Eh? Ah, I’m sorry!”
 Aoi hurriedly ran to the center of the court.
 $Ryuichi
 “Is something the matter?”
 $Aoi
-“N-No... it’s nothing...”
-Aoi said it was nothing, but she kept stealing glances at Ryuichi’s groin.
+“N-No... it’s... nothing...”
+Even while saying it was nothing, Aoi seemed concerned about Ryuichi's groin, casting sidelong glances at it.
 $Akito
 “(What are you looking at, Aoi!)”
-I was filled with a sense of utter helplessness.
-After the dismissal, Aoi headed for the changing rooms with a flushed face, shifting her legs restlessly.
-Seeing that from up close, I felt a massive wave of exhaustion wash over me.
+I started to feel an incredibly helpless sensation.
+After the tennis club’s signal, Aoi, with flushed cheeks, headed for the locker room while wiggling her legs.
+Having witnessed that from up close, I was struck by an even deeper sense of exhaustion.
 $Akito
 “...Sigh.”
 I couldn't do anything but let out a long sigh.
 $Akito
-“...Forget the roadwork, I’m done with this crap!!!”
-I shouted at the top of my lungs and dashed toward the tennis courts, training be damned.
-When I arrived, I scanned the area for Aoi.
-I spotted her off in the corner of the court, focused on her practice swings.
+“...This is no time to be doing roadwork!!!”
+I shouted that at the top of my lungs and dashed toward the tennis courts, completely ignoring my practice.
+When I arrived at the court, I looked around to find Aoi.
+Then, I saw Aoi focused on her swing practice alone at the corner of the court.
 $Akito
-“Aoi’s alone... Phew, at least she’s safe for now.”
-I’d come here worried something might happen to her, but it looked like I’d just been overreacting.
-———Or so I thought, until the next moment.
-Ryuichi was heading straight for Aoi!
+“Aoi’s alone... Phew, that’s a relief for now.”
+I came here thinking something might happen to Aoi, but it seems it was just a needless worry.
+---Or so I thought the next instant.
+Ryuichi is trying to approach Aoi!
 $Akito
-“(Aah! I knew it!!)”
-If Ryuichi was going near her, he was definitely up to no good.
-Determined to protect Aoi, I dashed off to grab a ball and a glove.
+“(Ah! I knew it!!)”
+There’s no way Ryuichi would approach Aoi without thinking of something wicked.
+I hurried to grab a ball and a glove to protect Aoi.
 $Akito
-“Alright, from this distance...”
-I wound up and threw the ball with everything I had toward where Aoi was on the court!
-*Whoosh!*
-Being a pitcher, I had plenty of range.
-The ball I’d aimed with precision flew straight toward Aoi.
-I immediately started sprinting toward where the ball was headed.
+“Alright, at this distance...”
+I threw the ball I was holding toward Aoi on the tennis court with all my might!
+*Whoosh*......
+Being a pitcher, my long-distance throwing ability was high.
+The ball, thrown with good control, headed straight for Aoi.
+I immediately dashed toward the direction the ball had flown.
 $Aoi
-“Auh!?”
+“Auu!?”
 $Akito
 “Ah... crap...”
-I’d intended to drop the ball near her to distract her, but...
-Of course, my fly ball hit Aoi square in the head.
+I intended to drop the ball near Aoi to distract her, but...
+To my horror, the fly ball I threw hit Aoi directly in the head.
 $Akito
-“A-Aoi, you okay?!”
-.........Of course she wasn't okay. It’s a hardball.
-W-Well, whatever.
+“A-Aoi, you okay?”
+.........Of course she wouldn't be okay. It’s a hard ball, after all.
+W-well, whatever.
 $Akito
-“Anyway... hey, could you toss that back?!”
-But Aoi was just clutching her head in agony, showing no sign of answering me.
+“Anyway... hey, grab the ball for me!”
+But Aoi was just clutching her head in agony, showing no sign of responding to my question.
 $Akito
-“...Yeah, that’s gotta hurt. It’s a hardball, after all.”
-After her moment of agony, Aoi slowly, shakily stood up and spun around toward me.
+“...Yeah, that’s gotta hurt. It’s a hard ball, after all.”
+After writhing in pain for a while, Aoi slowly and shakily stood up and turned toward me.
 $Akito
-“Eep!”
-The look on her face was absolutely demonic. I felt the hair on the back of my neck stand up!
+“Hiee!”
+Seeing Aoi glaring at me with the face of a demon, my hair stood on end!
 $Aoi
-“Does it LOOK like I’m okay, you idiot!!!”
+“DO I LOOK—OKAY TO YOU!!!???”
 $Akito
-“—!”
-Aoi kept glaring at me as she slowly started stomping toward me.
-I could practically see the flames rising from her back...
-H-Help, she’s terrifying!
+“---!”
+Aoi continued to glare at me as she slowly approached.
+I can see flames on Aoi's back...
+H-hiee, that girl is scawy!
 $Aoi
-“Just what do you think you’re doing?!!”
+“You... what on earth were you thinking!!?”
 $Akito
-“N-No, I didn't mean it like that...”
-Terrified, I waved my hands frantically in front of my chest.
-I stole a glance at Ryuichi.
-Missing his chance to talk to her, Ryuichi just wore a "good grief" expression.
-But when our eyes met, he shot me a brief, cold, and incredibly sharp glare.
-His eyes were screaming "You're in my way...".
-But just as quickly, he looked away and headed toward the other club members.
+“N-no, I didn't mean any harm...”
+While trembling in fear, I waved both hands in front of my chest.
+I took a quick glance at Ryuichi.
+Having missed his chance to speak to her, Ryuichi wore an expression that said "Good grief."
+But when Ryuichi locked eyes with me, he shot a cold, sharp look for just an instant.
+A look that pleaded, "You're in my way..."
+That was only for a moment, and Ryuichi immediately looked away from me and went to the other club members.
 $Akito
-“Heh!”
-I couldn't help but feel a surge of triumph, and a smirk spread across my face.
+“Hehe!”
+I couldn't help but think "I did it," and a smirk spread across my face.
 $Aoi
-“What's with that 'I got him!' face, Akito?!!”
+“What is it, Akito?! What’s with that ‘I did it!’ expression!!?”
 $Akito
-“Eh? Ah, n-no, it’s not like that at all.”
+“Eh? Ah, n-no, that's not what I meant.”
 $Aoi
-“Then what IS it?!”
-Crap, she’s completely lost it!
-Now my own safety was in serious danger.
+“THEN WHAT DO YOU MEAN!!?”
+Oh no, Aoi is completely blowing her top!
+This time, *my* life is in danger.
 $Akito
-“Er... g-gotta go! Bye!”
-Unable to think of a good excuse, I just turned and bolted.
-*Dash, dash, dash!*
+“U-um... see ya~!”
+I couldn't think of a good excuse, so I just ran away from the spot.
+*Dash dash dash dash dash!*
 $Aoi
-“H-Hey! Akito, get back here right now!!”
+“W-wait, Akito! Hold it right there!!?”
 $Akito
-“Haa... haa... haa...!”
-I ran blindly into the woods.
-Looking back over my shoulder, I saw Aoi with a face like a gorilla, clinging to the chain-link fence.
-Heh. Looks like she’s already lost track of me.
+“*Pant, pant, pant*...!”
+I desperately ran into the grove of trees.
+Looking back over my shoulder, I saw Aoi, with the face of a gorilla, clinging to the wire mesh.
+Hehe. It looks like she’s already lost sight of me.
 As a precaution, I hid behind a thick tree trunk.
 $Akito
-“Phew... that was actually scary.”
-From here, I could stay hidden while still keeping an eye on Aoi.
-Though I guess I really am acting like a total stalker...
-...Still, I’m close enough to help if she gets into trouble.
-Thinking that, I turned my gaze back toward the tennis court...
+“Phew... that was seriously scary.”
+From here, I can hide while monitoring Aoi.
+But I guess what I'm doing is practically stalking...
+...Well, at this distance, I can rush to help if Aoi is in danger.
+Thinking that, I shifted my eyes back to the tennis court...
 $Aoi
-“Hmph! Hmph! HMPH!”
+“*Huff! Huff! Huff!*”
 $Tennis Club Member
 “A-Aoi-chan...?”
 $Aoi
-“WHAT?!!”
+“WHAT!!?”
 $Tennis Club Member
-“N-Nothing... I’m sorry!”
+“N-nothing... I'm sorry!”
 $Akito
-“(......I guess no one’s gonna be getting near her for a while anyway...)”
-I stayed there, watching over Aoi until practice finally ended.
+“(.........I guess there's no one who could approach the current Aoi...)”
+I continued to watch over Aoi until club practice ended.

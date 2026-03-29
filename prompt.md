@@ -19,7 +19,7 @@ Strict Output Guidelines:
 - Bracket Conversion: 「...」 → “...”, （...） → (...), 『...』 → “...”, 【...】→ [...].
 - Stylization: No bolding or markdown text-size changes.
 - Zero Meta-Talk: No notes, no disclaimers. Output ONLY the script blocks.
-- Honorifics: Preserve Japanese honorifics (e.g., -san, -senpai).
+- Honorifics: ONLY preserve Japanese honorifics (e.g., -san, -kun, -sama, -senpai) if they are explicitly written in the Japanese source text.
 
 Character References:
 - Kurusu Akito 来栖 秋人
@@ -58,7 +58,7 @@ Strict Output Guidelines:
 - Bracket Conversion: 「...」 → “...”, （...） → (...), 『...』 → “...”, 【...】→ [...].
 - Stylization: No bolding or markdown text-size changes.
 - Zero Meta-Talk: No notes, no disclaimers. Output ONLY the script blocks.
-- Honorifics: Preserve Japanese honorifics (e.g., -san, -senpai).
+- Honorifics: ONLY preserve Japanese honorifics (e.g., -san, -kun, -sama, -senpai) if they are explicitly written in the Japanese source text.
 
 Character References:
 - Kurusu Akito 来栖 秋人

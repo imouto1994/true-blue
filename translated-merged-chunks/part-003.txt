@@ -1,158 +1,158 @@
 --------------------
 01c04
 ********************
-Fuyuki: Episode 04
-...Now, what should I do?
+■ Fuyuki Episode 04 ~n
+……Now, what should I do?
 [Choices]
-1. I can see Aoi tomorrow anyway
-2. Aoi is more important than the drama
+1. 　I can see Aoi again tomorrow
+2. 　Aoi is more important than a drama
 $Akito
-“...This show is actually pretty damn good.”
-After my bath, I wasn't quite ready for bed, so I was in the living room watching TV.
-I hadn't decided on anything specific to watch; I figured if I turned it on and there was nothing but boring trash, I’d just shut it off immediately.
-But that thought had vanished into the distance.
-It was a drama everyone in class had been talking about, and just like the rumors said, it was surprisingly compelling.
-The protagonists were a lanky male detective and a fairly beautiful female assistant.
-The premise was the two of them using science to debunk various occult phenomena.
-Well, it was basically your typical detective show, but it was an ambitious work that skillfully wove in those supernatural elements.
-Despite being broadcast in a late-night slot, it now boasted immense popularity across a wide range of viewers.
-So far, three series existed, and what was airing now was actually a rerun of the very first season.
-Apparently, to coincide with a movie coming out this winter, they were airing all three series back-to-back.
-I’m not usually the type to watch dramas, but this one was interesting.
-Between the comedy-duo banter of the two leads and the visual tricks the supporting cast occasionally pulled, there were plenty of laughs to be had.
+“……This drama is actually pretty interesting.”
+After my bath, I wasn’t quite ready for bed yet, so I was watching TV in the living room.
+I hadn't decided on anything specific to watch; I figured if I turned the TV on and there was nothing but boring programs, I’d just shut it off immediately.
+But that thought had vanished far into the distance.
+It was a drama that people in my class had been talking about, and just as the rumors suggested, it’s surprisingly good.
+The protagonists are a tall male detective and his relatively beautiful female assistant.
+The two of them go about scientifically unraveling various occult phenomena.
+Well, it could be called an ambitious work that skillfully incorporates occult elements into the standard detective genre.
+Despite being broadcast in a late-night slot, it now boasts immense popularity across a wide range of audiences.
+So far, three series exist in total, and what’s currently airing is actually a rebroadcast of the first series.
+Apparently, in conjunction with a movie being released this winter, all three series are being rebroadcast all at once.
+I’m not usually the type of guy who watches dramas and such, but this one is fun.
+In addition to the manzai-style banter between the two lead actors, there are plenty of moments where the supporting cast’s visual tricks are actually quite hilarious.
 $Akito
-“Man... I think I’m getting hooked.”
-Just then, the front doorbell rang.
+“Man…… I think I’m gonna get hooked on this.”
+Just then, the doorbell rang.
 $Akito
-“What? ...At this hour...?”
-For a moment, I doubted my own ears.
-Look at the time—and right when the drama was getting intense, too. Talk about a poorly timed visitor.
+“What? ……At this hour…?”
+For a second, I doubted my own ears.
+Given the hour, and the fact that the drama was just getting to the good part, the visitor had some seriously bad timing.
 $Akito
-“If someone’s coming at this hour... it’s gotta be Aoi.”
-Given what happened this evening, it would be a lie to say I wasn't worried about how she was doing.
-Part of me was dying to run to the door, but...
+“If someone’s coming over at this time…… it’s gotta be Aoi.”
+Considering what happened this evening, it would be a lie to say I wasn't worried about how Aoi was doing.
+Part of me really wanted to go to the front door, but……
 $Akito
-“Well, Big Bro or someone else will probably get it anyway... so whatever!”
+“Well, Big Bro or someone else will probably get it anyway…… so whatever!”
 The story had just reached its climax.
-I can see Aoi tomorrow! But with this drama, if I miss it once, I don't know when I’ll ever get to see it again.
+I can see Aoi again tomorrow anyway! But if I miss the drama once, who knows when I’ll get the chance to see it again.
 $Akito
-“This is awesome! Definitely gotta keep an eye on this!”
-I rang the chime at the Kurusu residence.
+“This is great! Definitely a must-watch!”
+I rang the doorbell at the Kurusu residence.
 $Aoi
-“...I wonder if he’s in?”
-Usually, Akito would come running to open the door immediately, but... today, I wasn't here just to see him.
-After a moment, the front door opened with a click.
-The one who stepped out was Fuyuki-oniichan.
+“……I wonder if he’s home?”
+Usually, Akito would come running and open the door right away, but…… today, I didn't come just to see Akito.
+After a short while, the front door opened with a clicking sound.
+The person who came out was Fuyuki-oniichan.
 $Aoi
-“Good evening, Oniichan.”
+“Good evening, oniichan.”
 $Fuyuki
-“Oh, good evening. Are you here for Akito?”
+“Ah, good evening. Is it Akito you're looking for?”
 $Aoi
-“No, not today. I wanted to give this to you, Oniichan...”
-With that, I showed Fuyuki-oniichan a small package.
+“No, not today. I thought I'd give this to you, oniichan……”
+Saying that, I showed Fuyuki-oniichan a small parcel.
 $Fuyuki
-“What’s this...?”
-I placed the bundle, wrapped in pale blue paper with a yellow ribbon, right into Oniichan’s hand.
+“What’s this……?”
+I placed the package—wrapped in pale blue paper and tied with a yellow ribbon—plop into his hand.
 $Aoi
-“A thank-you for today. For saving me.”
-I gave Fuyuki-oniichan a bright smile.
+“A thank-you for today. Because you helped me.”
+I said to Fuyuki-oniichan with a bright smile.
 He smiled back, looking a little bashful.
 $Fuyuki
-“Ahaha, thank you. I didn't really do anything that special, though...”
+“Ahaha, thank you. I didn't really do anything that big, though……”
 $Aoi
 “Ehehe.”
 $Fuyuki
-“Can I open it?”
+“May I open it?”
 $Aoi
-“Sure, go ahead. It’s nothing fancy, as they say.”
+“Yeah, go ahead. ‘It’s just a little something,’ as they say.”
 Fuyuki-oniichan hurriedly began to unwrap the package right there.
-He pulled out some small cookies wrapped in clear plastic.
+Then, he pulled out some small cookies wrapped in clear plastic.
 $Fuyuki
-“Heh, cookies. Are these, by any chance...?”
+“Heh, cookies. Are these, by any chance……”
 $Aoi
-“Yep. Homemade.”
+“Yeah. They’re homemade.”
 $Fuyuki
 “They look delicious. I’ll enjoy them, thank you.”
-When Fuyuki-oniichan said that, a surge of happiness hit me, and I couldn't help but beam.
+When Fuyuki-oniichan said that, I felt so happy I couldn't help but smile.
 $Fuyuki
-“You know, Aoi-chan, Akito’s here too. Why don't you come in?”
-Oniichan pointed inside, inviting me in.
+“Say, Aoi-chan. Akito is here too, why don't you come in?”
+Oniichan pointed inside the house, trying to invite me in.
 But I decided to decline.
 $Aoi
-“No, I’ll pass for today. I just came to deliver those.”
+“No, I’ll pass for today. I just came to deliver that.”
 $Fuyuki
-“I see...”
+“I see……”
 Fuyuki-oniichan looked a little disappointed.
-Feeling a bit guilty, I gave him a small wave.
+Feeling slightly bad about it, I gave him a small wave.
 $Aoi
-“Well then, goodnight, Oniichan. See you tomorrow.”
+“Well then, goodnight, oniichan. See you tomorrow.”
 $Fuyuki
 “Yeah, goodnight.”
-Oniichan waved back and quietly closed the door.
-Once I heard the lock click, I spun around and leaned my back against the door.
-Suddenly feeling shy, I let out a little giggle.
+Oniichan waved back at me and quietly closed the door.
+I waited to make sure the door was locked, then spun around and leaned my back against the door.
+Suddenly feeling overwhelmed with bashfulness, I let out a little giggle.
 $Aoi
-“I’m so glad he accepted them...”
-I’d already forgotten all the nasty things that happened today; I was just filled with joy.
-I wish this happy feeling could last forever.
-While I was debating, the chime rang again.
-I can't keep them waiting any longer, can I?
-Besides, this is a popular show that’s already out on video and DVD.
-I’ll probably have another chance to see it, and missing an episode or two isn't worth stressing over.
-With that thought, I stood up from the sofa and hurried to the entryway.
-Reaching the door, I opened it immediately.
-Standing on the other side was Aoi.
+“I’m so glad he accepted them……”
+The bad things that happened today were already forgotten; I was filled with a sense of joy.
+I hope this happy feeling lasts forever.
+While I was agonizing over it, the doorbell rang again.
+I can't keep them waiting any longer.
+Anyway, it’s a popular show that’s already been released on video and DVD.
+There will probably be other chances to see it, and missing one or two episodes isn't something to get hung up on.
+With that thought, I stood up from the sofa and hurried toward the entrance.
+Reaching the front door, I opened it immediately.
+Aoi was standing on the other side of the door.
 $Aoi
 “Good evening, Akito.”
 $Akito
-“What, it is you after all, Aoi.”
+“What, it really is Aoi.”
 $Aoi
-“Hmph, 'What, it is you'? Nice greeting...”
-Aoi said, her face pouting slightly. I found myself thinking she looked kind of cute.
-She seemed like her usual self. Looks like the afternoon’s events didn't leave a lingering shadow.
+“Hmph, ‘what’ is quite a greeting……”
+Saying that, Aoi pouted slightly. For some reason, I found myself thinking she was cute.
+It seems she's her usual self. No lingering effects from this evening, then.
 $Akito
-“Don't just stand there talking, come on in.”
+“No point standing around talking, come on in.”
 $Aoi
-“I’d love to, but I think I’ll pass today.”
+“I’d love to come in, but I’ll pass today.”
 $Akito
 “Eh, why?”
 $Aoi
-“I just came to drop this off today.”
+“Because I only came to give you this today.”
 Then, Aoi held out a small package to me.
-It was a beautiful bundle, wrapped in pale blue paper with a yellow ribbon.
-I knew instantly that it was Aoi’s handiwork.
+It was a beautiful parcel, wrapped in pale blue paper and a yellow ribbon.
+I knew immediately that it was something Aoi had made herself.
 $Aoi
 “It’s a thank-you. Could you give it to Fuyuki-oniichan?”
 $Akito
-“Eh? Oh, sure, but...”
-What the hell... I helped too, and there’s nothing for me?
-...Gah, pouting isn't like me.
-Then Aoi let out a little snicker.
+“Eh? Ah, sure, but……”
+What the hell…… I helped too, so is there nothing for me?
+……Crap, sulking like this isn't like me.
+Then Aoi let out a little giggle.
 $Akito
-“(Crap, I’m the type whose feelings show right on my face...)”
+“(Oh man, I’ve got one of those faces that gives everything away immediately……)”
 $Aoi
-“Don't worry, there’s plenty for you too, Akito.”
-With that, Aoi pulled out a package in a different color than the one for Big Bro.
-It was wrapped in pale lime-green paper and tied with a ribbon that was purple... or rather, lavender-colored.
+“Don't worry, there’s plenty for Akito too.”
+Saying that, Aoi pulled out a package in a different color from the one for Big Bro.
+It was wrapped in pale lime-green paper and tied with a ribbon that was purple…… or rather, lavender-colored.
 $Akito
 “Oh, thanks!”
-As Aoi handed the package into my palm, her face immediately shifted into a mischievous grin.
+Aoi handed the package into my palm, but her expression quickly shifted into a mischievous smile.
 $Aoi
-“Just so you know...”
+“Just so you know……”
 $Akito
 “Hm?”
 $Aoi
-“Yours was just an afterthought.”
-When I didn't say anything, Aoi mimed flicking my forehead.
-I felt like her nail just barely grazed my skin.
+“Akito’s portion was just an afterthought.”
+As I stood there speechless, Aoi mimicked a finger flick toward my forehead.
+I felt her nail just barely graze my brow.
 $Akito
-“Hahaha...”
-But without letting it bother me, I accepted it with a laugh.
+“Hahaha……”
+But without letting it bother me, I laughed as I accepted it.
 $Aoi
 “Well then, see you tomorrow.”
 $Akito
 “Yeah!”
-After making sure Aoi had waved and left, I closed the door.
-For some reason, I felt a warm glow inside.
-It felt like I could just float away on a cloud.
+After confirming that Aoi had waved and left, I closed the door.
+For some reason, I felt a sense of warmth.
+I felt as though I might just float away.
 In high spirits, I ran up the stairs to deliver the cookies to Big Bro.

@@ -1,446 +1,446 @@
 --------------------
 04c03
 ********************
-■Ryuichi Episode 03~
+■ Ryuichi Episode 03~
 What should I do...?
 [Choices]
-1. 　It’s nothing to worry about
-2. 　Wait a bit, then go see what’s happening
-3. 　Tail them immediately
+1. It’s nothing to worry about
+2. Wait a little while, then go check on them
+3. Tail them immediately
 $Female Student A
-“Whoa! Wh-what should I do?!”
+“Whoa! Wh-What should I do?!”
 $Female Student B
-“Oh stop, you’re making me nervous~!”
+“No way, I’m getting so nervous~”
 $Akito
 “Hm...?”
-I scanned the room, drawn by the sudden burst of high-pitched squealing.
-Then, I spotted Ryuichi out in the hallway...
+At the sudden burst of high-pitched voices, I scanned the area.
+There, in the hallway, stood Ryuichi...
 $Akito
-“(What the hell is a third-year like Ryuichi doing down here?)”
-It looked like he’d stopped some girl nearby and was giving her some kind of message.
-The girl looked absolutely radiant at being addressed by the school’s top bishounen; she nodded solemnly a few times and then hurried into our classroom.
-She walked right up to Aoi and started whispering to her with a wide, giddy grin.
+“(Why is a 3rd-year like Ryuichi here?)”
+It looked like Ryuichi had called out to a nearby girl and was telling her something.
+The girl looked absolutely overjoyed to be spoken to by the school's number one beauty, but after nodding solemnly a few times, she eventually stepped into the classroom.
+The girl called out to Aoi lightly and began talking with a smirk.
 $Akito
 “(I see... so that’s how it is.)”
-Aoi stole a glance toward the hallway, gave a firm nod, and started jogging toward the door.
+Aoi stole a glance at the hallway, gave a small nod, and headed out at a light jog.
 $Akito
-“Is it a club meeting or something...?”
-They’re both in the tennis club.
-If you look at it that way, there’s nothing weird about it.
-And yet, I couldn't shake this nagging feeling in my gut.
+“Maybe a club meeting or something...?”
+The two are in the same tennis club.
+If I look at it that way, there’s nothing unnatural about it.
+And yet, something is bothering me.
 $Akito
-“...Well, it’s probably nothing.”
-Ryuichi is the club captain.
-And Aoi is the "Rising Star" of the girls' team.
-...Or so everyone says.
-It’s perfectly normal for them to talk.
-Besides, no matter how much of a seasoned playboy Ryuichi might be, what could he possibly pull in the middle of a short break between classes?
-I settled on that conclusion to silence my own doubts and slumped face-down onto my desk.
-Drowsiness washed over me instantly...
+“...Well, it’s probably nothing to worry about.”
+Ryuichi is the captain of the tennis club.
+And Aoi is the rising star of the girls' side.
+...Or so the rumors say.
+It wouldn't be strange for the two of them to have a talk.
+Besides, no matter how much of a seasoned playboy Ryuichi might be, there’s no way he could do anything in such a short break.
+I reached that conclusion as if to convince myself and slumped over my desk.
+Drowsiness immediately took hold...
 $Akito
-“...G’night, zzz.”
-During the break, Saeki-senpai called for me, so I stepped out into the hall.
-He said he had something to talk to me about. I wonder what it is...?
-Meeting him in the hallway, I started walking a few paces behind him.
-He led me into a completely empty classroom.
-The students in this class must have moved to another room for their next period; there wasn't a soul insight.
+“...Goodnight, zzz.”
+During the break, I was called out by Saeki-senpai and went into the hallway.
+It seems Senpai has something to discuss with me. I wonder what it is...?
+Meeting up with Senpai in the hallway, I started walking just a few steps behind him.
+Senpai led me into an empty classroom.
+This classroom must be for a subject that moves around, because there was no one inside.
 In this room, it was just me and Saeki-senpai...
 $Aoi
-“(I wonder... what does he want to talk about?)”
-I’ve been in situations like this a few times before.
-Usually, this is when someone confesses their feelings... but Saeki-senpai?
+“(……I wonder what we’re going to talk about?)”
+In the past, I’ve experienced situations like this a few times.
+Usually, this is when someone confesses their feelings... but surely not Saeki-senpai?
 No way...
-I tried to shake the thought from my head.
-But just now, Senpai had such a solemn... formal expression on his face.
-Surely not... could he...?
-Thinking of his serious face, my heart started to hammer against my ribs.
-Even after entering the room, Saeki-senpai remained silent... he wouldn't even meet my eyes, keeping his back turned toward me.
-The heavy atmosphere made my anxiety grow by the second.
+I tried to brush the thought aside.
+But earlier, Senpai looked so solemn... like he had something grave on his mind.
+Maybe... no way...
+Remembering Senpai’s serious expression, my heart has been pounding with a high-pitched throb for a while now.
+Even after entering the room, Saeki-senpai remained silent... He didn't even try to meet my eyes, keeping his back turned.
+Anxiety gradually began to mount in the heavy atmosphere.
 $Aoi
-“Um... Saeki-senpai?”
-He spun around as if to cut off my words.
+“U-Um... Saeki-senpai?”
+Senpai turned around as if to cut off my words.
 $Ryuichi
-“Aoi-kun, I... about you...”
+“Aoi-kun, about you... I...”
 $Aoi
 “Eh...?”
-My body gave a violent shiver.
-Before I could even process my confusion, Senpai placed a hand gently on my shoulder.
-Then, he stared deep into my eyes.
-What? What did he just say??
+My body gave an involuntary shiver.
+Before I could even process my confusion, Senpai gently placed his hand on my shoulder.
+Then he stared fixedly into my eyes.
+What? What did Senpai just say??
 "About you"—what does that mean? Senpai, what are you talking about?
 $Aoi
-“Eh, wait, whaaat!?”
-My mind was already spiraling into a total panic.
-Ignoring my distress, Senpai continued his confession...
+“Eh, e-eh, eeeeh!?”
+My head was already in a total state of panic.
+Without minding my reaction, Senpai continued his words...
 $Ryuichi
-“From the very first moment I saw you... I haven't been able to get you out of my head.”
-Senpai’s gaze was devastatingly serious.
-I tried desperately to look away, but for some reason, I couldn't move my eyes.
-...What? Am I... am I trapped by his gaze...?
-This can't be... this is just...
-If I keep looking into his eyes like this... I feel like I’m going to lose consciousness...
-This isn't the Senpai I know.
-I don't know how to describe it, but there’s this electric, dangerous aura surrounding him.
-It’s an image he’s projecting.
+“Since the first time I saw you, I... I couldn't help but be concerned about you.”
+Senpai gazed at me with a serious look in his eyes.
+I tried to hurriedly look away, but for some reason, I couldn't.
+.........What? Am I... trapped by Senpai’s eyes...?
+No... this is...
+If I keep looking into Senpai’s eyes... I feel like I might lose consciousness...
+He’s different from the usual Senpai.
+I don't know what it is, but an extraordinary atmosphere is drifting around us.
+It's an image that Senpai himself is radiating.
 I know that... I know, but...
 My heart is thumping so hard.
-It’s so loud. My ears feel weird. The sound of my own heartbeat is so close it’s almost deafening...
+It's such a loud sound. My ears feel strange. My heartbeat feels so close and noisy...
 No! Stop, this is wrong. Something is wrong!
 $Aoi
-“Wh-what’s come over you!? S-Senpai, this isn't like you at all!”
+“Wh-What is the matter!? S-Senpai, this isn't like you!”
 $Ryuichi
-“What are you saying? I am simply being myself.”
+“What are you saying? I am simply myself.”
 $Aoi
-“No, you aren't... the Senpai I know!”
+“No, you aren't the usual Senpai...!”
 $Ryuichi
-“No... this is the real me. I am serious. Dead serious... about you.”
-Senpai’s eyes were clear, without a hint of hesitation.
-He didn't look like he was lying at all.
-Oh god... but... but I...
+“No... this is the real me. I am serious. I am serious about you...”
+Senpai’s eyes didn't have a single shadow of doubt.
+It didn't look like he was lying at all.
+Ah... this... but... I...
 $Aoi
-“(Saeki-senpai... do you really feel that way about me?)”
-Senpai let a soft smile play on his lips, then suddenly leaned his face in toward mine.
-Trapped by his sharp, narrow eyes... I almost found myself accepting it.
+“(Saeki-senpai... really feels that way about me?)”
+Senpai let a smile play on his lips and abruptly brought his face close to mine.
+Trapped by Senpai’s long, narrow eyes... I almost found myself accepting it.
 No...!
 $Aoi
-“Ky-ah!”
+“Kya!”
 $Ryuichi
-“Wh-whoa!?”
-Before I knew it, I had shoved Senpai away with both hands.
-He stared at me with an expression of pure shock.
-What... wait? What did I just...?
-I didn't even know what I was doing anymore.
-It felt like my vision had suddenly cleared. Like I’d been set free...
-At any rate, the fact that I’d just shoved Senpai was very real.
-I—I have to apologize...
+“U-Uwah!?”
+Before I realized it, I had shoved Senpai away with both hands.
+Senpai is looking at me with an expression of pure shock.
+Wait... what? What did I just do...?
+I don't even know what I was doing until a second ago.
+It felt like my vision suddenly opened up. Like I was liberated...
+At any rate, the fact that I shoved Senpai seems to be reality.
+I-I have to apologize...
 $Aoi
-“Ah, I-I’m so sorry! But... but I...”
-I realized my eyes were welling up with tears.
-I felt terrible. I was consumed by guilt for treating the upperclassman I respected so much this way.
-I choked on my words, my voice hitching with a sob.
-I tried desperately to explain myself, but nothing came out right.
-I didn't know what to say, or what to do.
-The more I tried to fix it, the more I spiraled into self-loathing.
-I could only look up at him with eyes brimming with tears.
-Saeki-senpai watched me for a while, then offered a gentle smile and slowly walked back toward me.
+“Ah, I-I’m sorry! But... but I...”
+I realized that tears were welling up in my eyes.
+I felt so bad for Senpai. My heart was full of guilt toward the Senpai I respected.
+My words were choked by sobs.
+I tried desperately to explain, but it didn't go well.
+I didn't know what words to use, or what I should even do.
+The more I tried to fix it, the more I fell into self-loathing.
+I could only look up at Senpai with eyes full of tears.
+Saeki-senpai seemed to be watching me for a while, but then he smiled gently and walked over slowly.
 $Ryuichi
-“I’m sorry. I suppose I was being a bit too impatient.”
-Saying that, he wrapped his arm gently around my shoulder.
-Compared to a kiss, I could handle this much.
-I could feel his body heat... it was so warm...
-I’m... I’m being held by Senpai...
-It didn't feel bad. It didn't, but...
-I couldn't shove him away this time.
-I couldn't do that to someone I respect.
-That’s right, this is just Senpai’s way of showing affection to a club junior.
-I’m sure he’s just trying to calm me down in his own way...
-I felt like I caught a tiny glimpse into the side of him that makes so many girls adore him.
-After he held my shoulder for a bit, we left the classroom together.
-It was so sudden that it startled me, but being treated specially by the Saeki-senpai everyone admires... didn't feel bad at all...
+“I’m sorry. It seems I was a bit too impatient.”
+Saying that, Senpai gently wrapped his arm around my shoulder.
+Compared to a kiss, I could endure this much.
+I can feel Senpai’s body heat... it’s so warm...
+I... am being held by Senpai...
+I don't hate it. I don't hate it, but...
+I can't shove him away this time.
+I can't do something like that to the Senpai I respect.
+Yes, this is just Senpai's way of skinship with a junior in the same club.
+I’m sure it’s just Senpai’s way of trying to put my mind at ease...
+I felt like I finally understood a side of Senpai—the reason why so many girls adore him.
+After being held for a while, I left the classroom with Senpai.
+It was so sudden that it startled me, but being given special treatment by the Saeki-senpai everyone admires didn't feel bad...
 $Ryuichi
-“Well then, Aoi-kun. I’ll see you at practice.”
+“Well then, Aoi-kun. See you at club.”
 $Aoi
-“Y-Yes...”
-I watched him leave and then headed back into my classroom.
+“Y... Yes...”
+I entered the classroom as Senpai saw me off.
 $Female Student A
-“A-o-iiii~!”
+“A-o-i~!”
 $Aoi
 “Eh!?”
-The moment I stepped inside, I was swarmed by my female classmates.
-Wh-what? What’s wrong with everyone??
+The moment I entered the classroom, I was surrounded by the girls in my class.
+Wh-What? What's wrong with everyone??
 $Female Student A
-“We saw you, Aoi! You were just hugging Saeki-senpai!”
+“We saw you, Aoi. Weren't you just hugging Saeki-senpai?”
 $Female Student B
-“Aoi, did he confess to you? Eeeeeek~!”
-They were squealing and teasing me at the top of their lungs.
-The sheer volume was almost overwhelming.
-I waved my hands frantically with a sheepish grin, trying to defend myself.
+“Aoi, did Senpai confess to you? Kyaaaaa~!”
+My classmates were making a fuss, raising their high-pitched voices.
+I felt like I was going to be overwhelmed by the noise.
+I waved my hands frantically with a wry smile and replied.
 $Aoi
-“It’s nothing like that! Saeki-senpai is just... he’s just my captain in the club...”
-I felt a tiny prickle of superiority, but it was mixed with a complicated feeling.
+“I-It’s nothing like that! Saeki-senpai is just my senior in the club...”
+I felt a small sense of superiority, but at the same time, my feelings were complicated.
 Saeki-senpai really is everyone’s idol.
-It would be unfair for someone like me to keep him all to myself.
-Besides, there are my own feelings to consider...
-My eyes naturally started searching for Akito.
-Oh, for heaven’s sake, Akito is asleep...!
-Hehe... looking at Akito’s defenseless back as he snores away—
+It would be bad for everyone if someone like me monopolized him.
+And then, there are my own feelings...
+I naturally looked for Akito with my eyes.
+Ah, Akito is sleeping!
+Fufu... looking at Akito’s defenseless back as he snores away—
 $Akito
-“GYAAAH!!! THAT HURTS!!!”
+“OWWWWW!!!!”
 $Aoi
-“Morning, Akito!”
+“'Morning, Akito!”
 $Akito
-“...It’s not 'morning' you moron! I was finally having a good nap, what the hell was that for?!”
-I tried to talk to Akito in my usual tone, hoping to forget what had just happened.
+“...It’s not 'morning'! What the hell are you doing when I was having such a good sleep?!”
+I talked to Akito in my usual tone, trying to forget what just happened.
 But... even so, I couldn't get Saeki-senpai’s gentle eyes out of my head.
 $Akito
-“...Wait, what’s up with you? Your face is all red, Aoi.”
+“...Wait, what’s wrong? Your face is red, Aoi.”
 $Aoi
-“...I-It is not!”
+“...N-Nothing!”
 $Akito
-“Huh? What are you on about?”
-In the end, I couldn't even manage a proper conversation and just retreated to my seat.
+“Huh? What’s with you?”
+In the end, we couldn't even have a proper conversation, and I just went back to my seat.
 $Aoi
-“............ Phew.”
-I pressed my hands to my cheeks.
-They really are burning. And my heart is still pounding...
-That rapid throb didn't stop even after the next class began; I couldn't focus on the lesson at all.
-...No matter how short the break is, leaving Ryuichi and Aoi alone is dangerous.
-The way that bastard looks at her, it’s obvious he’s hunting.
+“……………… Phew.”
+I placed my hand against my cheek.
+My face really is hot. And my heart is pounding too...
+That throbbing in my chest didn't stop even after the next class began, and in the end, I couldn't concentrate on the lesson at all.
+……No matter how short the time might be, leaving Ryuichi alone with Aoi is dangerous.
+After all, it’s plain as day that Ryuichi is targeting Aoi.
 Even if it has nothing to do with the project.
-There's no way in hell I'm leaving Aoi to a guy like that!
+There's no way I can leave Aoi to a guy like him!
 $Akito
-“(Still, if I follow her right away, they’ll definitely get suspicious. ...I’ll wait a bit before I head out into the hall...)”
-I watched the second hand on my watch make three full circles.
-Why does three minutes feel like an eternity when you’re waiting for something like this, or for a cup of ramen?
+“(Though if I follow Aoi and the other right now, I’ll definitely look suspicious. ...I’ll wait a bit before heading into the hallway...)”
+I waited for the second hand of my watch to go around three times.
+Why does the three minutes you wait for instant ramen or times like this always feel so long?
 $Akito
-“(......Hurry the hell up!)”
-Three minutes after Aoi left.
-I kept my face neutral to hide the frantic pace of my heart as I strode out of the classroom.
+“(……Spin faster!)”
+Three minutes had passed since Aoi left.
+I took care not to let my internal impatience show on my face as I walked quickly out of the classroom.
 $Akito
-“...Doesn't look like they’re just chatting in the hallway.”
-The hall was empty.
-I clicked my tongue internally and started running to find them.
-I had no idea where they went, but they had to be somewhere in the building.
-If it was something they could finish in a break, they couldn't have gone far.
-But if Ryuichi was planning to ignore the clock...
+“...Doesn't look like they’re just standing around talking in the hallway.”
+I checked the hallway, but the two were nowhere to be found.
+I clicked my tongue in my heart and started running to find them.
+I didn't know where they went, but they were certainly somewhere in this school.
+If it was an errand that could be finished during a break, they couldn't have gone far.
+But if Ryuichi was planning to ignore the time...
 $Akito
-“....................”
-Nah, that can't be it.
-Ryuichi is the student council president. He’s supposed to be the model for every student.
-He’d want to keep up appearances...
-After running for a bit, I spotted an empty classroom.
+“………………”
+Well, probably not.
+Ryuichi is the student council president. He’s supposed to be a model for all the students.
+He should be trying to maintain appearances...
+After running for a bit, an empty classroom caught my eye.
 $Akito
 “(Suspicious...)”
-I held my breath and peeked into the room.
+I held my breath and carefully peeked inside the classroom.
 $Akito
-“(That bastard!)”
-Just as I thought, there they were: Aoi and Ryuichi.
+“(Ah, that bastard!)”
+Just as I thought, Aoi and Ryuichi were there.
 $Ryuichi
-“Aoi-kun, I... about you...”
+“Aoi-kun, about you... I...”
 $Aoi
 “Eh...?”
-Ryuichi had his hand on Aoi’s shoulder, staring intensely into her eyes.
-Aoi looked completely bewildered, her body giving a visible shiver.
-I reflexively ducked back beside the door frame.
+Ryuichi had his hand on Aoi’s shoulder and was staring fixedly into her eyes.
+Aoi wore a bewildered expression, her body shivering slightly.
+I immediately ducked into the shadow beside the door.
 $Akito
-“If I barge in now, I’ll just look like the jealous third wheel...”
-For now, Aoi didn't look like she was in immediate danger.
-The way they were standing so close bothered the hell out of me, though...
-I decided to watch their exchange from the shadows for a while.
+“If I just barge in now, I’ll just look like a home-wrecker...”
+For now, there was no sign that Aoi was in physical danger.
+The fact that they were so close bothered me, but...
+I decided to watch their interaction for a while.
 $Akito
-“(Try anything funny with Aoi... and I’ll knock your teeth out!)”
-While I was thinking that, Ryuichi gripped Aoi’s shoulder and pulled her closer.
+“(Just you try doing something weird to Aoi... I’ll blow you away!)”
+While I was thinking that, Ryuichi grabbed Aoi’s shoulder firmly and pulled her body closer.
 $Aoi
-“Eh, wait, whaaat!?”
-Aoi looked flustered by the sudden move.
-But Ryuichi didn't care, continuing with his cheesy-as-hell lines.
+“Eh, e-eh, eeeeh!?”
+Aoi looked panicked at the unexpected move.
+But Ryuichi didn't care and continued his cheesy lines.
 $Ryuichi
-“From the very first moment I saw you... I haven't been able to get you out of my head.”
+“Since the first time I saw you, I... I couldn't help but be concerned about you.”
 $Akito
-“(......What!?)”
+“(……Wha!?)”
 $Aoi
-“Wh-what’s come over you!? S-Senpai, this isn't like you at all!”
+“Wh-What is the matter!? S-Senpai, this isn't like you!”
 $Ryuichi
-“What are you saying? I am simply being myself.”
+“What are you saying? I am simply myself.”
 $Aoi
-“No, you aren't... the Senpai I know!”
+“No, you aren't the usual Senpai...!”
 $Ryuichi
-“No... this is the real me. I am serious. Dead serious... about you.”
-The word "serious" left Ryuichi’s mouth.
-The second she heard it, Aoi’s reaction shifted.
-Under Ryuichi’s gaze, Aoi’s eyes started to water. Her cheeks were flushed dark red.
+“No... this is the real me. I am serious. I am serious about you...”
+The word "serious" came out of Ryuichi's mouth.
+The moment she heard those words, Aoi’s demeanor changed.
+Under Ryuichi’s gaze, Aoi’s eyes began to grow moist. What’s more, her cheeks were flushing.
 $Akito
-“(What the hell are you doing, Aoi! Don't let him play you! There’s no way a guy like that actually means it when he says he’s 'serious'!!)”
-I clenched my fist so hard my nails dug into my palm, screaming at her in my head.
-I didn't even notice the pain.
-Ryuichi gave a slight chuckle and leaned his face toward Aoi’s!
+“(Wh-What are you doing, Aoi! Don't let him trick you! There's no way a guy like that means it when he says he’s 'serious'!!)”
+I clenched my fist tight, shouting at Aoi in my heart.
+My nails were digging into my palm, but I didn't care at all.
+Ryuichi gave a light laugh and brought his face close to Aoi’s!
 $Akito
 “(Wha!?)”
-I barely managed to swallow a shout.
-Meanwhile, Ryuichi’s lips were drawing closer and closer to Aoi’s!
+I suppressed the urge to scream at the top of my lungs.
+In that moment, Ryuichi’s lips were drawing closer to Aoi’s!
 $Akito
-“(AOIIIIIII!!!)”
-I screamed in my heart and moved to look away.
-But in the next instant, Aoi, who had looked dazed, suddenly snapped back to reality.
+“(AOIIIIIIIIIIIIIII!!!)”
+I shouted with all my might in my heart and tried to look away.
+Then, in the next instant, Aoi, who should have been dazed, snapped back to her senses.
 $Aoi
-“Ky-ah!”
-With a small cry, she shoved Ryuichi away with both hands.
+“Kya!”
+With that small cry, Aoi shoved Ryuichi away with both hands.
 $Ryuichi
-“Wh-whoa!?”
-Shoved with force, Ryuichi stumbled backward.
+“U-Uwah!?”
+Ryuichi, being shoved, staggered backward.
 $Akito
-“(......What? What just happened!?)”
-It happened so fast I couldn't process it.
-Wait, wasn't she about to let him kiss her...?
-But now, there was clear space between them.
-I didn't know what to make of it, but for now, I let out a massive sigh of relief.
-Ryuichi looked visibly shocked at being shoved.
+“(……What? What happened!?)”
+It happened so fast I didn't know what had occurred.
+Wasn't Aoi about to be kissed by Ryuichi...?
+But now, there was distance between them.
+I don't know why, but I let out a sigh of relief for now.
+Ryuichi looked visibly shocked at being shoved by Aoi.
 His eyes were wide as he stared blankly at Aoi’s face.
 $Aoi
-“Ah, I-I’m so sorry! But... but I...”
-Aoi was apologizing over and over, her eyes full of tears and her voice catching in her throat.
-Ryuichi approached her again, a gentle smile back on his face.
+“Ah, I-I’m sorry! But... but I...”
+Aoi was apologizing to Ryuichi, her eyes full of tears and her words choking up over and over.
+Ryuichi approached Aoi again with a gentle smile.
 $Ryuichi
-“I’m sorry. I suppose I was being a bit too impatient.”
-Smiling like that, he wrapped his arm softly around Aoi’s shoulder.
-Aoi... she just let him, leaning her weight against him.
+“I’m sorry. It seems I was a bit too impatient.”
+With that smile, Ryuichi gently wrapped his arm around Aoi’s shoulder.
+Aoi... just stood there and let him do it, leaning her body into him.
 $Akito
-“(What are you doing, shake him off, Aoi!)”
-I almost shouted it out loud.
-I was consumed by pure, unadulterated jealousy toward Ryuichi.
-At the same time, doubt started to gnaw at me...
+“(What the hell are you doing? Shake him off, Aoi!)”
+I almost screamed it out loud.
+I was clearly harboring feelings of jealousy toward Ryuichi.
+At the same time, suspicion toward Aoi was mounting...
 $Akito
-“(Aoi, do you... do you like Ryuichi...? More than... more than me...?)”
-Do you like this guy who just showed up more than me, after everything we’ve been through together?
+“(Aoi, do you... like Ryuichi...? More than me...?)”
+More than me, who has been with you all this time—do you prefer a guy like Ryuichi who just appeared out of nowhere?
 $Akito
-“Argh, dammit!!”
-Shaking the thought away, I looked up to see Ryuichi leading Aoi out of the empty classroom.
+“Dammit!!”
+I brushed the thought aside and looked up to see Ryuichi about to lead Aoi out of the empty classroom.
 $Akito
 “Crap!!”
-I hurriedly ducked around a corner in the hallway.
-I watched them from there.
-I saw Aoi leaving the room with Ryuichi’s arm around her shoulder.
-They started walking down the hallway like that.
+I hurriedly hid at the corner of the hallway.
+I decided to watch them from there.
+My eyes caught the sight of Aoi leaving the classroom while Ryuichi held her by the shoulder.
+Then Aoi continued walking down the hallway.
 $Akito
 “(Son of a bitch!)”
-Screaming that in my head, I beat them back to the classroom.
+Shouting that in my heart, I returned to the classroom before Aoi did.
 $Female Student A
-“A-o-iiii~!”
+“A-o-i~!”
 $Aoi
 “Eh!?”
-The moment she walked in, Aoi was surrounded by the girls in our class.
-They were definitely talking about what just happened...
-Just seeing that made my mood sink like a stone.
+The moment Aoi entered the classroom, she was surrounded by the girls in the class.
+The topic was probably what just happened...
+Just thinking about it made my mood sink.
 $Female Student A
-“We saw you, Aoi! You were just hugging Saeki-senpai!”
+“We saw you, Aoi. Weren't you just hugging Saeki-senpai?”
 $Female Student B
-“Aoi, did he confess to you? Eeeeeek~!”
-They were teasing her with high-pitched squeals.
-Aoi looked overwhelmed by their energy.
-She stayed silent for a while, then finally muttered a defense.
+“Aoi, did Senpai confess to you? Kyaaaaa~!”
+The girls were making a fuss over Aoi, raising their high-pitched voices.
+Aoi looked overwhelmed by everyone’s energy.
+After being silent for a while, Aoi muttered as if to argue back.
 $Aoi
-“It’s nothing like that! Saeki-senpai is just... he’s just my captain in the club...”
-She was just giving them the "correct" social answer.
-But the girls didn't believe a word of it, continuing to gossip excitedly.
-Their conversation was a reminder of just how popular Ryuichi was.
-It wasn't funny.
-Especially after seeing how Aoi acted toward him just now.
-All the guys around us were scowling.
-I guess they were just jealous too, but...
+“I-It’s nothing like that! Saeki-senpai is just my senior in the club...”
+Aoi only offered superficial words to the girls.
+But the girls didn't take Aoi’s words at face value and kept the conversation lively.
+It was a conversation that drove home how popular Ryuichi is.
+It wasn't pleasant.
+Especially after seeing Aoi’s attitude toward Ryuichi just now.
+The other guys around were all wearing sour expressions too.
+Though that’s probably just plain jealousy...
 $Akito
 “Hmph...”
-I turned to head back to my seat.
-Suddenly, I felt a sharp impact on my back.
+I turned around to go back to my seat.
+Suddenly, a shock ran through my back.
 $Akito
-“OW!!”
-I turned around, rubbing my back, to find a smiling, cheerful Aoi.
+“OWW!”
+Turning around while rubbing my back, there was Aoi with a smiling, cheerful face.
 $Aoi
-“Yahoo!”
+“Yoo-hoo!”
 $Akito
-“...Don't 'yahoo' me! What was that for?!”
-Maybe she was just using me to distract everyone from her embarrassment.
-I didn't really care about that, though.
-For some reason, her face was red. Was she thinking about what happened earlier...?
+“...It’s not 'yoo-hoo'! What the hell was that for?!”
+Aoi might have been using me to cover for the situation.
+But I didn't care about that.
+For some reason, Aoi’s face was red. Was she remembering what happened earlier...?
 $Akito
-“What’s up? Your face is all red.”
-Even though I knew exactly why, I decided to ask her.
+“What’s wrong? Your face is red.”
+Even though I knew the reason, I deliberately questioned Aoi.
 $Aoi
-“...I-It is not!”
+“...N-Nothing!”
 $Akito
-“....................”
-As expected, she just brushed me off.
-Aoi turned her back on me and headed for her seat.
-But even after she sat down, even after the next class started, her face remained flushed...
+“…………………………”
+Just as expected, I only got an evasive answer from Aoi.
+Aoi turned her back on me with a huff and went back to her seat.
+But even after she sat down, and even after the next class started, Aoi’s face remained flushed...
 $Akito
 “(Dammit...)”
-Every time I saw that distracted, dazed look on her face, I cursed under my breath.
+Every time I saw Aoi’s messy face, I cursed her in my heart.
 $Akito
-“............ This is dangerous!”
-I felt an intense unease at the fact that Ryuichi had called Aoi out.
-Unable to take it anymore, I called out to Aoi as she was about to leave for the hallway.
+“……………… This is dangerous!”
+The fact that Aoi had been called out by Ryuichi filled me with an extraordinary sense of unease.
+Unable to take it, I called out to Aoi as she was about to head into the hallway.
 $Akito
 “Hey, Aoi.”
 $Aoi
 “...Eh?”
 $Akito
-“You going somewhere?”
+“Going somewhere?”
 $Aoi
 “Yeah, just for a bit...”
 $Akito
-“Oh, the bathroom? I’ll walk partway with you.”
+“Ah, the restroom? Then I’ll walk with you part of the way.”
 $Aoi
 “Eh? Ah, listen...”
-I placed a hand on Aoi’s back and walked out into the hall with her.
+I placed a hand on Aoi’s back and stepped out into the hallway with her.
 $Ryuichi
-“Ah, Aoi... kun?”
+“A-Aoi... kun?”
 Ryuichi’s voice sounded confused.
-He must have thought she’d be alone. His face clouded over for a split second.
-But it was gone in an instant, replaced by a gentle smile directed solely at Aoi.
+He must have thought Aoi was coming alone. For a moment, Ryuichi’s face clouded over.
+But it was only for a moment, and he immediately directed a gentle smile toward Aoi.
 $Akito
-“Oh, Saeki-senpai. Yo!”
+“Ah, Saeki-senpai. 'Sup!”
 $Ryuichi
-“Ah. ...Kurusu-kun, I actually have some business with Aoi-kun.”
-Saying that, he tried to lead Aoi away.
-Aoi looked flustered, glancing at me as if she didn't know what to do.
-...As if I'm gonna let that happen!
+“Ah... Akito-kun. Actually, I have some business with Aoi-kun.”
+Saying that, Ryuichi tried to lead Aoi away.
+Aoi looked confused, perhaps being considerate of me.
+……Like I’m going to let that happen!
 $Akito
-“Oh, is that so? Well, I’m actually pretty bored myself. ...You know, Aoi’s still basically a kid, if anything happens to her, her mom’s gonna scream at me.”
+“Oh, is that right? Well~, I was actually bored and had some time on my hands. ...See, if anything happens to Aoi while she’s still a kid, I’ll get chewed out by her mother.”
 $Aoi
-“Wha!? What kind of stupid talk is that! Don't say such weird things!”
-Aoi, her face bright red, tried to take a swing at me, but I grabbed her shoulder and sidestepped her.
-Gah, she’s got a lot of power...
+“Wha!? What kind of stupid things are you saying! Don't say anything weird!”
+Aoi, her face turning bright red, tried to punch me, but I grabbed her shoulder and dodged.
+Guh, she’s got incredible power...
 $Ryuichi
-“Ah, hahaha...”
-Ryuichi watched our exchange with a forced smile.
-Even a guy like him couldn't keep up with this vibe.
+“Ah, ahahaha...”
+Ryuichi watched the exchange between Aoi and me while wearing a forced smile.
+Even someone like Ryuichi probably can't keep up with this vibe.
 $Akito
-“Look, Aoi’s clumsy, a total airhead, and she’s got brute strength. If I’m not around, who knows when she’ll go tumbling down the stairs...”
+“See, I mean, Aoi is clumsy, a total airhead, and has stupidly high physical strength. If I’m not with her, there’s no telling when she’ll tumble down the stairs or something...”
 $Aoi
-“What is that supposed to mean! I don't tumble down the... stairs...”
+“What is that supposed to mean! I don't... tumble down stairs...”
 $Akito
-“Oh really? Then who was it that took a massive spill just the other day?”
+“Hmm, then who was it that took a spectacular spill the other day?”
 $Aoi
-“GAAAAAHHHH!”
-And our usual comedy routine began.
-Lately, it hasn't just been on the way to school; we’ve been doing this everywhere.
-Ryuichi tried to talk to Aoi several times, but in the end, he just couldn't break into our rhythm.
-Well, mostly it was just me not giving him an opening...
-Before long, the chime signaling the end of the morning break rang out.
+“GRRRRRRRR!”
+The usual bickering with Aoi had begun.
+Lately, it’s not just on the morning walk to school; this kind of exchange happens everywhere.
+Ryuichi tried to speak to Aoi several times, but in the end, he couldn't keep up with our pace.
+Well, it was mostly because I didn't give him an opening to cut in...
+While we were doing that, the bell signaling the end of the morning break began to ring.
 $Akito
-“Oh, break’s over already. Guess you didn't get to have much of a talk with Saeki-senpai after all.”
+“Ah, break’s over already. In the end, you couldn't even have a proper conversation with Saeki-senpai, could you?”
 $Aoi
-“Whose fault do you think that is? WHOSE?!!”
-Aoi screamed at me with all her might, then immediately turned back to Ryuichi.
+“WH-WHOSE FAULT DO YOU THINK IT IS?!”
+Aoi screamed at me with all her might and then immediately turned to Ryuichi.
 $Aoi
-“I-I’m so sorry... because of this idiot...”
+“I-I’m so sorry... because of this idiot.”
 $Akito
 “OW!”
-She’s pretty skillful.
-While talking normally to Ryuichi, she’d landed a solid punch right on my head.
+What a skillful move.
+While having a normal conversation with Ryuichi, Aoi had delivered a solid punch to my head.
 $Akito
-“What was that for, that hurt!”
-I muttered a curse while rubbing my head.
-But to tell the truth, I was relieved.
+“What was that for? That hurt!”
+I cursed while rubbing my head.
+But to tell the truth, I was relieved deep down.
 $Aoi
 “I’m really, really sorry!”
 Aoi bowed deeply to Ryuichi.
 $Ryuichi
-“Now, now, we ran out of time, it can't be helped. ...Tell you what, I’ll tell you what I wanted to talk about during club practice.”
-Flashing a radiant smile, Ryuichi waved only at Aoi and walked away.
+“Now, now, it can't be helped since time ran out. ...I know, what I wanted to talk about today, I'll tell you during club.”
+While flashing a smile, Ryuichi waved only to Aoi and walked away.
 $Akito
-“(......Maybe I was a bit of a dick.)”
+“(……Maybe I did something a bit bad.)”
 I felt a tiny bit of guilt.
-But since I’d achieved my goal of "protecting Aoi," I decided it was fine.
-Of course, it wasn't all good news.
-Aoi had been glaring at me for a while now with eyes full of murderous intent.
-He-help, she’s scary...
+But since I achieved my goal of "protecting Aoi," I’ll consider it a win.
+However, it wasn't all good things.
+Aoi has been glaring at me with eyes full of murderous intent for a while now.
+S-Scary...
 $Aoi
-“Honestly! This is all your fault, Akito!!”
+“Geez! This is all Akito’s fault!!”
 $Akito
-“Yeah, yeah, whatever. Let’s just get back to class.”
-I brushed her off and tried to guide her back to the room.
+“Yeah, yeah, whatever. Let’s just get back to the classroom.”
+I brushed Aoi off lightly and tried to guide her back to class.
 $Aoi
-“...If you ever do that again, I’m never talking to you again!”
+“...If you ever do something like that again, I’m not talking to Akito anymore!”
 $Akito
-“Geh! Th-that’s going way too far!”
-.................... Yep, it’s going to be a rough road ahead.
+“Wait, what! N-No way!”
+……………… As expected, the road ahead is full of difficulties.

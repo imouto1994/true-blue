@@ -1,1331 +1,1331 @@
 --------------------
 03c06
 ********************
-■ Saria Episode 06 ~yo-n
-I...
+Saria: Episode 06
+I'll—
 [Choices]
-1. Leave them be
-2. Try getting closer
-3. Call out to them
+1. Leave her alone
+2. Try to approach
+3. Call out to her
 I stopped by the faculty office before heading to my club activities.
-Today, I’d forgotten my physics homework, and Sadaoka—the teacher—had finally snapped at me, a repeat offender.
+Today, I’d forgotten my physics homework, and my teacher, Sadaoka, finally lost his patience with a repeat offender like me.
 After enduring about ten minutes of a pointless lecture, I was feeling completely blue.
-Not because I’d forgotten the assignment, but because I’d wasted ten minutes being lectured at.
+Not because I’d forgotten the homework, but because I’d been forced to listen to that tedious scolding for ten whole minutes.
 Seriously, lecturing me is a total waste of time.
-Basically, the concept of being diligent enough to actually do homework just doesn't exist in my brain’s circuitry.
-Besides, thanks to that scolding, I'm late for practice now.
-There’s no doubt Hoshino, our demon director, is going to drop the hammer on me.
-Man, I can't catch a break.
-As I headed toward the baseball clubroom, feeling irritated, I spotted Aoi in front of the girls' locker room.
+Basically, the virtuous thought process of actually wanting to do homework simply doesn't exist in my head.
+Besides, thanks to that lecture, I'm late for practice.
+Coach Hoshino, that old demon, is definitely going to strike me with lightning again.
+God, I can't stand this.
+Irritated, I headed toward the baseball clubroom when I spotted Aoi in front of the girls' locker room.
 I could only see them vaguely from a distance, but the one with her was probably Saria.
-Those flashy clothes of hers stand out even from far away.
+That flashy outfit of hers stands out even from afar.
 Aoi was still in her school uniform.
-Is she late for her club, too...?
-Now’s not the time to be calling out to her.
-Saria’s probably just teasing her again anyway.
-I ignored Aoi and the other girl and hurried toward the baseball clubroom.
-This is bad, I’m going to be so late for practice.
-I got so caught up chatting with my friends in class that I lost track of time.
-I hurried down the hallway with quick steps.
-As I reached the front of the locker room, Shinjou-senpai was standing there.
-I gave her a quick nod and ducked into the locker room with a perfunctory greeting.
-Then, Shinjou-senpai followed right in after me.
+Is she late for her club too...?
+This is no time to be calling out to Aoi.
+Saria is probably just teasing her again anyway.
+I ignored them and hurried toward the baseball clubroom.
+Oh no, I’m going to be late for practice.
+I got so caught up chatting with my friends in the classroom.
+I was walking down the hallway with quick steps.
+As I approached the locker room, Shinjou-senpai was standing there.
+I gave her a slight nod and entered the locker room with a hurried greeting.
+Then, Shinjou-senpai followed me inside.
 $Saria
-“Kanzaki-san, I’ll just go ahead and lock the door, shall I?”
+“Kanzaki-san, I’ll lock the door, alright?”
 $Aoi
 “Eh?”
-Shinjou-senpai turned the lock on the locker room door from the inside.
-Oh no, I totally forgot to lock it.
+Shinjou-senpai was locking the locker room door from the inside.
+Oops, I forgot to lock it myself.
 $Saria
-“You’re far too careless, Kanzaki-san. What would you do if someone decided to peek?”
-Senpai smiled, looking exasperated.
+“You’re far too careless, Kanzaki-san. What would you do if someone peeked in?”
+Senpai smiled as if she were exasperated.
 $Aoi
-“Haha, you’re right... I was just in such a rush...”
+“Haha, you’re right... I was in such a rush...”
 I’m so grateful to her.
-I set my sports bag on the floor and hurriedly pulled out my tennis gear.
+I placed my sports bag on the floor and hurriedly pulled out my tennis wear.
 $Saria
-“Hasn't your club practice already started?”
+“Hasn’t your practice already started?”
 Shinjou-senpai peered into my bag from behind me.
-Ugh, I really don't want her looking at the contents.
-Everything is such a mess in here...
+Ah, I really don’t want her looking inside.
+Everything is such a mess in there...
 $Aoi
-“Hah... Yes, exactly. I have to hurry.”
-I felt so awkward I could only scratch my head.
+“Sigh... Yes, that’s right, I have to hurry.”
+I felt so awkward that I could only scratch my head.
 $Saria
-“Whatever caused you to be so late?”
+“Why were you delayed?”
 Shinjou-senpai asked.
 $Aoi
-“Well—I’ve just been slacking off. Seriously, I'm hopeless.”
-I couldn't help but give a wry smile as I spoke.
-I don't know why, but lately, I’ve felt so distracted... like I can't settle down. It’s strange even to me.
+“Well, I’ve just been slacking off. Seriously, I’m hopeless.”
+I couldn’t help but give a wry smile as I said it.
+I don't know why, but lately, it feels like my attention is scattered... or like I can't settle down... it’s strange even to me.
 $Saria
-“Is that so? I’m sure it’s just because Kanzaki-san is so popular and busy that you’re simply exhausted.”
+“I see. I’m sure it’s just because you’re so popular and busy, Kanzaki-san. You must be exhausted.”
 $Aoi
-“Ahaha. No, that’s not...”
-Even as I denied it, I paused to think.
-Come to think of it, I have been suddenly busy lately... and people I never really talked to before have been striking up conversations with me all the time.
-Even Shinjou-senpai right here...
-People whose faces I didn't even know a week ago have suddenly become close acquaintances.
-Maybe that’s why everything feels so hectic...
-I tilted my head, wondering about my own thoughts.
-I don't really get it.
+“Ahaha. That’s... not really...”
+While denying it, I suddenly paused and thought.
+Come to think of it, things have suddenly gotten busy lately... I’ve been frequently approached by people I’d never really talked to before.
+Even Shinjou-senpai, right in front of me...
+Before I knew it, I’d become close with someone whose face I didn’t even know just a week ago.
+Maybe that's why everything feels so hectic...
+I tilted my head at my own thoughts.
+I just don’t know.
 Still, I wonder why Shinjou-senpai followed me all the way into the locker room.
-When I stole a glance at her, she looked like she had something she wanted to say.
+When I stole a glance at her, she looked like she wanted to say something.
 $Aoi
-“Is something the matter?”
+“Is something wrong?”
 $Saria
-“Eh? ...Well, actually, there was something I wished to consult you about.”
+“Eh? ...Well, actually, there was something I wanted to consult with you about.”
 $Aoi
-“Consult me? About what?”
-At that, Shinjou-senpai gave a small, disappointed shake of her head.
+“A consultation? With me?”
+At that, Shinjou-senpai shook her head slightly with a very disappointed look.
 $Saria
-“But you seem quite busy, Kanzaki-san. We can save it for another time.”
-She gave a soft smile, as if trying to hide her embarrassment.
+“But you seem busy as well, Kanzaki-san, so I’ll save it for another time.”
+She then gave a small smile, as if trying to hide her true feelings.
 $Aoi
 “............”
-To think that Shinjou-senpai would rely on someone younger like me...
+To think that someone like Shinjou-senpai would rely on someone younger like me...
 Is it something serious...?
-She looks like she’s really troubled by something.
-I thought about it for a moment, then turned back to face her.
+She looks a bit troubled.
+After thinking for a moment, I turned back toward her.
 $Aoi
-“Um... If you’re okay with me, I’ll listen.”
+“Um... if you’re okay with me, I’ll listen.”
 $Saria
-“Oh? But I’d feel terrible.”
+“Eh? But I’d feel bad.”
 $Aoi
-“Don't worry about it. No matter how much I hurry, I’m definitely going to be late for practice anyway. I was actually thinking about just skipping today.”
+“Please don’t worry about it. No matter how much I hurry, I’m already destined to be late for practice anyway. I was even thinking about skipping today.”
 Ah, I said something I didn't even mean.
-In reality, skipping is out of the question.
-But I couldn't stand seeing Shinjou-senpai looking so distressed.
-I wanted to help her in whatever way I could.
+Honestly, skipping is out of the question.
+But I just couldn't stand seeing Shinjou-senpai looking so distressed.
+I wanted to do whatever I could to help her.
 $Saria
-“...Are you quite sure?”
+“...Is it really alright?”
 Shinjou-senpai asked hesitantly.
-To make sure she didn't worry, I puffed out my chest exaggeratedly and gave her a bright smile.
+To make her feel at ease, I puffed out my chest exaggeratedly. I showed her a bright smile.
 $Aoi
 “Of course!”
-With that, Shinjou-senpai let out a sigh of relief.
+At that, Shinjou-senpai let out a sigh of relief.
 $Saria
 “Thank you...”
-She gave a small bow.
-Then, she began to speak, appearing slightly hesitant.
+She bowed her head slightly.
+Then, she began to speak, appearing somewhat hesitant.
 $Saria
-“Actually, the matter I wished to discuss... concerns your childhood friend.”
-My childhood friend...?
+“Actually, my consultation... is about your childhood friend.”
+Childhood friend...?
 $Aoi
 “...Are you talking about Akito?”
 I tilted my head.
 I never imagined Shinjou-senpai would want to talk about Akito.
 Then it hit me.
 $Aoi
-“Wait—did that idiot do something rude to you again!?”
-It’s entirely possible...
-He seems to really dislike her for some reason...
-Oh, honestly, Akito you moron!
-I immediately bowed my head in apology.
+“D-Don’t tell me he did something rude to you again!?”
+It’s definitely possible...
+Since he seems to hate her for some reason...
+Geez, stupid Akito!
+In any case, I bowed my head.
 $Aoi
-“Um, I’m so sorry. He’s really just a child... I’ll make sure to give him a good scolding.”
-Gosh, I sound like I’m his mother...
-I’m not his guardian.
-But I always end up having to clean up after that idiot’s messes, don't I?
-I’m going to give him a real piece of my mind later!
+“Um, I’m so sorry. He’s really such a child... I’ll make sure to give him a good scolding.”
+I sound just like a mother...
+Even though I'm not his guardian.
+But it seems I’m always the one who has to clean up after that idiot Akito’s messes.
+I’m going to give him a piece of my mind later!
 $Saria
-“No, it isn't anything like that.”
+“No, it isn’t anything like that.”
 $Aoi
 “Eh?”
-Maybe I jumped to conclusions.
-Sorry, Akito you idiot.
-But it’s your own fault for having such a bad track record.
-As I justified myself in my head, Shinjou-senpai stared straight at me.
+Maybe I jumped the units there.
+Sorry, stupid Akito.
+But it’s his fault for always behaving so badly.
+While I was justifying myself in my head, Shinjou-senpai stared intently at me.
 $Saria
-“I may have asked you this once before, but...”
+“I might have asked you this once before, but...”
 $Aoi
 “...Yes?”
 $Saria
-“What sort of relationship do you have with him, Kanzaki-san?”
-I was caught completely off guard.
+“What exactly is your relationship with him, Kanzaki-san?”
+I found myself staring back at her blankly.
 $Aoi
-“Re-relationship...?”
-Wh-what is she even saying?
+“R-Relationship...?”
+W-What is Senpai talking about all of a sudden?
 $Aoi
-“He’s... he’s just...! It’s nothing like that! We’re just childhood friends! Really!”
-For some reason, I found myself making excuses in a panic.
+“H-He’s just...! It’s nothing like that! We’re just childhood friends! Really!”
+For some reason, I was frantically making excuses.
 Why is my face feeling so hot...?
-Not wanting her to see, I hurriedly looked down.
+Not wanting her to see me like this, I hurriedly lowered my gaze.
 $Saria
-“But Kanzaki-san... you love him, don't you?”
+“But you... love him, don’t you, Kanzaki-san?”
 $Aoi
-“Wh-...!?”
-What is this? What is she trying to say!?
+“Wha...!”
+What is it? What is Shinjou-senpai trying to say!?
 $Aoi
-“I—I...!”
+“I... I...!”
 I was at a loss for words.
 Love... do I love Akito...?
-Sure, I don't have to worry about anything when I’m with him, and even when we fight, there are no hard feelings—above all, it’s just comfortable.
+Certainly, I don’t have to worry about anything when I’m with him, and even when we fight there’s no lingering resentment, and above all, it’s comfortable.
 $Aoi
-“B-but that’s...! We grew up like siblings...”
-I don't feel the kind of heart-pounding excitement you’d expect from romance with him... I can't even see him as a member of the opposite sex in the first place...
+“B-But that’s because...! We’ve grown up together like siblings since we were kids...”
+I don’t feel the heart-pounding excitement specific to romance with Akito... and besides, I can’t even see him as a member of the opposite sex...
 $Aoi
-“It’s a bit late for that...”
-And I wonder... what does Akito think...?
-Still, I wonder why Shinjou-senpai would ask something like that...
-Could it be...?
-Does she actually have feelings for Akito...?
-No, that’s impossible...
+“A-After all this time...”
+And besides, I wonder what Akito... thinks of me...
+But I wonder why Shinjou-senpai is asking such things...
+Don’t tell me...
+Does she actually... like Akito...?
+N-No way, that’s impossible...
 But if that were the case...
 $Aoi
-“U-um! Senpai, why are you asking...?”
-Despite my hesitation, I screwed up my courage and asked. Then I looked up.
+“U-Um! Senpai, why would you ask something like that...?”
+Despite my hesitation, I mustered the courage to ask. Then I looked up.
 $Aoi
 “Ah...”
-The breath hitched in my throat.
+I reflexively caught my breath.
 Before I knew it, Shinjou-senpai’s face was right in front of mine...
-Startled, I reflexively tried to pull away.
-Then, she smiled. It was such a sultry, alluring look that I was rendered speechless.
-The next thing I knew, Shinjou-senpai had pulled me close by the waist.
+Startled, I instinctively tried to pull away.
+Then, she smiled. That smile was so incredibly sensual that I lost my voice.
+Before I realized it, Shinjou-senpai had pulled me close by the waist.
 $Aoi
-“Eh...!? U-um, Senpai...?”
+“Eh...!? U-Um, Senpai...?”
 Shudder...
-A chill ran through my body. I felt goosebumps prickling my skin.
+My body trembled. Goosebumps broke out on my skin.
 $Aoi
-“Wh-what are you...”
+“W... What are you...”
 $Saria
 “Are you frightened?”
-Leaning in so close I could feel her breath, Senpai stared intensely into my eyes.
-It was as if... she was a completely different person than she had been just a moment ago...
+Moving her face so close that I could feel her breath, Senpai stared directly into my eyes.
+It was as if... she were a completely different person from the one I knew just a moment ago...
 $Aoi
-“I-it’s not that, but...”
-Avoiding her gaze, I struggled to break free.
-But Senpai’s arms only held me tighter and tighter.
-Her soft breasts were pressed firmly against me.
+“I-It’s not that, but...”
+While averting my gaze from Shinjou-senpai, I struggled somehow to escape.
+But her arms only embraced me more tightly.
+Senpai’s soft breasts were pressed firmly against my body.
 $Saria
-“Fufu. You’re a terrible liar, aren't you, Kanzaki-san? You’re positively trembling.”
+“Fufu. You really are a poor liar, Kanzaki-san. You’re trembling so much.”
 $Aoi
-“U-um, please stop joking...”
-My heart was pounding in my chest.
-The scent of her perfume filled my nose. Just that alone made me feel embarrassed.
+“U-Um, this joke is...”
+My heart was pounding.
+The scent of her perfume filled my nose. Just that was enough to make me feel embarrassed.
 Then, Senpai’s hand slid smoothly up my back.
 $Aoi
-“Hyaun!”
-An undignified shriek escaped my lips.
-A jolt of electricity raced through my entire body, and I huddled into myself.
-Shinjou-senpai leaned in and whispered against my ear.
+“Hyau?!”
+An absurd cry escaped me.
+A shiver ran through my entire body, and I shrunk back.
+Shinjou-senpai leaned in close to my ear and whispered.
 $Saria
-“I wonder if you knew? I simply... adore cherishing things that are cute and beautiful...”
-Her voice was incredibly cold.
+“Did you know? I... absolutely love... cherishing things that are cute and beautiful...”
+Her voice was terribly cold.
 It felt so... heartless...
-She let out a soft breath against my ear.
+She blew a soft breath into my ear.
 $Aoi
 “Ah...”
-Just that was enough to make all the strength drain from my body.
-I didn't even understand why myself.
-Senpai pressed herself even closer to me, tangling her legs with mine.
-As she stroked my back, her other hand slid up to caress the nape of my neck.
+Just that was enough to make all the strength leave my body.
+I don’t even know why myself.
+Senpai pressed even closer against me and entwined her legs with mine.
+While caressing my back, her other hand slid up my neck.
 $Aoi
-“Fuah... P-please stop...”
+“Fuah... P-Please, stop...”
 I pleaded with her desperately.
-My body had gone completely stiff; I couldn't even move.
+My body had completely stiffened, and I was unable to move.
 Shinjou-senpai didn't answer. She placed her hand under my chin.
 My head was tilted upward.
 $Aoi
-“Se-senpai—”
-As I tried to speak, my lips were silenced.
+“S-Senpai—”
+As I tried to speak, my lips were sealed.
 Shinjou-senpai’s soft, sweet lips were pressed against mine.
 $Aoi
-“Mnn...!”
-In my shock, I tried to turn my face away, but my body was paralyzed and wouldn't move.
-Like a frog stared down by a snake, I was at her mercy.
-Confusion and panic swirled in my mind, making it impossible to think straight.
-What do I do... why... what’s happening...?
+“Mm-hm...!”
+Surprised, I tried to turn my face away, but my body was stiff and I couldn't move.
+Like a frog stared down by a snake, I was left at her mercy.
+Confusion and turmoil swirled in my head, making it impossible to understand what was happening.
+What should I do... why... what’s going on...?
 Senpai forced my lips open and slid her tongue inside.
-Puchu, puchu.
-It writhed obscenely inside my mouth before tangling with my own tongue.
+Slurp, slurp.
+After writhing lustfully inside my mouth, she entwined her tongue with mine.
 $Aoi
-“Mnnnn... mnh...”
+“Mnnn... nfu...”
 $Saria
-“Mnh...”
+“Nn...”
 Senpai sucked the saliva from my mouth.
-Pleasure spread from my lips throughout my entire body like a numbing shock.
-This is wrong... we’re both girls...
-Even as I thought that, I was powerless to stop her.
-Shinjou-senpai’s hand slid between the buttons of my uniform.
-She began to knead my breast with a gentle touch.
+Pleasure spread like a numbing sensation from my mouth through my entire body.
+I shouldn’t... even though we’re both girls...
+Even as I thought that, there was nothing I could do.
+Shinjou-senpai’s hand reached inside the buttons of my uniform.
+She began to knead my breasts with a gentle touch.
 $Aoi
-“Mnhun... mnn...”
-My body began to burn...
-Unable to help myself, I softly bit the tongue that was tangling with mine.
-If I didn't, I felt like I’d cry out from the sheer pleasure.
+“Nfun... nnn...”
+My body was starting to heat up...
+Unable to bear it, I gently bit Shinjou-senpai’s tongue as it entwined with mine.
+If I didn’t, I felt like I would scream out from the pleasure.
 $Saria
-“Mnhu...”
+“Nfu...”
 Shinjou-senpai pulled her lips away.
 Ah... did I hurt her...?
 $Aoi
-“S-sorry...”
+“I-I’m sor...”
 $Saria
-“Fufu. I’m actually quite pleased...”
+“Fufu. I’m so happy...”
 $Aoi
 “Eh...”
-While keeping her eyes locked on mine, Shinjou-senpai began to undo the buttons of my uniform with practiced ease.
+While staring at me, Shinjou-senpai began to undo the buttons of my uniform with a practiced hand.
 My ribbon was smoothly unraveled.
 No... stop...
 Before I could even resist, my uniform was pulled open.
 $Saria
-“You’re so lovely, Kanzaki-san.”
-I could only look down in shame.
-Shinjou-senpai slid my bra up and began to softly knead my breast with her cool hand.
+“You’re so cute, Kanzaki-san.”
+Embarrassed, I could only lower my eyes.
+Shinjou-senpai pushed up my bra and gently kneaded my breast with her cold hand.
 $Aoi
-“Haun...”
-A sharp sensation of longing surged through my lower abdomen.
-I felt like I was going to collapse...
+“Hau...”
+A painful sensation welled up in my lower abdomen.
+I feel like I’m losing all my strength...
 $Aoi
-“S-stop... haah...!”
-Shinjou-senpai traced her tongue along the cleavage of my breasts.
-A jolt of pleasure shot through me.
-Once again, I found myself unable to speak.
+“S-Stop... haah...!”
+Shinjou-senpai ran her tongue along the cleavage of my breasts.
+A shivering pleasure ran through me.
+Once again, I found myself unable to say anything.
 $Saria
 “Does it feel good, Kanzaki-san?”
-I shook my head frantically.
-I felt like I shouldn't admit it.
-That’s right... this is wrong...
+I desperately shook my head in small movements.
+I felt like it would be wrong to admit it.
+That’s right... this is something wrong...
 Shinjou-senpai gave an enchanting smile.
 $Saria
-“Fufu. Naughty girls who tell lies deserve a punishment...”
-She whispered playfully and began to lick my nipple.
-Picha, picha, picha.
+“Fufu. Naughty children who tell lies need to be punished...”
+She whispered playfully and licked my nipple.
+Slurp, slurp, slurp.
 $Aoi
-“Hiun... nhaah...”
+“Hiu... n-aah...”
 I desperately stifled my voice.
-Please... not that...
+Stop... not that...
 $Saria
-“I wonder why your nipple has become so hard, Kanzaki-san...?”
-As she suckled on my nipple, Senpai looked up at me.
-Puchu, chupa, chupa.
+“I wonder why your nipples have become so hard, Kanzaki-san?”
+While sucking on my nipple, Senpai looked up at me.
+Slurp, suck, suck.
 $Aoi
-“Haaah... ah... unh...”
-Then, Shinjou-senpai’s hands began to roam all over my body.
+“Haah... ah... ugh...”
+Furthermore, Shinjou-senpai’s hands roamed all over my body.
 My back, my sides, my thighs...
-My whole body was flushed with heat.
+My whole body was heating up.
 $Aoi
-“Haah, haah... mnn...”
-It was getting hard to breathe...
-My mind was in a haze, as if covered by a thick fog.
-And when Senpai’s teeth gently nipped at my nipple, I could no longer endure it.
+“Haah, haah... nn...”
+It’s hard to breathe...
+My head was fuzzy, as if shrouded in mist.
+And when Senpai’s teeth gently bit into my nipple, I could no longer endure it.
 $Aoi
-“Haun... ah...”
-I couldn't stay standing. All the strength left my body as if my legs had given way.
-As I stumbled and started to fall, Shinjou-senpai caught me.
+“Hauun... ah...”
+I couldn’t stay standing. All the strength left my body as if my hips had given out.
+As I stumbled and collapsed, Shinjou-senpai supported me.
 $Saria
-“Fufu. How precious. My little kitten...”
+“Fufu. How adorable. My little kitten...”
 I could only lean against Shinjou-senpai’s body.
-She was so soft and warm.
-$Aoi
-“Haah, haah... Se-senpai...”
-Without a word, Shinjou-senpai sat me down on the plastic bench in the locker room.
-I couldn't even stand anymore...
-My thoughts were paralyzed...
-Shinjou-senpai stood behind me.
-She placed her hands on my legs.
-$Saria
-“Kanzaki-san... open your legs...”
-$Aoi
-“Haah, haah... haah, haah...”
-Once again, she stared at me with those bewitching eyes.
-$Saria
-“Spread them for me...”
-Senpai... what are you saying...?
-Something like that... I can't...
-I looked down in embarrassment.
-$Aoi
-“I... I can't do something... so shameful...”
-At that, Senpai pressed a kiss to my thigh and began to lick upward.
-$Aoi
-“Ah...”
-$Saria
-“You mustn’t be selfish. Come now, be a good girl.”
-I shouldn't... but even though it was wrong...
-Before I knew it, I was covering my face with both hands and doing exactly as she told me.
-$Saria
-“Fufu. Such a good girl.”
-Why am I... doing this...
-$Saria
-“Here is your reward.”
-As Shinjou-senpai said that, she reached toward my private place.
-She began to softly stroke me through my panties.
-$Aoi
-“Mnn...!”
-Unable to help myself, I clung to Senpai’s arm.
-I could feel for myself that I was dripping wet...
-$Saria
-“You’re soaking, Kanzaki-san. You’ll ruin these lovely panties.”
-$Aoi
-“No... aunh... Senpai...!”
-I could do nothing but writhe as waves of pleasure washed over me.
-Senpai’s hand slid inside my panties.
-$Aoi
-“Haun... n-no...”
-Kuchu, kuchu.
-$Aoi
-“Hiuun...!”
-$Saria
-“Fufufu.”
-Senpai’s finger began to rub along the slit of my folds.
-I... I can't think of anything anymore...!
-$Aoi
-“Ah, ah... nhaah! Aaah!!”
-I desperately tried to keep from crying out...
-But I couldn't hold it back.
-Kuchu, kuchu, kuchu, kuchu.
-$Aoi
-“Yaan... fuwaaah! Uaaaan!!”
-I could faintly hear the sound of the baseball team’s metal bats.
-The music from the brass band echoed in the distance.
-$Aoi
-“Haah, haah... mnn, nhaaaaun.”
-Kuchu, kuchu, kuchu, kuchu.
-Suddenly, a fierce sense of guilt washed over me.
-I... what am I doing at school...?
-But that guilt quickly turned back into arousal.
-The tension of worrying if we’d be caught made my whole body burn.
-I couldn't help it...
-I wanted more...
-Chuku.
-$Aoi
-“Ah...!”
-Senpai’s finger... her long, slender, beautiful finger... slid inside of me...!
-$Aoi
-“Akun...!”
-Nupu, nupu, nupu.
-$Aoi
-“No... nkuuuh!!”
-What... what’s happening...!?
-I’m scared... I’m scared...
-Something that isn't me is inside me!
-It hurts... it hurts a little...!
-$Saria
-“Just endure it. You’ll get used to it soon.”
-Shinjou-senpai’s calm voice sounded so cruel to me.
-$Aoi
-“Kuuh...!”
-I tried to close my legs in spite of myself.
-But her finger began to move up and down inside me.
-$Aoi
-“Hikua!”
-A scream escaped my lips.
-Nuchu, nuchu, nuchu.
-$Saria
-“It’s so incredibly warm inside you, Kanzaki-san...”
-It was a bizarre sensation... terrifying.
-Something like this... I’ll never, ever get used to it...!
-$Aoi
-“Haun, aun, hiku...”
-Chuku, chuku, chuku, chuku.
-Lewd, wet sounds echoed from between my legs.
-I felt like I was going to cry.
-But then I realized that the feeling wasn't coming from pain—it was coming from pleasure.
-$Aoi
-“Ah, ah... mnn, nhaaaaah.”
-Chupu, chupu, chupu.
-As she repeatedly slid her finger in and out, the sensation changed...
-No. The sensation didn't change... I was the one who was changing as I accepted it...
-I’m... I’m feeling it...!?
-$Aoi
-“Hiun, nkun... u... uwaaaan!”
-I couldn't hold back my voice!
-I clung desperately to Shinjou-senpai’s arm.
-$Aoi
-“Se-senpai... ah, ah... fuwaaaaah!”
-$Saria
-“There... you’ve already grown accustomed to it, haven't you? Does it feel good? Kanzaki-san.”
-Even Shinjou-senpai’s voice sounded like it was coming from far away, echoed and distorted.
-My mind was going completely blank...
-Stop... my body feels like it’s going to melt...!
-Chupu, chupu, chupu, chupu.
-Senpai’s finger explored every inch of my insides.
-$Aoi
-“Hiiaaah! Aaaaaun! Uwaaaaaaaaun!!”
-$Saria
-“Go on... you can come. It’s alright.”
-$Aoi
-“Haaaaaaaaaaaun!!”
-Kuchu, kuchu, kuchu, kuchu, kuchu!
-Shinjou-senpai’s finger moved faster and faster.
-Throwing away all my shame, I cried out.
-I couldn't contain the pleasure that enveloped my entire being.
-$Saria
-“Now, show me your most adorable self, Kanzaki-san.”
-$Aoi
-“Ah, ah, ah, ah... Se-sen...pai... ah—!! Nhaaaaaaaaaaah!!!”
-In that moment, my consciousness faded.
-My vision went white... and an incredible surge of pleasure raced through me like an electric shock.
-Shinjou-senpai finally pulled her finger out of me.
-I slumped over, lying exhausted on the bench.
-$Aoi
-“Haah, haah, haah...”
-My mind was in a daze.
-For a moment, I didn't even know where I was or who I was.
-$Saria
-“Fufu. I’ll have you all to myself soon enough.”
-Shinjou-senpai’s satisfied voice echoed in the distance.
-But I didn't understand what she meant.
-Then, she left the locker room, leaving me behind.
-For some reason, I hesitated to call out to Aoi.
-It’ll be fine...
-I was desperately making excuses to myself.
-Saria is probably just teasing her again.
-Saria’s a girl, anyway. There’s nothing to worry about.
-I forced myself to believe that, ignored Aoi and the other girl, and hurried toward the baseball clubroom.
-This is bad, I’m going to be so late for practice.
-I got so caught up chatting with my friends in class that I lost track of time.
-I hurried down the hallway with quick steps.
-As I reached the front of the locker room, Shinjou-senpai was standing there.
-I gave her a quick nod and ducked into the locker room with a perfunctory greeting.
-Then, Shinjou-senpai followed right in after me.
-$Saria
-“Kanzaki-san, I’ll just go ahead and lock the door, shall I?”
-$Aoi
-“Eh?”
-Shinjou-senpai turned the lock on the locker room door from the inside.
-Oh no, I totally forgot to lock it.
-$Saria
-“You’re far too careless, Kanzaki-san. What would you do if someone decided to peek?”
-Senpai smiled, looking exasperated.
-I felt a jolt of alarm.
-$Aoi
-“Th-that’s... right...”
-Suddenly, I remembered something unpleasant.
-The strange gazes I’d felt lately, and the horrible way I’d been treated.
-If I hadn't been careful and left it unlocked, someone could have attacked me inside the locker room regardless of my own will...
-A chill ran down my back, and I felt like I was going to cry.
-I shook my head frantically.
-Not that again, I hate it! I have to forget... I have to forget...!
-I tried my best to put on a smile.
-$Aoi
-“Haha, you’re right... I was just in such a rush...”
-I’m so grateful to her.
-I set my sports bag on the floor and hurriedly pulled out my tennis gear.
-$Saria
-“Hasn't your club practice already started?”
-Shinjou-senpai peered into my bag from behind me.
-Ugh, I really don't want her looking at the contents.
-Everything is such a mess in here...
-$Aoi
-“Hah... Yes, exactly. I have to hurry.”
-I felt so awkward I could only scratch my head.
-$Saria
-“Whatever caused you to be so late?”
-Shinjou-senpai asked.
-I felt another jolt of alarm.
-Senpai’s questions were bad for my heart...
-It was as if she could see right through everything.
-$Aoi
-“Ah, well... a lot of things happened...”
-I bit my lip so she wouldn't notice.
-$Saria
-“Is that so? I’m sure it’s just because Kanzaki-san is so popular and busy that you’re simply exhausted.”
-Thank goodness, I managed to dodge it somehow...
-$Aoi
-“Ahaha. No, that’s not...”
-I gave a forced laugh, but in my heart, I was feeling that fear again.
-Why am I...
-Lately, I feel like the way everyone looks at me has changed. Whether it’s Akito or anyone else.
-I sense some kind of dark intent...
-What did I even do...?
-I can't help but feel that something has gone wrong...
-I closed my eyes and tried my best to stop my body from trembling.
-I’m scared... I want someone to help me...
-But I knew it for myself.
-Yes, I can't let anyone know...
-I can't tell anyone...
-I managed to shift my focus.
-Still, I wonder why Shinjou-senpai followed me all the way into the locker room.
-When I stole a glance at her, she looked like she had something she wanted to say.
-$Aoi
-“Is something the matter?”
-$Saria
-“Eh? ...Well, actually, there was something I wished to consult you about.”
-$Aoi
-“Consult me? About what?”
-At that, Shinjou-senpai gave a small, disappointed shake of her head.
-$Saria
-“But you seem quite busy, Kanzaki-san. We can save it for another time.”
-She gave a soft smile, as if trying to hide her embarrassment.
-$Aoi
-“............”
-To think that Shinjou-senpai would rely on someone younger like me...
-Is it something serious...?
-She looks like she’s really troubled by something.
-I thought about it for a moment, then turned back to face her.
-$Aoi
-“Um... If you’re okay with me, I’ll listen.”
-$Saria
-“Oh? But I’d feel terrible.”
-$Aoi
-“Don't worry about it. No matter how much I hurry, I’m definitely going to be late for practice anyway. I was actually thinking about just skipping today.”
-I didn't really plan on skipping, but I thought it was okay to say that much.
-Above all, I couldn't stand seeing Shinjou-senpai looking so distressed.
-As fellow people with troubles, I wanted to help her in whatever way I could.
-$Saria
-“...Are you quite sure?”
-Shinjou-senpai asked hesitantly.
-To make sure she didn't worry, I puffed out my chest exaggeratedly and gave her a bright smile.
-$Aoi
-“Of course!”
-With that, Shinjou-senpai let out a sigh of relief.
-$Saria
-“Thank you...”
-She gave a small bow.
-Then, she began to speak, appearing slightly hesitant.
-$Saria
-“Actually, the matter I wished to discuss... concerns your childhood friend.”
-My childhood friend...?
-$Aoi
-“...Are you talking about Akito?”
-I tilted my head.
-I never imagined Shinjou-senpai would want to talk about Akito.
-Then it hit me.
-$Aoi
-“Wait—did that idiot do something rude to you again!?”
-It’s entirely possible...
-He seems to really dislike her for some reason...
-Oh, honestly, Akito you moron!
-I immediately bowed my head in apology.
-$Aoi
-“Um, I’m so sorry. He’s really just a child... I’ll make sure to give him a good scolding.”
-Gosh, I sound like I’m his mother...
-I’m not his guardian.
-But I always end up having to clean up after that idiot’s messes, don't I?
-I’m going to give him a real piece of my mind later!
-$Saria
-“No, it isn't anything like that.”
-$Aoi
-“Eh?”
-Maybe I jumped to conclusions.
-Sorry, Akito you idiot.
-But it’s your own fault for having such a bad track record.
-As I justified myself in my head, Shinjou-senpai stared straight at me.
-$Saria
-“I may have asked you this once before, but...”
-$Aoi
-“...Yes?”
-$Saria
-“What sort of relationship do you have with him, Kanzaki-san?”
-I was caught completely off guard.
-$Aoi
-“Re-relationship...?”
-Wh-what is she even saying?
-$Aoi
-“He’s... he’s just...! It’s nothing like that! We’re just childhood friends! Really!”
-For some reason, I found myself making excuses in a panic.
-Why is my face feeling so hot...?
-Not wanting her to see, I hurriedly looked down.
-$Saria
-“But Kanzaki-san... you love him, don't you?”
-$Aoi
-“Wh-...!?”
-What is this? What is she trying to say!?
-$Aoi
-“I—I...!”
-I was at a loss for words.
-Love... do I love Akito...?
-Sure, I don't have to worry about anything when I’m with him, and even when we fight, there are no hard feelings—above all, it’s just comfortable.
-$Aoi
-“B-but that’s...! We grew up like siblings...”
-In the first place... someone like me has no right to love Akito...
-Because I... I’ve been defiled...
-$Aoi
-“It’s a bit late for that...”
-I didn't want Akito to despise me.
-Still, I wonder why Shinjou-senpai would ask something like that...
-Could it be...?
-Does she actually have feelings for Akito...?
-No, that’s impossible...
-But if that were the case...
-$Aoi
-“U-um! Senpai, why are you asking...?”
-Despite my hesitation, I screwed up my courage and asked.
-I looked up.
-$Aoi
-“Ah...”
-The breath hitched in my throat.
-Before I knew it, Shinjou-senpai’s face was right in front of mine...
-Startled, I reflexively tried to pull away.
-Then, she smiled. It was such a sultry, alluring look that I was rendered speechless.
-The next thing I knew, Shinjou-senpai had pulled me close by the waist.
-$Aoi
-“Eh...!? U-um, Senpai...?”
-Shudder...
-A chill ran through my body. I felt goosebumps prickling my skin.
-$Aoi
-“Wh-what are you...”
-$Saria
-“Are you frightened?”
-Leaning in so close I could feel her breath, Senpai stared intensely into my eyes.
-It was as if... she was a completely different person than she had been just a moment ago...
-$Aoi
-“I-it’s not that, but...”
-Avoiding her gaze, I struggled to break free.
-But Senpai’s arms only held me tighter and tighter.
-Her soft breasts were pressed firmly against me.
-$Saria
-“Fufu. You’re a terrible liar, aren't you, Kanzaki-san? You’re positively trembling.”
-$Aoi
-“U-um, please stop joking...”
-My heart was pounding in my chest.
-The scent of her perfume filled my nose.
-Just that alone made me feel embarrassed.
-Then, Senpai’s hand slid smoothly up my back.
-$Aoi
-“Hyaun!”
-An undignified shriek escaped my lips.
-A jolt of electricity raced through my entire body, and I huddled into myself.
-Shinjou-senpai leaned in and whispered against my ear.
-$Saria
-“I wonder if you knew? I simply... adore cherishing things that are cute and beautiful...”
-Her voice was incredibly cold.
-It felt so... heartless...
-She let out a soft breath against my ear.
-$Aoi
-“Ah...”
-Just that was enough to make all the strength drain from my body. I didn't even understand why myself.
-Senpai pressed herself even closer to me, tangling her legs with mine.
-As she stroked my back, her other hand slid up to caress the nape of my neck.
-$Aoi
-“Fuah... P-please stop...”
-I pleaded with her desperately.
-My body had gone completely stiff; I couldn't even move.
-Shinjou-senpai didn't answer. She placed her hand under my chin.
-My head was tilted upward.
-$Aoi
-“Se-senpai—”
-As I tried to speak, my lips were silenced.
-Shinjou-senpai’s soft, sweet lips were pressed against mine.
-$Aoi
-“Mnn...!”
-In my shock, I tried to turn my face away, but my body was paralyzed and wouldn't move.
-Like a frog stared down by a snake, I was at her mercy.
-Confusion and panic swirled in my mind, making it impossible to think straight.
-What do I do... why... what’s happening...?
-Senpai forced my lips open and slid her tongue inside.
-Puchu, puchu.
-It writhed obscenely inside my mouth before tangling with my own tongue.
-$Aoi
-“Mnnnn... mnh...”
-$Saria
-“Mnh...”
-Senpai sucked the saliva from my mouth.
-Pleasure spread from my lips throughout my entire body like a numbing shock.
-This is wrong... we’re both girls...
-Even as I thought that, I was powerless to stop her.
-Shinjou-senpai’s hand slid between the buttons of my uniform.
-She began to knead my breast with a gentle touch.
-$Aoi
-“Mnhun... mnn...”
-My body began to burn...
-Unable to help myself, I softly bit the tongue that was tangling with mine.
-If I didn't, I felt like I’d cry out from the sheer pleasure.
-$Saria
-“Mnhu...”
-Shinjou-senpai pulled her lips away.
-Ah... did I hurt her...?
-$Aoi
-“S-sorry...”
-$Saria
-“Fufu. I’m actually quite pleased...”
-$Aoi
-“Eh...”
-While keeping her eyes locked on mine, Shinjou-senpai began to undo the buttons of my uniform with practiced ease.
-My ribbon was smoothly unraveled.
-No... stop...
-Before I could even resist, my uniform was pulled open.
-$Saria
-“You’re so lovely, Kanzaki-san.”
-I could only look down in shame.
-Shinjou-senpai slid my bra up and began to softly knead my breast with her cool hand.
-$Aoi
-“Haun...”
-A sharp sensation of longing surged through my lower abdomen.
-I felt like I was going to collapse...
-$Aoi
-“S-stop... haah...!”
-Shinjou-senpai traced her tongue along the cleavage of my breasts.
-A jolt of pleasure shot through me.
-Once again, I found myself unable to speak.
-$Saria
-“Does it feel good, Kanzaki-san?”
-I shook my head frantically.
-I felt like I shouldn't admit it.
-That’s right... this is wrong...
-Shinjou-senpai gave an enchanting smile.
-$Saria
-“Fufu. Naughty girls who tell lies deserve a punishment...”
-She whispered playfully and began to lick my nipple.
-Picha, picha, picha.
-$Aoi
-“Hiun... nhaah...”
-I desperately stifled my voice.
-Please... not that...
-$Saria
-“I wonder why your nipple has become so hard, Kanzaki-san...?”
-As she suckled on my nipple, Senpai looked up at me.
-Puchu, chupa, chupa.
-$Aoi
-“Haaah... ah... unh...”
-Then, Shinjou-senpai’s hands began to roam all over my body.
-My back, my sides, my thighs...
-My whole body was flushed with heat.
-$Aoi
-“Haah, haah... mnn...”
-It was getting hard to breathe...
-My mind was in a haze, as if covered by a thick fog.
-And when Senpai’s teeth gently nipped at my nipple, I could no longer endure it.
-$Aoi
-“Haun... ah...”
-I couldn't stay standing. All the strength left my body as if my legs had given way.
-As I stumbled and started to fall, Shinjou-senpai caught me.
-$Saria
-“Fufu. How precious. My little kitten...”
-I could only lean against Shinjou-senpai’s body.
-She was so soft and warm.
-$Aoi
-“Haah, haah... Se-senpai...”
-Without a word, Shinjou-senpai sat me down on the plastic bench in the locker room.
-I couldn't even stand anymore...
-My thoughts were paralyzed...
+Her body was so soft and warm.
+$Aoi
+“Haah, haah... S-Senpai...”
+Shinjou-senpai silently sat me down on the plastic bench in the locker room.
+I can’t stand up anymore...
+My thoughts are paralyzed...
 Shinjou-senpai stood behind me.
 She placed her hands on my legs.
 $Saria
 “Kanzaki-san... your legs...”
 $Aoi
 “Haah, haah... haah, haah...”
-And once again, she stares at me with those mysterious eyes.
+Again, she stared at me with those bewitching eyes.
 $Saria
 “Open your legs...”
-I looked down in embarrassment.
-But... my body was reacting honestly.
+Senpai... what are you saying...?
+Something like that... I could never...
+I lowered my head in shame.
 $Aoi
-“Haah, haah... mnnnn...”
-I gave a small nod and, before I knew it, was covering my face with both hands and doing exactly as she told me.
-I slowly spread my legs.
-Just that was enough to make my arousal surge.
-Senpai is watching me... that thought made me even more excited...
+“T-That... I can’t do... such an embarrassing thing...”
+Then Senpai kissed my thigh and licked all the way up.
 $Aoi
-“Se-senpai... it’s... it’s so hot down there...”
-Unable to contain myself, I looked up at her.
-I couldn't settle down.
+“Ah...”
 $Saria
-“Fufu. Such a good girl.”
-Why am I... doing this...
+“You mustn't be selfish. Come now, be a good girl.”
+I shouldn’t... even though I shouldn’t...
+Before I realized it, I was covering my face with both hands and doing exactly as I was told.
 $Saria
-“Here is your reward.”
-As Shinjou-senpai said that, she reached toward my private place.
-She began to softly stroke me through my panties.
-$Aoi
-“Mnn...!”
-Unable to help myself, I clung to Senpai’s arm.
-I could feel for myself that I was dripping wet...
+“Fufu. Good girl.”
+Why... am I... doing this...
 $Saria
-“You’re soaking, Kanzaki-san. You’ll ruin these lovely panties.”
+“This is your reward.”
+Saying that, Shinjou-senpai reached her hand toward my private place.
+She gently caressed me over my panties.
 $Aoi
-“No... aunh... Senpai...!”
-I could do nothing but writhe as waves of pleasure washed over me.
-Senpai’s hand slid inside my panties.
+“Nnn...!”
+Unable to bear it, I clung to Senpai’s arm.
+I can tell for myself that my private part is soaking wet...
+$Saria
+“You’re so wet, Kanzaki-san. You’ll ruin these lovely panties.”
 $Aoi
-“Haun... n-no...”
-Kuchu, kuchu.
+“Stop... aah... Senpai...!”
+I could only writhe my body as the waves of pleasure assailed me.
+Senpai’s hand reached inside my panties.
 $Aoi
-“Hiuun! Fuaaaaaaun!!”
+“Hau... n-no...”
+Squish, squish.
+$Aoi
+“Hiuun...!”
 $Saria
 “Fufufu.”
-Senpai’s finger began to rub along the slit of my folds.
-I... I can't think of anything anymore...!
+Senpai’s finger rubbed along the slit of my private place.
+I can’t think of anything anymore...!
 $Aoi
-“Ah, ah... nhaah! Aaah!!”
-I desperately tried to keep from crying out...
-But I couldn't hold it back.
-Kuchu, kuchu, kuchu, kuchu.
+“Ah, ah... n-aah...”
+I desperately held back my voice, trying not to let it out.
+But I couldn’t suppress it...
+Squish, squish, squish, squish.
 $Aoi
-“Yaan... fuwaaah! Uaaaaan!!”
-I could faintly hear the sound of the baseball team’s metal bats.
+“Yaan... fuah...!”
+The sound of the baseball club’s metal bats echoed faintly.
 The music from the brass band echoed in the distance.
 $Aoi
-“Haah, haah... mnn, nhaaaaun.”
-Kuchu, kuchu, kuchu, kuchu.
-Suddenly, a fierce sense of guilt washed over me.
-I... what am I doing at school...?
-But that guilt quickly turned back into arousal.
-The tension of worrying if we’d be caught made my whole body burn.
-I can't take it... more...
-Chuku.
+“Haah, haah... nn-aaan...”
+Squish, squish, squish, squish.
+Suddenly, an intense sense of immorality welled up within me.
+What am I doing at school...?
+But soon, that sense of immorality turned into excitement instead.
+The tension of wondering what would happen if I were caught made my whole body heat up.
+I... what’s happened to me...?
+I’m strange...
+Poke.
 $Aoi
 “Ah...!”
-Senpai’s finger... her long, slender, beautiful finger... slid inside of me...!
+Senpai’s finger... her long, slender, beautiful finger... entered inside of me...!
 $Aoi
-“Akun...!”
-Nupu, nupu, nupu.
+“Akuh...!”
+Slide, slide, slide.
 $Aoi
-“No... nkuuuh!!”
-The thought of Senpai’s beautiful finger being inside me brought a surge of arousal far stronger than anything I’d felt before.
-I shifted my hips restlessly.
+“Stop... n-kuuuh!!”
+What... what is happening...?!
+I’m scared... I’m scared...
+Something that isn’t me is entering inside of me!
+It... it hurts a little... it hurts...!
 $Saria
-“Fufufu. It’s so very smooth.”
-Even Shinjou-senpai’s calm voice felt precious to me.
+“Please endure it. You’ll get used to it soon.”
+Shinjou-senpai’s calm voice was resentful.
 $Aoi
-“Uwaaaaaaaaun...!”
-Overwhelmed by pleasure, I tried to close my legs in spite of myself.
-But then her finger began to move up and down inside me.
+“Kuuh...!”
+I instinctively tried to close my legs.
+However, Senpai’s finger began to move up and down inside of me.
 $Aoi
-“Hikua!”
-A scream escaped my lips.
-Nuchu, nuchu, nuchu.
+“Hikuah!”
+I couldn’t help but let out a scream.
+Squish, squish, squish.
 $Saria
-“It’s so incredibly warm inside you, Kanzaki-san...”
-What should I do... it feels so good... it feels so good.
+“It’s so warm inside of you, Kanzaki-san...”
+It was a strange sensation... It was terrifying.
+There’s no way I’ll ever get used to something like this...!
 $Aoi
-“Haun... ah, ah, ah... nhaaaah!”
-Chuku, chuku, chuku, chuku.
-Lewd, wet sounds echoed from between my legs.
-I writhed as a heart-wrenching pleasure made me want to cry.
+“Hau, auh, hiku...”
+Poke, poke, poke, poke.
+Lewd watery sounds could be heard from my private part.
+I felt like I was going to cry.
+And soon, I realized that those feelings weren’t coming from pain, but from pleasure.
 $Aoi
-“Ah, ah... mnn, nhaaaaah.”
-Chupu, chupu, chupu.
-Senpai’s touch was so delicate.
-Her gentle caresses, so different from a man’s, made it impossible to endure.
+“Ah, ah... n-aaaah.”
+Slurp, slurp, slurp.
+As her finger continued to move in and out, the sensation in my private part began to change...
+No. The sensation didn’t change... It was me, receiving it, that had changed...
+I’m... feeling it...?!
 $Aoi
-“Hiun, nkun... u... uwaaaan!”
-I couldn't hold back my voice!
-I clung desperately to Shinjou-senpai’s arm.
+“Hiu, n-ku... u... uwaaan.”
+I can’t suppress my voice anymore...!
+I desperately clung to Shinjou-senpai’s arm.
 $Aoi
-“Se-senpai... i-it’s amazing... fuwaaaaah!”
+“S-Senpai... ah, ah... fuwaaaa!”
 $Saria
-“Does it feel good, Kanzaki-san? Fufu, then I’ll use two fingers for you.”
-Shinjou-senpai’s voice sounded like it was coming from far away, echoed and distorted.
-Another finger was inserted into me.
+“Look... you’ve already gotten used to it, haven’t you? Does it feel good? Kanzaki-san.”
+Even Shinjou-senpai’s voice sounded like it was echoing from far, far away.
+My head was going white...
+Stop... I feel like my body is melting...!
+Slurp, slurp, slurp, slurp.
+Senpai’s finger groped all around inside of me.
 $Aoi
-“Aaaaaun!! N-no... I’m going to come... I’m going to come...!”
-My mind was going completely blank...
-Stop... my body feels like it’s going to melt...!
-Chupu, chupu, chupu, chupu.
-Senpai’s finger explored every inch of my insides.
-$Aoi
-“Hiiaaah! Aaaaaun! Uwaaaaaaaaun!!”
+“Hi-aaaah! Aaaaahn! Uwaaaaaaan!!”
 $Saria
-“Go on... you can come. It’s alright.”
+“Now, come... you can come. Here.”
 $Aoi
-“Haaaaaaaaaaaun!! It feels so goooood!!!”
-Kuchu, kuchu, kuchu, kuchu, kuchu!
-Shinjou-senpai’s finger moved faster and faster.
-Throwing away all my shame, I cried out.
-I couldn't contain the pleasure that enveloped my entire being.
+“Haaaaaaaaahn!!”
+Squish, squish, squish, squish, squish!
+Shinjou-senpai’s finger movements grew faster.
+I cast aside my shame and cried out.
+I couldn’t hold back the pleasure that enveloped my entire body.
 $Saria
 “Now, show me your most adorable self, Kanzaki-san.”
 $Aoi
-“Ah, ah, ah, ah... Se-sen...pai... ah—!! Nhaaaaaaaaaaah!!!”
-In that moment, my consciousness faded.
-My vision went white... and an incredible surge of pleasure raced through me like an electric shock.
-Shinjou-senpai finally pulled her fingers out of me.
-I slumped over, lying exhausted on the bench.
+“Ah, ah, ah, ah... S-Sen... pai... ah—!! N-aaaaaaaaah!!!”
+In that instant, my consciousness flew away.
+My vision went white... and an incredible pleasure ran through my entire body like electricity.
+Shinjou-senpai finally pulled her finger out of me.
+I lay limp on the bench.
 $Aoi
 “Haah, haah, haah...”
-My mind was in a daze.
-For a moment, I didn't even know where I was or who I was.
+My consciousness was hazy.
+For a moment, I didn’t know where I was or who I was.
 $Saria
-“Fufu. I’ll have you all to myself soon enough.”
+“Fufu. I’ll have you in my hands soon enough.”
 Shinjou-senpai’s satisfied voice echoed in the distance.
-But I didn't understand what she meant.
-Then, she left the locker room, leaving me behind.
-It was unusual for Aoi to be late for her club, so I thought I’d call out to her.
-Maybe something happened.
-But Saria was with her. Man, I really don't like that woman...
-I hesitated for a moment to call out to Aoi.
-Even while hesitating, I started walking toward them.
-Then, as if they’d planned it, Aoi and Saria ducked into the girls' locker room.
-I was left completely behind.
-Standing around in the hallway alone like an idiot was embarrassing, so I naturally wandered over toward the locker room.
-I figured I’d just head back right away.
-However, as I passed the locker room door, I could hear faint voices from inside.
-$Akito
-“...Hm?”
-I stopped for a second and tried to listen in.
+But I didn’t understand what she meant.
+And then, she left the locker room, leaving me behind.
+For some reason, I hesitated to call out to Aoi.
+It’ll be fine...
+I made desperate excuses to myself.
+Saria is probably just teasing Aoi again anyway.
+Saria is a girl. There’s nothing to worry about.
+I forced myself to believe that, ignored Aoi and the others, and hurried toward the baseball clubroom.
+Oh no, I’m going to be late for practice.
+I got so caught up chatting with my friends in the classroom.
+I was walking down the hallway with quick steps.
+As I approached the locker room, Shinjou-senpai was standing there.
+I gave her a slight nod and entered the locker room with a hurried greeting.
+Then, Shinjou-senpai followed me inside.
 $Saria
-“Actually, the matter I wished to discuss... concerns your childhood friend.”
+“Kanzaki-san, I’ll lock the door, alright?”
+$Aoi
+“Eh?”
+Shinjou-senpai was locking the locker room door from the inside.
+Oops, I forgot to lock it myself.
+$Saria
+“You’re far too careless, Kanzaki-san. What would you do if someone peeked in?”
+Senpai smiled as if she were exasperated.
+I felt a jolt of alarm.
+$Aoi
+“Y... Yes... you’re right...”
+Suddenly, I remembered something unpleasant.
+The strange gazes I’d been feeling lately, and the terrible way I’d been treated.
+If I hadn’t locked the door so carelessly, I might have been attacked inside the locker room regardless of my will...
+A chill ran down my back, and I felt like I was going to cry.
+I hurriedly shook my head.
+I don't want that anymore! I have to forget... I have to forget...!
+I made an effort to force a smile.
+$Aoi
+“Haha, you’re right... I was in such a rush...”
+I’m so grateful to her.
+I placed my sports bag on the floor and hurriedly pulled out my tennis wear.
+$Saria
+“Hasn’t your practice already started?”
+Shinjou-senpai peered into my bag from behind me.
+Ah, I really don’t want her looking inside.
+Everything is such a mess in there...
+$Aoi
+“Sigh... Yes, that’s right, I have to hurry.”
+I felt awkward and could only scratch my head.
+$Saria
+“Why were you delayed?”
+Shinjou-senpai asked.
+Once again, I felt a jolt of alarm.
+Senpai’s questions are bad for my heart...
+It’s like she’s telling me she can see right through me.
+$Aoi
+“Ah, well... various things happened...”
+I bit my lip so she wouldn’t notice.
+$Saria
+“I see. I’m sure it’s just because you’re so popular and busy, Kanzaki-san. You must be exhausted.”
+Phew, I managed to deceive her somehow...
+$Aoi
+“Ahaha. That’s... not really...”
+While I put on a fake smile, I felt fear in my heart again.
+Why... am I...
+Lately, it feels like everyone’s eyes on me have changed. Whether it’s Akito or anyone else.
+I can sense some kind of dark intent...
+What did I even do...?
+I can only think that something has gone crazy...
+I closed my eyes and tried my best to stop my body from trembling.
+I’m scared... I want someone to help me...
+But I knew it myself.
+Yes, I can’t let anyone know...
+I can’t tell anyone...
+I managed to shift my feelings.
+Still, I wonder why Shinjou-senpai followed me all the way into the locker room.
+When I stole a glance at her, she looked like she wanted to say something.
+$Aoi
+“Is something wrong?”
+$Saria
+“Eh? ...Well, actually, there was something I wanted to consult with you about.”
+$Aoi
+“A consultation? With me?”
+At that, Shinjou-senpai shook her head slightly with a very disappointed look.
+$Saria
+“But you seem busy as well, Kanzaki-san, so I’ll save it for another time.”
+She then gave a small smile, as if trying to hide her true feelings.
+$Aoi
+“............”
+To think that someone like Shinjou-senpai would rely on someone younger like me...
+Is it something serious...?
+She looks a bit troubled.
+After thinking for a moment, I turned back toward her.
+$Aoi
+“Um... if you’re okay with me, I’ll listen.”
+$Saria
+“Eh? But I’d feel bad.”
+$Aoi
+“Please don’t worry about it. No matter how much I hurry, I’m already destined to be late for practice anyway. I was even thinking about skipping today.”
+I didn’t intend to skip practice, but I thought it would be alright to say that much.
+Above all, I just couldn't stand seeing Shinjou-senpai looking so distressed.
+As fellow sufferers, I wanted to do whatever I could to help her.
+$Saria
+“...Is it really alright?”
+Shinjou-senpai asked hesitantly.
+To make her feel at ease, I puffed out my chest exaggeratedly. I showed her a bright smile.
+$Aoi
+“Of course!”
+At that, Shinjou-senpai let out a sigh of relief.
+$Saria
+“Thank you...”
+She bowed her head slightly.
+Then, she began to speak, appearing somewhat hesitant.
+$Saria
+“Actually, my consultation... is about your childhood friend.”
+Childhood friend...?
 $Aoi
 “...Are you talking about Akito?”
-...It seems like the topic was about me.
-What? Now I’m curious.
-...Wait, didn't something like this happen before...?
-For now, I checked to make sure no one was around and then pressed my ear against the locker room door.
-$Saria
-“What sort of relationship do you have with him, Kanzaki-san?”
+I tilted my head.
+I never imagined Shinjou-senpai would want to talk about Akito.
+Then it hit me.
 $Aoi
-“Re-relationship...?”
-Aoi’s voice sounded incredibly panicked.
+“D-Don’t tell me he did something rude to you again!?”
+It’s definitely possible...
+Since he seems to hate her for some reason...
+Geez, stupid Akito!
+In any case, I bowed my head.
 $Aoi
-“He’s... he’s just...! It’s nothing like that! We’re just childhood friends! Really!”
-Heh... look who’s talking.
-I don't think anything of you either!
-But Saria’s next words made me catch my breath.
+“Um, I’m so sorry. He’s really such a child... I’ll make sure to give him a good scolding.”
+I sound just like a mother...
+Even though I'm not his guardian.
+But it seems I’m always the one who has to clean up after that idiot Akito’s messes.
+I’m going to give him a piece of my mind later!
 $Saria
-“But Kanzaki-san... you love him, don't you?”
+“No, it isn’t anything like that.”
+$Aoi
+“Eh?”
+Maybe I jumped the units there.
+Sorry, stupid Akito.
+But it’s his fault for always behaving so badly.
+While I was justifying myself in my head, Shinjou-senpai stared intently at me.
+$Saria
+“I might have asked you this once before, but...”
+$Aoi
+“...Yes?”
+$Saria
+“What exactly is your relationship with him, Kanzaki-san?”
+I found myself staring back at her blankly.
+$Aoi
+“R-Relationship...?”
+W-What is Senpai talking about all of a sudden?
+$Aoi
+“H-He’s just...! It’s nothing like that! We’re just childhood friends! Really!”
+For some reason, I was frantically making excuses.
+Why is my face feeling so hot...?
+Not wanting her to see me like this, I hurriedly lowered my gaze.
+$Saria
+“But you... love him, don’t you, Kanzaki-san?”
+$Aoi
+“Wha...!”
+What is it? What is Shinjou-senpai trying to say!?
+$Aoi
+“I... I...!”
+I was at a loss for words.
+Love... do I love Akito...?
+Certainly, I don’t have to worry about anything when I’m with him, and even when we fight there’s no lingering resentment, and above all, it’s comfortable.
+$Aoi
+“B-But that’s because...! We’ve grown up together like siblings since we were kids...”
+Basically... a person like me doesn't have the right to love Akito anymore...
+Because... I’ve become defiled...
+$Aoi
+“A-After all this time...”
+I didn’t want Akito to despise me.
+But I wonder why Shinjou-senpai is asking such things...
+Don’t tell me...
+Does she actually... like Akito...?
+N-No way, that’s impossible...
+But if that were the case...
+$Aoi
+“U-Um! Senpai, why would you ask something like that...?”
+Despite my hesitation, I mustered the courage to ask.
+I looked up.
+$Aoi
+“Ah...”
+I reflexively caught my breath.
+Before I knew it, Shinjou-senpai’s face was right in front of mine...
+Startled, I instinctively tried to pull away.
+Then, she smiled. That smile was so incredibly sensual that I lost my voice.
+Before I realized it, Shinjou-senpai had pulled me close by the waist.
+$Aoi
+“Eh...!? U-Um, Senpai...?”
+Shudder...
+My body trembled. Goosebumps broke out on my skin.
+$Aoi
+“W... What are you...”
+$Saria
+“Are you frightened?”
+Moving her face so close that I could feel her breath, Senpai stared directly into my eyes.
+It was as if... she were a completely different person from the one I knew just a moment ago...
+$Aoi
+“I-It’s not that, but...”
+While averting my gaze from Shinjou-senpai, I struggled somehow to escape.
+But her arms only embraced me more tightly.
+Senpai’s soft breasts were pressed firmly against my body.
+$Saria
+“Fufu. You really are a poor liar, Kanzaki-san. You’re trembling so much.”
+$Aoi
+“U-Um, this joke is...”
+My heart was pounding.
+The scent of her perfume filled my nose.
+Just that was enough to make me feel embarrassed.
+Then, Senpai’s hand slid smoothly up my back.
+$Aoi
+“Hyau?!”
+An absurd cry escaped me.
+A shiver ran through my entire body, and I shrunk back.
+Shinjou-senpai leaned in close to my ear and whispered.
+$Saria
+“Did you know? I... absolutely love... cherishing things that are cute and beautiful...”
+Her voice was terribly cold.
+It felt so... heartless...
+She blew a soft breath into my ear.
+$Aoi
+“Ah...”
+Just that was enough to make all the strength leave my body. I don’t even know why myself.
+Senpai pressed even closer against me and entwined her legs with mine.
+While caressing my back, her other hand slid up my neck.
+$Aoi
+“Fuah... P-Please, stop...”
+I pleaded with her desperately.
+My body had completely stiffened, and I was unable to move.
+Shinjou-senpai didn't answer. She placed her hand under my chin.
+My head was tilted upward.
+$Aoi
+“S-Senpai—”
+As I tried to speak, my lips were sealed.
+Shinjou-senpai’s soft, sweet lips were pressed against mine.
+$Aoi
+“Mm-hm...!”
+Surprised, I tried to turn my face away, but my body was stiff and I couldn't move.
+Like a frog stared down by a snake, I was left at her mercy.
+Confusion and turmoil swirled in my head, making it impossible to understand what was happening.
+What should I do... why... what’s going on...?
+Senpai forced my lips open and slid her tongue inside.
+Slurp, slurp.
+After writhing lustfully inside my mouth, she entwined her tongue with mine.
+$Aoi
+“Mnnn... nfu...”
+$Saria
+“Nn...”
+Senpai sucked the saliva from my mouth.
+Pleasure spread like a numbing sensation from my mouth through my entire body.
+I shouldn’t... even though we’re both girls...
+Even as I thought that, there was nothing I could do.
+Shinjou-senpai’s hand reached inside the buttons of my uniform.
+She began to knead my breasts with a gentle touch.
+$Aoi
+“Nfun... nnn...”
+My body was starting to heat up...
+Unable to bear it, I gently bit Shinjou-senpai’s tongue as it entwined with mine.
+If I didn’t, I felt like I would scream out from the pleasure.
+$Saria
+“Nfu...”
+Shinjou-senpai pulled her lips away.
+Ah... did I hurt her...?
+$Aoi
+“I-I’m sor...”
+$Saria
+“Fufu. I’m so happy...”
+$Aoi
+“Eh...”
+While staring at me, Shinjou-senpai began to undo the buttons of my uniform with a practiced hand.
+My ribbon was smoothly unraveled.
+No... stop...
+Before I could even resist, my uniform was pulled open.
+$Saria
+“You’re so cute, Kanzaki-san.”
+Embarrassed, I could only lower my eyes.
+Shinjou-senpai pushed up my bra and gently kneaded my breast with her cold hand.
+$Aoi
+“Hau...”
+A painful sensation welled up in my lower abdomen.
+I feel like I’m losing all my strength...
+$Aoi
+“S-Stop... haah...!”
+Shinjou-senpai ran her tongue along the cleavage of my breasts.
+A shivering pleasure ran through me.
+Once again, I found myself unable to say anything.
+$Saria
+“Does it feel good, Kanzaki-san?”
+I desperately shook my head in small movements.
+I felt like it would be wrong to admit it.
+That’s right... this is something wrong...
+Shinjou-senpai gave an enchanting smile.
+$Saria
+“Fufu. Naughty children who tell lies need to be punished...”
+She whispered playfully and licked my nipple.
+Slurp, slurp, slurp.
+$Aoi
+“Hiu... n-aah...”
+I desperately stifled my voice.
+Stop... not that...
+$Saria
+“I wonder why your nipples have become so hard, Kanzaki-san?”
+While sucking on my nipple, Senpai looked up at me.
+Slurp, suck, suck.
+$Aoi
+“Haah... ah... ugh...”
+Furthermore, Shinjou-senpai’s hands roamed all over my body.
+My back, my sides, my thighs...
+My whole body was heating up.
+$Aoi
+“Haah, haah... nn...”
+It’s hard to breathe...
+My head was fuzzy, as if shrouded in mist.
+And when Senpai’s teeth gently bit into my nipple, I could no longer endure it.
+$Aoi
+“Hauun... ah...”
+I couldn’t stay standing. All the strength left my body as if my hips had given out.
+As I stumbled and collapsed, Shinjou-senpai supported me.
+$Saria
+“Fufu. How adorable. My little kitten...”
+I could only lean against Shinjou-senpai’s body.
+Her body was so soft and warm.
+$Aoi
+“Haah, haah... S-Senpai...”
+Shinjou-senpai silently sat me down on the plastic bench in the locker room.
+I can’t stand up anymore...
+My thoughts are paralyzed...
+Shinjou-senpai stood behind me.
+She placed her hands on my legs.
+$Saria
+“Kanzaki-san... your legs...”
+$Aoi
+“Haah, haah... haah, haah...”
+Again, she stared at me with those bewitching eyes.
+$Saria
+“Open your legs...”
+I lowered my head in shame.
+But... my body was responding honestly.
+$Aoi
+“Haah, haah... nnn...”
+I gave a small nod and, before I realized it, I was covering my face with both hands and doing exactly as I was told.
+I slowly opened my legs.
+Just that was enough to make excitement well up within me.
+Senpai is watching me... that only excites me even more...
+$Aoi
+“S-Senpai... my place... it’s hot...”
+Unable to hold it back, I looked up at Senpai.
+I couldn’t settle down in my lower body...
+$Saria
+“Fufu. Good girl.”
+Why... am I... doing this...
+$Saria
+“This is your reward.”
+Saying that, Shinjou-senpai reached her hand toward my private place.
+She gently caressed me over my panties.
+$Aoi
+“Nnn...!”
+Unable to bear it, I clung to Senpai’s arm.
+I can tell for myself that my private part is soaking wet...
+$Saria
+“You’re so wet, Kanzaki-san. You’ll ruin these lovely panties.”
+$Aoi
+“Stop... aah... Senpai...!”
+I could only writhe my body as the waves of pleasure assailed me.
+Senpai’s hand reached inside my panties.
+$Aoi
+“Hau... n-no...”
+Squish, squish.
+$Aoi
+“Hiuun! Fuwaaaaaan!!”
+$Saria
+“Fufufu.”
+Senpai’s finger rubbed along the slit of my private place.
+I can’t think of anything anymore...!
+$Aoi
+“Ah, ah... n-aah! Aaaah!!”
+I desperately held back my voice, trying not to let it out.
+But I couldn’t suppress it...
+Squish, squish, squish, squish.
+$Aoi
+“Yaan... fuah! Uaaan!!”
+The sound of the baseball club’s metal bats echoed faintly.
+The music from the brass band echoed in the distance.
+$Aoi
+“Haah, haah... nn-aaan...”
+Squish, squish, squish, squish.
+Suddenly, an intense sense of immorality welled up within me.
+What am I doing at school...?
+But soon, that sense of immorality turned into excitement instead.
+The tension of wondering what would happen if I were caught made my whole body heat up.
+I can’t stand it... more...
+Poke.
+$Aoi
+“Ah...!”
+Senpai’s finger... her long, slender, beautiful finger... entered inside of me...!
+$Aoi
+“Akuh...!”
+Slide, slide, slide.
+$Aoi
+“Stop... n-kuuuh!!”
+The thought of Senpai’s beautiful finger being inside of me brought an excitement that was far stronger than anything I’d felt before.
+I shifted my hips restlessly.
+$Saria
+“Fufufu. It’s so smooth.”
+Even Shinjou-senpai’s calm voice felt dear to me.
+$Aoi
+“Uwaaaaaaan...!”
+Unable to bear the pleasure, I instinctively tried to close my legs.
+However, Senpai’s finger immediately began to move up and down inside of me.
+$Aoi
+“Hikuah!”
+I couldn’t help but let out a scream.
+Squish, squish, squish.
+$Saria
+“It’s so warm inside of you, Kanzaki-san...”
+What should I do... it feels good... it feels so good.
+$Aoi
+“Hau... ah, ah, ah... n-aaah!”
+Poke, poke, poke, poke.
+Lewd watery sounds could be heard from my private part.
+I writhed my body in a poignant pleasure that made me want to cry.
+$Aoi
+“Ah, ah... n-aaaah.”
+Slurp, slurp, slurp.
+Senpai’s finger movements were very delicate.
+Under this gentle caress, so completely different from a man’s, I could no longer endure it.
+$Aoi
+“Hiu, n-ku... u... uwaaan!”
+I can’t suppress my voice anymore...!
+I desperately clung to Shinjou-senpai’s arm.
+$Aoi
+“S-Senpai... i-it’s amazing... fuwaaaa!”
+$Saria
+“Does it feel good, Kanzaki-san? Fufu, then I’ll use two fingers for you.”
+Shinjou-senpai’s voice sounded like it was echoing from far, far away.
+Another finger was inserted inside of me.
+$Aoi
+“Aaaaahn!! S-Stop... I’m coming... I’m going to come...!”
+My head was going white...
+Stop... I feel like my body is melting...!
+Slurp, slurp, slurp, slurp.
+Senpai’s finger groped all around inside of me.
+$Aoi
+“Hi-aaaah! Aaaaahn! Uwaaaaaaan!!”
+$Saria
+“Now, come... you can come. Here.”
+$Aoi
+“Haaaaaaaaahn!! It feels so goooood!!!”
+Squish, squish, squish, squish, squish!
+Shinjou-senpai’s finger movements grew faster.
+I cast aside my shame and cried out.
+I couldn’t hold back the pleasure that enveloped my entire body.
+$Saria
+“Now, show me your most adorable self, Kanzaki-san.”
+$Aoi
+“Ah, ah, ah, ah... S-Sen... pai... ah—!! N-aaaaaaaaah!!!”
+In that instant, my consciousness flew away.
+My vision went white... and an incredible pleasure ran through my entire body like electricity.
+Shinjou-senpai finally pulled her finger out of me.
+I lay limp on the bench.
+$Aoi
+“Haah, haah, haah...”
+My consciousness was hazy.
+For a moment, I didn’t know where I was or who I was.
+$Saria
+“Fufu. I’ll have you in my hands soon enough.”
+Shinjou-senpai’s satisfied voice echoed in the distance.
+But I didn’t understand what she meant.
+And then, she left the locker room, leaving me behind.
+For some reason, I hesitated to call out to Aoi.
+Aoi being late for practice is rare, so I thought I’d try calling out to her.
+Maybe something happened.
+But Saria is with her. I’m not good with that woman...
+I hesitated a little to call out to Aoi.
+While I was hesitating, Aoi and Saria entered the girls’ locker room as if they’d planned it.
+I was left completely behind.
+It was embarrassing to be standing alone in the hallway like an idiot, so I casually walked up to the locker room.
+I thought about turning back immediately.
+However, I could hear a faint voice coming from inside the locker room door.
 $Akito
-“Wh-...!?”
-What the hell is Saria asking!?
-Why would she say something like...
-I was stunned, but I waited for Aoi’s answer.
-My heart began to race. Why am I so nervous...?
-I strained my ears to listen.
+“...Hm?”
+I stopped for a moment and eavesdropped.
+$Saria
+“Actually, my consultation... is about your childhood friend.”
+$Aoi
+“...Are you talking about Akito?”
+...It seems the topic is about me.
+What is it? I’m curious.
+...Wait, didn’t something like this happen before...?
+For the time being, I made sure no one was around and pressed my ear against the locker room door.
+$Saria
+“What exactly is your relationship with him, Kanzaki-san?”
+$Aoi
+“R-Relationship...?”
+Aoi’s voice sounds incredibly flustered.
+$Aoi
+“H-He’s just...! It’s nothing like that! We’re just childhood friends! Really!”
+Heh... look who’s talking.
+I don’t think anything of you either!
+But at Saria’s next words, I caught my breath.
+$Saria
+“But you... love him, don’t you, Kanzaki-san?”
+$Akito
+“Wha...!”
+What the hell is Saria asking?!
+Why would she...
+While I was stunned, I waited for Aoi’s answer.
+My heart began to beat faster. Why am I so nervous...?
+I listened intently.
 $Akito
 “............”
-I could tell Aoi was saying something, but I couldn't make out the words.
-She was muttering, almost whispering.
-Dammit, I want to know...
-What did she say...?
-I was so curious that, before I knew it, I was trying to open the door.
-As soon as I turned the handle, I realized—wait, this is the girls' locker room...
-I’m going to be called a pervert...
-For a second, my mind went blank.
-However, the door handle didn't turn. It seemed to be locked.
-For me, it was a stroke of luck. I managed to avoid becoming a molester...
-But I still didn't know what Aoi’s answer was.
-I couldn't go to practice with this on my mind.
-Is there anywhere else I can get a better look?
-Looking around, I luckily found a small ventilation window near the floor.
-And it was wide open. It was practically begging to be peeked through—I mean, to be used to check things out!
-How careless can they be? Leaving a window like this open in a girls' locker room, they can't complain if someone peeks.
-I’m not peeking, I’m just checking things out, I’m telling you!
-The window was about fifty centimeters on each side. I could definitely crawl through.
-Well, from what I heard, it seemed like they were just talking and not actually changing clothes.
+However, while I could tell Aoi was answering something, I couldn’t make out her voice.
+Aoi was whispering, as if talking to herself.
+Dammit, I’m curious...
+What did she answer...?
+I was so curious that, before I realized it, I was trying to open the door.
+After I turned the handle, I thought, oh no. This is the girls’ locker room...
+I’ll be called a molester...
+For a moment, my head went white.
+However, the door handle wouldn’t turn. It seemed to be locked.
+It was a blessing in disguise for me. I managed to avoid becoming a molester...
+But I’ll never know how Aoi answered.
+At this rate, I can’t go to practice because I’m so curious.
+Is there anywhere else I can properly observe the situation?
+When I looked around, luckily there was a small ventilation window near my feet.
+What’s more, it’s wide open. It’s like it’s saying, please peek in—I mean, please observe the situation.
+How careless. It’s a girls’ locker room, so they can’t complain if someone peeks in.
+No, I’m not peeking, I’m just observing the situation, let me tell you!
+The small window was about fifty centimeters on each side. I could fit through this.
+Well, from what I heard, Aoi and the others are just talking, not changing clothes.
 So it should be fine.
-I looked around one more time. No one was there.
-Of course not, practice had already started a while ago.
-I steeled my resolve and carefully crawled through the small window.
-I focused all my senses on not making a sound.
-I crawled out under a row of tables.
-From here, I could see lockers lined up in front of me, and Aoi and Saria weren't in sight.
-After successfully sneaking into the locker room, I quietly closed the small window from the inside.
-Now, can I hear their voices from here? Or should I try getting a bit closer?
-Then, I suddenly regained my senses.
+I looked around once more. No one was there.
+Of course, it’s already time for practice to have started.
+I steeled myself and carefully crawled in through the small window.
+I focused all my nerves on not making a sound.
+I crawled out under some tables that were lined up.
+There were lockers lined up in front of me, so I couldn't see Aoi and the others from here.
+After successfully getting inside the locker room, I quietly closed the small window from the inside.
+Now, can I hear Aoi and the others’ voices from here? Or should I try to get a little closer?
+Then, I suddenly became calm.
 What I’m doing... is exactly peeking and eavesdropping.
-No matter how curious I am about Aoi’s conversation, doing this is... is it a crime...?
-In the first place, I’m trespassing in a girls' locker room...
-Am I... a pervert...?
-At the very least, if I’m caught, I’ll be branded as a peeper, a pervert, a molester, and many other dishonorable titles for the rest of my life, and I’ll definitely be hated as an enemy of women...
+No matter how much I’m curious about Aoi’s conversation, doing this is... a, a crime...?
+In the first place, I’ve broken into the girls’ locker room...
+A-Am I a pervert...?
+At least, if I’m caught, there’s no doubt I’ll be labeled a voyeur, a pervert, a molester, and many other dishonorable titles for the rest of my life, and I’ll be hated as an enemy of women...
 This is bad. I went too far...
-What do I do? Should I go back...? But if someone sees me crawling out of that window...
-Guh, I’m trapped!
-There’s nowhere to run...!
-I lay there under the table, holding my head in panic.
-Dammit, it’s Aoi and Saria’s fault. They were having such an intriguing conversation...!
-No, let's stop shifting the blame...
-Then I suddenly noticed something.
-I couldn't hear their voices.
+What should I do, should I go back...? But if someone sees me crawling out of the small window...
+Ugh, I’m in a desperate situation!
+T-There’s no escape...!
+I was completely flustered and held my head in my hands while lying under the table.
+Dammit, it’s Aoi and Saria’s fault in the first place. For having such a curious conversation...!
+No, let’s stop shifting the blame...
+Then I suddenly noticed.
+I can’t hear Aoi and the others’ voices.
 Did they already leave?
-No, but I could hear the faint sound of clothing rustling and breathing.
-Since it was so quiet, I would’ve known if they were talking...
-Wait—are they changing clothes...?
-This is getting even worse... I’m going to become a real peeper without even meaning to!
-And if I run into them like this, Aoi will beat me half to death!
-The thought made me shudder.
+No, however, I can hear the faint sound of clothes rubbing and breathing.
+It’s so quiet that I should be able to tell if they were talking...
+A-Are Aoi and the others changing...?
+This is getting worse... Even though I don't intend to, I’ll become a real voyeur!
+And if I run into them in this situation, Aoi will half-kill me!
+I shuddered.
 Then...
-There was a thud, like the sound of someone sitting on a chair.
-I froze instantly.
-Did they catch me...!?
-But I couldn't see anyone in my field of vision.
-Then what was that sound?
-I strained my ears, paying close attention to my surroundings.
+Clatter. There was a sound. It was the sound of someone sitting on a chair.
+I reflexively stiffened.
+Don’t tell me, I’ve been caught...?!
+However, I can’t see anyone in my field of vision.
+Then, what was that sound just now?
+While paying attention to my surroundings, I listened intently.
 Then...
 $Aoi
-“Haun... ah...”
-Was that Aoi?
-I could hear a voice mixed with gasps. It was a slightly sweet, nasal sound.
-What? What are they doing?
-Then, I clearly heard Saria’s voice.
+“Hauun... ah...”
+Is that Aoi?
+I can hear a voice mixed with sighs. It’s a slightly sweet voice that sounds like it’s coming from her nose.
+What is it? What are they doing?
+Then, this time I could clearly hear Saria’s voice.
 $Saria
-“Fufu. How precious. My little kitten...”
-Kitten? Are they keeping a cat in here?
-What are they thinking, bringing a pet to school?
+“Fufu. How adorable. My little kitten...”
+A cat? Did they bring a cat in and are doting on it?
+What are they thinking, bringing a pet to school.
 $Aoi
-“Haah, haah... Se-senpai...”
+“Haah, haah... S-Senpai...”
 I could clearly hear Aoi’s voice too.
-She sounded incredibly out of breath.
-I was getting more and more confused.
-What the hell are they actually doing?
-It was starting to really bother me...
+Her breathing is unusually heavy.
+I became more and more confused.
+What are those two really doing?
+Somehow, I’m really curious...
 $Saria
-“Spread them for me...”
+“Open your legs...”
 Huh?
-Spread them? The cat’s legs? Why would you spread a cat’s legs?
-Wait, is this animal abuse!?
+Open her legs? A cat’s legs? What is she going to do by opening a cat’s legs?
+D-Don’t tell me, animal abuse?!
 No, surely not.
-I held my breath and listened even closer.
+I held my breath and listened even more intently.
 $Aoi
-“Se-senpai... it’s... it’s so hot down there...”
+“S-Senpai... my place... it’s hot...”
 $Akito
 “............”
 I was shocked.
-What do you mean, it’s hot down there...?
-I still couldn't wrap my head around the situation, so I took a chance and crawled out from under the table.
-It seemed like they were on the other side of the lockers.
-I peeked around the side of the locker.
+Her place is hot... what is that?
+I still couldn't grasp the situation, so I took the plunge and crawled out from under the table.
+Aoi and the others seemed to be on the other side of the lockers.
+I peeked out from behind the lockers at the other side.
 $Akito
 “...!”
 I almost cried out.
 I hurriedly covered my mouth with my hand.
-There was a sight I could hardly believe before my eyes...
-Aoi was sitting on a plastic bench.
-Her chest was exposed, she was practically half-naked...
-And she was spreading her legs toward Saria, who was standing in front of her...
-What is this...?
+There was an almost unbelievable sight there...
+Aoi is sitting on a plastic bench.
+Her chest is open, and she’s almost half-naked...
+And she’s opening her legs toward Saria, who is standing in front of her...
+What... is this...?
 What are those two doing...?
-Even seeing it with my own eyes...
-I couldn't grasp the situation.
-Because, they’re both girls...
-Then, Saria spoke again.
+Even seeing it with my own eyes, I still can’t grasp the situation.
+That’s how surreal the scene before me is.
+Because, between two girls...
+Then Saria spoke again.
 $Saria
-“Fufu. Such a good girl.”
+“Fufu. Good girl.”
 There was no cat anywhere.
-Then that “little kitten” from before was... Aoi...?
-Aoi was covering her face in embarrassment. But she didn't seem like she was resisting at all.
+Then, when she said “my little kitten” earlier, did she mean Aoi...?
+Aoi is covering her face in embarrassment. However, she didn't seem to be hating it at all.
 $Saria
-“Here is your reward.”
-Saria reached toward Aoi’s private place.
+“This is your reward.”
+Then, Saria reached her hand toward Aoi’s private place.
 $Aoi
-“Mnn...!”
-Aoi clung to Saria’s arm, her body trembling.
+“Nnn...!”
+Aoi clung to Saria’s arm while trembling.
 $Saria
-“You’re soaking, Kanzaki-san. You’ll ruin these lovely panties.”
+“You’re so wet, Kanzaki-san. You’ll ruin these lovely panties.”
 $Aoi
-“No... aunh... Senpai...!”
-Aoi frowned as if in pain and let out a sweet cry.
-I stood there, frozen, unable to look away.
-Are those two... in that kind of relationship...?
-Saria’s hand slid inside Aoi’s panties.
-Even from where I was, I could see that her panties were damp.
+“Stop... aah... Senpai...!”
+Aoi knit her brows in distress and let out a sweet voice.
+I was frozen, unable to look away.
+Those two... could they be in that kind of relationship...?
+Saria’s hand moved inside Aoi’s panties.
+I could see from where I was that her panties were soaking wet.
 $Aoi
-“Haun... n-no...”
-Kuchu, kuchu.
+“Hau... n-no...”
+Squish, squish.
 $Aoi
-“Hiuun! Fuaaaaaaun!!”
+“Hiuun! Fuwaaaaaan!!”
 $Saria
 “Fufufu.”
-Aoi’s body twitched and jerked.
+Aoi’s body trembled.
 $Aoi
-“Ah, ah... nhaah! Aaah!!”
-Kuchu, kuchu, kuchu, kuchu.
+“Ah, ah... n-aah! Aaaah!!”
+Squish, squish, squish, squish.
 $Aoi
-“Yaan... fuwaaah! Uaaaaan!!”
-Aoi’s voice was no longer just sweet gasps; it was almost a full-blown moan.
-I was in a state of confusion.
-What is this...?
-Is this real...?
-It’s not normal. It shouldn't be possible...
-How did it end up like this?
-Aoi... are you doing this with Saria by choice...?
-I didn't know what to do, so I just stood there.
-But I couldn't look away.
-Since Aoi didn't seem like she was hating it, the thought of stopping them or helping her didn't even cross my mind.
-Besides, her partner was Saria, another girl...
-Dammit. I shouldn't have looked.
-Instead, I felt a strange sense of guilt.
+“Yaan... fuah! Uaaan!!”
+Aoi’s voice was no longer just a sweet sigh, it was almost a moan.
+I was confused.
+What... is this...?
+Is this reality...?
+It’s not normal. It’s impossible...
+Why has it come to this?
+Aoi... did you agree to this with Saria...?
+I didn’t know what to do and just stood there.
+But I couldn’t look away.
+Since it didn't look like Aoi was hating it, the thought of stopping them or helping her didn't even occur to me.
+Let alone the fact that the opponent is Saria, a woman...
+Dammit. I shouldn’t have looked.
+On the contrary, I felt a strange sense of guilt.
 $Aoi
-“Haah, haah... mnn, nhaaaaun.”
-Kuchu, kuchu, kuchu, kuchu.
-The obscene, wet sounds reached my ears.
-Then, Aoi’s body trembled more violently than ever before.
-She writhed as if she were leaping into the air.
+“Haah, haah... nn-aaan...”
+Squish, squish, squish, squish.
+Lewd watery sounds reached my ears.
+Then, Aoi’s body trembled even more violently than before.
+Aoi writhed as if she were jumping.
 $Aoi
 “Ah...!”
 Aoi gripped Saria’s arm tightly.
 $Aoi
-“Akun...!”
-Nupu, nupu, nupu.
+"Akuh...!"
+Slide, slide, slide.
 $Aoi
-“No... nkuuuh!!”
+“Stop... n-kuuuh!!”
 $Saria
-“Fufufu. It’s so very smooth.”
-Saria’s incredibly calm voice sounded eerie to me.
+“Fufufu. It’s so smooth.”
+Saria’s unusually calm voice sounded eerie to me.
 $Aoi
-“Uwaaaaaaaaun...!”
+“Uwaaaaaaan...!”
 Aoi tried to close her legs as if she couldn't take it anymore.
-But then she immediately shook her hair and let out a scream-like cry.
+But immediately, she shook her hair and let out a scream-like voice.
 $Aoi
-“Hikua!”
-Nuchu, nuchu, nuchu.
+“Hikuah!”
+Squish, squish, squish.
 $Saria
-“It’s so incredibly warm inside you, Kanzaki-san...”
+“It’s so warm inside of you, Kanzaki-san...”
 $Aoi
-“Haun... ah, ah, ah... nhaaaah!”
+“Hau... ah, ah, ah... n-aaah!”
 Inside... inside Aoi...
-Is Saria putting her finger in there...?
-It probably wasn't intentional, but Aoi was facing me directly.
-Although she was partially hidden by Saria’s body, Aoi’s crotch was clearly visible as she spread her legs.
-Since she was wearing panties, I couldn't see everything clearly, but I could still catch a glimpse of the black thicket.
+Saria has her finger in there...?
+It probably wasn't intentional, but Aoi was facing directly toward me.
+Although I could see glimpses of her through Saria’s body, Aoi’s crotch with her legs open was in full view.
+Since she’s wearing panties, I couldn't see clearly inside, but I could still catch a glimpse of the black thicket.
 Saria’s hand was moving around inside Aoi’s panties.
-Before I knew it, I was hard.
-I felt like I was going to burst.
-The sight of two girls entwined didn't seem repulsive; it looked almost sensual.
-And in my paralyzed mind, I found myself thinking, “Aoi is pretty cute.”
+Before I knew it, my lower body was expanding.
+It felt like it was going to burst at any moment.
+The entanglement between two girls looked more sensual than repulsive.
+And in my paralyzed thoughts, I vaguely thought, “Aoi is cute.”
 $Aoi
-“Se-senpai... ah, ah... fuwaaaaah!”
+“S-Senpai... i-it’s amazing... fuwaaaa!”
 $Saria
 “Does it feel good, Kanzaki-san? Fufu, then I’ll use two fingers for you.”
-Aoi’s pale, translucent skin was clearly flushed.
-Chupu, chupu, chupu, chupu.
-The wet sounds were getting louder and louder.
+Aoi’s white, transparent skin was clearly flushed.
+Slurp, slurp, slurp, slurp.
+The watery sounds grew louder and louder.
 Does that mean she’s that wet...?
 $Aoi
-“Aaaaaun!! N-no... I’m going to come... I’m going to come...!”
-Aoi wasn't even trying to stifle her voice anymore.
-She writhed with her whole body as if enduring the pleasure.
+“Aaaaahn!! S-Stop... I’m coming... I’m going to come...!”
+Aoi no longer even tried to suppress her voice.
+She writhed her entire body as if enduring the pleasure.
 $Saria
-“Go on... you can come. It’s alright.”
+“Now, come... you can come. Here.”
 $Aoi
-“Haaaaaaaaaaaun!! It feels so goooood!!!”
-Kuchu, kuchu, kuchu, kuchu, kuchu!
-Saria’s hand moved faster.
+“Haaaaaaaaahn!! It feels so goooood!!!”
+Squish, squish, squish, squish, squish!
+Saria’s hand movements grew faster.
 $Saria
 “Now, show me your most adorable self, Kanzaki-san.”
 $Aoi
-“Ah, ah, ah, ah... Se-sen...pai... ah—!! Nhaaaaaaaaaaah!!!”
-At that moment, Aoi’s body convulsed.
-She tilted her head back and then slumped over, lying on the bench.
+“Ah, ah, ah, ah... S-Sen... pai... ah—!! N-aaaaaaaaah!!!”
+Then, in that instant, Aoi’s body convulsed.
+Aoi threw her face back and then lay limp on the bench.
 $Aoi
 “Haah, haah, haah...”
-Saria stepped away from Aoi and wiped her soiled hand with a tissue.
-She looked down at Aoi with a satisfied expression.
+Saria moved away from Aoi and wiped her dirty hand with a tissue.
+She looked down at Aoi with a satisfied face.
 $Saria
-“Fufu. I’ll have you all to myself soon enough.”
+“Fufu. I’ll have you in my hands soon enough.”
 What... what is Saria saying?
 For some reason, those words stuck with me.
-But I quickly forgot them. Saria left the locker room.
-If I was found, things would be disastrous.
-I hurriedly crawled back under the table.
-I waited and listened.
+But I soon forgot. Saria left the locker room.
+If I’m found, it’ll be a disaster.
+I hurriedly crawled under the table.
+I listened intently to the situation.
 Aoi continued to breathe heavily for a while.
-Before long, I heard the rustle of clothes, and then Aoi looked down in embarrassment and left the locker room.
-For now, I managed not to be caught.
-But my mind was still paralyzed.
-I didn't know what to make of what just happened.
-It didn't feel real, and eventually, I couldn't even feel my own senses as being real.
-As a result, I couldn't move at all.
-I just crouched there, holding my head.
-After a while, I calmed down and realized—wait.
-I have to get out of here before practice ends.
-This is the girls' locker room...!
-If I don't escape quickly, I’ll be branded a pervert.
-I hurriedly left the locker room, carefully checking my surroundings.
-I felt incredibly miserable.
-Alright, I’ll call out to her.
+Eventually, I heard the sound of clothes rubbing, and Aoi left the locker room looking embarrassed.
+For the time being, I managed to avoid being found.
+However, my head was still paralyzed.
+I didn't know how to think about what had just happened.
+I had no sense of reality, and eventually I couldn't even feel my own senses as real.
+As a result, I couldn't move my body at all.
+I just crouched there with my head in my hands.
+I stayed like that for a while, but eventually I became a little calm and was startled.
+I have to get out of here before practice is over.
+This is the girls’ locker room...!
+If I don’t escape soon, I’ll be branded as a pervert...
+I hurriedly left the locker room while observing the situation.
+I felt terribly miserable.
+Alright, I'll call out to her.
 $Akito
-“Hey!!”
-I called out to Aoi, waving my hand.
-Aoi and Saria, who were talking about something, turned toward me in surprise.
-Good, they noticed.
-I continued to wave as I walked toward them leisurely.
+“Ooooy!!”
+I called out to Aoi while waving my hand.
+Aoi and Saria, who were talking about something, turned to look at me in surprise.
+Alright, they noticed me.
+I walked slowly while still waving my hand.
 $Akito
-“Aoi!! Skipping your club, are you!?”
+“Aoi!! Are you skipping practice?!”
 I slowly approached Aoi and the others.
-For some reason, Aoi looked embarrassed.
-Saria, on the other hand, looked displeased.
+Aoi looked embarrassed for some reason.
+Saria, on the other hand, looked somewhat displeased.
 $Akito
-“What’s wrong? Why the faces?”
-Aoi’s shoulders were shaking.
+“What’s wrong? Why that face?”
+Aoi’s shoulders were trembling.
 $Aoi
-“Idiot! Akito, you idiot!”
+“Idiot! Stupid Akito!”
 $Akito
-“Starting off with that, are we?”
-Then, Aoi pointed her finger right in front of my face.
+“Straight to that, huh?”
+Then, Aoi pointed her finger right in front of my nose.
 $Aoi
-“Don't call my name so loudly! How can you do something so embarrassing!”
+“Don’t call my name so loudly! How can you do something so embarrassing!”
 $Akito
-“E-embarrassing?”
+“I-Is it embarrassing?”
 $Aoi
-“Yes, embarrassing! Honestly, you’re such a child.”
-Being insulted like that all of a sudden made me annoyed.
-I was only trying to be concerned.
+“It is! Honestly, you’re such a child.”
+Being told that all of a sudden, I was piqued.
+What is it, after I went to the trouble of worrying about her.
 $Akito
 “So, what were you talking about instead of going to practice?”
 Aoi looked away and answered coldly.
 $Aoi
-“Just small talk. It has nothing to do with you, Akito.”
+“Small talk. It has nothing to do with you, Akito.”
 $Akito
 “Hmph. Is that so?”
 I looked at Saria.
-But as usual, Saria ignored me.
-She didn't seem interested in answering, and she didn't even look at us.
-Whatever, fine.
-I’m used to that attitude by now.
-If I give up from the start, I won't even feel angry.
-Man, I’ve really grown up.
-Who was calling me a child?
+However, as usual, Saria ignored me.
+She didn't seem to have any intention of answering, and her gaze wasn't even directed at us.
+Ah, whatever.
+I’ve gotten used to that kind of attitude.
+If you give up from the beginning, you won’t even feel angry.
+Hm, I’ve grown up.
+Who was it that said I was a child?
 $Akito
 “So, Aoi. Are you skipping practice?”
-Aoi groaned.
-She’s someone who’s never late, after all. She was probably pretty bothered by it.
+Aoi let out a groan.
+Since she’s usually never late. She was quite concerned.
 $Akito
-“Heh heh heh. That’s too bad. I guess you can't say anything to me now.”
-I started teasing her.
-But Aoi wasn't one to back down. She immediately countered.
+“Heh heh heh. Terrible. I can’t even talk about myself.”
+I’ll tease her.
+But Aoi isn’t losing either. She immediately fired back.
 $Aoi
-“You’re the one who shouldn't be wasting time here, Akito.”
-Ugh, that was sharp...
+“And you, Akito, is it okay for you to be wasting time here?”
+Ugh, sharp...
 $Aoi
-“Mr. Hoshino is going to give you an earful again.”
+“Coach Hoshino’s lightning is going to strike you again.”
 $Akito
 “Shut up!”
-I know that better than anyone.
-Aoi let out a small sigh.
+I already know that better than anyone else.
+Then, Aoi let out a small sigh.
 $Aoi
-“What should I do, being this late. I’m going to get scolded. I’m causing trouble for the rest of the team, too.”
+“What should I do, being so late. I’ll be scolded. I’ve caused trouble for everyone in the club too.”
 I shrugged my shoulders.
 $Akito
-“Just be more confident.”
+“Just be more dignified.”
 $Aoi
-“Why should I be confident!?”
-I gave a smirk.
+“Why should I be dignified?!”
+I grinned.
 $Akito
-“No one’s worried about you anyway, Aoi. The tennis club will keep running even without you.”
+“No one is even worried about you, Aoi. Even without you, the tennis club will keep going.”
 $Aoi
-“Wh-what was that!?”
+“W-What did you say?!”
 $Akito
-“Compared to that, I’m the ace of the baseball team. The team can't function without me.”
+“Compared to that, I’m the ace of the baseball club. Without me, the baseball club won’t function.”
 $Aoi
-“Being late despite that is the worst...”
+“And being late like that, you’re the worst...”
 I let out a small sigh.
 $Akito
-“Hah, fine. Aoi, let's both go and get scolded together.”
+“Sigh, it can’t be helped. Aoi, let’s go get scolded together.”
 $Aoi
-“Honestly, Akito, you have no sense of responsibility...”
-Aoi was still complaining.
-Man, she’s persistent.
-Hm? Come to think of it, Saria is awfully quiet.
-Looking over, Saria was staring out the window, looking bored.
+“Honestly, Akito, you just don’t have a sense of responsibility...”
+Aoi is still complaining.
+Ah, she’s so persistent.
+Hm? Come to think of it, Saria is unusually quiet.
+When I looked, Saria was staring out the window looking bored.
 In the first place, why is this woman even here?
-Then, Aoi turned back to Saria and gave a polite bow.
+Then, Aoi turned back to Saria and gave a small bow.
 $Aoi
-“I’m sorry, Shinjou-senpai. We have to get to our club activities now...”
-Saria let out a disgruntled snort.
+“I’m sorry, Shinjou-senpai. We have to go to our practice now...”
+Saria snorted in a sullen manner.
 $Saria
-“So it seems.”
+“It seems so.”
 Whoa, scary...
-She’s giving off a really unapproachable vibe.
-Suddenly, Saria turned her back on us.
+Somehow, she’s emitting an unapproachable aura.
+Then, Saria suddenly turned her back on us.
 $Saria
-“Well then, I shall take my leave.”
-Leaving Aoi and me standing there in shock, Saria strode away.
-She didn't even look at me until the very end.
+“Then, I’ll take my leave here.”
+Leaving me and Aoi staring blankly, Saria walked away briskly.
+She didn't even try to look at me until the very end.
 $Akito
 “...What was that all about?”
 $Aoi
 “Who knows...?”
-For a while, the two of us stood there in a daze.
+For a while, the two of us just stood there in a daze.
 $Aoi
-“Ah—practice!”
+“Ah, practice!”
 Aoi suddenly realized.
-That’s right, this was no time for this!
+That’s right, this was no time for that!
 $Akito
-“A-Aoi, see ya! Don't skip practice!”
+“A-Aoi, see ya! Don’t skip practice!”
 $Aoi
-“You’re the one to talk!”
-Sticking her tongue out at me, Aoi ducked into the locker room.
+“Don’t you say that, Akito!”
+While sticking her tongue out at me, Aoi entered the locker room.
 I also hurried toward the baseball clubroom.
-Man, I can already see Coach Hoshino’s face turning bright red with rage...
-Hah, how depressing...
+Sigh, I can already see Coach Hoshino’s face turning bright red with anger...
+God, how depressing...

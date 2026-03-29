@@ -80,7 +80,7 @@ const SPEAKER_MAP = new Map([
   ["桜子", "Sakurako"],
   ["鳴海", "Narumi"],
   ["？", "?"],
-  ["女子学生", "Schoolgirl"],
+  ["女子学生", "Female Student"],
   ["ジョージ", "George"],
   ["男子学生", "Male Student"],
   ["責任者", "Manager"],

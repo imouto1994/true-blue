@@ -1,811 +1,811 @@
 --------------------
 01c02
 ********************
-Fuyuki: Episode 02
+Fuyuki Episode 2
 What should I do—
 [Choices]
 1. ...Leave quietly
 2. Watch from a distance
-3. Approach and call out
-I was waiting for Aoi by the school gate when I realized my throat was parched.
-I decided to grab a juice from a nearby vending machine.
-It’s not like this is unusual.
-There’ve been times when Aoi arrived while I was buying a drink and got mad, snapping, “Don’t keep me waiting!”
-Back then, it turned into a shouting match: “I’m the one who was waiting until just now!”
-Ideally, I’d rather not do anything that might spark another fight.
-On the other hand, acting all nervous about it feels weird too.
-Anyway, juice in hand, I headed back to the gate, and luckily (?) Aoi wasn’t there yet.
-Seriously, what is taking her so long?
-Sipping my drink, I just kept waiting for her...
-But...
-...No matter how long I waited, Aoi didn't show.
-The juice I bought was long gone.
-Starting to get worried, I made my way to the front of the girls' locker room.
-The place was almost deserted, but fortunately, I ran into a girl from the tennis club.
+3. Approach and speak to her
+Waiting for Aoi in front of the school gate, I suddenly realized my throat was parched.
+So, I decided to buy a drink from a nearby vending machine.
+It's not exactly a rare occurrence.
+There’ve been times when Aoi arrived while I was buying a juice and got mad, snapping, "Don't keep me waiting!"
+Back then, it turned into a fight, with me yelling, "Who was the one waiting until then!?"
+If possible, it's best to avoid doing anything that might plant the seeds for another argument.
+Then again, going out of my way to be that careful feels a bit strange too.
+For now, I headed back to the gate with juice in hand, and luckily (?), Aoi was nowhere to be seen.
+Honestly, what is she up to?
+Sipping my juice, I simply focused on waiting for her...
+And yet...
+...No matter how long I wait, Aoi doesn't show.
+The juice I bought earlier was long gone.
+Getting genuinely concerned, I made my way to the front of the girls' changing room.
+There was hardly anyone left, but fortunately, I bumped into a girl from the tennis club.
 When I asked her what happened to Aoi...
 $Akito
-“She went home?!”
-$Schoolgirl
-“Yeah, maybe twenty minutes ago? Right after she finished changing.”
-...So, right around the time I left the gate to buy that juice?
-$Schoolgirl
-“She seemed... I don't know, kind of spaced out? Aoi-chan, I mean...”
+"She went home!?"
+$Female Student
+"Yeah, maybe about 20 minutes ago? Right after she finished changing."
+...Does that mean she left right around the time I stepped away from the gate to buy juice?
+$Female Student
+"She seemed, you know... Aoi-chan. Like she was in a bit of a daze... at least to me..."
 $Akito
-“Yeah, I get it. Thanks.”
-It sounded like she was going to ramble, so I cut her off and left.
-But man, talk about bad timing...
-Well, at least it doesn't sound like she was attacked or anything, so I can breathe a sigh of relief there.
-Still, that girl...
-Going home alone and leaving me behind—what was she thinking?
+"Right, I get it. Thanks."
+It felt like she was going to talk my ear off, so I cut it short and left.
+But man, talk about a complete miss...
+Well, it doesn't seem like she was attacked or anything, so I can breathe a sigh of relief on that front.
+Still, that Aoi...
+What was she thinking, ditching me and heading home alone?
 $Akito
-“Dammit! If I’m not there, she should just stay put and wait at the gate!”
-Suppressing my irritation, I started walking a little faster.
-Even so... it’s not like Aoi.
-She’s the type who prioritizes keeping things normal above all else...
+"Geez! If I'm not there, she should just stay put and wait at the gate!"
+Suppressing my irritation, I walked home with a brisk pace.
+Then again... it’s not like Aoi.
+She's the type who prioritizes keeping things "business as usual" above all else...
 $Akito
-“..................”
-Maybe the project is affecting her more than I thought.
-She acts tough, but Aoi is just a normal girl...
-Thinking that, I started feeling pathetic for getting angry at her like a brat.
+"...................."
+The influence of the Project might be significant.
+Even if she acts tough, Aoi is just a normal girl...
+Thinking that way, I start feeling pathetic for venting my childish anger at her.
 $Akito
-“............Phew.”
-The road at dusk feels strangely lonely...
+"............Phew~~"
+The road at twilight... it feels strangely lonely...
 I never noticed it before because I was always walking home with Aoi.
-Looking at the twilight sun, I get this feeling like I’m about to burst into tears.
-Is this what they call nostalgia?
-Before I knew it, my footsteps had grown heavy...
-When I reached the small park near our house, I noticed a figure sitting on one of the swings.
-I couldn’t see clearly from a distance, but... is that Aoi?
-Something about her looks off...
-...She looked exhausted, somehow.
+Staring at the amber sunset, I feel a sensation like I'm about to burst into tears.
+Maybe it's nostalgia.
+Before I knew it, my footsteps had grown heavy and sluggish...
+When I reached the small park near our house, I noticed a figure sitting on a swing.
+I couldn't see clearly from this distance, but... isn't that Aoi?
+She looks like something is wrong...
+...Aoi looked somehow exhausted.
 I started to call out but stopped myself immediately.
-The fact that she came all the way here alone without me might mean she’s dealing with something she can't tell me...
-If I showed up now, Aoi would probably just find me a nuisance.
-Even if she didn’t say it out loud.
-Or maybe she’s not troubled at all, and she just thinks I’m annoying...
-That would actually hurt...
-...No, surely that’s not it.
-But it’s clear that Aoi wants to be alone right now, away from me...
-Scanning the area, I didn't see anyone suspicious, so I decided to just head home.
+The fact that she came here alone without me might mean she’s carrying a burden she can't tell me about...
+If I showed up now, Aoi would probably find it intrusive.
+Even if she didn't say it out loud.
+Or maybe, quite simply, she doesn't have any worries at all and just finds me annoying...
+That would be a shock in its own way...
+...No, surely that can't be it.
+But I'm certain that right now, Aoi wants to be alone, away from me...
+Looking around, there don't seem to be any suspicious figures, so I decided to just head home.
 In my own way, I thought I was being considerate.
 For some reason, I’m here alone...
-I’m sitting on the swing, rocking slightly, watching the sun dip below the horizon.
-The twilight sky makes me feel so lonely. A painful, suffocating feeling, like I could start crying for no reason.
-Honestly, I meant to go home with Akito like always...
-But I’ve been a bit spaced out since I was changing in the locker room.
-It’s because I remembered the things that have been happening to me lately...
-By the time I realized it, I was already at the entrance of this park.
-It’s strange that Akito didn’t call out to stop me. Maybe practice ran late, or maybe he went to buy a juice again.
-Either way, I didn't feel like going back to the school... I feel bad for what I did to Akito.
-I’ll have to apologize later...
+Sitting on the swing, swaying slightly, I watch the sun go down in a daze.
+The twilight sky makes me feel so lonely. It’s an agonizing feeling, like I could burst into tears for no reason at all.
+Actually, I intended to go home with Akito like always...
+I might have been in a bit of a daze since I was changing in the locker room.
+It's because I remembered the things that have been happening to me lately...
+By the time I realized it, I had already reached the front of this park.
+It’s strange that Akito didn't call out to stop me, but maybe his club ran late, or maybe he went to buy juice again.
+Anyway, I just didn't feel like going back to school... I feel bad for Akito.
+I'll have to apologize later...
 I let out a deep sigh.
 $Aoi
-“...I'm overthinking things, right...?”
-I shook my head and muttered to myself.
+"...I'm overthinking it, aren't I...?"
+I let the words slip out as I shook my head.
 $Aoi
-“Or am I just being self-centered...?”
-I try to tease myself to lighten the mood, but it doesn't help at all.
+"Or maybe... I’m just being self-conscious...?"
+I try to tease myself with the thought, but my mood doesn't brighten at all.
 I gave a wry smile.
-Worrying all by myself like this... it’s not like me.
+Worrying all by myself... that’s so not like me...
 Suddenly, someone tapped me on the shoulder.
 $Aoi
-“Eek!”
-I nearly jumped out of my skin.
+"Eek!"
+I practically jumped out of my skin.
 Turning around, I saw a familiar face.
 $Fuyuki
-“...Aoi-chan?”
+"...Aoi-chan?"
 $Aoi
-“Fuyuki... oniichan...”
+"Fuyuki... onii-chan..."
 I was at a loss for words.
-But seeing Fuyuki-oniichan’s worried face and gentle gaze made my heart feel warm.
+But seeing Fuyuki-onii-chan’s worried face and gentle gaze made my heart feel warm.
 $Fuyuki
-“Did I startle you? I’m sorry.”
+"Did I scare you? Sorry about that."
 I shook my head hurriedly.
 $Aoi
-“Ah, n-no, it’s fine. I was just thinking. Spacing out... ehehe.”
-Fuyuki-oniichan gave me a calm smile.
+"Ah, u... no, not at all. I was just thinking. I was in a daze... ehehe."
+Fuyuki-onii-chan gave me a serene smile.
 $Fuyuki
-“...You don't seem very energetic, though.”
+"...You don't seem like your usual self?"
 $Aoi
-“............”
+"............"
 I hung my head.
 $Fuyuki
-“............”
+"............"
 An awkward silence...
-I can't answer him...
+I can't give him an answer...
 $Fuyuki
-“Aoi-chan, you just finished club, right?”
+"Aoi-chan, you just finished club activities, right?"
 $Aoi
-“...Eh?”
+"...Eh?"
 $Fuyuki
-“Aren't you hungry? If you’d like, let's go grab a snack. My treat.”
-Oniichan changed the subject, still wearing that soft smile.
-I... gazed intently at Fuyuki-oniichan.
-He worries about me, yet he doesn't pry.
-He doesn't offer irresponsible comfort or hollow encouragement, but he tries to stay by my side.
+"Aren't you hungry? If you like, let's grab a bite on the way. My treat?"
+Keeping that soft smile, Onii-chan changed the subject for me.
+I... stared intently at Fuyuki-onii-chan.
+He worries about me, yet he doesn't pry too deep.
+He doesn't offer irresponsible comfort or encouragement, but he tries to stay by my side.
 Such a kind brother...
-He’s being so considerate...
-If it’s Fuyuki-oniichan...
-Maybe I can talk to him about how I’m feeling right now.
+You're being so considerate...
+If it’s Fuyuki-onii-chan.
+Maybe I can talk to Fuyuki-onii-chan about how I feel right now.
 $Aoi
-“Oniichan...”
+"Onii-chan..."
 $Fuyuki
-“Hm?”
+"Hm?"
 $Aoi
-“Um, there’s something I want you to listen to...”
-Oniichan nodded with a smile.
+"Um, there's something I want you to listen to..."
+Onii-chan nodded with a smile.
 $Fuyuki
-“If you’re okay with me.”
-I felt relieved.
-And then, I poured out what was inside... the uncomfortable feeling stuck in my chest like a lump.
+"If you're okay with me."
+I felt a sense of relief.
+And then, I let out what was inside... the uncomfortable feeling stuck in my chest like a lump.
 $Aoi
-“Lately, the people around me... they feel strange...”
+"Somehow, lately, the people around me... they're strange..."
 $Fuyuki
-“Strange how?”
-Oniichan’s expression turned serious.
-I looked down.
+"Strange, how?"
+Onii-chan’s expression turned serious.
+I hung my head.
 $Aoi
-“I don't know... but I feel like something is happening around me.”
+"I don't know... but I feel like something is happening around me."
 Dark... gazes filled with madness.
-A presence, intense and sharp, almost like a murderous intent.
-I’ve been feeling things like that for days now.
-Like someone is watching me, constantly.
+A presence so intense it felt like bloodlust.
+I've been feeling things like that for the past few days.
+I feel like I'm being watched by someone, all the time.
 $Aoi
-“I don't understand it, and that’s why I’m scared... Akito feels a bit off too... I can't say exactly how, but he feels different than usual...”
+"I don't understand, so it's scary... Akito is also acting strange... I can't say exactly how, but he feels different than usual..."
 $Aoi
-“Maybe Akito has nothing to do with it... but it’s just weird. Why won't he tell me anything...? Everything is just a mystery...”
-I couldn't take it anymore and clutched my head.
+"Maybe it has nothing to do with Akito... but anyway, it's weird. Why won't he tell me anything... it's all just one mystery after another..."
+I couldn't take it anymore and held my head.
 I was completely confused.
-I couldn't put it into words properly.
-Regardless, a different atmosphere than usual is drifting around me.
+I don't think I can put it into words well.
+Anyway, an atmosphere different from the usual is drifting around me.
 $Fuyuki
-“...I see. I understand.”
+"...I see. I understand."
 $Aoi
-“Oniichan?”
-I raised my head and looked at him pleadingly.
-Fuyuki-oniichan nodded as if he’d reached a conclusion.
+"Onii-chan?"
+I raised my face and looked at Onii-chan pleadingly.
+Fuyuki-onii-chan nodded as if he’d reached a conclusion.
 $Fuyuki
-“I’ll try to ask Akito about it subtly. Of course, I’ll keep it a secret that you’re worried.”
+"I'll try asking Akito about it casually. Of course, I'll keep it a secret that you're worried, Aoi-chan."
 $Aoi
-“...Is that okay?”
+"...Is that okay?"
 $Fuyuki
-“Of course.”
-Oniichan gave me a smile.
-That smile made me feel like I was being saved.
+"Of course."
+Onii-chan gave me a smile.
+That smile made me feel like I’d been saved.
 $Fuyuki
-“But I think it’s best if you try not to worry about it for now. Though I know telling you not to worry at all is impossible.”
+"But, I think it's better if you try not to let it get to you for now. Though I know telling you not to worry at all is impossible."
 $Aoi
-“............”
+"............"
 $Fuyuki
-“Aoi-chan, you look much better when you’re smiling.”
-Ah... Oniichan...
-I’m so glad I talked to him...
-He always says exactly what I want to hear.
-Oniichan, how do you know how I’m feeling?
-It’s almost like magic...
-I... caught his smile and found myself laughing naturally.
+"Because Aoi-chan looks best when she's smiling."
+Ah... Onii-chan...
+I'm so glad I talked to him...
+Onii-chan always says the words I want to hear.
+Onii-chan, how do you know how I feel?
+It’s almost like you’re a wizard...
+I... caught his smile and was able to laugh naturally.
 $Aoi
-“Yeah. If you say so, Oniichan, I’ll do that.”
-Talking to Fuyuki-oniichan made me feel so much lighter.
-It really felt like a spell had been cast.
-I guess it really is better to talk to someone about these things. Just speaking about it makes me feel better.
-Keeping it all bottled up inside just makes everything darker.
+"Yeah. If Onii-chan says so, I’ll do that."
+By talking to Fuyuki-onii-chan, my heart felt completely light.
+It really felt like a spell had been cast on me.
+I knew it—it's better to talk to someone about these things. Just speaking about it makes me feel better.
+If I kept it all bottled up, things would only get darker.
 $Aoi
-“Thanks, Oniichan. I feel a lot better now.”
-Fuyuki-oniichan tilted his head, looking puzzled by my words.
+"Thanks, Onii-chan. I feel much better now."
+Fuyuki-onii-chan tilted his head as if puzzled by my words.
 $Fuyuki
-“Really? I haven't done anything yet, though.”
-That oblivious side of him was so typical that it made me happy.
+"Really? I haven't done anything yet."
+That feigned ignorance was so typical of him, it made me happy.
 $Aoi
-“You listened to me, didn't you?”
+"You listened to me, didn't you?"
 $Fuyuki
-“Ah, I guess I did.”
-I stood up. A big stretch, then a deep breath.
-Suddenly, my stomach let out a loud “growwwwl.”
+"Ah, I guess so."
+I stood up. I gave a big stretch and then a deep breath.
+Suddenly, my stomach let out a loud "grrrruuuu."
 $Aoi
-“...Ah.”
-I froze in mid-stretch, utterly mortified.
+"...Ah."
+I froze mid-stretch, utterly mortified.
 $Fuyuki
-“Hahaha. You’re honest, Aoi-chan.”
+"Hahaha. Aoi-chan, you're quite honest."
 $Aoi
-“D-Don't laugh, Oniichan! Now that I feel better, I’m just hungry!”
-I pouted and acted grumpy, and Oniichan nodded.
+"D-Don't laugh, Onii-chan! Once I felt better, I just got hungry!"
+I pouted and acted huffy, and Onii-chan nodded.
 $Fuyuki
-“Then is 'McDonal-Hold' okay with you?”
-The fast food place in front of the station.
+"Then is 'MacDonal-hodo' alright with you?"
+The fast-food place in front of the station.
 $Aoi
-“Speaking of which, they just released a pineapple burger. I’ve been wanting to try it!”
+"Come to think of it, they just released a new pineapple hamburger. I’ve been wanting to try it!"
 $Fuyuki
-“Alright. It’s a date then.”
+"Alright. It's settled then."
 $Aoi
-“Let’s go, hurry!”
-I took Fuyuki-oniichan’s hand and started walking toward the shopping district.
+"Let's go, quick!"
+I grabbed Fuyuki-onii-chan’s hand and started walking toward the shopping district.
 $Fuyuki
-“Aoi-chan, there’s no need to rush, the burger isn't going anywhere.”
+"Aoi-chan, you don't have to rush so much, the hamburger isn't going anywhere."
 $Aoi
-“I’m so hungry I can't stand it. Oniichan, hurry, hurry!”
-After that, we talked about cooking for an hour while eating burgers at 'McDonal-Hold.'
-The new pineapple burger had a strange taste.
+"I'm so hungry I can't stand it. Onii-chan, hurry, hurry!"
+After that, while eating burgers at 'MacDonal-hodo,' we spent about an hour getting excited talking about cooking.
+The new pineapple hamburger had a strange taste.
 But it was delicious.
-I want to go with Oniichan again.
+I want to go with Onii-chan again.
 $Aoi
-“...Why...?”
-I shook my head and muttered to myself.
+"...Why..."
+I let the words slip out as I shook my head.
 $Aoi
-“...Why...?”
-My mood is sinking further and further.
+"...Why..."
+My heart keeps sinking deeper and deeper.
 Someone, please help me.
-Someone, please wake me from this nightmare...
+Someone, wake me from this nightmare...
 Suddenly, someone tapped me on the shoulder.
 $Aoi
-“Eek!”
-I nearly jumped out of my skin.
+"Eek!"
+I practically jumped out of my skin.
 Turning around, I saw a familiar face.
 $Fuyuki
-“...Aoi-chan?”
+"...Aoi-chan?"
 $Aoi
-“Fuyuki... oniichan...”
+"Fuyuki... onii-chan..."
 I was at a loss for words.
-Seeing Fuyuki-oniichan’s worried face and gentle gaze made my chest tighten.
+Fuyuki-onii-chan’s worried face and gentle gaze made my chest tighten.
 $Fuyuki
-“Did I startle you? I’m sorry.”
+"Did I scare you? Sorry about that."
 I shook my head hurriedly.
 $Aoi
-“Ah, n-no, it’s fine. I was just thinking. Spacing out...”
-Fuyuki-oniichan gave me a calm smile.
+"Ah, u... no, not at all. I was just thinking. I was in a daze..."
+Fuyuki-onii-chan gave me a serene smile.
 $Fuyuki
-“...You don't seem very energetic, though.”
+"...You don't seem like your usual self?"
 $Aoi
-“............”
+"............"
 I hung my head.
 $Fuyuki
-“............”
+"............"
 An awkward silence...
-I can't say it... there’s no way I can tell him...
+I can't say it... there's no way I can tell him...
 $Fuyuki
-“Aoi-chan, you just finished club, right?”
+"Aoi-chan, you just finished club activities, right?"
 $Aoi
-“...Eh?”
+"...Eh?"
 $Fuyuki
-“Aren't you hungry? If you’d like, let's go grab a snack. My treat.”
-Oniichan changed the subject, still wearing that soft smile.
-I... gazed intently at Fuyuki-oniichan.
-He worries about me, yet he doesn't pry.
-He doesn't offer irresponsible comfort or hollow encouragement, but he tries to stay by my side.
+"Aren't you hungry? If you like, let's grab a bite on the way. My treat?"
+Keeping that soft smile, Onii-chan changed the subject for me.
+I... stared intently at Fuyuki-onii-chan.
+He worries about me, yet he doesn't pry too deep.
+He doesn't offer irresponsible comfort or encouragement, but he tries to stay by my side.
 Such a kind brother...
-He’s being so considerate...
-If it’s Fuyuki-oniichan...
-Maybe I can talk to him about how I’m feeling right now.
+You're being so considerate...
+If it’s Fuyuki-onii-chan.
+Maybe I can talk to Fuyuki-onii-chan about how I feel right now.
 $Aoi
-“Oniichan...”
+"Onii-chan..."
 $Fuyuki
-“Hm?”
+"Hm?"
 $Aoi
-“Um, you know, um...”
+"Um, well..."
 But...
-I couldn't say anything more.
-I can't say it. I can't possibly say it.
+I couldn't get any more words out.
+I can't say it. There's no way I could say it.
 Something like that...
-I’ve been... defiled... I could never say that!
+I've become... defiled... I could never say that...!
 I bit my lip.
 $Fuyuki
-“Aoi-chan? What’s wrong?”
-I snapped back to reality.
+"Aoi-chan? What's wrong?"
+I suddenly snapped back to my senses.
 $Aoi
-“Eh, ah, um...”
-Carefully choosing my words, I poured out what was inside... the uncomfortable feeling stuck in my chest like a lump.
+"Eh, ah, well..."
+Choosing my words carefully, I let out what was inside... the uncomfortable feeling stuck in my chest like a lump.
 $Aoi
-“Lately, the people around me... they feel strange...”
+"Somehow, lately, the people around me... they're strange..."
 $Fuyuki
-“Strange how?”
-Oniichan’s expression turned serious.
-I looked down.
+"Strange, how?"
+Onii-chan’s expression turned serious.
+I hung my head.
 $Aoi
-“I don't know... but I feel like something is happening around me.”
+"I don't know... but I feel like something is happening around me."
 Dark... gazes filled with madness.
-A presence, intense and sharp, almost like a murderous intent.
-I’ve been feeling things like that for days now.
-Like someone is watching me, constantly.
-And not just the person who attacked me.
-Many others besides...
+A presence so intense it felt like bloodlust.
+I've been feeling things like that for the past few days.
+I feel like I'm being watched by someone, all the time.
+Not just the person who attacked me.
+But many others besides...
 $Aoi
-“I don't understand it, and that’s why I’m scared... Akito feels a bit off too... I can't say exactly how, but he feels different than usual...”
+"I don't understand, so it's scary... Akito is also acting strange... I can't say exactly how, but he feels different than usual..."
 $Aoi
-“Maybe Akito has nothing to do with it... but it’s just weird. Why won't he tell me anything...? Everything is just a mystery...”
-I couldn't take it anymore and clutched my head.
+"Maybe it has nothing to do with Akito... but anyway, it's weird. Why won't he tell me anything... it's all just one mystery after another..."
+I couldn't take it anymore and held my head.
 ...No.
-That’s not what I want to talk about...
-But I simply didn't have the courage to tell him the truth.
-I didn't want Oniichan to despise me.
+That’s not what I wanted to talk about...
+But I simply didn't have the courage to tell the truth.
+I didn't want Onii-chan to despise me.
 $Fuyuki
-“...I see. I understand.”
+"...I see. I understand."
 $Aoi
-“Oniichan?”
-I raised my head and looked at him pleadingly.
-Fuyuki-oniichan nodded as if he’d reached a conclusion.
+"Onii-chan?"
+I raised my face and looked at Onii-chan pleadingly.
+Fuyuki-onii-chan nodded as if he’d reached a conclusion.
 $Fuyuki
-“I’ll try to ask Akito about it subtly. Of course, I’ll keep it a secret that you’re worried.”
-Oniichan gave me a smile.
-But I felt a strange sense of guilt looking at that smile.
-His smile... it’s far too bright for someone like me...
+"I'll try asking Akito about it casually. Of course, I'll keep it a secret that you're worried, Aoi-chan."
+Onii-chan gave me a smile.
+But I felt a strange sense of guilt at that smile.
+Onii-chan’s smile... it’s too dazzling for me...
 $Fuyuki
-“But I think it’s best if you try not to worry about it for now. Though I know telling you not to worry at all is impossible.”
+"But, I think it's better if you try not to let it get to you for now. Though I know telling you not to worry at all is impossible."
 $Aoi
-“............”
+"............"
 $Fuyuki
-“Aoi-chan, you look much better when you’re smiling.”
+"Because Aoi-chan looks best when she's smiling."
 $Aoi
-“Y-Yeah...”
+"Y-Yeah..."
 I nodded for now and tried my best to force a smile.
-But... I couldn't.
-I could feel my own face twitching.
+But... I couldn't do it.
+I could tell my face was twitching.
 Unable to bear it, I looked down.
-Ah... Oniichan...
+Ah... Onii-chan...
 I can't smile...
-I can't smile like I used to...
+I can't smile right...
 $Fuyuki
-“Aoi-chan?”
+"Aoi-chan?"
 $Aoi
-“............”
+"............"
 $Fuyuki
-“Aoi-cha—”
+"Aoi-cha—"
 $Aoi
-“Um.”
-I cut off Fuyuki-oniichan’s words and stood up.
+"Um"
+I cut off Fuyuki-onii-chan’s words and stood up.
 $Aoi
-“Let’s... let’s head home, okay?”
-I muttered without being able to look at him.
-Oniichan looked surprised, but...
+"Let's head back, shall we?"
+I murmured, unable to look Onii-chan in the eye.
+Onii-chan looked surprised, but
 $Fuyuki
-“...You’re right.”
-He nodded without saying another word.
+"...You're right."
+He nodded without saying anything else.
 $Aoi
-“I’m sorry, Oniichan.”
+"I'm sorry, Onii-chan."
 $Fuyuki
-“For what?”
-Oniichan intentionally played dumb.
-That bit of consideration made me a little happy.
-I’m sorry, Oniichan...
-I apologized to him again in my heart.
-We walked the five-minute path back to our houses without saying a single word.
-I felt bad for Oniichan, but I couldn't do anything about it.
-Even when I thought about speaking, my mood was so low I just couldn't.
-But just having Oniichan walking beside me made me feel a little safer.
-The twilight sun had set...
+"For what?"
+Onii-chan purposely acted oblivious.
+That consideration made me a little bit happy.
+I'm sorry, Onii-chan...
+I apologized to him once more in my heart.
+The five-minute walk home, Onii-chan and I walked without saying a single word.
+I felt bad for Onii-chan, but I couldn't help it.
+Even when I thought about speaking, my heart was so heavy I just couldn't.
+But just having Onii-chan walking beside me made me feel a little safer.
+The sunset went down...
 $Fuyuki
-“Well, see you, Aoi-chan.”
-I snapped back to reality at Oniichan’s voice, and we were already in front of our houses.
+"See you, Aoi-chan."
+When I snapped back to my senses at Onii-chan’s voice, we were already in front of the house.
 $Fuyuki
-“See you tomorrow.”
-Oniichan said gently.
+"See you tomorrow."
+Onii-chan said it gently.
 $Aoi
-“Yeah... bye-bye, Oniichan.”
-I gave a small wave and ran into my house.
-I knew Oniichan was watching me until the end, but I couldn't bring myself to look back.
-Aoi looked exhausted, somehow.
-It was an expression I’d never seen on her face before.
-Struck by her unapproachable aura, I just stood there, staring at Aoi.
-Then, another figure appeared and started talking to her.
-It’s... Big Bro.
-It’s rare to see Big Bro wandering around in his school uniform at this hour.
+"Yeah... bye-bye, Onii-chan."
+I gave a small wave and ran into my own house.
+I knew Onii-chan was watching me until the end, but I couldn't look back.
+Aoi looked somehow exhausted.
+It was a side of Aoi I’d never seen before.
+With an unapproachable atmosphere about her, I stood there frozen, staring at Aoi.
+Then, a new figure appeared and began talking to Aoi.
+That's... Big Bro.
+It's rare for Big Bro to be wandering around in his school uniform at this hour.
 Usually, he’d be relaxing at home.
-The two were talking with a very serious vibe.
-What are they talking about?
+The two of them are talking about something that looks quite serious.
+I wonder what they're talking about.
 I was curious.
-But the atmosphere was definitely not one where I could just casually approach.
-Before I knew it, I was creeping closer to them, hiding in the shadows of the trees.
+But the atmosphere was definitely not one where I could easily call out to them.
+Before I knew it, I was sneaking through the shadows of the trees, trying to get closer to where they were.
 As I got closer, I could hear their voices bit by bit.
 I strained my ears.
 $Aoi
-“Lately, the people around me... they feel strange...”
+"Somehow, lately, the people around me... they're strange..."
 $Fuyuki
-“Strange how?”
+"Strange, how?"
 $Aoi
-“I don't know... but I feel like something is happening around me.”
+"I don't know... but I feel like something is happening around me."
 I gasped.
-Did she find out?
-About the organization, about the project...
-No, it’s fine.
-Aoi said, “I don't know.” She hasn't realized yet.
-She seems to be feeling a vague, underlying sense of anxiety, though.
+No way, did Aoi find out?
+About the Organization, about the Project...
+No, it's fine.
+Aoi said, "I don't know." She hasn't found out.
+She seems to be feeling a vague, underlying anxiety, though.
 $Aoi
-“I don't understand it, and that’s why I’m scared... Akito feels a bit off too... I can't say exactly how, but he feels different than usual...”
-I caught my breath at Aoi’s words.
+"I don't understand, so it's scary... Akito is also acting strange... I can't say exactly how, but he feels different than usual..."
+I held my breath at Aoi’s words.
 $Aoi
-“Maybe Akito has nothing to do with it... but it’s just weird. Why won't he tell me anything...? Everything is just a mystery...”
-Aoi feels a sense of distrust even toward me.
+"Maybe it has nothing to do with Akito... but anyway, it's weird. Why won't he tell me anything... it's all just one mystery after another..."
+Aoi feels a sense of distrust toward me, too.
 That was a shock.
-I guess I’ve been acting differently without even realizing it.
+It seems I’ve been acting differently without even realizing it.
 That was careless. I have to be more careful from now on.
 But...
-I can't just tell her everything to clear her suspicions.
-To avoid hurting Aoi, she must never know.
-I’m sorry, Aoi...
-I could only apologize in my heart.
-It was painful. My heart felt like it was going to break. I wanted to reveal the truth right this second.
-Being hated by Aoi is torture...
-But Aoi is going through something far more painful than me. I desperately tried to tell myself that.
+I can't just talk about everything to clear her suspicions.
+For Aoi’s sake, she must never know.
+Sorry, Aoi...
+I could only apologize to her in my heart.
+It was painful. My heart felt like it was tearing apart. I wanted to reveal the truth right this second.
+Being hated by Aoi is painful...
+But Aoi is suffering many times more than I am. I desperately told myself that.
 Believe in me, Aoi.
 I will definitely protect you...
-I’ll protect you, no matter what...
+I will protect you, no matter what...
 $Fuyuki
-“But I think it’s best if you try not to worry about it for now. Though I know telling you not to worry at all is impossible.”
+"But, I think it's better if you try not to let it get to you for now. Though I know telling you not to worry at all is impossible."
 Big Bro is comforting Aoi.
 $Fuyuki
-“Aoi-chan, you look much better when you’re smiling.”
-At Big Bro’s words, the brightness gradually returned to Aoi’s expression, which had looked so cornered.
+"Because Aoi-chan looks best when she's smiling."
+At Big Bro’s words, the brightness gradually returned to Aoi’s expression, which had looked so troubled.
 $Aoi
-“Yeah. If you say so, Oniichan, I’ll do that.”
-She had regained her natural smile.
-I felt relieved, but at the same time, I felt a twinge of jealousy toward Big Bro.
-The way he can put Aoi at ease so easily—Big Bro really is something.
+"Yeah. If Onii-chan says so, I’ll do that."
+She’d regained her natural smile.
+I felt relieved, and at the same time, a little bit jealous of Big Bro.
+Big Bro, who can reassure Aoi so easily, is really amazing.
 Compared to him, here I am, sneaking around and eavesdropping.
-Making Aoi feel anxious.
-What the hell am I doing?
+Making Aoi feel uneasy.
+What am I doing?
 It was so pathetic.
 I am powerless.
-I clenched my fists in frustration.
+I clenched my fist in frustration.
 After that, Aoi and Big Bro went home together.
-I stood there for a while longer, staring blankly.
-The sunset faded, and darkness enveloped the area.
+I stood there in a daze for a while longer.
+The sun went down, and the surroundings were wrapped in darkness.
 I let out a long sigh and trudged home alone.
 She must never know.
-I’m sorry, Aoi...
-I could only apologize in my heart.
-It was painful. My heart felt like it was going to break. I wanted to reveal the truth right this second.
-Being hated by Aoi is torture...
-But Aoi is going through something far more painful than me. I desperately tried to tell myself that.
+Sorry, Aoi...
+I could only apologize to her in my heart.
+It was painful. My heart felt like it was tearing apart. I wanted to reveal the truth right this second.
+Being hated by Aoi is painful...
+But Aoi is suffering many times more than I am. I desperately told myself that.
 Believe in me, Aoi.
 I will definitely protect you...
-This time, I’ll protect you for sure...
+This time, I will protect you, for sure...
 $Fuyuki
-“But I think it’s best if you try not to worry about it for now. Though I know telling you not to worry at all is impossible.”
+"But, I think it's better if you try not to let it get to you for now. Though I know telling you not to worry at all is impossible."
 Big Bro is comforting Aoi.
 $Fuyuki
-“Aoi-chan, you look much better when you’re smiling.”
-Even at Big Bro’s words, Aoi’s cornered expression didn't change.
-In fact, it looked like she was sinking even deeper into gloom.
+"Because Aoi-chan looks best when she's smiling."
+Even at Big Bro’s words, Aoi’s troubled expression didn't change.
+If anything, it looked like it was sinking deeper into darkness.
 $Fuyuki
-“Aoi-chan?”
-Big Bro leaned in to look at Aoi’s face, looking worried.
-Suddenly, Aoi stood up.
+"Aoi-chan?"
+Big Bro tried to peer into Aoi’s face with a worried look.
+Then, Aoi suddenly stood up.
 $Aoi
-“Let’s... let’s head home, okay?”
-Aoi muttered in a low, sunken voice, her head still down.
-I couldn't bear to watch her look so miserable.
+"Let's head back, shall we?"
+Aoi murmured in a low, heavy voice, her head still down.
+I couldn't bear to watch her look that pained.
 I closed my eyes and slumped where I was.
 I felt like crying.
-I had no idea Aoi was hurting this much...
-What do I mean, “protect her”?
-What do I mean, “believe in me”?
+To think Aoi was hurting that much...
+What do I mean, "I'll protect you."
+What do I mean, "Believe in me."
 I am powerless.
-I clenched my fists in frustration.
-I’m sorry...
-I’m so sorry, Aoi...
+I clenched my fist in frustration.
+Sorry...
+I'm sorry, Aoi...
 After that, Aoi and Big Bro went home together.
-I stood there for a while longer, staring blankly.
-The sunset faded, and darkness enveloped the area.
+I stood there in a daze for a while longer.
+The sun went down, and the surroundings were wrapped in darkness.
 I let out a long sigh and trudged home alone.
-Aoi looked exhausted, somehow.
-Worried, I started walking toward her.
-But before I could get there, someone else appeared from the other side.
-They started talking to Aoi about something.
-It’s Big Bro.
-It’s rare to see Big Bro wandering around in his school uniform at this hour.
+Aoi looked somehow exhausted.
+Worried, I started walking toward Aoi.
+But before I could reach her, a new figure appeared from the opposite side.
+And he started talking to Aoi.
+That's Big Bro.
+It's rare for Big Bro to be wandering around in his school uniform at this hour.
 Usually, he’d be relaxing at home.
-The two of them started talking seriously.
+The two of them began talking seriously.
 They didn't notice me at all.
-I couldn't quite make out what they were talking about.
-Eh, whatever.
+I couldn't quite hear what they were talking about.
+Oh well.
 $Akito
-“Hey! Big Bro, Aoi!”
-I called out to them loudly and waved my hand.
-Finally, the two noticed me. They looked at each other, startled.
+"Hey—! Big Bro, Aoii!"
+I called out to them loudly and waved.
+The two finally noticed me. They looked at each other as if surprised.
 As I approached, Aoi had a guilty look on her face.
 $Akito
-“Hey, Aoi. What’s the big idea, heading home without me?”
-Sensing the weird atmosphere, I tried to poke at Aoi as cheerfully as possible.
+"Hey, Aoi. What's the deal with ditching me and heading home early?"
+Sensing a strange atmosphere, I tried to poke fun at Aoi as brightly as possible.
 $Aoi
-“Ah, yeah... sorry.”
+"U, yeah... sorry."
 But Aoi wouldn't look me in the eye.
-Usually, she’d be even louder than me, complaining and huffing...
+Usually, she’d be even louder than me, complaining and grumbling...
 $Akito
-“What the heck is going on?”
-I asked Aoi, but Big Bro was the one who answered.
+"What’s wrong, anyway?"
+I asked Aoi, but it was Big Bro who answered.
 $Fuyuki
-“It’s nothing.”
-He gave a dignified response.
+"It's nothing."
+He gave a crisp, firm reply.
 $Akito
-“...Doesn't feel like 'nothing' to me.”
+"...Doesn't seem like it’s 'nothing' though?"
 $Aoi
-“I-It really is nothing!”
-Aoi tried to cover it up, sounding flustered.
-Her attitude made it even more suspicious.
+"I-It’s really nothing!"
+Aoi made up an excuse as if flustered.
+Her attitude only made it more suspicious.
 I clicked my tongue. I felt like I was being left out.
 $Akito
-“Acting all secretive. Is it something you can't tell me?”
-For some reason, Big Bro gave a wry smile at that.
+"Sneaking around like that. Is it something you can't tell me?"
+For some reason, Big Bro gave a wry smile then.
 $Fuyuki
-“Don't pout, Akito.”
+"Don't sulk, Akito."
 $Akito
-“I’m not pouting!”
-Then, Aoi did a complete 180 and gave a smirk.
+"I'm not sulking!"
+Then, Aoi’s mood did a complete 180 as she gave a smirk.
 $Aoi
-“It’s just something we can't tell Akito. We were talking about how you’re such a child and how it’s a real problem... oops.”
-She playfully covered her mouth as if she’d made a slip of the tongue.
+"It’s something we can't tell Akito. We were talking about how we’re worried because Akito will always be a child... oh, oops."
+She jokingly covered her mouth with her hand.
 $Akito
-“Who are you calling a child?!”
+"Who are you calling a child!"
 $Aoi
-“Akito.”
+"Akito."
 $Akito
-“Don't answer immediately!”
+"Don't answer instantly!"
 $Fuyuki
-“Aoi-chan, you can't just let it out like that. It was a secret between the two of us, wasn't it?”
+"Aoi-chan, you shouldn't have let it slip. It was our secret, right?"
 $Aoi
-“Sorry, Oniichan.”
+"Sorry, Onii-chan."
 Aoi put her hands together toward Big Bro and shrugged. She was still smiling.
 I felt like I was being brushed off...
 $Akito
-“What’s with you two...?”
+"What’s with you two..."
 $Aoi
-“Akito, did you sneeze?”
+"Akito, did you sneeze?"
 $Akito
-“Huh? Why?”
+"Huh? Why?"
 $Aoi
-“Because we were just talking about you. You should be grateful.”
+"Because we were talking about you. You should be grateful."
 $Akito
-“That’s not gossip, that’s talking behind my back!”
+"That’s not 'talking about me,' it’s talking behind my back!"
 $Fuyuki
-“Now, now, Akito. Since she told you to your face in the end, it’s not really talking behind your back. It’s more like an insult.”
+"Now, now, Akito. Since she let it slip to the person themselves, you can't really call it talking behind your back in this case. It’s more like a direct insult."
 $Akito
-“It’s the same thing either way!”
+"It’s one and the same!"
 Before I knew it, our conversation was back to its usual flow.
-I still hadn't found out what they were really talking about, but I guess it can't be helped.
-More importantly, the smile had returned to Aoi’s face after she’d been acting so strange.
-In the end, Aoi and I started our usual bickering, and Big Bro ended up gently mediating—our classic pattern.
-Despite the situation, the three of us walked the five-minute path back home.
-It had been a while since I’d walked home with Big Bro.
-The sunset, which had looked so lonely before, now felt somewhat warm.
+I still haven't found out what they were really talking about, but oh well.
+More importantly, Aoi, who had been acting strange, has her smile back.
+In the end, it turned into the usual pattern of me and Aoi arguing and Big Bro gently mediating.
+Despite everything, the three of us walked the five-minute path home.
+It’s been a while since I walked home with Big Bro.
+The sunset, which had felt so lonely, now somehow felt gentle.
 $Akito
-“What the heck is going on?”
-I asked Aoi, but Big Bro was the one who answered.
+"What’s wrong, anyway?"
+I asked Aoi, but it was Big Bro who answered.
 $Fuyuki
-“It’s nothing.”
-He gave a dignified response.
+"It's nothing."
+He gave a crisp, firm reply.
 $Akito
-“...Doesn't feel like 'nothing' to me.”
-When I pressed Aoi further, she looked down.
+"...Doesn't seem like it’s 'nothing' though?"
+When I said that to Aoi again, she looked down.
 $Akito
-“Aoi—”
-Big Bro stopped me with a look.
+"Aoi—"
+Big Bro cut me off with his eyes.
 $Akito
-“............”
+"............"
 $Fuyuki
-“...Actually,”
-He suddenly sounded very serious.
-I instinctively swallowed hard.
+"...Actually."
+His tone suddenly became serious.
+I swallowed hard.
 $Fuyuki
-“What we were talking about was...”
-Aoi looked up, startled. She looked at Big Bro with pleading eyes.
-What...?
-I felt my muscles tense.
+"What we were talking about just now..."
+Aoi looked up with a start. She looked at Big Bro with pleading eyes.
+What is it...?
+I tensed up.
 Big Bro continued, regardless.
 $Fuyuki
-“We were discussing whether we should go grab some burgers at 'McDonal-Hold' before heading home.”
-My shoulders slumped in disappointment.
-No way...
-If you expect me to believe an excuse like that, you’re in trouble.
-Are you making fun of me?
+"We were discussing whether we should stop at 'MacDonal-hodo' for a burger on the way home."
+I slumped my shoulders in disappointment.
+There's no way that's it...
+It’s hard to believe such an excuse.
+Is he making a fool of me?
 But...
-Aoi let out a breath of pure relief.
-Seeing her like that, I couldn't push her any further.
-Fine. I’ll let you trick me...
-I don't want to see Aoi looking so miserable anyway.
+Aoi let out a breath of relief, looking truly at ease.
+Seeing Aoi like that, I couldn't press the matter any further.
+Oh well. I’ll let myself be fooled...
+I don't want to see Aoi looking pained, after all.
 $Akito
-“Naturally, Big Bro is paying, right?”
+"Naturally, Big Bro’s treating us, right?"
 Big Bro gave a bright, refreshing smile.
 $Fuyuki
-“That’s impossible.”
+"That’s out of the question."
 $Akito
-“Why?!”
-And why say it with such a bright smile?!
+"Why!?"
+And you’re saying that with such a refreshing smile!?
 $Fuyuki
-“I’m only treating Aoi-chan.”
+"I’m only treating Aoi-chan."
 $Akito
-“Hey, Big Bro. You know my financial situation, don't you?”
+"Look, Big Bro. You should know my financial situation well enough."
 $Fuyuki
-“Getting your allowance cut was your own fault for getting bad grades on your tests, Akito.”
+"Getting your allowance cut was your own fault for getting bad test scores, Akito."
 $Akito
-“Don't say that!!”
+"Don't say it!!"
 $Aoi
-“—Pfft.”
-I looked over and saw Aoi giggling, albeit weakly.
+"—Pfft."
+Looking over, Aoi was giggling, though weakly.
 Good.
-If Aoi’s laughing, then playing along with this farce was worth it.
-It was a bit of a hollow charade, but...
-If it makes Aoi feel better, I’ll play any role you want.
-Even so...
+If it made Aoi laugh, it was worth being fooled.
+It was a bit of a hollow farce...
+But if it makes Aoi feel better, I'll play the part as many times as it takes.
+Still...
 $Aoi
-“Allowance cut... giggle... bad grades on tests... giggle...”
+"Allowance cut... giggle... because of bad test scores... giggle..."
 $Akito
-“Aoi, you’re laughing too much!”
-After that, we went to 'McDonal-Hold.'
-Aoi had recovered a bit, but she still seemed down, so we got takeout.
-Even when the three of us were together, it was mostly just me and Big Bro talking.
-Aoi just listened to our conversation, unlike her usual self.
-The atmosphere was a bit empty.
+"Aoi, you're laughing too much!"
+After that, we went to 'MacDonal-hodo.'
+Aoi had regained some energy, but she still seemed down, so we got takeout.
+Even when the three of us were together, the conversation was mostly between me and Big Bro.
+Aoi was just listening to our conversation, unlike her usual self.
+The atmosphere felt a bit empty.
 I was worried about Aoi, but I couldn't say anything.
-Big Bro’s eyes were telling me to keep quiet.
+Big Bro had a look in his eyes that said, "don't say anything."
 In the end, we went home without even eating the burgers.
-When I opened mine at home, it was already stone cold...
+The burgers we opened after getting home were completely cold...
 --------------------
 01c03
 ********************
-Fuyuki: Episode 03
+Fuyuki Episode 3
 $Aoi
-“Phew... that feels good.”
-The cool breeze gently caresses my cheeks.
-After the last class of the day ended, I felt like catching the breeze and headed up to the roof.
-Actually, it’s already time for club to start.
-Normally, I’d be rushing over there, but...
-I just wanted to calm my nerves for a bit.
-The strange atmosphere I’ve been feeling around me for the last few days.
-Even when I try not to let it bother me, the stress seems to be building up somewhere in my heart...
+"Phew... this feels good."
+A cool breeze gently brushes against my cheeks.
+After today’s last class was over, I felt like catching some of the breeze, so I came up to the rooftop.
+Actually, it’s already time for club activities to start.
+Usually, I’d be rushing to get there, but...
+I just wanted to calm my feelings a bit.
+The strange atmosphere I’ve been feeling around me for the past two or three days.
+Even when I try not to think about it, the stress seems to be building up somewhere in my heart...
 I put my hands on the fence and leaned against it.
-Today’s breeze really does feel wonderful...
-It feels like all my bad feelings are being washed away...
-I wonder if Akito has already gone to his club?
-When I left the classroom, he was just spacing out in his seat like always...
-Akito is so carefree... always bright and energetic, so childlike...
-Fufu, but I guess that’s the good thing about him.
-Thinking about Akito made me feel strangely at peace.
-His cheerful expression gives me strength...
+Today’s wind really does feel good...
+It feels like all the unpleasant feelings are being washed away...
+I wonder if Akito’s already gone to his club?
+When I left the classroom, he seemed to be zoning out at his seat as usual...
+Akito is truly carefree... always bright and energetic, and childish...
+Fufu, but that’s also the good part about him.
+Thinking about Akito like that, I feel like my heart is strangely softened.
+Akito’s bright expression gives me strength...
 Suddenly, I imagined Akito gently comforting me.
-...Pfft, maybe that’s too much for him.
-—It was right then, while I was basking in that small moment of happiness.
+...Pfft, I guess that’s impossible for Akito.
+──It was just as I was soaking in that small moment of happiness.
 $?
-“Yo, A-o-i!”
-The moment I heard that voice, a shiver ran through my entire body.
-I turned around hurriedly, and there was Kanda-kun!
+"Yo, A-o-i!"
+The moment I heard that voice, my body gave a violent shiver.
+I turned around hurriedly, and there was Kanda-kun standing there!
 $Aoi
-“(Eek?!)”
+"(Hieek!?)"
 Standing beside him was Narumi-kun, who was licking his lips and brandishing a knife.
-Sensing my life was in danger, I immediately started backing away along the fence.
+Sensing my own danger, I immediately backed away along the fence.
 $Mitsuteru
-“What’s wrong? What are you so scared of?”
-Kanda-kun gave a cruel, leering grin and started closing the distance, step by step.
+"What’s wrong, what are you so scared of?"
+Kanda-kun approached me step by step with a cruel, smirking grin on his face.
 Naturally, my body began to tremble.
 $Aoi
-“I-I’m not... really scared...”
-My words had almost zero conviction.
-Kanda-kun kept leering at me and didn't stop his approach.
-Then, I felt something hit my back.
+"N-Not really... I’m not scared or anything..."
+My words had almost no conviction behind them.
+Kanda-kun kept smirking at me, and he didn't stop approaching.
+Then, something hit my back.
 $Aoi
-“(Eh? But the fence behind me is still far away...?)”
-Trembling, I looked over my shoulder.
+"(Eh? The back fence is still far away...?)"
+Fearfully, I looked back behind me.
 $Aoi
-“(—?!)”
-Behind me stood a massive guy. It’s Kanda-kun’s henchman, George-kun!
-My face went pale, and I tried to run away instantly.
+"(っ!?)"
+A large person was standing behind me. It was Kanda-kun’s henchman, George-kun!
+My face turned pale, and I tried to run away immediately.
 But before I could, Kanda-kun’s hand grabbed mine!
 $Aoi
-“Eek!”
-Before I could even resist, Kanda-kun pulled me toward him with ease and wrapped his arms around me.
+"Eek!"
+Without even a moment to resist, Kanda-kun pulled me toward him with ease and hugged me.
 $Aoi
-“No! Let go!!”
-I screamed and struggled, flailing my limbs.
-But Kanda-kun was strong and didn't budge an inch.
+"No! Let me go!!"
+I screamed and struggled, flailing my arms.
+But Kanda-kun’s strength was great, and he didn't budge.
 $Mitsuteru
-“...Don't be so cold, Aoi.”
-He spoke in a teasing tone as he leaned his face in toward mine.
+"...Don't be so cold, Aoi."
+Kanda-kun brought his face close to mine, speaking in a teasing tone.
 $Narumi
-“Hyahyahyahya! You two are really turning up the heat!”
-I thought I heard Narumi-kun’s mocking voice, but right now I didn't have the luxury of worrying about anything else.
+"Hya~hhyahhyah! You two are really getting heated!"
+I thought I heard Narumi-kun’s teasing voice, but right now I didn't have the luxury to worry about that.
 $Aoi
-“Stop it! What are you doing?!”
-I writhed desperately, turning my face away to avoid meeting Kanda-kun’s eyes.
+"Stop it! What are you doing!?"
+I desperately twisted my body, turning my face away so as not to meet Kanda-kun’s eyes.
 $Mitsuteru
-“Hey, look at me, Aoi.”
-Kanda-kun’s voice sounded amused as he grabbed my chin and forced my face toward his.
-Not only that, but the hand he’d wrapped around my back began to grope my body.
+"Hey, look at me, Aoi."
+Kanda-kun said in a delighted voice, then grabbed my chin and forced me to look toward him.
+Not only that, Kanda-kun’s hand, which was around my back, began to grope my body.
 $Aoi
-“Noooo...!”
-My body went stiff, and I found myself unable to move.
-...I want to run!
-I didn't want Kanda-kun to kiss me, and more than anything, I felt an intense disgust at his hand crawling along my spine...
+"Nooo...!"
+My body had stiffened, making me unable to move.
+...I want to run away!
+I hated being kissed by Kanda-kun, and above all, I felt an intense disgust at his hand crawling around my back...
 $Aoi
-“(Why is he doing this...?!)”
-My mind was in a whirl.
-I couldn't understand why Kanda-kun would do such a thing, or why I had to go through this.
-I instinctively squeezed my eyes shut.
+"(Why are they doing this...!?)"
+My head was spinning.
+I couldn't understand why Kanda-kun was doing this, or why I had to suffer like this.
+Involuntarily, I squeezed my eyes shut.
 $Aoi
-“(............Huh?)”
-Strange. Kanda-kun didn't go any further.
-Then I heard him shout at someone.
+"(................Wait?)"
+Strangely, Kanda-kun didn't try to go any further.
+Then I heard Kanda-kun’s voice shouting abuse at someone.
 $Mitsuteru
-“...The hell do you want?!”
-I opened my eyes and saw that Kanda-kun’s gaze was no longer on me.
-Looking closer, I saw another hand reaching in from the side, gripping Kanda-kun’s right wrist—the one he was using to pin my hands.
+"...Who the hell are you!"
+When I opened my eyes, Kanda-kun’s gaze was no longer on me.
+Looking closer, someone’s arm was reaching from the side, grabbing Kanda-kun’s right wrist which was pinning my hand.
 $Aoi
-“(W-Who is it...?)”
-The person was standing behind Kanda-kun, so I couldn't see who it was clearly.
+"(W-Who is it...?)"
+Since the person was standing behind Kanda-kun, I couldn't see clearly who it was.
 I desperately tried to see the owner of the arm.
 $Aoi
-“—! ...Fu-yu”
-I was too shocked to speak properly.
+"っ!...Fuyu"
+I was so surprised I couldn't speak properly.
 But my eyes definitely recognized the owner of the arm.
 $Aoi
-“(Fuyuki-oniichan!)”
+"(Fuyuki-onii-chan!)"
 $Fuyuki
-“...You shouldn't be so rough with a girl.”
-Fuyuki-oniichan spoke to Kanda-kun in a calm voice.
+"...You shouldn't treat a girl so roughly."
+Fuyuki-onii-chan said that to Kanda-kun in a calm voice.
 $Narumi
-“Hah? The hell does it have to do with you?!”
+"Aahn? This has nothing to do with you!"
 Narumi-kun shouted loudly.
-But Fuyuki-oniichan didn't pay him any mind.
-Before long, I saw Oniichan’s hand begin to exert more force. Despite his calm expression, I could tell he was slowly prying Kanda-kun’s wrist away.
+But Fuyuki-onii-chan didn't pay him any mind.
+Eventually, Onii-chan’s hand began to exert force. I could tell that despite his calm expression, he was gradually pulling Kanda-kun’s wrist away.
 $Mitsuteru
-“............Tch!”
-Kanda-kun grimaced slightly, clicked his tongue, and let go of me.
+"................Tch!"
+Kanda-kun frowned slightly and clicked his tongue, then suddenly released his hold on me.
 $Aoi
-“Oniichan!”
-I hurriedly hid behind Fuyuki-oniichan and watched the situation from behind his back.
+"Onii-chan!"
+I hurriedly hid behind Fuyuki-onii-chan and watched the situation from behind his back.
 $Mitsuteru
-“Keh, look at that. The knight in shining armor has arrived?”
-Kanda-kun shrugged and spoke to Fuyuki-oniichan in a joking tone.
-But his eyes weren't laughing.
+"Hmph, so the knight has made his appearance?"
+Kanda-kun shrugged and said to Fuyuki-onii-chan in a joking tone.
+But Kanda-kun’s eyes weren't laughing.
 $Fuyuki
-“I... don't really see it that way.”
-Oniichan, who was still locked in a stare-down with Kanda-kun, replied in the same calm tone.
-From where I was hiding behind his back, I couldn't see Fuyuki-oniichan’s face.
-But I could tell he was desperately trying to protect me.
-Kanda-kun stared at Fuyuki-oniichan for a while, then finally looked away with a bored expression and spat on the ground.
+"I... have no intention of that."
+Onii-chan, who continued to glare at Kanda-kun, replied in a calm tone.
+From my position hidden behind him, I couldn't see what kind of expression Fuyuki-onii-chan had.
+But I could clearly tell that he was desperately trying to protect me.
+After glaring at Fuyuki-onii-chan for a while, Kanda-kun eventually made a bored expression and spat on the ground.
 $Mitsuteru
-“Keh! You ruined the mood. ...Hey, George, Naru, let’s go.”
-Kanda-kun jerked his chin at Narumi-kun and George-kun.
+"Tch! I’ve lost interest. ...Hey, George, Naru, let’s go."
+Kanda-kun said that and jerked his chin toward Narumi-kun and George-kun.
 Narumi-kun clicked his tongue, but Kanda-kun ignored even that.
-And George-kun followed Kanda-kun in total silence from start to finish.
-The moment the roof door slammed shut, the strength left my knees and I slumped to the ground.
+And George-kun followed Kanda-kun in silence the entire time.
+The moment the rooftop door slammed shut, my knees gave out, and I slumped to the ground right then and there.
 $Aoi
-“Haaah, haaaah...”
-I couldn't help but let out a sigh of relief.
+"H-Haaaaaa..."
+I let out a sigh of relief in spite of myself.
 $Fuyuki
-“...Are you okay, Aoi-chan?”
+"...Aoi-chan, are you okay?"
 $Aoi
-“Y-Yeah... I’m okay. ...Thanks, Fuyuki-oniichan.”
-Hearing my voice, Fuyuki-oniichan finally seemed to relax as well.
+"U, yeah... I’m okay. ...Thank you, Fuyuki-onii-chan."
+Hearing my voice, Fuyuki-onii-chan also seemed to finally be relieved.
 $Fuyuki
-“...Even so, who on earth were they?”
-He’s talking about Kanda-kun and the others.
+"...By the way, who on earth are they?"
+"They" must refer to Kanda-kun and the others.
 $Aoi
-“Ah, Kanda-kun and his friends are from the class next door...”
-Suddenly, Kanda-kun’s cold smirk flashed through my mind. At the same time, my body gave a violent shiver.
-I instinctively wrapped my arms around my shoulders.
+"Ah, Kanda-kun and the others are in the next class..."
+Suddenly Kanda-kun’s cold smile came to mind. At the same time, my body gave a shiver.
+I involuntarily hugged my own shoulders tightly.
 $Fuyuki
-“............”
-Fuyuki-oniichan didn't say anything more and just gave me a gentle pat on the head.
-As if he were comforting a child.
-...I don't know why, but it felt incredibly comforting to me.
+"............"
+Fuyuki-onii-chan said nothing more and just gave my head a few light pats.
+Just like he was soothing a child.
+...For some reason I don't quite understand, that felt very pleasant to me.
 $Fuyuki
-“I know, Aoi-chan. Why don't we walk home together today? It’s been a while.”
-Fuyuki-oniichan suddenly suggested.
+"I know, Aoi-chan. Shall we walk home together today for the first time in a while?"
+Abruptly, Fuyuki-onii-chan calls out to me.
 $Fuyuki
-“Let's stop somewhere on the way. Is there anything you want to eat, Aoi-chan?”
-Oniichan asked me with a bright smile.
+"Let's stop somewhere on the way. Is there anything you want to eat, Aoi-chan?"
+Onii-chan asked me with a smile.
 $Aoi
-“Oniichan...”
-Happy for his consideration, I smiled back at him.
+"Onii-chan..."
+I was so happy at Fuyuki-onii-chan’s consideration that I smiled just like he did.
 $Aoi
-“...Thank you. But I’ll pass. I really have to go to my club.”
+"...Thank you. But, I think I’ll pass. I have to go to my club."
 $Fuyuki
-“I see... but are you sure you’re okay?”
+"I see... but, are you okay?"
 $Aoi
-“Yeah.”
+"Yeah."
 $Fuyuki
-“Then go on ahead to your club. Ah, that’s right. I have an errand over that way too, so let's walk together for a bit.”
-With that, Fuyuki-oniichan took my hand and helped me up from the ground.
-After that, Fuyuki-oniichan walked me to the tennis club room.
-Leading the way for me, while I was still trembling slightly—Oniichan is just so kind.
-For some reason, I felt so happy.
-Looking at Fuyuki-oniichan’s back as he walked ahead of me... he looked so big and reliable.
-As that thought crossed my mind, I realized I was smiling.
+"Well then, head off to your club. Ah, that’s right. I have business that way too, so let's walk together for a bit."
+So saying, Fuyuki-onii-chan took my hand and helped me up from the ground.
+After that, Fuyuki-onii-chan walked me to the tennis club’s clubroom.
+I think Onii-chan is very kind for leading the way and walking with me while I’m still shivering slightly.
+Somehow, I was happy about that.
+Fuyuki-onii-chan’s back as he walks in front of me... it feels somehow big and dependable.
+With that thought crossing my mind, before I knew it, I was smiling.

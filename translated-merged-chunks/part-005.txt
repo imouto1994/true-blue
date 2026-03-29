@@ -1,665 +1,665 @@
 --------------------
 01c06
 ********************
-Fuyuki: Episode 06
-Hmm, what should I have him tell her...?
+■ Fuyuki Episode 06 ~n
+Hmm, what should I have him say……?
 [Choices]
-1. Tell her to just hang out
-2. Tell her to wait in my room
+1. 　Just do whatever
+2. 　Wait in my room
 $Akito
-“Phew~~!”
-As I sank into the piping hot bath, a long sigh escaped my lips.
-God, this feels amazing...
-For a body worn out from club activities, this is pure bliss.
+“Puh-haaa~~~”
+Submerged in the piping hot bathtub, a sigh escaped my lips without thinking.
+It feels so good~~.
+For a body exhausted from club activities, this is irresistible.
 $Fuyuki
 “Akito.”
 From outside the bathroom door, Big Bro called out.
 $Fuyuki
 “Aoi-chan is here, you know?”
 $Akito
-“Aoi...?”
-I’d stopped by to get back the English notebook I’d lent to Akito, and Fuyuki-oniichan was the one who answered.
-He told me Akito was in the middle of a bath.
-I went out of my way to tell that guy to "return it by tonight," so I wonder if he actually finished the homework?
+“Aoi……?”
+When I went to get back the English notebook I’d lent to Akito, Fuyuki-oniichan came to the door.
+He told me that Akito was currently in the bath.
+I’d gone out of my way to tell him “Give it back tonight,” but I wonder if he actually finished the homework?
 $Fuyuki
-“Akito said for you to just make yourself at home.”
+“Akito said to just do whatever.”
 $Aoi
-“Geez. I let him see my homework and he’s still such a rude jerk!”
+“Geez. Even though I let him see my homework, what an impolite guy!”
 $Fuyuki
-“Well, come on in. Want some tea?”
+“Well, come on in. I’ll fix some tea, okay?”
 I thought about it for a moment.
 $Aoi
-“No, don't worry about it. But since I’m here, I’d actually love to chat with you, Oniichan.”
-Despite my selfish request, Fuyuki-oniichan didn't seem annoyed; he just gave me a pleasant smile.
+“No, don't go to any trouble. More importantly, since I'm here, I’d actually like to talk with you, Oniichan.”
+Despite my selfishness, Fuyuki-oniichan didn't seem to mind and gave a cheerful smile.
 $Fuyuki
-“In that case, do you want to come up to my room?”
+“In that case, do you want to come to my room?”
 $Aoi
 “Yeah!”
-I kicked off my shoes.
+I took off my shoes and,
 $Aoi
-“Sorry for the intrusion~!”
-I then called out to his parents in the living room.
+“Excuse meee.”
+I called out to his mom and dad in the living room.
 $Fuyuki
-“Why are you acting so formal all of a sudden?”
+“Why are you being so formal?”
 $Aoi
-“Ehehe... I guess you’re right.”
-I gave a wry smile as I climbed the stairs and headed for Fuyuki-oniichan’s room.
-His room was perfectly tidy, just like always.
-I sat on the edge of the bed and let my eyes wander around the room.
+“Ehehe…… I guess you’re right.”
+With a wry smile, I climbed the stairs and headed toward Fuyuki-oniichan’s room.
+Fuyuki-oniichan’s room was neatly tidied, just as usual.
+I sat on the bed and looked around the room.
 $Fuyuki
-“Is my room really that unusual to you?”
+“Is my room really that unusual?”
 Sitting in his chair, Oniichan gave a wry smile at my behavior.
 $Aoi
-“Ah, no. It’s not that... it’s just so clean. It’s the polar opposite of Akito’s.”
+“Ah, no. It’s not that…… I was just thinking it’s the exact opposite of Akito’s, such a clean room.”
 $Fuyuki
-“It’s probably just personality... I can be pretty fastidious.”
+“It’s probably my personality…… I’m quite fastidious, after all.”
 $Aoi
-“Really? You don't seem like the high-strung type to me, Oniichan.”
-Oniichan just shrugged his shoulders.
+“Is that so? You don't look fastidious to me, Oniichan.”
+Oniichan shrugged his shoulders.
 $Aoi
-“Oh, more importantly, listen to this, Oniichan!”
+“Ah, more importantly, listen, Oniichan!”
 $Fuyuki
 “What is it?”
 $Aoi
-“Ufufu... I’ve increased my cooking repertoire!”
+“Ufufu…… My cooking repertoire has increased, you know.”
 $Fuyuki
 “Oh?”
 $Aoi
-“I’ve been working really hard at it.”
+“I’ve been working hard.”
 $Fuyuki
 “What kind of dishes?”
 $Aoi
-“Um... Beef Stroganoff... and gratin, things like that.”
+“Umm…… like Beef Stroganoff…… and gratin.”
 $Fuyuki
-“That’s impressive. Well then, let’s cook together again sometime.”
+“That’s impressive. Well then, let’s cook something together next time.”
 $Aoi
-“Yeah! When you taste my cooking, you’re definitely going to be surprised, Oniichan!”
+“Yeah! If you taste my cooking, I’m sure you’ll be surprised too, Oniichan!”
 $Fuyuki
-“I’ll look forward to it then.”
-It was just harmless, everyday conversation...
+“I’ll look forward to that.”
+Such harmless conversation……
 But I wonder why.
-Ever since I stepped into Oniichan’s room, my heart has been pounding...
-It feels... strange.
-Is it just my imagination that the atmosphere feels different than usual...?
-Or is it not Oniichan who’s different, but... me?
-The room feels so hot for some reason...
-Hmm, do I have a fever...?
-I did my best to maintain a mask of composure and kept the conversation going.
+Ever since I entered Oniichan’s room, my heart has been thumping……
+Something is…… strange……
+Is it just my imagination that the atmosphere feels different than usual……?
+Or is it not Oniichan who’s different, but me……?
+I feel like it’s hot in this room……
+Hmm, I wonder if I have a fever……?
+Pretending to be calm to the last, I continued the conversation.
 $Aoi
-“And you know, lately I’ve been really getting into spices.”
+“And then, you see, I’ve been really into spices lately.”
 $Fuyuki
-“There certainly are a lot of varieties.”
+“There are many varieties, after all.”
 $Aoi
-“Yeah. There’s a new department store downtown, and their spice selection is incredible.”
+“Yeah. There’s a new department store that opened in the shopping district, and their spice selection is huge.”
 $Fuyuki
-“Oh, that place... I haven't been there yet.”
+“Oh, that place…… I haven't been there yet.”
 $Aoi
-“They have rare ingredients and everything. It’s a department store, so they have a bit of everything.”
+“They have rare ingredients and stuff, and since it’s a department store, they have all sorts of things.”
 $Fuyuki
 “Hmm, that’s great.”
-Oniichan sounded genuinely impressed.
-It made me happy.
+Oniichan seemed genuinely impressed.
+I felt happy.
 $Aoi
-“You should go too, Oniichan. It’s fun even just looking around.”
+“You should go too, Oniichan. It’s fun just looking around.”
 $Fuyuki
-“I see...”
+“Hmm……”
 Oniichan seemed to be thinking seriously about something.
-What’s he worrying about...?
+I wonder what he’s troubled about……?
 $Fuyuki
-“Hearing you talk about it, Aoi-chan, I’ve actually started wanting to go.”
+“Hearing Aoi-chan talk about it makes me really want to go.”
 $Aoi
 “Ehehe. Right?”
-Then, Fuyuki-oniichan gave me a gentle smile.
+With that, Fuyuki-oniichan gave a pleasant smile.
 $Fuyuki
-“In that case, why don't we go together?”
+“In that case, shall we go together?”
 $Aoi
 “Eh?”
-The unexpected proposal made my heart skip a beat.
+At the unexpected proposal, my heart suddenly skipped a beat.
 $Fuyuki
-“It would be a big help if you could show me the way.”
+“It would be a help if you could guide me.”
 $Aoi
-“Ah, yeah... okay.”
-I found myself nodding repeatedly like a puppet.
+“Ah, yeah…… okay.”
+I nodded repeatedly in a stiff motion.
 $Fuyuki
-“Let's make it next Sunday then. I have an errand in the morning, so... should we just meet up there?”
+“Let’s make it next Sunday then. I have some errands in the morning…… so would it be okay to meet up there?”
 $Aoi
-“U-Um, yeah.”
+“U-Uh-huh.”
 $Fuyuki
-“Let’s see... how about noon at the entrance to the shopping district? Is that okay?”
+“Umm…… then let’s meet at the entrance to the shopping district at noon. Is that okay?”
 $Aoi
-“U-Um, yeah.”
+“U-Uh-huh.”
 $Fuyuki
-“Alright. It’s a date then.”
+“Alright. It’s a deal, then.”
 $Aoi
-“U-Um, yeah.”
-I could only nod along.
-Before I knew it, the time and date were already set.
-Even though we live right next door, we’re actually meeting up somewhere...
-It’s like... it’s almost like a real date...
-When I think about it, this is the first time I’ve ever gone out anywhere alone with Fuyuki-oniichan...
-The realization made my face flush with heat.
-Oh, stop it... why is my heart racing like this?
-I stole a quiet glance at Oniichan’s face.
-He was just as he always was, continuing the conversation with that same calm smile.
-I started to feel anxious.
-Maybe I’m the only one getting all worked up.
-To Oniichan, maybe I’m just his childhood friend—nothing more than a little sister...
-Until now... I thought that was enough.
-I don't know how many times I wished Fuyuki-oniichan was my real brother.
-But...
-Now, that thought feels so lonely...
-And getting all excited like this feels so hollow...
+“U-Uh-huh.”
+I could do nothing but nod.
+In the blink of an eye, even the date and time had been decided.
+And even though we live right next door to each other, we’re actually going to meet up……
+It’s like…… almost like a date……
+When I really think about it, this is the first time I’ve gone out somewhere alone with Fuyuki-oniichan……
+Realizing that, I could feel my face flushing.
+No…… why is my heart thumping so much?
+I stole a glance at Oniichan’s face.
+Oniichan was continuing to talk with his usual gentle smile unchanged.
+I became anxious.
+I might be the only one who’s all excited.
+To Oniichan, I might be nothing more than a childhood friend, a sister-like existence……
+Until now…… I thought that was fine.
+I’d thought many times how nice it would be if Fuyuki-oniichan were my real older brother.
+But……
+Right now, for some reason, that fact feels lonely……
+And being all excited makes me feel hollow……
 $Aoi
-“............”
-If that’s the case, why don't you just find out...?
-Another version of me whispered in my heart.
-But how...?
-The rational part of me tilted its head.
-You know how... you want to be seen as a woman... don't you...?
-Is that it...?
-Is that really it...?
-A fierce conflict raged within me.
-And then, I found myself whispering unconsciously.
+“…………”
+In that case, why not just find out……
+Another version of me whispers inside my heart.
+But, how……?
+The calm me tilts my head.
+You know, don't you…… that you want to be seen as a woman…… that’s what you’re thinking, right……?
+Is that so……?
+Is it really so……?
+A fierce conflict repeated inside my heart.
+And before I knew it, I was whispering.
 $Aoi
-“...Oniichan.”
+“……Oniichan.”
 $Fuyuki
-“Hm?”
-I stared into Oniichan’s eyes in silence.
-He looked puzzled, a look of confusion on his face.
+“Yeah?”
+I stayed silent and stared into Oniichan’s eyes.
+Oniichan looked puzzled, with a curious expression.
 $Aoi
-“............”
-I simply closed my eyes. I tilted my chin up, just a fraction.
+“…………”
+I simply closed my eyes. I tilted my chin up, just a little.
 $Fuyuki
-“Aoi-chan...?”
-I heard him catch his breath, his voice laced with hesitation.
-Still, I didn't move.
-...I’m a terrible girl...
-In contrast to the part of me seeking Fuyuki-oniichan’s lips as if in a fever, a strangely cold part of me groaned deep inside.
-Doing something like this just to test him... it’s so unfair...
-But... still...
-It feels like time is moving so incredibly slowly.
-As if it’s stopped altogether.
-I was so embarrassed I felt like running away, yet I just kept waiting for him...
-I was starting to regret it.
-I shouldn't have done this. Oniichan must be so uncomfortable.
-Of course he is, after I suddenly did something like this...
-Right now, I could still play it off as a joke.
-If I opened my eyes now and gave a mischievous laugh, asking "Did I surprise you?"... it would all be over, as if nothing happened.
-I don't want things to get awkward with Oniichan because of this.
-I couldn't take it anymore and started to open my eyes.
-Just before I did, I heard the rustle of clothes, and the air around me shifted.
-Then, a warm sensation on my lips...
+“Aoi-chan……?”
+The sound of a bated breath, and a voice filled with such bewilderment.
+Even so, I didn't move.
+……I’m a horrible girl……
+Apart from the me who sought Fuyuki-oniichan’s lips as if feverish, a strangely cold part of me groaned inside my heart.
+Doing something like this, as if testing Oniichan…… it’s unfair, isn't it……
+But…… But……
+I feel like time is flowing incredibly slowly.
+As if it has stopped altogether.
+I felt like I wanted to run away out of embarrassment, yet I was single-mindedly waiting for Oniichan……
+I was starting to regret it a little.
+ I shouldn't have done this. Oniichan must be troubled too.
+It’s only natural, after doing something like this so suddenly……
+I could still pass it off as a joke right now.
+If I just opened my eyes and laughed mischievously, saying “Did I surprise you?”…… it would end without anything happening.
+I don't want things to become awkward with Oniichan because of this.
+I couldn't stand it anymore and tried to open my eyes.
+Just before that, I heard the rustle of clothes, and the air shifted softly.
+And then, a warm sensation on my lips……
 $Aoi
-“...!”
-Startled, I snapped my eyes open.
-Oniichan’s face was so close I couldn't even focus.
-Oniichan...
+“……!”
+Surprised, I opened my eyes.
+Oniichan’s face was so close that I couldn't even focus.
+Oniichan……
 I closed my eyes once more.
-I tentatively placed my hands on Fuyuki-oniichan’s shoulders.
-Deep inside, I felt myself filling with something warm and gentle... that’s what it felt like...
-Oniichan’s lips were so soft...
+I timidly placed my hands on Fuyuki-oniichan’s shoulders.
+Deep in my chest, I felt as though I was slowly being filled with something warm…… that kind of feeling……
+Oniichan’s lips were soft……
 I wonder how long we stayed like that.
-It felt like a mere instant, yet it also felt like minutes had passed.
-It was a kiss that was nothing more than a soft touch.
-Eventually, his lips slowly pulled away...
-I quietly opened my eyes.
-Oniichan’s face was right there in front of me.
-Being close enough to feel his breath, our eyes met, and I suddenly became incredibly flustered.
-My entire body flushed with heat.
+It felt like only a split second, yet it also felt like many minutes.
+It was a kiss that was just a touch.
+Eventually, his lips slowly moved away….
+I softly tried opening my eyes.
+Oniichan’s face is right in front of me.
+Meeting his eyes at such a distance that I could feel his breath, I suddenly became flustered.
+My body flushed hot.
 $Aoi
-“A-Ah, um... I really should be heading home!”
-Panicked, I scrambled to my feet.
-Oniichan looked a bit surprised, but his expression soon softened into a smile.
+“A-Ah, umm…… I-I have to go home soon!”
+Flustered, I hurriedly stood up.
+Oniichan looked a little surprised, but he quickly returned to a pleasant expression.
 $Fuyuki
 “Didn't you have business with Akito?”
-I could only shake my head vigorously.
-Compared to me, Oniichan—who was acting exactly the same as always even in this situation—was incredible...
+I could do nothing but shake my head vigorously.
+Compared to me, Oniichan, who remains completely unchanged even in a situation like this, is amazing……
 $Aoi
-“I-It’s fine. It wasn't anything urgent... ahaha.”
+“I-It’s fine. It wasn't urgent business…… ahaha.”
 I had no choice but to laugh to hide my embarrassment.
-I couldn't look him in the eye.
+I couldn't look Oniichan in the face properly.
 $Aoi
-“W-Well then, see you later, Oniichan!”
-I gave a frantic wave and fled his room.
-I didn't look back as I dashed down the stairs, slipped on my shoes, and burst out of the house.
+“W-Well then, Oniichan, see you later!”
+Waving my hand flippantly, I left Oniichan’s room.
+And then, without looking aside, I dashed down the stairs, slipped into my shoes, and bolted out the front door.
 I ran all the way to my room in one go.
 $Aoi
-“*Huff, huff*... whew...”
-I can't catch my breath...
-My heart is hammering against my ribs.
-In a daze, I threw myself onto my bed.
-I’d left without even a proper goodbye...
+“Haa, haa…… whew……”
+I’m out of breath……
+My heart is leaping.
+In a daze, I threw myself onto the bed.
+I’d left without even giving a proper greeting……
 $Aoi
-“Fuyuki-oniichan... I wonder if he thought I was weird... of course he did...”
-After practically demanding that from him, I just ran away...
+“I wonder if Fuyuki-oniichan…… thought I was strange…… I’m sure he did……”
+After demanding such a thing myself, I ran away……
 $Aoi
-“Ugh, I’m the absolute worst!”
-To think I’d do something like that just to test him...
-I wanted him to do it, but the moment he did, I bolted...
-I’m acting like I’m the victim here.
+“Ah, geez, I’m the worst!”
+Doing such a thing as if testing Oniichan……
+Even though I wanted him to do that, as soon as he did, I ran away……
+This makes me look like the victim, doesn't it.
 $Aoi
-“I’m sorry, Oniichan...”
-I let out a sigh and buried my face in my pillow.
-I had no idea what to do with these feelings of mine.
-I’d stopped by to get back the English notebook I’d lent to Akito, and Fuyuki-oniichan was the one who answered.
-He told me Akito was in the middle of a bath.
-I went out of my way to tell that guy to "return it by tonight," so I wonder if he actually finished the homework?
+“I’m sorry, Oniichan……”
+I let out a sigh and buried my face in the pillow.
+I was overwhelmed by my own feelings.
+When I went to get back the English notebook I’d lent to Akito, Fuyuki-oniichan came to the door.
+He told me that Akito was currently in the bath.
+I’d gone out of my way to tell him “Give it back tonight,” but I wonder if he actually finished the homework?
 $Fuyuki
-“Akito said for you to just make yourself at home.”
+“Akito said to just do whatever.”
 $Aoi
-“Geez. I let him see my homework and he’s still such a rude jerk!”
+“Geez. Even though I let him see my homework, what an impolite guy!”
 $Fuyuki
-“Well, come on in. Want some tea?”
+“Well, come on in. I’ll fix some tea, okay?”
 I thought about it for a moment.
 $Aoi
-“No, don't worry about it. But since I’m here, I’d actually love to chat with you, Oniichan.”
-Despite my selfish request, Fuyuki-oniichan didn't seem annoyed; he just gave me a pleasant smile.
+“No, don't go to any trouble. More importantly, since I'm here, I’d actually like to talk with you, Oniichan.”
+Despite my selfishness, Fuyuki-oniichan didn't seem to mind and gave a cheerful smile.
 $Fuyuki
-“In that case, do you want to come up to my room?”
+“In that case, do you want to come to my room?”
 $Aoi
 “Yeah!”
-I kicked off my shoes.
+I took off my shoes and,
 $Aoi
-“Sorry for the intrusion~!”
-I then called out to his parents in the living room.
+“Excuse meee.”
+I called out to his mom and dad in the living room.
 $Fuyuki
-“Why are you acting so formal all of a sudden?”
+“Why are you being so formal?”
 $Aoi
-“Ehehe... I guess you’re right.”
-I gave a wry smile as I climbed the stairs and headed for Fuyuki-oniichan’s room.
-His room was perfectly tidy, just like always.
-I sat on the edge of the bed and let my eyes wander around the room.
+“Ehehe…… I guess you’re right.”
+With a wry smile, I climbed the stairs and headed toward Fuyuki-oniichan’s room.
+Fuyuki-oniichan’s room was neatly tidied, just as usual.
+I sat on the bed and looked around the room.
 $Fuyuki
-“Is my room really that unusual to you?”
+“Is my room really that unusual?”
 Sitting in his chair, Oniichan gave a wry smile at my behavior.
 $Aoi
-“Ah, no. It’s not that... it’s just so clean. It’s the polar opposite of Akito’s.”
+“Ah, no. It’s not that…… I was just thinking it’s the exact opposite of Akito’s, such a clean room.”
 $Fuyuki
-“It’s probably just personality... I can be pretty fastidious.”
+“It’s probably my personality…… I’m quite fastidious, after all.”
 $Aoi
-“Really? You don't seem like the high-strung type to me, Oniichan.”
-Oniichan just shrugged his shoulders.
+“Is that so? You don't look fastidious to me, Oniichan.”
+Oniichan shrugged his shoulders.
 $Aoi
-“Oh, more importantly, listen to this, Oniichan!”
+“Ah, more importantly, listen, Oniichan!”
 $Fuyuki
 “What is it?”
 $Aoi
-“Ufufu... I’ve increased my cooking repertoire!”
+“Ufufu…… My cooking repertoire has increased, you know.”
 $Fuyuki
 “Oh?”
 $Aoi
-“I’ve been working really hard at it.”
+“I’ve been working hard.”
 $Fuyuki
 “What kind of dishes?”
 $Aoi
-“Um... Beef Stroganoff... and gratin, things like that.”
+“Umm…… like Beef Stroganoff…… and gratin.”
 $Fuyuki
-“That’s impressive. Well then, let’s cook together again sometime.”
+“That’s impressive. Well then, let’s cook something together next time.”
 $Aoi
-“Yeah! When you taste my cooking, you’re definitely going to be surprised, Oniichan!”
+“Yeah! If you taste my cooking, I’m sure you’ll be surprised too, Oniichan!”
 $Fuyuki
-“I’ll look forward to it then.”
-It was just harmless, everyday conversation...
+“I’ll look forward to that.”
+Such harmless conversation……
 But I wonder why.
-Ever since I stepped into Oniichan’s room, my heart has been pounding...
-It feels... strange.
-Is it just my imagination that the atmosphere feels different than usual...?
-Does the room feel hot for some reason...?
-Hmm, do I have a fever...?
-Or is it not Oniichan who’s strange, but... me?
-The thought sent a chill through me.
-I’ve been... defiled...
-Maybe I’ve changed without even realizing it myself...
-Maybe I can't act like I used to anymore.
-In fact, even now, while I’m talking to Oniichan, trying to act normal is exhausting.
-I wonder if I can never go back...?
-I hate that...
-I hate it, Oniichan...
+Ever since I entered Oniichan’s room, my heart has been thumping……
+Something is…… strange……
+Is it just my imagination that the atmosphere feels different than usual……?
+I feel like it’s hot in this room……
+Hmm, I wonder if I have a fever……?
+Or is it not Oniichan who’s strange, but me……?
+When I thought that, I felt a chill.
+I’ve been defiled……
+So, maybe I changed without even noticing it myself……
+Maybe I can no longer act as I used to.
+In fact, even while I’m talking with Oniichan like this, acting normally is very exhausting.
+I wonder if I can no longer go back……
+I don't want that……
+I don't want that, Oniichan……
 I’m afraid of myself.
-I’m afraid of the person I’ve become...
+I’m afraid of the me who has changed……
 $Fuyuki
-“And so, lately I’ve been really getting into spices.”
+“And so, I’ve been really into spices lately.”
 $Aoi
-“Eh? Ah, I see. There certainly are a lot of varieties.”
-I did my best to maintain a mask of composure.
+“Eh? Ah, heh, there are many varieties, after all.”
+I pretended to be calm to the last.
 $Fuyuki
-“Yeah. There’s a new department store downtown, and their spice selection is incredible.”
+“Yeah. There’s a new department store that opened in the shopping district, and their spice selection is huge.”
 $Aoi
-“Oh, that place... I haven't been there yet.”
+“Oh, that place…… I haven't been there yet.”
 $Fuyuki
-“They have rare ingredients and everything. It’s a department store, so they have a bit of everything.”
+“They have rare ingredients and stuff, and since it’s a department store, they have all sorts of things.”
 $Aoi
 “Hmm, that’s great.”
-Pretending to be impressed felt incredibly hollow.
-I’m sure Oniichan brought this up just to try and cheer me up since I’ve been down.
-So, even though I wasn't in the mood, I played along with the conversation.
-It made me happy, but... being treated with such consideration only reminded me of how much I’ve changed.
+Watching myself acting impressed, it felt horribly hollow.
+I’m sure Oniichan is bringing up such topics to cheer me up, since I’ve been prone to depression.
+That’s why, even though I’m not in the mood, I’m also going along with the conversation.
+I was happy…… but still, being shown such consideration makes me realize that I have changed.
 $Fuyuki
-“You should go too, Aoi-chan. It’s fun even just looking around.”
+“Aoi-chan should go too. It’s fun just looking around.”
 $Aoi
-“Ah, yeah... I guess so.”
+“Ah, yeah…… you’re right.”
 I forced a smile.
-If I hadn't, I felt like I would’ve started crying.
-Oniichan hasn't changed... the one who’s changed is me...
-Hey, Oniichan... why are you so kind...?
-Don't give me that gentle smile...
-If you do, I’ll end up leaning on you...
-Then, Fuyuki-oniichan said something I never expected.
+Otherwise, it felt like tears might come out.
+Oniichan doesn't change…… the one who changed is me……
+Hey, Oniichan…… why are you so kind……?
+Don't direct such a kind smile at me……
+Otherwise, I’ll end up leaning on you, Oniichan……
+Just then, Fuyuki-oniichan said something unexpected.
 $Fuyuki
-“In that case, why don't we go together?”
+“In that case, shall we go together?”
 $Aoi
 “Eh?”
-The unexpected proposal made my heart skip a beat.
-Stop it...
-Please, Oniichan... stop...
-Don't be so kind to me...
-I’ll want to depend on you...
-It’s no good.
-I’m not the kind of girl you think I am, Oniichan...
-I’m... dirty...
-But I found myself nodding unconsciously.
+At the unexpected proposal, my heart suddenly skipped a beat.
+Stop it……
+Please, Oniichan…… stop……
+Don't be kind……
+I’ll want to lean on you……
+I can't.
+I’m not the kind of woman you think I am, Oniichan……
+I’m defiled……
+But before I knew it, I was nodding.
 $Aoi
-“Ah, yeah... okay.”
-It’s not okay...
-I’m not good enough for someone like Oniichan.
-I’m trying so hard... struggling not to lean on him...
-Oniichan’s kindness... it’s too cruel...
+“Ah, yeah…… okay.”
+Even though it’s not okay……
+I don't suit someone like you, Oniichan.
+Even though I’m desperately…… trying to endure so as not to lean on you……
+Oniichan’s kindness…… is too cruel……
 $Fuyuki
-“Let's make it next Sunday then. I have an errand in the morning, so... should we just meet up there?”
+“Let’s make it next Sunday then. I have some errands in the morning…… so would it be okay to meet up there?”
 $Aoi
-“U-Um, yeah.”
+“U-Uh-huh.”
 $Fuyuki
-“Let’s see... how about noon at the entrance to the shopping district? Is that okay?”
+“Umm…… then let’s meet at the entrance to the shopping district at noon. Is that okay?”
 $Aoi
-“U-Um, yeah.”
+“U-Uh-huh.”
 $Fuyuki
-“Alright. It’s a date then.”
+“Alright. It’s a deal, then.”
 $Aoi
-“U-Um, yeah.”
-I could only nod along.
-Before I knew it, the time and date were already set.
-Even though we live right next door, we’re actually meeting up somewhere...
-It’s like... it’s almost like a real date...
-When I think about it, this is the first time I’ve ever gone out anywhere alone with Fuyuki-oniichan...
-The realization made my face flush with heat.
-No... my heart is pounding like this...
-Even now, I’m actually hoping for something...
-I’m actually getting excited.
+“U-Uh-huh.”
+I could do nothing but nod.
+In the blink of an eye, even the date and time had been decided.
+And even though we live right next door to each other, we’re actually going to meet up……
+It’s like…… almost like a date……
+When I really think about it, this is the first time I’ve gone out somewhere alone with Fuyuki-oniichan……
+Realizing that, I could feel my face flushing.
+No…… my heart is thumping this much……
+Even at this late stage, I’m hoping……
+I’m all excited.
 Like an idiot.
-Oniichan doesn't know anything, so he’s just inviting me casually...
-If he knew the truth, he’d definitely abandon me...
+Since Oniichan doesn't know anything, he’s just inviting me casually like this……
+If he knew the truth, he would surely abandon me……
 That’s not true!
-Fuyuki-oniichan isn't that kind of person...
-I stole a quiet glance at Oniichan’s face.
-He was just as he always was, continuing the conversation with that same calm smile.
+Fuyuki-oniichan isn't that kind of person……
+I stole a glance at Oniichan’s face.
+Oniichan was continuing to talk with his usual gentle smile unchanged.
 $Aoi
-“............”
-Hey... Oniichan...
-Will you protect me...?
-No matter how dirty I become, will you protect me?
-Is it okay for me to lean on your kindness?
-I’m terrified of you finding out the real me.
-I don't want you to despise me, Oniichan.
-But I want to entrust everything to you... that hope is growing and growing...
-I want to find out...
-Oniichan’s true kindness...
-But how...?
-A fierce conflict raged within me.
-And then, I found myself whispering unconsciously.
+“…………”
+Hey…… Oniichan……
+Will you protect me……?
+No matter how defiled I become, will you protect me?
+Is it okay if I lean on your kindness, Oniichan?
+I’m afraid of the real me being known.
+I don't want to be despised by Oniichan.
+But, I want to entrust everything to Oniichan…… that kind of expectation is growing more and more……
+I want to find out……
+Oniichan’s real kindness……
+But, how……?
+A fierce conflict repeated inside my heart.
+And before I knew it, I was whispering.
 $Aoi
-“...Oniichan.”
+“……Oniichan.”
 $Fuyuki
-“Hm?”
-I stared into Oniichan’s eyes in silence.
-He looked puzzled, a look of confusion on his face.
+“Yeah?”
+I stayed silent and stared into Oniichan’s eyes.
+Oniichan looked puzzled, with a curious expression.
 $Aoi
-“............”
-I simply closed my eyes. I tilted my chin up, just a fraction.
+“…………”
+I simply closed my eyes. I tilted my chin up, just a little.
 $Fuyuki
-“Aoi-chan...?”
-I heard him catch his breath, his voice laced with hesitation.
-Still, I didn't move.
-...I’m a terrible girl...
-In contrast to the part of me seeking Fuyuki-oniichan’s lips as if in a fever, a strangely cold part of me groaned deep inside.
-Doing something like this just to test him... it’s so unfair...
-But... still...
-It feels like time is moving so incredibly slowly. As if it’s stopped altogether.
-I was so embarrassed I felt like running away, yet I just kept waiting for him...
-I was starting to regret it.
-I shouldn't have done this. Oniichan must be so uncomfortable.
-Of course he is, after I suddenly did something like this...
-Right now, I could still play it off as a joke.
-If I opened my eyes now and gave a mischievous laugh, asking "Did I surprise you?"... it would all be over, as if nothing happened.
-I don't want things to get awkward with Oniichan because of this.
-I couldn't take it anymore and started to open my eyes.
-Just before I did, I heard the rustle of clothes, and the air around me shifted.
-Then, a warm sensation on my lips...
+“Aoi-chan……?”
+The sound of a bated breath, and a voice filled with such bewilderment.
+Even so, I didn't move.
+……I’m a horrible girl……
+Apart from the me who sought Fuyuki-oniichan’s lips as if feverish, a strangely cold part of me groaned inside my heart.
+Doing something like this, as if testing Oniichan…… it’s unfair, isn't it……
+But…… But……
+I feel like time is flowing incredibly slowly. As if it has stopped altogether.
+I felt like I wanted to run away out of embarrassment, yet I was single-mindedly waiting for Oniichan……
+I was starting to regret it a little.
+ I shouldn't have done this. Oniichan must be troubled too.
+It’s only natural, after doing something like this so suddenly……
+I could still pass it off as a joke right now.
+If I just opened my eyes and laughed mischievously, saying “Did I surprise you?”…… it would end without anything happening.
+I don't want things to become awkward with Oniichan because of this.
+I couldn't stand it anymore and tried to open my eyes.
+Just before that, I heard the rustle of clothes, and the air shifted softly.
+And then, a warm sensation on my lips……
 $Aoi
-“...!”
-Startled, I snapped my eyes open.
-Oniichan’s face was so close I couldn't even focus.
-Oniichan...
+“……!”
+Surprised, I opened my eyes.
+Oniichan’s face was so close that I couldn't even focus.
+Oniichan……
 I closed my eyes once more.
-I tentatively placed my hands on Fuyuki-oniichan’s shoulders.
-Deep inside, I felt myself filling with something warm and gentle... that’s what it felt like...
-Oniichan’s lips were so soft...
+I timidly placed my hands on Fuyuki-oniichan’s shoulders.
+Deep in my chest, I felt as though I was slowly being filled with something warm…… that kind of feeling……
+Oniichan’s lips were soft……
 I wonder how long we stayed like that.
-It felt like a mere instant, yet it also felt like minutes had passed.
-It was a kiss that was nothing more than a soft touch.
-Eventually, his lips slowly pulled away...
-I quietly opened my eyes.
-Oniichan’s face was right there in front of me.
-Being close enough to feel his breath, our eyes met, and I suddenly became incredibly flustered.
-My entire body flushed with heat.
+It felt like only a split second, yet it also felt like many minutes.
+It was a kiss that was just a touch.
+Eventually, his lips slowly moved away….
+I softly tried opening my eyes.
+Oniichan’s face is right in front of me.
+Meeting his eyes at such a distance that I could feel his breath, I suddenly became flustered.
+My body flushed hot.
 $Aoi
-“Sorry... Oniichan, I’m heading home.”
-Panicked, I scrambled to my feet.
-Oniichan looked a bit surprised, but his expression soon softened into a smile.
+“I’m sorry…… Oniichan, I’m going home.”
+Flustered, I hurriedly stood up.
+Oniichan looked a little surprised, but he quickly returned to a pleasant expression.
 $Fuyuki
 “Didn't you have business with Akito?”
-I could only shake my head vigorously.
-Don't... don't act like everything is normal...
-It just makes things harder...
+I could do nothing but shake my head vigorously.
+Don't…… don't respond so normally……
+It just makes things more painful again……
 $Aoi
-“I-It’s fine. It wasn't anything urgent...”
-I couldn't look him in the eye.
+“I-It’s fine. It wasn't urgent business……”
+I couldn't look Oniichan in the face properly.
 $Aoi
-“W-Well then, see you later, Oniichan.”
-I gave a frantic wave and fled his room.
-I didn't look back as I dashed down the stairs, slipped on my shoes, and burst out of the house.
+“Well then, Oniichan, see you later.”
+Waving my hand flippantly, I left Oniichan’s room.
+And then, without looking aside, I dashed down the stairs, slipped into my shoes, and bolted out the front door.
 I ran all the way to my room in one go.
 $Aoi
-“*Huff, huff*... whew...”
-I can't catch my breath...
-My heart is hammering against my ribs.
-In a daze, I threw myself onto my bed.
-I’d left without even a proper goodbye...
+“Haa, haa…… whew……”
+I’m out of breath……
+My heart is leaping.
+In a daze, I threw myself onto the bed.
+I’d left without even giving a proper greeting……
 $Aoi
-“Fuyuki-oniichan... I wonder if he thought I was weird... of course he did...”
-After practically demanding that from him, I just ran away...
+“I wonder if Fuyuki-oniichan…… thought I was strange…… I’m sure he did……”
+After demanding such a thing myself, I ran away……
 $Aoi
-“Ugh, I’m the absolute worst!”
-To think I’d do something like that just to test him...
-I wanted him to do it, but the moment he did, I bolted...
-I’m acting like I’m the victim here.
-But...
-What did that kiss mean...?
-Oniichan... will you protect me?
-Will you accept everything about me?
-I don't know... I don't know...
+“Ah, geez, I’m the worst!”
+Doing such a thing as if testing Oniichan……
+Even though I wanted him to do that, as soon as he did, I ran away……
+This makes me look like the victim, doesn't it.
+But……
+What did that kiss mean……
+Oniichan…… will you protect me?
+Will you accept all of me?
+I don't know…… I don't know……
 $Aoi
-“I’m sorry, Oniichan...”
-I let out a sigh and buried my face in my pillow.
-I had no idea what to do with these feelings of mine, I was so shaken.
+“I’m sorry, Oniichan……”
+I let out a sigh and buried my face in the pillow.
+I was overwhelmed by my own feelings, being so shaken up.
 $Akito
-“Tell her to just wait in my room.”
-When I said that, it wasn't Big Bro’s voice that answered, but Aoi’s.
+“Tell her to wait in my room.”
+When I said that, instead of Big Bro, Aoi’s voice answered.
 $Aoi
-“Got it.”
+“Understood.”
 $Akito
-“Whoa, Aoi?!”
-Looking over, I saw Aoi standing with Big Bro through the frosted glass of the bathroom door.
+“Whoa, Aoi!?”
+Looking over, I could see Aoi standing with Big Bro on the other side of the frosted glass in the bathroom door.
 $Akito
-“G-Get out of here, you pervert!”
+“Y-You pervert!”
 $Aoi
-“I have zero interest in seeing your gross, naked body, Akito.”
+“I have no desire to see Akito’s dirty naked body.”
 $Akito
-“Don't call me gross!”
+“Don't call it dirty!”
 $Fuyuki
-“Hurry up and get out of there.”
+“Hurry up and get out.”
 $Aoi
 “Yeah, make it snappy!”
-The two of them left the changing room, laughing.
-Geez, what a shock.
-Aoi, don't just come in that far.
+The two of them left the dressing room laughing.
+Haa, that surprised me.
+Hey Aoi, don't come into a place like this.
 Anyway, I hurried out of the bath.
-When I got back to my room, Aoi and Big Bro were chatting away.
-Apparently, Big Bro had even gone to the trouble of making tea.
+When I returned to my room, Aoi and Big Bro were chatting pleasantly.
+Apparently Big Bro had gone out of his way to fix tea.
 $Akito
-“You’re really making yourself at home, aren't you, Aoi?”
-Aoi let out a small "tch."
+“You’ve got it easy, don't you, Aoi.”
+Aoi gave a small click of her tongue.
 $Aoi
-“You’re finally here. I was having such a nice chat with Oniichan.”
+“You’re here already. And I was having such a fun talk with Oniichan.”
 $Akito
 “You’re the one who told me to make it snappy!”
-Always making me mad the second we see each other.
+To think she’d piss me off the second we face each other.
 $Akito
-“If I’m such a nuisance, you can leave right now.”
+“If you’re going to treat me like a nuisance, get out right now.”
 $Aoi
-“*You* should be the one to leave, Akito!”
+“You get out, Akito!”
 $Akito
-“This is *my* room!”
+“This is my room!”
 $Fuyuki
 “Ahaha.”
-Big Bro suddenly let out a pleasant laugh.
+Suddenly, Big Bro gave a cheerful laugh.
 $Akito
-“Big Bro... this isn't exactly the time to laugh.”
+“Big Bro…… this isn't a laughing matter.”
 $Fuyuki
-“No, I just thought that you and Aoi-chan really do get along so well.”
+“No, I just thought that Akito and Aoi-chan really do get along well.”
 I let out a snort.
 $Akito
-“Tell another joke while you’re at it.”
+“Don't tell jokes even while you’re resting.”
 $Aoi
-“Exactly, Oniichan. You have no idea how much stress I deal with because of Akito...”
+“Truly, Oniichan. Do you know how much stress I've accumulated because of Akito……”
 $Akito
-“You’re the one who makes it her life’s mission to piss me off.”
+“And you’ve staked your life on pissing me off, haven't you.”
 $Aoi
-“I’m just keeping you company.”
+“I’m just humoring you.”
 $Akito
-“Oh...! You’ve got some nerve...!”
-Sparks were practically flying between Aoi and me.
+“Hoh……! You’ve got some nerve……!”
+Sparks flew back and forth between Aoi and me.
 $Fuyuki
-“Well then, I think I’ll make my exit.”
-As if to diffuse the tension in the room all at once, Big Bro stood up casually.
+“Well then, I guess I’ll make my exit.”
+As if to diffuse the tense atmosphere in the room all at once, Big Bro leisurely stood up.
 $Aoi
-“Wait, what?! Let's talk some more!”
+“Eh—!? Let’s talk more!”
 $Fuyuki
-“I’ll leave this place to you two youngsters... or something like that.”
+“I’ll leave this place to you two young ones…… as they say.”
 $Akito
-“It’s not like we’re on a blind date...”
-Big Bro really says some weird stuff sometimes.
+“It’s not like it’s an arranged marriage meeting……”
+Big Bro says some silly things sometimes, doesn't he.
 $Fuyuki
-“Well, that’s just a joke. I actually have some homework I need to get done.”
+“Well, that was a joke. I have some homework I have to do.”
 $Aoi
-“Oh, I see. Sorry for keeping you, Oniichan.”
-Aoi is incredibly polite when it comes to Big Bro.
-Seriously, does she have a split personality?
+“Ah, I see. Sorry for holding you back.”
+Aoi is unusually docile toward Big Bro.
+Seriously, doesn't this girl have a split personality?
 $Fuyuki
-“See you, Aoi-chan. Take your time.”
-Big Bro left the room with a gentle smile.
-Aoi let out a massive sigh.
+“See you later, Aoi-chan. Take your time.”
+Oniichan left the room with a pleasant smile.
+Aoi let out a grand sigh.
 $Aoi
-“Haaaah...”
+“Haa~”
 $Akito
-“What now?”
+“What is it?”
 $Aoi
-“I wanted to talk to Oniichan more.”
+“I wanted to talk more with Oniichan.”
 $Akito
-“Sorry for existing, then.”
+“Sorry about that.”
 $Aoi
-“Seriously. Dealing with you is such a chore.”
+“Truly. I can't be bothered dealing with Akito.”
 $Akito
-“You picking a fight?”
-Aoi gave a small shrug.
+“Are you picking a fight?”
+Aoi gave a small shrug of her shoulders.
 $Aoi
-“So, give it back.”
+“So, give it back?”
 $Akito
-“...Huh?”
-Aoi ignored my words and suddenly said something that made zero sense.
+“……Huh?”
+Aoi ignored my words and suddenly said something incomprehensible.
 $Akito
-“Give back... what?”
+“Give back…… what?”
 $Aoi
-“What do you mean 'what'?! It’s due tomorrow!”
-Due tomorrow?
-Why does Aoi always bring up stuff so out of context?
-Hmm, due tomorrow...
+“What? Don't ‘what’ me! The submission date is tomorrow!”
+Submission date?
+Why does Aoi bring up such disconnected topics so suddenly.
+Hmm, speaking of submission……
 $Akito
 “A stool sample?”
-—*WHAM!!*
-She kicked me right in the shin with everything she had.
+——WHAM!!
+She kicked me right in the shin with all her might.
 $Akito
-“GAHH!! THAT HURTS!!”
+“Owwwww!!”
 $Aoi
-“Scumbag! Lowlife! Pervert!”
+“The lowest! Vulgar! Pervert!”
 $Akito
-“It was just a joke...”
+“It was just a joke……”
 $Aoi
-“You’re still a scumbag either way.”
-Aoi huffed and turned away from me.
+“It’s the lowest either way.”
+Aoi turned away with a “Hmph.”
 $Akito
-“So, what am I supposed to be giving back?”
+“So, what should I give back?”
 $Aoi
-“Did you seriously forget? After you asked to see my homework, you’re being incredibly rude.”
-Oh, right, the homework...
-Come to think of it, I’d borrowed her notebook so I could see her English homework that’s due tomorrow.
+“Have you really forgotten? After letting someone see their homework, your rudeness knows no bounds.”
+Ah, the homework……
+Come to think of it, I’d borrowed her notebook to let me see the English homework that’s due tomorrow.
 $Akito
-“Ahahaha... I remember now.”
+“Hahaha…… I remembered.”
 $Aoi
-“Then give it back already.”
+“Then hurry up and give it back.”
 $Akito
-“Ahahaha... I remember.”
+“Hahaha…… I remembered.”
 $Aoi
-“...Akito?”
+“……Akito?”
 $Akito
-“Ahahaha... um... yeah, I remember it now.”
-Cold sweat started trickling down my back.
-Aoi gave me a chilling look.
+“Hahaha…… that…… yeah, I have remembered.”
+Cold sweat trickled down my back.
+Aoi gave me a cold look.
 $Aoi
-“Don't tell me...?”
+“No way……?”
 $Akito
-“Ahahaha... uh... Aoi-san?”
+“Hahaha…… umm…… Aoi-san?”
 $Aoi
-“You’re not going to tell me you haven't done it yet, are you?”
+“You’re not going to say you haven't done it yet, are you?”
 *Gulp!!*
 $Akito
-“Ahahaha... o-of course I have...”
+“Hahaha…… n-no way……”
 $Aoi
-“Then give it back already.”
-Ugh... crap...
-Actually, I hadn't even started copying the notebook yet.
-I thought it was just copying, so it’d be over in no time, and I’d just left it alone...
+“Then hurry up and give it back.”
+Mugugu…… this is bad……
+Actually, I haven't even copied the notebook yet.
+Since it was just copying, I figured it would be over quickly and I’d been leaving it alone the whole time……
 $Akito
-“Tomorrow morning is fine, isn't it?”
+“Tomorrow morning will be fine, right?”
 $Aoi
-“So you really haven't done it!”
+“I knew it, you haven't done it yet!”
 $Akito
-“No, I’ve done it. Yeah, it’s all set.”
+“No, I’ve already done it. Yeah, perfectly.”
 $Aoi
-“Then why?!”
+“Then why?”
 $Akito
-“Well... I fell in love with your handwriting... yeah, your handwriting is just so beautiful, Aoi.”
+“Umm…… I fell in love with Aoi’s handwriting…… yeah, Aoi’s handwriting is so beautiful, isn't it, yeah.”
 $Aoi
-“Idiot! You stupid Akito!”
-I guess I couldn't fool her after all...
+“Idiot! Stupid Akito!”
+As expected, I couldn't fool her……
 $Akito
-“What’s the big deal? I can still make it by tomorrow morning.”
+“It’s fine, isn't it. I’ll make it in time even tomorrow morning.”
 $Aoi
-“That’s not the point! You’re seriously so irresponsible!”
+“That’s not the point! Honestly, you’re so irresponsible!”
 $Akito
-“Shut up.”
+“Shut up already.”
 $Aoi
-“Don't you take that tone with me! You should follow Oniichan’s example!”
-It hurt that I couldn't even talk back...
-In the end, I had to copy the notebook in record time under Aoi’s supervision.
-Aoi stood behind me like a tutor, barking orders every step of the way.
-Man, I’m exhausted...
+“Don't act so defiant! Learn from Oniichan!”
+It was painful not being able to talk back……
+In the end, under Aoi’s supervision, I copied the notebook in a great hurry.
+Like a private tutor, Aoi stood behind me and gave instructions on every single thing.
+Ah~, I’m exhausted……
