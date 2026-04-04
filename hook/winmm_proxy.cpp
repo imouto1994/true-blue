@@ -64,15 +64,18 @@ static void LoadDictionary() {
 static std::unordered_map<std::string, std::string> g_contCache;
 static std::string g_activeFullJP;
 static std::string g_activeFullEN;
+static int g_activeEnRow;
 static std::string g_lastMatchedJP;
 static std::string g_lastMatchedEN;
 
 static void BuildContinuationCache(const std::string& fullJP,
                                    const std::string& fullEN,
-                                   int firstRowBytes = JP_BYTES_PER_ROW) {
+                                   int firstRowBytes = JP_BYTES_PER_ROW,
+                                   int enRowStart = 1) {
     g_contCache.clear();
     g_activeFullJP = fullJP;
     g_activeFullEN = fullEN;
+    g_activeEnRow = enRowStart;
 
     if ((int)fullJP.size() <= firstRowBytes) return;
 
@@ -98,7 +101,7 @@ static void BuildContinuationCache(const std::string& fullJP,
 
     // Split remaining JP into rows of JP_BYTES_PER_ROW, respecting SJIS boundaries
     int jpOff = firstRowBytes;
-    int enIdx = 1;
+    int enIdx = enRowStart;
     while (jpOff < (int)fullJP.size()) {
         int jpEnd = jpOff + JP_BYTES_PER_ROW;
         if (jpEnd > (int)fullJP.size()) jpEnd = (int)fullJP.size();
@@ -188,6 +191,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         // 1a. Exact match -- alignment is correct, no rebuild needed
         auto cont = g_contCache.find(text);
         if (cont != g_contCache.end()) {
+            g_activeEnRow++;
             g_lastMatchedJP = text;
             g_lastMatchedEN = cont->second;
             return RenderEnglish(hdc, x, y,
@@ -195,7 +199,8 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         }
 
         // 1b/1c. Fuzzy match: forward prefix (wider row) or reverse prefix (narrower row).
-        //        Alignment is off, so rebuild cache from the actual next offset.
+        //        Alignment is off, so rebuild cache from the actual next offset
+        //        with the correct EN row index.
         for (auto& kv : g_contCache) {
             bool forwardHit = ((int)text.size() > (int)kv.first.size() &&
                                text.compare(0, kv.first.size(), kv.first) == 0);
@@ -211,14 +216,16 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                         en += nextIt->second;
                     }
                 }
+                g_activeEnRow++;
                 g_lastMatchedJP = text;
                 g_lastMatchedEN = en;
-                // Rebuild cache from actual next offset
+                // Rebuild cache from actual next offset, advancing EN row index
                 size_t pos = g_activeFullJP.find(kv.first);
                 if (pos != std::string::npos) {
                     int nextOff = (int)pos + c;
                     if (nextOff < (int)g_activeFullJP.size())
-                        BuildContinuationCache(g_activeFullJP, g_activeFullEN, nextOff);
+                        BuildContinuationCache(g_activeFullJP, g_activeFullEN,
+                                               nextOff, g_activeEnRow);
                 }
                 return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
             }
