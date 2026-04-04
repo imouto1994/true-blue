@@ -1,4 +1,4 @@
-// winmm_proxy.cpp — Proxy DLL for True Blue English patch
+// winmm_proxy.cpp - Proxy DLL for True Blue English patch
 //
 // This DLL masquerades as winmm.dll. When the game loads it, it:
 //   1. Forwards all winmm API calls to the real system winmm.dll
@@ -6,7 +6,7 @@
 //   3. Hooks the text rendering function at main.bin+0x33794
 //   4. Replaces Japanese text with English from dictionary.txt
 //
-// Build (Visual Studio 2019+ x86 Developer Command Prompt):
+// Build (Visual Studio x86 Developer Command Prompt):
 //   cl /LD /O2 /EHsc winmm_proxy.cpp /Fe:winmm.dll /link /DEF:winmm.def
 
 #define WIN32_LEAN_AND_MEAN
@@ -17,73 +17,23 @@
 #include <string>
 #include <fstream>
 
-// ── Forwarded winmm functions ───────────────────────────────────────────────
-// We load the real winmm.dll and forward all imported functions via
-// GetProcAddress at runtime.
+// ---- Forward declarations for hook machinery --------------------------------
 
-static HMODULE g_realWinmm = nullptr;
+static void* __cdecl TextHookHandler(const char* srcText);
 
-#define FORWARD_FUNC(name) \
-    static decltype(&name) p_##name = nullptr; \
-    extern "C" __declspec(dllexport) void __stdcall proxy_##name() { \
-        if (!p_##name) p_##name = (decltype(&name))GetProcAddress(g_realWinmm, #name); \
-        /* This stub just jumps to the real function via inline asm */ \
-    }
+// Global variables that the naked ASM detour references (must be declared
+// before the naked function so the compiler knows their addresses).
+static DWORD g_trampolineAddr = 0;
+static void* (__cdecl *g_handlerPtr)(const char*) = &TextHookHandler;
+static char g_replaceBuffer[4096] = {};
 
-// Instead of the macro approach (which doesn't handle args), we use
-// a .def file with forwarding + runtime load.  See winmm.def.
-// Each export is a naked trampoline to the real function.
-
-// Pointers to real winmm functions
-static FARPROC g_origFuncs[64] = {};
-
-// Function names imported by main.bin (in order matching .def ordinals)
-static const char* g_funcNames[] = {
-    "mmioOpenA",
-    "timeBeginPeriod",
-    "timeSetEvent",
-    "timeKillEvent",
-    "timeEndPeriod",
-    "mmioGetInfo",
-    "mmioAdvance",
-    "mmioSetInfo",
-    "mmioSeek",
-    "mmioDescend",
-    "mmioRead",
-    "mmioAscend",
-    "mmioClose",
-    "mixerGetNumDevs",
-    "mixerOpen",
-    "mixerGetDevCapsA",
-    "mixerGetLineInfoA",
-    "mixerGetLineControlsA",
-    "mixerSetControlDetails",
-    "mixerGetControlDetailsA",
-    "mixerClose",
-    "midiOutGetNumDevs",
-    "mciSendCommandA",
-    "mciGetErrorStringA",
-    "timeGetTime",
-    nullptr
-};
-
-// ── Translation dictionary ──────────────────────────────────────────────────
+// ---- Translation dictionary -------------------------------------------------
 
 static std::unordered_map<std::string, std::string> g_dict;
 static bool g_dictLoaded = false;
 static bool g_hookInstalled = false;
 
-// Original bytes at hook point (for unhooking)
-static BYTE g_origBytes[5] = {};
-static DWORD g_hookAddr = 0;
-
-// Buffer for the English replacement text
-static char g_replaceBuffer[4096] = {};
-
 static void LoadDictionary() {
-    // Dictionary format: tab-separated, one pair per line
-    // {Japanese Shift-JIS}\t{English Shift-JIS}
-    // Lines starting with # are comments
     std::ifstream f("dictionary.txt");
     if (!f.is_open()) {
         MessageBoxA(nullptr,
@@ -110,79 +60,24 @@ static void LoadDictionary() {
     g_dictLoaded = true;
 
     char msg[128];
-    sprintf_s(msg, "Loaded %d translation entries.", count);
+    sprintf_s(msg, "[TrueBluePatch] Loaded %d translation entries.", count);
     OutputDebugStringA(msg);
 }
 
-// ── Hook implementation ─────────────────────────────────────────────────────
-//
-// The text function at main.bin+0x33794 is a Shift-JIS string copy.
-// Based on the LunaTranslator H-code (HSXN12+-1C:8), the source string
-// pointer is accessible from the function's context.
-//
-// Strategy: We hook BEFORE the string copy.  When our hook is called,
-// we inspect the source text, look it up in the dictionary, and if found,
-// redirect the source pointer to our English replacement buffer.
-//
-// The function at +0x33794 is mid-function (it's the memcpy part of a
-// larger text-processing function).  We'll hook a few bytes before where
-// the copy begins.  The exact register/stack state depends on the calling
-// convention, so we use a naked hook to preserve everything.
+// ---- C++ hook handler (called from naked detour via function pointer) --------
 
-// The hook target: the instruction at main.bin+0x33794 is:
-//   C1 E9 02    shr ecx, 2    (preparing byte count for rep movsd)
-//   F3 A5       rep movsd      (copy dwords)
-//   8B CA       mov ecx, edx
-//   83 E1 03    and ecx, 3
-//   F3 A4       rep movsb      (copy remaining bytes)
-//
-// At this point: ESI = source text, EDI = destination, ECX/EDX = length.
-// We can intercept here and modify ESI (source) to point to our buffer.
-
-typedef void (*OrigTextFunc)();
-static OrigTextFunc g_origTextFunc = nullptr;
-
-// Our detour — called instead of the original code at the hook point.
-// We read ESI (source string), look it up, and replace if found.
-static __declspec(naked) void TextHookDetour() {
-    __asm {
-        // Save all registers
-        pushad
-        pushfd
-
-        // ESI has the source Shift-JIS string pointer
-        push esi
-        call TextHookHandler
-        // EAX = new source pointer (or original ESI if no match)
-        mov [esp + 0x04], eax  // overwrite saved ESI on stack
-
-        popfd
-        popad
-
-        // Execute the original instructions we overwrote (5 bytes):
-        //   C1 E9 02    shr ecx, 2
-        //   F3 A5       rep movsd
-        // Wait — we can't just replay these because they depend on ECX/ESI/EDI.
-        // Instead, jump back to hook_addr + 5 to continue original code.
-        // But first we replaced ESI, so the copy will use our buffer.
-
-        // Actually, for a JMP hook we need to jump back.
-        // Let's use a different approach — trampoline.
-        jmp [g_trampolineAddr]
-    }
-}
-
-// C++ handler called from the detour
-static DWORD g_trampolineAddr = 0;
-
-extern "C" __declspec(noinline)
-void* __cdecl TextHookHandler(const char* srcText) {
+static void* __cdecl TextHookHandler(const char* srcText) {
     if (!g_dictLoaded || !srcText) return (void*)srcText;
 
-    // Try exact match in dictionary
+    // Protect against bad pointers
+    __try {
+        if (srcText[0] == '\0') return (void*)srcText;
+    } __except(EXCEPTION_EXECUTE_HANDLER) {
+        return (void*)srcText;
+    }
+
     auto it = g_dict.find(std::string(srcText));
     if (it != g_dict.end()) {
-        // Copy English text to replacement buffer
         strncpy_s(g_replaceBuffer, it->second.c_str(), sizeof(g_replaceBuffer) - 1);
         return g_replaceBuffer;
     }
@@ -190,11 +85,52 @@ void* __cdecl TextHookHandler(const char* srcText) {
     return (void*)srcText;
 }
 
-// ── Simple 5-byte JMP hook ──────────────────────────────────────────────────
-// Overwrites the first 5 bytes at the target with:  JMP <detour>
-// Saves original bytes for the trampoline.
+// ---- Naked ASM detour -------------------------------------------------------
+//
+// The hook target at main.bin+0x33794 is mid-function:
+//   C1 E9 02    shr ecx, 2     ; prepare dword count
+//   F3 A5       rep movsd       ; copy dwords from ESI to EDI
+//
+// At this point ESI = source text, EDI = dest buffer, ECX/EDX = byte count.
+// We intercept, call our handler with ESI, and if it returns a different
+// pointer, replace ESI so the copy uses our English text instead.
 
+static __declspec(naked) void TextHookDetour() {
+    __asm {
+        // Preserve all registers and flags
+        pushad
+        pushfd
+
+        // Call handler: void* TextHookHandler(const char* srcText)
+        // ESI is at [ESP + 0x04] in the pushad frame (pushad order:
+        // EAX ECX EDX EBX ESP EBP ESI EDI, so ESI is at offset 0x08
+        // from top, but with pushfd that adds 4, so ESI = [ESP + 0x0C])
+        // Actually pushad pushes: EDI ESI EBP ESP EBX EDX ECX EAX
+        // So after pushad+pushfd: [ESP+0]=flags, [ESP+4]=EAX, [ESP+8]=ECX,
+        // [ESP+0C]=EDX, [ESP+10]=EBX, [ESP+14]=ESP, [ESP+18]=EBP,
+        // [ESP+1C]=ESI, [ESP+20]=EDI
+        mov eax, [esp + 0x1C]   // saved ESI = source text
+        push eax
+        call [g_handlerPtr]      // returns new pointer in EAX
+        add esp, 4               // clean up cdecl arg
+
+        // If handler returned a different pointer, update saved ESI
+        mov [esp + 0x1C], eax
+
+        // Restore everything (ESI now points to English text if matched)
+        popfd
+        popad
+
+        // Jump to trampoline (executes original 5 bytes + jumps back)
+        jmp [g_trampolineAddr]
+    }
+}
+
+// ---- 5-byte JMP hook installer ----------------------------------------------
+
+static BYTE g_origBytes[5] = {};
 static BYTE g_trampoline[32] = {};
+static DWORD g_hookAddr = 0;
 
 static bool InstallHook(DWORD targetAddr, void* detourFunc) {
     // Save original bytes
@@ -203,23 +139,24 @@ static bool InstallHook(DWORD targetAddr, void* detourFunc) {
     // Build trampoline: original 5 bytes + JMP back to target+5
     memcpy(g_trampoline, g_origBytes, 5);
     g_trampoline[5] = 0xE9; // JMP rel32
-    DWORD jmpBack = (targetAddr + 5) - ((DWORD)&g_trampoline[6] + 4);
-    memcpy(&g_trampoline[6], &jmpBack, 4);
+    DWORD backTarget = (targetAddr + 5) - ((DWORD)&g_trampoline[6] + 4);
+    memcpy(&g_trampoline[6], &backTarget, 4);
 
     // Make trampoline executable
-    DWORD oldProtect;
-    VirtualProtect(g_trampoline, sizeof(g_trampoline), PAGE_EXECUTE_READWRITE, &oldProtect);
+    DWORD oldProt;
+    VirtualProtect(g_trampoline, sizeof(g_trampoline),
+                   PAGE_EXECUTE_READWRITE, &oldProt);
 
     g_trampolineAddr = (DWORD)g_trampoline;
 
-    // Overwrite target with JMP to detour
-    VirtualProtect((void*)targetAddr, 5, PAGE_EXECUTE_READWRITE, &oldProtect);
-    BYTE jmpPatch[5];
-    jmpPatch[0] = 0xE9; // JMP rel32
+    // Overwrite target with JMP to our detour
+    VirtualProtect((void*)targetAddr, 5, PAGE_EXECUTE_READWRITE, &oldProt);
+    BYTE patch[5];
+    patch[0] = 0xE9; // JMP rel32
     DWORD rel = (DWORD)detourFunc - (targetAddr + 5);
-    memcpy(&jmpPatch[1], &rel, 4);
-    memcpy((void*)targetAddr, jmpPatch, 5);
-    VirtualProtect((void*)targetAddr, 5, oldProtect, &oldProtect);
+    memcpy(&patch[1], &rel, 4);
+    memcpy((void*)targetAddr, patch, 5);
+    VirtualProtect((void*)targetAddr, 5, oldProt, &oldProt);
 
     FlushInstructionCache(GetCurrentProcess(), (void*)targetAddr, 5);
 
@@ -228,42 +165,42 @@ static bool InstallHook(DWORD targetAddr, void* detourFunc) {
     return true;
 }
 
-// ── Main.bin detection and hook installation ────────────────────────────────
+// ---- Main.bin detection and hook thread -------------------------------------
 
 static const DWORD HOOK_OFFSET = 0x33794;
 
+// Expected bytes at the hook point (shr ecx,2 / rep movsd)
+static const BYTE HOOK_SIGNATURE[] = { 0xC1, 0xE9, 0x02, 0xF3, 0xA5 };
+
 static DWORD WINAPI HookThread(LPVOID) {
-    // Load dictionary first
     LoadDictionary();
     if (!g_dictLoaded || g_dict.empty()) return 0;
 
-    // Wait for main.bin to be loaded into memory.
-    // Since main.bin is an EXE loaded dynamically, we scan for it.
     OutputDebugStringA("[TrueBluePatch] Waiting for main.bin...");
 
     HMODULE hMainBin = nullptr;
     for (int attempt = 0; attempt < 300; attempt++) { // 30 seconds max
         Sleep(100);
 
-        // Try GetModuleHandle first (works if loaded via LoadLibrary)
+        // Try GetModuleHandle (works if loaded via LoadLibrary)
         hMainBin = GetModuleHandleA("main.bin");
         if (hMainBin) break;
 
-        // Also try scanning for the file-backed mapping
-        // by checking if our known offset has the expected bytes
-        // The game might map main.bin at a fixed address
+        // Scan memory for main.bin by looking for our signature bytes
         MEMORY_BASIC_INFORMATION mbi;
-        DWORD addr = 0x00400000; // typical base
+        DWORD addr = 0x00400000;
         while (addr < 0x10000000) {
             if (VirtualQuery((void*)addr, &mbi, sizeof(mbi)) == sizeof(mbi)) {
-                if (mbi.State == MEM_COMMIT && mbi.Type == MEM_IMAGE &&
-                    mbi.RegionSize >= HOOK_OFFSET + 16) {
-                    // Check if the bytes at offset match what we expect
+                if (mbi.State == MEM_COMMIT &&
+                    (mbi.Protect & (PAGE_EXECUTE_READ | PAGE_EXECUTE_READWRITE |
+                                    PAGE_EXECUTE_WRITECOPY | PAGE_READONLY |
+                                    PAGE_READWRITE)) &&
+                    mbi.RegionSize >= HOOK_OFFSET + sizeof(HOOK_SIGNATURE)) {
                     __try {
-                        BYTE* p = (BYTE*)mbi.AllocationBase + HOOK_OFFSET;
-                        if (p[0] == 0xC1 && p[1] == 0xE9 && p[2] == 0x02 &&
-                            p[3] == 0xF3 && p[4] == 0xA5) {
-                            hMainBin = (HMODULE)mbi.AllocationBase;
+                        BYTE* base = (BYTE*)mbi.AllocationBase;
+                        BYTE* p = base + HOOK_OFFSET;
+                        if (memcmp(p, HOOK_SIGNATURE, sizeof(HOOK_SIGNATURE)) == 0) {
+                            hMainBin = (HMODULE)base;
                             break;
                         }
                     } __except(EXCEPTION_EXECUTE_HANDLER) {}
@@ -282,10 +219,10 @@ static DWORD WINAPI HookThread(LPVOID) {
     }
 
     char msg[256];
-    sprintf_s(msg, "[TrueBluePatch] main.bin found at 0x%08X", (DWORD)hMainBin);
+    sprintf_s(msg, "[TrueBluePatch] main.bin found at 0x%08X",
+              (DWORD)hMainBin);
     OutputDebugStringA(msg);
 
-    // Install hook
     DWORD hookTarget = (DWORD)hMainBin + HOOK_OFFSET;
     if (InstallHook(hookTarget, &TextHookDetour)) {
         sprintf_s(msg, "[TrueBluePatch] Hook installed at 0x%08X", hookTarget);
@@ -297,13 +234,47 @@ static DWORD WINAPI HookThread(LPVOID) {
     return 0;
 }
 
-// ── DLL entry point ─────────────────────────────────────────────────────────
+// ---- Winmm proxy infrastructure ---------------------------------------------
+
+static HMODULE g_realWinmm = nullptr;
+static FARPROC g_origFuncs[64] = {};
+
+static const char* g_funcNames[] = {
+    "mmioOpenA",              //  0
+    "timeBeginPeriod",        //  1
+    "timeSetEvent",           //  2
+    "timeKillEvent",          //  3
+    "timeEndPeriod",          //  4
+    "mmioGetInfo",            //  5
+    "mmioAdvance",            //  6
+    "mmioSetInfo",            //  7
+    "mmioSeek",               //  8
+    "mmioDescend",            //  9
+    "mmioRead",               // 10
+    "mmioAscend",             // 11
+    "mmioClose",              // 12
+    "mixerGetNumDevs",        // 13
+    "mixerOpen",              // 14
+    "mixerGetDevCapsA",       // 15
+    "mixerGetLineInfoA",      // 16
+    "mixerGetLineControlsA",  // 17
+    "mixerSetControlDetails", // 18
+    "mixerGetControlDetailsA",// 19
+    "mixerClose",             // 20
+    "midiOutGetNumDevs",      // 21
+    "mciSendCommandA",        // 22
+    "mciGetErrorStringA",     // 23
+    "timeGetTime",            // 24
+    nullptr
+};
+
+// ---- DLL entry point --------------------------------------------------------
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID) {
     if (fdwReason == DLL_PROCESS_ATTACH) {
         DisableThreadLibraryCalls(hinstDLL);
 
-        // Load the real winmm.dll from the system directory
+        // Load real winmm.dll from system directory
         char sysDir[MAX_PATH];
         GetSystemDirectoryA(sysDir, MAX_PATH);
         strcat_s(sysDir, "\\winmm.dll");
@@ -315,12 +286,11 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID) {
             return FALSE;
         }
 
-        // Resolve all forwarded function pointers
         for (int i = 0; g_funcNames[i]; i++) {
             g_origFuncs[i] = GetProcAddress(g_realWinmm, g_funcNames[i]);
         }
 
-        // Start the hook installation thread
+        // Start hook thread
         CreateThread(nullptr, 0, HookThread, nullptr, 0, nullptr);
     }
     else if (fdwReason == DLL_PROCESS_DETACH) {
@@ -329,37 +299,18 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID) {
     return TRUE;
 }
 
-// ── Exported function trampolines ───────────────────────────────────────────
-// Each exported function is a naked jump to the real winmm function.
-// The .def file maps the export names.
+// ---- Exported function trampolines ------------------------------------------
 
-#define DEFINE_TRAMPOLINE(index, name) \
-    extern "C" __declspec(naked, dllexport) void name() { \
-        __asm { jmp [g_origFuncs + index * 4] } \
+#define TRAMPOLINE(idx) \
+    extern "C" __declspec(naked, dllexport) void __stdcall proxy_##idx() { \
+        __asm { jmp dword ptr [g_origFuncs + idx * 4] } \
     }
 
-DEFINE_TRAMPOLINE(0,  proxy_mmioOpenA)
-DEFINE_TRAMPOLINE(1,  proxy_timeBeginPeriod)
-DEFINE_TRAMPOLINE(2,  proxy_timeSetEvent)
-DEFINE_TRAMPOLINE(3,  proxy_timeKillEvent)
-DEFINE_TRAMPOLINE(4,  proxy_timeEndPeriod)
-DEFINE_TRAMPOLINE(5,  proxy_mmioGetInfo)
-DEFINE_TRAMPOLINE(6,  proxy_mmioAdvance)
-DEFINE_TRAMPOLINE(7,  proxy_mmioSetInfo)
-DEFINE_TRAMPOLINE(8,  proxy_mmioSeek)
-DEFINE_TRAMPOLINE(9,  proxy_mmioDescend)
-DEFINE_TRAMPOLINE(10, proxy_mmioRead)
-DEFINE_TRAMPOLINE(11, proxy_mmioAscend)
-DEFINE_TRAMPOLINE(12, proxy_mmioClose)
-DEFINE_TRAMPOLINE(13, proxy_mixerGetNumDevs)
-DEFINE_TRAMPOLINE(14, proxy_mixerOpen)
-DEFINE_TRAMPOLINE(15, proxy_mixerGetDevCapsA)
-DEFINE_TRAMPOLINE(16, proxy_mixerGetLineInfoA)
-DEFINE_TRAMPOLINE(17, proxy_mixerGetLineControlsA)
-DEFINE_TRAMPOLINE(18, proxy_mixerSetControlDetails)
-DEFINE_TRAMPOLINE(19, proxy_mixerGetControlDetailsA)
-DEFINE_TRAMPOLINE(20, proxy_mixerClose)
-DEFINE_TRAMPOLINE(21, proxy_midiOutGetNumDevs)
-DEFINE_TRAMPOLINE(22, proxy_mciSendCommandA)
-DEFINE_TRAMPOLINE(23, proxy_mciGetErrorStringA)
-DEFINE_TRAMPOLINE(24, proxy_timeGetTime)
+// Generate trampolines for indices 0..24
+TRAMPOLINE(0)   TRAMPOLINE(1)   TRAMPOLINE(2)   TRAMPOLINE(3)
+TRAMPOLINE(4)   TRAMPOLINE(5)   TRAMPOLINE(6)   TRAMPOLINE(7)
+TRAMPOLINE(8)   TRAMPOLINE(9)   TRAMPOLINE(10)  TRAMPOLINE(11)
+TRAMPOLINE(12)  TRAMPOLINE(13)  TRAMPOLINE(14)  TRAMPOLINE(15)
+TRAMPOLINE(16)  TRAMPOLINE(17)  TRAMPOLINE(18)  TRAMPOLINE(19)
+TRAMPOLINE(20)  TRAMPOLINE(21)  TRAMPOLINE(22)  TRAMPOLINE(23)
+TRAMPOLINE(24)

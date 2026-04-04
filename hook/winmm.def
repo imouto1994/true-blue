@@ -1,30 +1,28 @@
-; winmm.def — Module definition for winmm.dll proxy
-; Maps the real winmm export names to our proxy trampolines
-
+; winmm.def - Module definition for winmm.dll proxy
 LIBRARY winmm
 EXPORTS
-    mmioOpenA               = proxy_mmioOpenA
-    timeBeginPeriod         = proxy_timeBeginPeriod
-    timeSetEvent            = proxy_timeSetEvent
-    timeKillEvent           = proxy_timeKillEvent
-    timeEndPeriod           = proxy_timeEndPeriod
-    mmioGetInfo             = proxy_mmioGetInfo
-    mmioAdvance             = proxy_mmioAdvance
-    mmioSetInfo             = proxy_mmioSetInfo
-    mmioSeek                = proxy_mmioSeek
-    mmioDescend             = proxy_mmioDescend
-    mmioRead                = proxy_mmioRead
-    mmioAscend              = proxy_mmioAscend
-    mmioClose               = proxy_mmioClose
-    mixerGetNumDevs         = proxy_mixerGetNumDevs
-    mixerOpen               = proxy_mixerOpen
-    mixerGetDevCapsA        = proxy_mixerGetDevCapsA
-    mixerGetLineInfoA       = proxy_mixerGetLineInfoA
-    mixerGetLineControlsA   = proxy_mixerGetLineControlsA
-    mixerSetControlDetails  = proxy_mixerSetControlDetails
-    mixerGetControlDetailsA = proxy_mixerGetControlDetailsA
-    mixerClose              = proxy_mixerClose
-    midiOutGetNumDevs       = proxy_midiOutGetNumDevs
-    mciSendCommandA         = proxy_mciSendCommandA
-    mciGetErrorStringA      = proxy_mciGetErrorStringA
-    timeGetTime             = proxy_timeGetTime
+    mmioOpenA               = proxy_0
+    timeBeginPeriod         = proxy_1
+    timeSetEvent            = proxy_2
+    timeKillEvent           = proxy_3
+    timeEndPeriod           = proxy_4
+    mmioGetInfo             = proxy_5
+    mmioAdvance             = proxy_6
+    mmioSetInfo             = proxy_7
+    mmioSeek                = proxy_8
+    mmioDescend             = proxy_9
+    mmioRead                = proxy_10
+    mmioAscend              = proxy_11
+    mmioClose               = proxy_12
+    mixerGetNumDevs         = proxy_13
+    mixerOpen               = proxy_14
+    mixerGetDevCapsA        = proxy_15
+    mixerGetLineInfoA       = proxy_16
+    mixerGetLineControlsA   = proxy_17
+    mixerSetControlDetails  = proxy_18
+    mixerGetControlDetailsA = proxy_19
+    mixerClose              = proxy_20
+    midiOutGetNumDevs       = proxy_21
+    mciSendCommandA         = proxy_22
+    mciGetErrorStringA      = proxy_23
+    timeGetTime             = proxy_24
