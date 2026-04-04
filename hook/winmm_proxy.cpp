@@ -64,17 +64,24 @@ static void LoadDictionary() {
     OutputDebugStringA(msg);
 }
 
+// ---- Safe pointer check (SEH can't coexist with C++ objects) ----------------
+
+static bool IsBadReadPointer(const void* ptr) {
+    __try {
+        volatile char c = *(const char*)ptr;
+        (void)c;
+        return false;
+    } __except(EXCEPTION_EXECUTE_HANDLER) {
+        return true;
+    }
+}
+
 // ---- C++ hook handler (called from naked detour via function pointer) --------
 
 static void* __cdecl TextHookHandler(const char* srcText) {
     if (!g_dictLoaded || !srcText) return (void*)srcText;
-
-    // Protect against bad pointers
-    __try {
-        if (srcText[0] == '\0') return (void*)srcText;
-    } __except(EXCEPTION_EXECUTE_HANDLER) {
-        return (void*)srcText;
-    }
+    if (IsBadReadPointer(srcText)) return (void*)srcText;
+    if (srcText[0] == '\0') return (void*)srcText;
 
     auto it = g_dict.find(std::string(srcText));
     if (it != g_dict.end()) {
