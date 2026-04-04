@@ -1,0 +1,5 @@
+# EN translation overflow report
+# Entries where EN needs more rows than JP (92 chars/row)
+# These translations should be shortened to fit.
+# Total: 0 entries
+

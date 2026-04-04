@@ -62,11 +62,15 @@ static void LoadDictionary() {
 // continuation rows will look like and cache their translations.
 
 static std::unordered_map<std::string, std::string> g_contCache;
+static std::string g_activeFullJP;
+static std::string g_activeFullEN;
 
 static void BuildContinuationCache(const std::string& fullJP,
                                    const std::string& fullEN,
                                    int firstRowBytes = JP_BYTES_PER_ROW) {
     g_contCache.clear();
+    g_activeFullJP = fullJP;
+    g_activeFullEN = fullEN;
 
     if ((int)fullJP.size() <= firstRowBytes) return;
 
@@ -171,34 +175,49 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
     std::string text(lpString, c);
 
     // 1. Check continuation cache (rows 2+ of a multi-row line)
-    auto cont = g_contCache.find(text);
-    if (cont != g_contCache.end()) {
-        const std::string& en = cont->second;
-        return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
-    }
-
-    // 1b. Forward prefix: game sent MORE bytes than a predicted cache key
-    //     (e.g., merges two predicted rows into one wider row).
-    // 1c. Reverse prefix: game sent FEWER bytes than a predicted cache key
-    //     (e.g., game wraps narrower than our 44-byte prediction).
-    if (!g_contCache.empty()) {
-        for (auto& kv : g_contCache) {
-            if ((int)text.size() > (int)kv.first.size() &&
-                text.compare(0, kv.first.size(), kv.first) == 0) {
-                std::string combinedEN = kv.second;
-                std::string remaining = text.substr(kv.first.size());
-                auto nextIt = g_contCache.find(remaining);
-                if (nextIt != g_contCache.end() && !nextIt->second.empty()) {
-                    if (!combinedEN.empty()) combinedEN += " ";
-                    combinedEN += nextIt->second;
-                }
-                return RenderEnglish(hdc, x, y,
-                                     combinedEN.c_str(), (int)combinedEN.size());
+    //    On exact match, serve the cached EN.
+    //    On prefix mismatch (game row wider/narrower than predicted),
+    //    serve the best match and rebuild the cache from the actual offset
+    //    so subsequent rows stay aligned.
+    if (!g_contCache.empty() && !g_activeFullJP.empty()) {
+        // 1a. Exact match
+        auto cont = g_contCache.find(text);
+        if (cont != g_contCache.end()) {
+            const std::string& en = cont->second;
+            // Find where this text sits in the full JP to rebuild cache
+            size_t pos = g_activeFullJP.find(text);
+            if (pos != std::string::npos) {
+                int nextOff = (int)pos + c;
+                if (nextOff < (int)g_activeFullJP.size())
+                    BuildContinuationCache(g_activeFullJP, g_activeFullEN, nextOff);
             }
-            if ((int)kv.first.size() > (int)text.size() &&
-                kv.first.compare(0, text.size(), text) == 0) {
-                return RenderEnglish(hdc, x, y,
-                                     kv.second.c_str(), (int)kv.second.size());
+            return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
+        }
+
+        // 1b/1c. Fuzzy match: forward prefix (wider row) or reverse prefix (narrower row)
+        for (auto& kv : g_contCache) {
+            bool forwardHit = ((int)text.size() > (int)kv.first.size() &&
+                               text.compare(0, kv.first.size(), kv.first) == 0);
+            bool reverseHit = ((int)kv.first.size() > (int)text.size() &&
+                               kv.first.compare(0, text.size(), text) == 0);
+            if (forwardHit || reverseHit) {
+                std::string en = kv.second;
+                if (forwardHit) {
+                    std::string remaining = text.substr(kv.first.size());
+                    auto nextIt = g_contCache.find(remaining);
+                    if (nextIt != g_contCache.end() && !nextIt->second.empty()) {
+                        if (!en.empty()) en += " ";
+                        en += nextIt->second;
+                    }
+                }
+                // Rebuild cache from the actual next offset
+                size_t pos = g_activeFullJP.find(kv.first);
+                if (pos != std::string::npos) {
+                    int nextOff = (int)pos + c;
+                    if (nextOff < (int)g_activeFullJP.size())
+                        BuildContinuationCache(g_activeFullJP, g_activeFullEN, nextOff);
+                }
+                return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
             }
         }
     }

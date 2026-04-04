@@ -37,7 +37,7 @@ def split_entry(jp: str, en: str) -> list[tuple[str, str]]:
     """
     jp_bytes = jp.encode('cp932')
     if len(jp_bytes) <= JP_BYTES_PER_ROW:
-        return [(jp, en)]
+        return [(jp, en)], 0
 
     jp_chunks = []
     off = 0
@@ -55,7 +55,7 @@ def split_entry(jp: str, en: str) -> list[tuple[str, str]]:
         jp_chunks.append(jp_bytes[off:end].decode('cp932'))
         off = end
 
-    en_chunks = _wrap_en_to_chunks(en, len(jp_chunks))
+    en_chunks, overflow = _wrap_en_to_chunks(en, len(jp_chunks))
 
     pairs = []
     for i in range(len(jp_chunks)):
@@ -63,13 +63,16 @@ def split_entry(jp: str, en: str) -> list[tuple[str, str]]:
         if en_part:
             pairs.append((jp_chunks[i], en_part))
 
-    return pairs if pairs else [(jp, en)]
+    return pairs if pairs else [(jp, en)], overflow
 
 
-def _wrap_en_to_chunks(text: str, num_chunks: int) -> list[str]:
+def _wrap_en_to_chunks(text: str, num_chunks: int) -> tuple[list[str], int]:
     """
     Split English text into `num_chunks` pieces, word-wrapping at
     EN_CHARS_PER_ROW characters.
+
+    Returns (chunks, overflow) where overflow is the number of extra rows
+    that had to be merged into the last row (0 if no overflow).
     """
     words = text.split(' ')
     chunks = []
@@ -87,16 +90,16 @@ def _wrap_en_to_chunks(text: str, num_chunks: int) -> list[str]:
     if current:
         chunks.append(current)
 
-    # If we have fewer chunks than needed, pad with empty
+    overflow = max(0, len(chunks) - num_chunks)
+
     while len(chunks) < num_chunks:
         chunks.append('')
 
-    # If we have more chunks than JP rows, merge the extras into the last row
     if len(chunks) > num_chunks:
         merged = ' '.join(chunks[num_chunks - 1:])
         chunks = chunks[:num_chunks - 1] + [merged]
 
-    return chunks
+    return chunks, overflow
 
 
 def main():
@@ -110,9 +113,12 @@ def main():
 
     print(f'  {len(tmap)} entries in translation map')
 
+    overflow_path = os.path.join(os.path.dirname(__file__), 'overflow_report.txt')
+
     count = 0
     full_count = 0
     skipped = 0
+    overflows = []
 
     out = open(out_path, 'w', encoding='cp932', errors='replace')
     full_out = open(full_path, 'w', encoding='cp932', errors='replace')
@@ -152,12 +158,16 @@ def main():
             skipped += 1
             continue
 
-        # Write the full (unsplit) entry for continuation cache
         full_out.write(f'{jp_clean}\t{en_clean}\n')
         full_count += 1
 
-        # Write split entries for per-row matching
-        pairs = split_entry(jp_clean, en_clean)
+        pairs, overflow = split_entry(jp_clean, en_clean)
+        if overflow > 0:
+            jp_bytes = len(jp_clean.encode('cp932'))
+            jp_rows = (jp_bytes + JP_BYTES_PER_ROW - 1) // JP_BYTES_PER_ROW
+            en_rows = jp_rows + overflow
+            overflows.append((jp_clean, en_clean, jp_rows, en_rows))
+
         for jp_part, en_part in pairs:
             if not jp_part or not en_part:
                 continue
@@ -172,9 +182,21 @@ def main():
     out.close()
     full_out.close()
 
+    with open(overflow_path, 'w', encoding='utf-8') as of:
+        of.write(f'# EN translation overflow report\n')
+        of.write(f'# Entries where EN needs more rows than JP ({EN_CHARS_PER_ROW} chars/row)\n')
+        of.write(f'# These translations should be shortened to fit.\n')
+        of.write(f'# Total: {len(overflows)} entries\n\n')
+        for jp, en, jp_rows, en_rows in overflows:
+            of.write(f'JP ({jp_rows} rows): {jp}\n')
+            of.write(f'EN ({en_rows} rows): {en}\n\n')
+
     print(f'  Wrote {count} split entries to {out_path}')
     print(f'  Wrote {full_count} full entries to {full_path}')
     print(f'  Skipped {skipped} entries')
+    print(f'  Overflow: {len(overflows)} entries where EN needs more rows than JP')
+    if overflows:
+        print(f'  See {overflow_path} for details')
     print(f'\nDone! Copy dictionary.txt AND dictionary_full.txt to the game folder.')
 
 
