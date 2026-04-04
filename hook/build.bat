@@ -6,7 +6,7 @@ REM Usage: build.bat
 REM Output: winmm.dll (copy to game folder alongside dictionary.txt)
 
 echo Building winmm.dll proxy...
-cl /LD /O2 /EHsc /W3 winmm_proxy.cpp /Fe:winmm.dll /link /DEF:winmm.def /MACHINE:X86
+cl /LD /O2 /EHsc /W3 winmm_proxy.cpp /Fe:winmm.dll /link /DEF:winmm.def /MACHINE:X86 user32.lib
 
 if %ERRORLEVEL% == 0 (
     echo.
