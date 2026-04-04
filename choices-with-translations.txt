@@ -2,373 +2,373 @@
 01c01
 ********************
 Group 1
-1. 　声をかける → [UNTRANSLATED]
-2. 　聞き耳をたてる → [UNTRANSLATED]
-3. 　放っておく → [UNTRANSLATED]
+1. 　声をかける → 1. Call out to her
+2. 　聞き耳をたてる → 2. Eavesdrop
+3. 　放っておく → 3. Leave her alone
 --------------------
 01c02
 ********************
 Group 1
-1. 　……黙って立ち去る → [UNTRANSLATED]
-2. 　遠目から様子を見る → [UNTRANSLATED]
-3. 　近づいて声をかける → [UNTRANSLATED]
+1. 　……黙って立ち去る → 1. ...Leave quietly
+2. 　遠目から様子を見る → 2. Watch from a distance
+3. 　近づいて声をかける → 3. Approach and speak to her
 --------------------
 01c04
 ********************
 Group 1
-1. 　葵とは、明日も会える → [UNTRANSLATED]
-2. 　ドラマよりも葵が大事 → [UNTRANSLATED]
+1. 　葵とは、明日も会える → 1. 　I can see Aoi again tomorrow
+2. 　ドラマよりも葵が大事 → 2. 　Aoi is more important than a drama
 --------------------
 01c05
 ********************
 Group 1
-1. 　先に行っててくれ → [UNTRANSLATED]
-2. 　ここで待っててくれ → [UNTRANSLATED]
+1. 　先に行っててくれ → 1. 　Go on ahead
+2. 　ここで待っててくれ → 2. 　Wait for me here
 
 Group 2
-1. 　朝メシを食べる → [UNTRANSLATED]
-2. 　朝メシは我慢だ → [UNTRANSLATED]
+1. 　朝メシを食べる → 1. 　Eat breakfast
+2. 　朝メシは我慢だ → 2. 　Skip breakfast
 --------------------
 01c06
 ********************
 Group 1
-1. 　適当にしてて → [UNTRANSLATED]
-2. 　俺の部屋で待ってて → [UNTRANSLATED]
+1. 　適当にしてて → 1. 　Just do whatever
+2. 　俺の部屋で待ってて → 2. 　Wait in my room
 --------------------
 01c10
 ********************
 Group 1
-1. 　いいことでもあったのかな → [UNTRANSLATED]
-2. 　大丈夫か、アイツ…… → [UNTRANSLATED]
+1. 　いいことでもあったのかな → 1. I wonder if something good happened.
+2. 　大丈夫か、アイツ…… → 2. Is she okay...?
 --------------------
 01c12
 ********************
 Group 1
-1. 　そんなことより… → [UNTRANSLATED]
-2. 　もしかして… → [UNTRANSLATED]
+1. 　そんなことより… → 1. More importantly…
+2. 　もしかして… → 2. Could it be…
 --------------------
 02c09
 ********************
 Group 1
-1. 　葵を抱きしめる → [UNTRANSLATED]
-2. 　自らの手で葵を…！ → [UNTRANSLATED]
+1. 　葵を抱きしめる → 1. Embrace Aoi
+2. 　自らの手で葵を…！ → 2. Take Aoi with my own hands...!
 --------------------
 02c10
 ********************
 Group 1
-1. 　葵にキスする → [UNTRANSLATED]
-2. 　このまま葵を自分の物に… → [UNTRANSLATED]
+1. 　葵にキスする → 1. Kiss Aoi
+2. 　このまま葵を自分の物に… → 2. Make Aoi mine, just like this...
 --------------------
 02c12
 ********************
 Group 1
-1. 　野球部の部室に避難する → [UNTRANSLATED]
-2. 　校門までダッシュする → [UNTRANSLATED]
+1. 　野球部の部室に避難する → 1. Seek refuge in the baseball clubroom
+2. 　校門までダッシュする → 2. Dash for the school gates
 --------------------
 02c13
 ********************
 Group 1
-1. 　葵と一緒に逃げる → [UNTRANSLATED]
-2. 　迎え撃つ → [UNTRANSLATED]
+1. 　葵と一緒に逃げる → 1. Flee with Aoi
+2. 　迎え撃つ → 2. Stand and fight
 
 Group 2
-1. 　葵の傷を背負って生きていく → [UNTRANSLATED]
-2. 　葵の傷を背負いきれない → [UNTRANSLATED]
+1. 　葵の傷を背負って生きていく → 1. Live on bearing Aoi’s scars
+2. 　葵の傷を背負いきれない → 2. I cannot bear Aoi’s scars
 --------------------
 03c01
 ********************
 Group 1
-1. 　放っておく → [UNTRANSLATED]
-2. 　止める → [UNTRANSLATED]
-3. 　後をつける → [UNTRANSLATED]
+1. 　放っておく → 1. Leave her be
+2. 　止める → 2. Stop her
+3. 　後をつける → 3. Follow her
 --------------------
 03c02
 ********************
 Group 1
-1. 　かまわず通りすぎる → [UNTRANSLATED]
-2. 　割って入る → [UNTRANSLATED]
-3. 　引き返す → [UNTRANSLATED]
+1. 　かまわず通りすぎる → 1. Pass by without a care
+2. 　割って入る → 2. Intervene
+3. 　引き返す → 3. Turn back
 --------------------
 03c03
 ********************
 Group 1
-1. 　気にせず部活へ行く → [UNTRANSLATED]
-2. 　様子を見守る → [UNTRANSLATED]
-3. 　葵たちについていく → [UNTRANSLATED]
+1. 　気にせず部活へ行く → 1. Go to club activities without worrying
+2. 　様子を見守る → 2. Watch how things unfold
+3. 　葵たちについていく → 3. Follow Aoi and the others
 --------------------
 03c06
 ********************
 Group 1
-1. 　放っておく → [UNTRANSLATED]
-2. 　近付いてみる → [UNTRANSLATED]
-3. 　呼びとめる → [UNTRANSLATED]
+1. 　放っておく → 1. Leave her alone
+2. 　近付いてみる → 2. Try to approach
+3. 　呼びとめる → 3. Call out to her
 --------------------
 03c07
 ********************
 Group 1
-1. 　いや、違うな → [UNTRANSLATED]
-2. 　大声で呼んでみる → [UNTRANSLATED]
+1. 　いや、違うな → 1. No, that’s not right.
+2. 　大声で呼んでみる → 2. Try calling out loudly.
 --------------------
 03c09
 ********************
 Group 1
-1. 　遠目から見守る → [UNTRANSLATED]
-2. 　後をつける → [UNTRANSLATED]
+1. 　遠目から見守る → 1. Watch from a distance
+2. 　後をつける → 2. Follow them
 --------------------
 03c10
 ********************
 Group 1
-1. 　立ち去る → [UNTRANSLATED]
-2. 　呼びとめる → [UNTRANSLATED]
+1. 　立ち去る → 1. Leave
+2. 　呼びとめる → 2. Call out to them
 --------------------
 03c11
 ********************
 Group 1
-1. 　ここで待っている → [UNTRANSLATED]
-2. 　先に教室に戻る → [UNTRANSLATED]
+1. 　ここで待っている → 1. Wait here
+2. 　先に教室に戻る → 2. Go back to the classroom first
 --------------------
 03c12
 ********************
 Group 1
-1. 　一人で考える → [UNTRANSLATED]
-2. 　沙莉亜の様子を見に行く → [UNTRANSLATED]
+1. 　一人で考える → 1. Think alone
+2. 　沙莉亜の様子を見に行く → 2. Go see how Saria is doing
 --------------------
 03c13
 ********************
 Group 1
-1. 　気にせずトイレに行く → [UNTRANSLATED]
-2. 　様子をうかがう → [UNTRANSLATED]
-3. 　話しかける → [UNTRANSLATED]
+1. 　気にせずトイレに行く → 1. Go to the restroom without worrying
+2. 　様子をうかがう → 2. Watch how things go
+3. 　話しかける → 3. Speak to them
 --------------------
 03c14
 ********************
 Group 1
-1. 　とにかく校門前へ → [UNTRANSLATED]
-2. 　一言言っておこう → [UNTRANSLATED]
+1. 　とにかく校門前へ → 1. Head to the school gate for now
+2. 　一言言っておこう → 2. Say something to her first
 --------------------
 04c01
 ********************
 Group 1
-1. 　しばらく桜子と話す → [UNTRANSLATED]
-2. 　桜子と一緒に登校する → [UNTRANSLATED]
-3. 　桜子を無視して、葵と話す → [UNTRANSLATED]
+1. 　しばらく桜子と話す → 1. Talk to Sakurako for a while
+2. 　桜子と一緒に登校する → 2. Walk to school with Sakurako
+3. 　桜子を無視して、葵と話す → 3. Ignore Sakurako and talk to Aoi
 --------------------
 04c02
 ********************
 Group 1
-1. 　ロードワークに出る → [UNTRANSLATED]
-2. 　後から様子を見に行く → [UNTRANSLATED]
-3. 　今すぐ行く → [UNTRANSLATED]
+1. 　ロードワークに出る → 1. Head out for roadwork
+2. 　後から様子を見に行く → 2. Go check on them later
+3. 　今すぐ行く → 3. Go right now
 --------------------
 04c03
 ********************
 Group 1
-1. 　気にする事はない → [UNTRANSLATED]
-2. 　少し待って様子を見に行く → [UNTRANSLATED]
-3. 　すぐに後をつける → [UNTRANSLATED]
+1. 　気にする事はない → 1. It’s nothing to worry about
+2. 　少し待って様子を見に行く → 2. Wait a little while, then go check on them
+3. 　すぐに後をつける → 3. Tail them immediately
 --------------------
 04c04
 ********************
 Group 1
-1. 　すぐに校門前に向かう → [UNTRANSLATED]
-2. 　少しブラブラしてから校門前に行く → [UNTRANSLATED]
-3. 　テニス部部室に行ってみる → [UNTRANSLATED]
+1. 　すぐに校門前に向かう → 1. Head to the school gate immediately
+2. 　少しブラブラしてから校門前に行く → 2. Wander around a bit before heading to the gate
+3. 　テニス部部室に行ってみる → 3. Go check the tennis clubroom
 --------------------
 04c05
 ********************
 Group 1
-1. 　今日は一人で食う → [UNTRANSLATED]
-2. 　気づかれないように追いかける → [UNTRANSLATED]
-3. 　すぐに追いかける → [UNTRANSLATED]
+1. 　今日は一人で食う → 1. Eat alone today
+2. 　気づかれないように追いかける → 2. Follow her without being noticed
+3. 　すぐに追いかける → 3. Follow her immediately
 --------------------
 04c06
 ********************
 Group 1
-1. 　ひたすら待つ → [UNTRANSLATED]
-2. 　もう少し待つ → [UNTRANSLATED]
-3. 　迎えに行ってやる → [UNTRANSLATED]
+1. 　ひたすら待つ → 1. Just keep waiting
+2. 　もう少し待つ → 2. Wait a little longer
+3. 　迎えに行ってやる → 3. Go pick her up
 --------------------
 04c07
 ********************
 Group 1
-1. 　ひたすら待つ → [UNTRANSLATED]
-2. 　少しだけ待つ → [UNTRANSLATED]
-3. 　迎えに行ってやる → [UNTRANSLATED]
+1. 　ひたすら待つ → 1. Just keep waiting
+2. 　少しだけ待つ → 2. Wait just a little longer
+3. 　迎えに行ってやる → 3. Go pick her up
 --------------------
 04c08
 ********************
 Group 1
-1. 　気にしない → [UNTRANSLATED]
-2. 　ちょっと迷う → [UNTRANSLATED]
-3. 　すぐ追いかける → [UNTRANSLATED]
+1. 　気にしない → 1. Don’t worry about it
+2. 　ちょっと迷う → 2. Hesitate for a bit
+3. 　すぐ追いかける → 3. Follow her immediately
 --------------------
 04c09
 ********************
 Group 1
-1. 　桜子の誘いに乗る → [UNTRANSLATED]
-2. 　ちょっと迷う → [UNTRANSLATED]
+1. 　桜子の誘いに乗る → 1. Accept Sakurako's invitation
+2. 　ちょっと迷う → 2. Hesitate a bit
 --------------------
 04c10
 ********************
 Group 1
-1. 　来るまで待つ → [UNTRANSLATED]
-2. 　もう少しだけ待つ → [UNTRANSLATED]
+1. 　来るまで待つ → 1. Wait until she comes
+2. 　もう少しだけ待つ → 2. Wait just a little longer
 --------------------
 04c11
 ********************
 Group 1
-1. 　心配しすぎだな → [UNTRANSLATED]
-2. 　後で様子を見に行く → [UNTRANSLATED]
-3. 　すぐに追いかける → [UNTRANSLATED]
+1. 　心配しすぎだな → 1. I’m just overthinking it
+2. 　後で様子を見に行く → 2. Go check on her later
+3. 　すぐに追いかける → 3. Chase after her immediately
 --------------------
 04c12
 ********************
 Group 1
-1. 　桜子の話を聞く → [UNTRANSLATED]
-2. 　適当に切り上げる → [UNTRANSLATED]
+1. 　桜子の話を聞く → 1. Listen to Sakurako
+2. 　適当に切り上げる → 2. Cut the conversation short
 --------------------
 04c13
 ********************
 Group 1
-1. 　先に桜子の用事を済ます → [UNTRANSLATED]
-2. 　葵の元へ急ぐ → [UNTRANSLATED]
+1. 　先に桜子の用事を済ます → 1. Finish Sakurako's business first
+2. 　葵の元へ急ぐ → 2. Hurry to Aoi
 --------------------
 05c01
 ********************
 Group 1
-1. 　気にせず寝る → [UNTRANSLATED]
-2. 　物思いにふける → [UNTRANSLATED]
-3. 　葵の傍に行く → [UNTRANSLATED]
+1. 　気にせず寝る → 1. Sleep without worrying
+2. 　物思いにふける → 2. Indulge in thought
+3. 　葵の傍に行く → 3. Go to Aoi’s side
 --------------------
 05c02
 ********************
 Group 1
-1. 　ちょっと野暮用に → [UNTRANSLATED]
-2. 　廊下に出る → [UNTRANSLATED]
+1. 　ちょっと野暮用に → 1. Off to run an errand
+2. 　廊下に出る → 2. Go out into the hallway
 --------------------
 05c03
 ********************
 Group 1
-1. 　とっとと行って来い → [UNTRANSLATED]
-2. 　そういえば、俺も → [UNTRANSLATED]
-3. 　しょうがないな → [UNTRANSLATED]
+1. 　とっとと行って来い → 1. Just go already
+2. 　そういえば、俺も → 2. Now that you mention it, I...
+3. 　しょうがないな → 3. Fine, I guess
 --------------------
 05c04
 ********************
 Group 1
-1. 　窓でも開けるか → [UNTRANSLATED]
-2. 　散歩に行くか → [UNTRANSLATED]
+1. 　窓でも開けるか → 1. Open the window
+2. 　散歩に行くか → 2. Go for a walk
 --------------------
 05c05
 ********************
 Group 1
-1. 　確か、アイツ… → [UNTRANSLATED]
-2. 　…おかしいな → [UNTRANSLATED]
+1. 　確か、アイツ… → 1. If I remember correctly, him...
+2. 　…おかしいな → 2. ...That’s weird
 --------------------
 05c06
 ********************
 Group 1
-1. 　ここで待ってやる → [UNTRANSLATED]
-2. 　やっぱり先に行く → [UNTRANSLATED]
+1. 　ここで待ってやる → 1. Wait for her here
+2. 　やっぱり先に行く → 2. Go on ahead after all
 --------------------
 05c07
 ********************
 Group 1
-1. 　二度寝する → [UNTRANSLATED]
-2. 　起きる → [UNTRANSLATED]
+1. 　二度寝する → 1. Go back to sleep
+2. 　起きる → 2. Get up
 --------------------
 05c08
 ********************
 Group 1
-1. 　職員室へ行く → [UNTRANSLATED]
-2. 　葵に声を掛ける → [UNTRANSLATED]
+1. 　職員室へ行く → 1. Go to the staff room
+2. 　葵に声を掛ける → 2. Call out to Aoi
 --------------------
 05c10
 ********************
 Group 1
-1. 　部活に行く前に… → [UNTRANSLATED]
-2. 　葵と一緒に部活に行く → [UNTRANSLATED]
+1. 　部活に行く前に… → 1. Before heading to club...
+2. 　葵と一緒に部活に行く → 2. Go to club with Aoi
 --------------------
 05c11
 ********************
 Group 1
-1. 　あきらめる → [UNTRANSLATED]
-2. 　鍵を借りてくる → [UNTRANSLATED]
-3. 　蹴り開ける → [UNTRANSLATED]
+1. 　あきらめる → 1. Give up
+2. 　鍵を借りてくる → 2. Borrow the key
+3. 　蹴り開ける → 3. Kick it open
 --------------------
 06c01
 ********************
 Group 1
-1. 　心配なので葵を探す → [UNTRANSLATED]
-2. 　気にせず居眠り → [UNTRANSLATED]
-3. 　とりあえずトイレに行く → [UNTRANSLATED]
+1. 　心配なので葵を探す → 1. Look for Aoi because I'm worried
+2. 　気にせず居眠り → 2. Don't worry about it and take a nap
+3. 　とりあえずトイレに行く → 3. Go to the bathroom for now
 --------------------
 06c02
 ********************
 Group 1
-1. 　とりあえず行ってみれば？ → [UNTRANSLATED]
-2. 　用事は何だ？ → [UNTRANSLATED]
-3. 　行く必要なんかない → [UNTRANSLATED]
+1. 　とりあえず行ってみれば？ → 1. Why don't you just go for now?
+2. 　用事は何だ？ → 2. What’s the business about?
+3. 　行く必要なんかない → 3. There's no need to go
 --------------------
 06c03
 ********************
 Group 1
-1. 　授業中だし、気にする事は無い → [UNTRANSLATED]
-2. 　後で様子を見に行く → [UNTRANSLATED]
-3. 　今すぐ体育館に行く → [UNTRANSLATED]
+1. 　授業中だし、気にする事は無い → 1. We're in the middle of class, no need to worry
+2. 　後で様子を見に行く → 2. I'll go check on her later
+3. 　今すぐ体育館に行く → 3. I'm going to the gym right now
 --------------------
 06c04
 ********************
 Group 1
-1. 　気にしない → [UNTRANSLATED]
-2. 　ちょっと気になる → [UNTRANSLATED]
-3. 　大声で呼び止める → [UNTRANSLATED]
+1. 　気にしない → 1. Don't worry about it
+2. 　ちょっと気になる → 2. It's a little concerning
+3. 　大声で呼び止める → 3. Call out loudly to stop her
 --------------------
 06c05
 ********************
 Group 1
-1. 　ほっとく → [UNTRANSLATED]
-2. 　気づかれないように追いかける → [UNTRANSLATED]
-3. 　すぐに追いかける → [UNTRANSLATED]
+1. 　ほっとく → 1. Leave her alone
+2. 　気づかれないように追いかける → 2. Follow her without being noticed
+3. 　すぐに追いかける → 3. Follow her immediately
 --------------------
 06c06
 ********************
 Group 1
-1. 　とっさにガードした → [UNTRANSLATED]
-2. 　とっさによけた → [UNTRANSLATED]
+1. 　とっさにガードした → 1. 　Guarded instinctively
+2. 　とっさによけた → 2. 　Dodged instinctively
 --------------------
 07c01
 ********************
 Group 1
-1. 　パンだけでもくわえてくか… → [UNTRANSLATED]
-2. 　メシはちゃんと食わないとな → [UNTRANSLATED]
-3. 　メシは諦めるか → [UNTRANSLATED]
+1. 　パンだけでもくわえてくか… → 1. 　At least grab a piece of bread to go...
+2. 　メシはちゃんと食わないとな → 2. 　Gotta eat a proper meal.
+3. 　メシは諦めるか → 3. 　Guess I'll give up on breakfast.
 --------------------
 07c02
 ********************
 Group 1
-1. 　今すぐ寝てしまおう… → [UNTRANSLATED]
-2. 　せっかくの自習時間なのに… → [UNTRANSLATED]
+1. 　今すぐ寝てしまおう… → 1. 　I'll just go to sleep right now...
+2. 　せっかくの自習時間なのに… → 2. 　Even though it's a rare self-study period...
 
 Group 2
-1. 　優しい言葉をかける → [UNTRANSLATED]
-2. 　自分なりに元気づける → [UNTRANSLATED]
+1. 　優しい言葉をかける → 1. 　Offer kind words
+2. 　自分なりに元気づける → 2. 　Cheer her up in my own way
 --------------------
 07c06
 ********************
 Group 1
-1. 　放っておく → [UNTRANSLATED]
-2. 　もう少し待つ → [UNTRANSLATED]
-3. 　それはそうと… → [UNTRANSLATED]
+1. 　放っておく → 1. 　Leave it alone
+2. 　もう少し待つ → 2. 　Wait a bit longer
+3. 　それはそうと… → 3. 　That aside…
 --------------------
 d01s02
 ********************
 Group 1
-1. 　すぐに部活へ行く → [UNTRANSLATED]
-2. 　しばらく教室に居る → [UNTRANSLATED]
+1. 　すぐに部活へ行く → 1. 　Go to club immediately.
+2. 　しばらく教室に居る → 2. 　Stay in the classroom for a while.
 --------------------
 d02s02
 ********************
 Group 1
-1. 　強敵の目に触れない安全な場所に行く → [UNTRANSLATED]
-2. 　気にすることはない、早速昼メシだ → [UNTRANSLATED]
+1. 　強敵の目に触れない安全な場所に行く → 1. 　Go to a safe place where the formidable enemy won't see.
+2. 　気にすることはない、早速昼メシだ → 2. 　Don't worry about it, time for lunch.

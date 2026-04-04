@@ -1,20 +1,20 @@
 /**
  * Export Translation Map
  *
- * Reads `merged-original.txt` and `merged-translated.txt`, parses them into
- * matching sections, and builds a JSON mapping of every unique original line
- * to its translated counterpart.
+ * Reads original and translated merged chunks, parses them into matching
+ * sections, and builds a JSON mapping of every unique original line to its
+ * translated counterpart.
  *
- * Speech source lines (＃ in original, # in translated) and their following
+ * Speech source lines (＃ in original, $ in translated) and their following
  * content lines are merged into a single entry:
  *
- *   Original:  ＃秋人                   →  key:   "〈秋人〉：ん？　もしかして葵なのか？"
- *              「ん？　もしかして葵なのか？」  value: "Akito: \u201CHm? Could that be Aoi?\u201D"
+ *   Original:  ＃少女         →  key:   "少女「……っ」"
+ *              「……っ」        value: "Girl: \"...!\""
  *
  * Narration lines are mapped directly:
  *
- *   key:   "俺は自室でマンガを読みながら、くつろいでいた。"
- *   value: "I was relaxing in my room, reading manga."
+ *   key:   "　――都内某所。"
+ *   value: "--Somewhere in Tokyo."
  *
  * Empty lines are skipped. First occurrence wins for duplicates.
  *
@@ -107,43 +107,20 @@ const SPEAKER_MAP = new Map([
  * translated.
  */
 function parseSections(text) {
-  // Step 1: Split file into raw blocks by the section separator line.
   const raw = text.split(`${SECTION_SEPARATOR}\n`);
   const sections = new Map();
 
   for (const block of raw) {
-    // Step 2: Locate the header separator to split filename from body.
     const headerEnd = block.indexOf(`\n${HEADER_SEPARATOR}\n`);
     if (headerEnd === -1) continue;
 
     const fileName = block.slice(0, headerEnd).trim();
     const body = block.slice(headerEnd + HEADER_SEPARATOR.length + 2);
 
-    // Step 3: Keep all lines (including empty) to preserve index alignment.
     sections.set(fileName, body.split("\n"));
   }
 
   return sections;
-}
-
-/**
- * Strip the 「」 brackets from a Japanese speech content line.
- */
-function stripBracketsJP(line) {
-  if (line.startsWith("「") && line.endsWith("」")) {
-    return line.slice(1, -1);
-  }
-  return line;
-}
-
-/**
- * Strip the \u201C\u201D curly quotes from an English speech content line.
- */
-function stripBracketsEN(line) {
-  if (line.startsWith("\u201C") && line.endsWith("\u201D")) {
-    return line.slice(1, -1);
-  }
-  return line;
 }
 
 async function main() {
@@ -162,7 +139,6 @@ async function main() {
 
   // Step 3: Walk through each section, pairing original and translated lines.
   for (const [fileName, origLines] of origSections) {
-    // Skip sections without a translated counterpart.
     if (!transSections.has(fileName)) continue;
     const transLines = transSections.get(fileName);
 
@@ -178,6 +154,7 @@ async function main() {
       }
 
       // Step 3b: Handle speech lines (＃ source + content on next line).
+      // Original uses full-width ＃, translated uses $.
       if (origLine.startsWith("＃")) {
         const speakerJP = origLine.slice(1);
         const speakerEN = SPEAKER_MAP.get(speakerJP);
@@ -191,10 +168,9 @@ async function main() {
           const contentOrig = origLines[i + 1];
           const contentTrans = transLines[i + 1];
 
-          // Key uses 〈name〉：content format, stripping 「」 from original.
-          const key = `〈${speakerJP}〉：${stripBracketsJP(contentOrig)}`;
-          // Value uses EN name: \u201Ccontent\u201D, stripping translated quotes.
-          const value = `${speakerEN || speakerJP}: \u201C${stripBracketsEN(contentTrans)}\u201D`;
+          // Key uses inline format: speaker name + bracketed content.
+          const key = `${speakerJP}${contentOrig}`;
+          const value = `${speakerEN || speakerJP}: ${contentTrans}`;
 
           if (!map.has(key)) {
             map.set(key, value);
