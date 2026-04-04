@@ -20,7 +20,7 @@ import sys
 
 
 JP_BYTES_PER_ROW = 44   # game wraps at 44 CP932 bytes (22 fullwidth chars)
-EN_CHARS_PER_ROW = 96   # Arial Narrow at 60% width
+EN_CHARS_PER_ROW = 90   # Arial Narrow at 60% width
 
 
 def _is_sjis_lead(b: int) -> bool:
