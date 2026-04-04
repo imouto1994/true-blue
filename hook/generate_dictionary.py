@@ -79,7 +79,22 @@ def main():
             # and character names in brackets. Keep the JP key as-is
             # for exact matching.
             jp_clean = jp
-            en_clean = wrap_text(en.strip())
+            # Don't wrap — let the game's text box handle overflow.
+            # Wrapping inserts \n which breaks the TSV dictionary format.
+            en_clean = en.strip().replace('\n', ' ')
+
+            # Replace Unicode characters that CP932 can't encode with
+            # ASCII equivalents so the English side doesn't fail encoding
+            en_clean = (en_clean
+                .replace('\u2014', '-')    # em dash -> hyphen
+                .replace('\u2013', '-')    # en dash -> hyphen
+                .replace('\u2018', "'")    # left single quote
+                .replace('\u2019', "'")    # right single quote
+                .replace('\u201C', '"')    # left double quote
+                .replace('\u201D', '"')    # right double quote
+                .replace('\u2026', '...')  # ellipsis
+                .replace('\u00D7', 'x')    # multiplication sign
+            )
 
             # Try encoding both sides as CP932 (Windows Shift-JIS)
             try:
