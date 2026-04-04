@@ -1,0 +1,30 @@
+; winmm.def — Module definition for winmm.dll proxy
+; Maps the real winmm export names to our proxy trampolines
+
+LIBRARY winmm
+EXPORTS
+    mmioOpenA               = proxy_mmioOpenA
+    timeBeginPeriod         = proxy_timeBeginPeriod
+    timeSetEvent            = proxy_timeSetEvent
+    timeKillEvent           = proxy_timeKillEvent
+    timeEndPeriod           = proxy_timeEndPeriod
+    mmioGetInfo             = proxy_mmioGetInfo
+    mmioAdvance             = proxy_mmioAdvance
+    mmioSetInfo             = proxy_mmioSetInfo
+    mmioSeek                = proxy_mmioSeek
+    mmioDescend             = proxy_mmioDescend
+    mmioRead                = proxy_mmioRead
+    mmioAscend              = proxy_mmioAscend
+    mmioClose               = proxy_mmioClose
+    mixerGetNumDevs         = proxy_mixerGetNumDevs
+    mixerOpen               = proxy_mixerOpen
+    mixerGetDevCapsA        = proxy_mixerGetDevCapsA
+    mixerGetLineInfoA       = proxy_mixerGetLineInfoA
+    mixerGetLineControlsA   = proxy_mixerGetLineControlsA
+    mixerSetControlDetails  = proxy_mixerSetControlDetails
+    mixerGetControlDetailsA = proxy_mixerGetControlDetailsA
+    mixerClose              = proxy_mixerClose
+    midiOutGetNumDevs       = proxy_midiOutGetNumDevs
+    mciSendCommandA         = proxy_mciSendCommandA
+    mciGetErrorStringA      = proxy_mciGetErrorStringA
+    timeGetTime             = proxy_timeGetTime
