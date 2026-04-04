@@ -126,7 +126,7 @@ static HFONT GetEnglishFont(HDC hdc) {
     TEXTMETRICA tm;
     if (GetTextMetricsA(hdc, &tm)) {
         g_enFont = CreateFontA(
-            tm.tmHeight, 0, 0, 0, tm.tmWeight,
+            tm.tmHeight, tm.tmAveCharWidth / 2, 0, 0, tm.tmWeight,
             FALSE, FALSE, FALSE,
             DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
             DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS,
@@ -174,6 +174,25 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
     if (cont != g_contCache.end()) {
         const std::string& en = cont->second;
         return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
+    }
+
+    // 1b. Prefix match on continuation cache: the game may merge two
+    //     predicted rows into one wider row (e.g., 44+2 bytes sent as 46).
+    if (!g_contCache.empty()) {
+        for (auto& kv : g_contCache) {
+            if ((int)text.size() > (int)kv.first.size() &&
+                text.compare(0, kv.first.size(), kv.first) == 0) {
+                std::string combinedEN = kv.second;
+                std::string remaining = text.substr(kv.first.size());
+                auto nextIt = g_contCache.find(remaining);
+                if (nextIt != g_contCache.end() && !nextIt->second.empty()) {
+                    if (!combinedEN.empty()) combinedEN += " ";
+                    combinedEN += nextIt->second;
+                }
+                return RenderEnglish(hdc, x, y,
+                                     combinedEN.c_str(), (int)combinedEN.size());
+            }
+        }
     }
 
     // 2. Exact dictionary match (short lines or first-row fragments)
