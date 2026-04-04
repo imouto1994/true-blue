@@ -20,7 +20,7 @@ static bool g_dictLoaded = false;
 
 static const int JP_CHARS_PER_ROW = 22;  // game wraps at 22 fullwidth chars
 static const int JP_BYTES_PER_ROW = 44;  // 22 * 2 bytes per SJIS char
-static const int EN_CHARS_PER_ROW = 90;  // Arial Narrow at 60% width
+static const int EN_CHARS_PER_ROW = 94;  // Arial Narrow at 60% width
 
 static void LoadDictionary() {
     std::ifstream f("dictionary.txt");
