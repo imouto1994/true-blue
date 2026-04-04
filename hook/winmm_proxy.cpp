@@ -64,6 +64,8 @@ static void LoadDictionary() {
 static std::unordered_map<std::string, std::string> g_contCache;
 static std::string g_activeFullJP;
 static std::string g_activeFullEN;
+static std::string g_lastMatchedJP;
+static std::string g_lastMatchedEN;
 
 static void BuildContinuationCache(const std::string& fullJP,
                                    const std::string& fullEN,
@@ -174,27 +176,26 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
 
     std::string text(lpString, c);
 
+    // 0. Shadow/repeat detection: the game draws each row twice (shadow + main)
+    //    and redraws every frame. Serve the same EN without touching the cache.
+    if (text == g_lastMatchedJP) {
+        return RenderEnglish(hdc, x, y,
+                             g_lastMatchedEN.c_str(), (int)g_lastMatchedEN.size());
+    }
+
     // 1. Check continuation cache (rows 2+ of a multi-row line)
-    //    On exact match, serve the cached EN.
-    //    On prefix mismatch (game row wider/narrower than predicted),
-    //    serve the best match and rebuild the cache from the actual offset
-    //    so subsequent rows stay aligned.
     if (!g_contCache.empty() && !g_activeFullJP.empty()) {
-        // 1a. Exact match
+        // 1a. Exact match -- alignment is correct, no rebuild needed
         auto cont = g_contCache.find(text);
         if (cont != g_contCache.end()) {
-            const std::string& en = cont->second;
-            // Find where this text sits in the full JP to rebuild cache
-            size_t pos = g_activeFullJP.find(text);
-            if (pos != std::string::npos) {
-                int nextOff = (int)pos + c;
-                if (nextOff < (int)g_activeFullJP.size())
-                    BuildContinuationCache(g_activeFullJP, g_activeFullEN, nextOff);
-            }
-            return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
+            g_lastMatchedJP = text;
+            g_lastMatchedEN = cont->second;
+            return RenderEnglish(hdc, x, y,
+                                 g_lastMatchedEN.c_str(), (int)g_lastMatchedEN.size());
         }
 
-        // 1b/1c. Fuzzy match: forward prefix (wider row) or reverse prefix (narrower row)
+        // 1b/1c. Fuzzy match: forward prefix (wider row) or reverse prefix (narrower row).
+        //        Alignment is off, so rebuild cache from the actual next offset.
         for (auto& kv : g_contCache) {
             bool forwardHit = ((int)text.size() > (int)kv.first.size() &&
                                text.compare(0, kv.first.size(), kv.first) == 0);
@@ -210,7 +211,9 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                         en += nextIt->second;
                     }
                 }
-                // Rebuild cache from the actual next offset
+                g_lastMatchedJP = text;
+                g_lastMatchedEN = en;
+                // Rebuild cache from actual next offset
                 size_t pos = g_activeFullJP.find(kv.first);
                 if (pos != std::string::npos) {
                     int nextOff = (int)pos + c;
@@ -248,6 +251,8 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
             }
         }
 
+        g_lastMatchedJP = text;
+        g_lastMatchedEN = en;
         return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
     }
 
@@ -276,6 +281,8 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
 
                     BuildContinuationCache(fullJP, fullEN, c);
 
+                    g_lastMatchedJP = text;
+                    g_lastMatchedEN = enRow1;
                     return RenderEnglish(hdc, x, y,
                                         enRow1.c_str(), (int)enRow1.size());
                 }
