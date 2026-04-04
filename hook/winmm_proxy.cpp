@@ -126,7 +126,7 @@ static HFONT GetEnglishFont(HDC hdc) {
     TEXTMETRICA tm;
     if (GetTextMetricsA(hdc, &tm)) {
         g_enFont = CreateFontA(
-            tm.tmHeight, tm.tmAveCharWidth / 2, 0, 0, tm.tmWeight,
+            tm.tmHeight, tm.tmAveCharWidth * 2 / 3, 0, 0, tm.tmWeight,
             FALSE, FALSE, FALSE,
             DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
             DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS,
