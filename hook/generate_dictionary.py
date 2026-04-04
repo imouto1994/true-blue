@@ -19,8 +19,12 @@ import os
 import sys
 
 
-JP_CHARS_PER_ROW = 22   # game wraps at 22 fullwidth chars (44 bytes)
-EN_CHARS_PER_ROW = 44   # ASCII chars are half-width, so ~44 fit in same space
+JP_BYTES_PER_ROW = 44   # game wraps at 44 CP932 bytes (22 fullwidth chars)
+EN_CHARS_PER_ROW = 44   # ASCII chars are half-width, ~44 fit in same space
+
+
+def _is_sjis_lead(b: int) -> bool:
+    return (0x81 <= b <= 0x9F) or (0xE0 <= b <= 0xFC)
 
 
 def split_entry(jp: str, en: str) -> list[tuple[str, str]]:
@@ -28,22 +32,31 @@ def split_entry(jp: str, en: str) -> list[tuple[str, str]]:
     Split a long JP->EN entry into row-sized fragments that match
     what the game sends via TextOutA.
 
-    The game wraps at JP_CHARS_PER_ROW fullwidth characters per visual row.
-    Each row gets its own TextOutA call, so the dictionary needs a separate
-    entry for each row fragment.
+    Splits on CP932-encoded byte boundaries (44 bytes per row) to match
+    the C++ continuation cache logic exactly.
     """
-    if len(jp) <= JP_CHARS_PER_ROW:
+    jp_bytes = jp.encode('cp932')
+    if len(jp_bytes) <= JP_BYTES_PER_ROW:
         return [(jp, en)]
 
-    # Split JP into chunks of JP_CHARS_PER_ROW characters
     jp_chunks = []
-    for i in range(0, len(jp), JP_CHARS_PER_ROW):
-        jp_chunks.append(jp[i:i + JP_CHARS_PER_ROW])
+    off = 0
+    while off < len(jp_bytes):
+        end = min(off + JP_BYTES_PER_ROW, len(jp_bytes))
+        check = off
+        while check < end:
+            if _is_sjis_lead(jp_bytes[check]):
+                if check + 2 > end:
+                    end = check
+                    break
+                check += 2
+            else:
+                check += 1
+        jp_chunks.append(jp_bytes[off:end].decode('cp932'))
+        off = end
 
-    # Split EN into corresponding number of chunks using word-wrap
     en_chunks = _wrap_en_to_chunks(en, len(jp_chunks))
 
-    # Pair them up
     pairs = []
     for i in range(len(jp_chunks)):
         en_part = en_chunks[i] if i < len(en_chunks) else ''

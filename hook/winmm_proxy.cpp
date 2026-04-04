@@ -1,6 +1,6 @@
 // winmm_proxy.cpp - Proxy DLL for True Blue English patch
 // Hooks TextOutA to replace Japanese text with English at render time.
-// Build: cl /LD /O2 /EHsc winmm_proxy.cpp /Fe:winmm.dll /link /DEF:winmm.def /MACHINE:X86 user32.lib gdi32.lib
+// Build: cl /LD /O2 /EHsc /D_CRT_SECURE_NO_WARNINGS winmm_proxy.cpp /Fe:winmm.dll /link /DEF:winmm.def /MACHINE:X86 user32.lib gdi32.lib
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
@@ -228,6 +228,24 @@ static bool HookIAT(HMODULE hModule, const char* dllName,
 
 // ---- Hook thread ------------------------------------------------------------
 
+// Separated from HookThread so SEH (__try) doesn't coexist with C++ objects.
+static bool SafeProbeModule(void* base, HMODULE* outModule) {
+    __try {
+        BYTE* p = (BYTE*)base;
+        if (p[0] == 'M' && p[1] == 'Z') {
+            IMAGE_DOS_HEADER* dos = (IMAGE_DOS_HEADER*)p;
+            IMAGE_NT_HEADERS* nt = (IMAGE_NT_HEADERS*)(p + dos->e_lfanew);
+            if (nt->Signature == IMAGE_NT_SIGNATURE &&
+                nt->FileHeader.Machine == IMAGE_FILE_MACHINE_I386 &&
+                nt->OptionalHeader.SizeOfCode > 0x50000) {
+                *outModule = (HMODULE)p;
+                return true;
+            }
+        }
+    } __except(EXCEPTION_EXECUTE_HANDLER) {}
+    return false;
+}
+
 static DWORD WINAPI HookThread(LPVOID) {
     LoadDictionary();
     if (!g_dictLoaded || g_dict.empty()) return 0;
@@ -273,19 +291,8 @@ static DWORD WINAPI HookThread(LPVOID) {
         while (addr < 0x10000000) {
             if (VirtualQuery((void*)addr, &mbi, sizeof(mbi)) == sizeof(mbi)) {
                 if (mbi.State == MEM_COMMIT && mbi.RegionSize >= 0x40000) {
-                    __try {
-                        BYTE* base = (BYTE*)mbi.AllocationBase;
-                        if (base[0] == 'M' && base[1] == 'Z') {
-                            IMAGE_DOS_HEADER* dos = (IMAGE_DOS_HEADER*)base;
-                            IMAGE_NT_HEADERS* nt = (IMAGE_NT_HEADERS*)(base + dos->e_lfanew);
-                            if (nt->Signature == IMAGE_NT_SIGNATURE &&
-                                nt->FileHeader.Machine == IMAGE_FILE_MACHINE_I386 &&
-                                nt->OptionalHeader.SizeOfCode > 0x50000) {
-                                hMainBin = (HMODULE)base;
-                                break;
-                            }
-                        }
-                    } __except(EXCEPTION_EXECUTE_HANDLER) {}
+                    if (SafeProbeModule((void*)mbi.AllocationBase, &hMainBin))
+                        break;
                 }
                 addr = (DWORD)mbi.BaseAddress + mbi.RegionSize;
             } else {

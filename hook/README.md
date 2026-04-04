@@ -11,7 +11,7 @@ The game dynamically creates `main.bin` (the actual engine) at startup. Our
 
 1. Forwards all `winmm.dll` API calls to the real system DLL
 2. Detects when `main.bin` is loaded into memory
-3. Hooks the text rendering function at `main.bin+0x33794`
+3. Patches `main.bin`'s IAT to redirect `TextOutA` (GDI32) to our hook
 4. Looks up each Japanese text line in `dictionary.txt`
 5. Replaces matching lines with English translations
 
@@ -32,12 +32,13 @@ The game dynamically creates `main.bin` (the actual engine) at startup. Our
 python generate_dictionary.py
 ```
 
-This reads `../translation-map.json` and produces `dictionary.txt`.
+This reads `../translation-map.json` and produces `dictionary.txt` and
+`dictionary_full.txt`.
 
 ## Installation
 
 1. Copy `winmm.dll` to the game folder (same folder as the game .exe)
-2. Copy `dictionary.txt` to the game folder
+2. Copy `dictionary.txt` and `dictionary_full.txt` to the game folder
 3. Launch the game normally
 
 The patch logs debug messages via `OutputDebugString` — view them with
@@ -46,13 +47,12 @@ if troubleshooting.
 
 ## Uninstallation
 
-Delete `winmm.dll` and `dictionary.txt` from the game folder. The game
-returns to its original Japanese state.
+Delete `winmm.dll`, `dictionary.txt`, and `dictionary_full.txt` from the
+game folder. The game returns to its original Japanese state.
 
 ## Technical Notes
 
-- Hook target: offset `0x33794` in `main.bin` (Shift-JIS string copy function)
-- Confirmed via LunaTranslator H-code: `Sysd HSXN12+-1C:8@33794:main.bin`
+- Hook method: IAT patch on `main.bin`'s import of `TextOutA` (GDI32.dll)
 - The game is 32-bit (x86), so the DLL must be compiled as 32-bit
 - `main.bin` is a packed PE that exists only while the game is running
 - The proxy DLL scans memory to find `main.bin`'s base address at runtime
