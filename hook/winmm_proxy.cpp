@@ -114,22 +114,25 @@ static void BuildContinuationCache(const std::string& fullJP, const std::string&
     }
 }
 
-// ---- CreateFontA hook -------------------------------------------------------
+// ---- English font -----------------------------------------------------------
+// Created lazily on first translated TextOutA call, matching the game's font
+// height but using Arial Narrow for narrower English glyphs.
 
-typedef HFONT (WINAPI *CreateFontA_t)(int, int, int, int, int, DWORD,
-    DWORD, DWORD, DWORD, DWORD, DWORD, DWORD, DWORD, LPCSTR);
-static CreateFontA_t g_origCreateFontA = nullptr;
+static HFONT g_enFont = nullptr;
 
-HFONT WINAPI HookedCreateFontA(int cHeight, int cWidth,
-    int cEscapement, int cOrientation, int cWeight,
-    DWORD bItalic, DWORD bUnderline, DWORD bStrikeOut,
-    DWORD iCharSet, DWORD iOutPrecision, DWORD iClipPrecision,
-    DWORD iQuality, DWORD iPitchAndFamily, LPCSTR pszFaceName)
-{
-    return g_origCreateFontA(cHeight, cWidth, cEscapement, cOrientation,
-        cWeight, bItalic, bUnderline, bStrikeOut,
-        DEFAULT_CHARSET, iOutPrecision, iClipPrecision,
-        iQuality, iPitchAndFamily, "Arial Narrow");
+static HFONT GetEnglishFont(HDC hdc) {
+    if (g_enFont) return g_enFont;
+
+    TEXTMETRICA tm;
+    if (GetTextMetricsA(hdc, &tm)) {
+        g_enFont = CreateFontA(
+            tm.tmHeight, 0, 0, 0, tm.tmWeight,
+            FALSE, FALSE, FALSE,
+            DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
+            DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS,
+            "Arial Narrow");
+    }
+    return g_enFont;
 }
 
 // ---- TextOutA hook ----------------------------------------------------------
@@ -139,6 +142,17 @@ static TextOutA_t g_origTextOutA = nullptr;
 
 static FILE* g_logFile = nullptr;
 static int g_logCount = 0;
+
+static BOOL RenderEnglish(HDC hdc, int x, int y, LPCSTR str, int len) {
+    HFONT enFont = GetEnglishFont(hdc);
+    if (enFont) {
+        HFONT oldFont = (HFONT)SelectObject(hdc, enFont);
+        BOOL result = g_origTextOutA(hdc, x, y, str, len);
+        SelectObject(hdc, oldFont);
+        return result;
+    }
+    return g_origTextOutA(hdc, x, y, str, len);
+}
 
 static void LogToFile(const char* msg) {
     if (!g_logFile) {
@@ -159,7 +173,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
     auto cont = g_contCache.find(text);
     if (cont != g_contCache.end()) {
         const std::string& en = cont->second;
-        return g_origTextOutA(hdc, x, y, en.c_str(), (int)en.size());
+        return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
     }
 
     // 2. Exact dictionary match (short lines or first-row fragments)
@@ -188,7 +202,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
             }
         }
 
-        return g_origTextOutA(hdc, x, y, en.c_str(), (int)en.size());
+        return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
     }
 
     // 3. Prefix fallback for rows wider than the predicted 44-byte split.
@@ -228,8 +242,8 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                         g_contCache[remainJP] = remainEN;
                     }
 
-                    return g_origTextOutA(hdc, x, y,
-                                          enRow1.c_str(), (int)enRow1.size());
+                    return RenderEnglish(hdc, x, y,
+                                        enRow1.c_str(), (int)enRow1.size());
                 }
             }
         }
@@ -404,12 +418,6 @@ static DWORD WINAPI HookThread(LPVOID) {
                  (void*)HookedTextOutA, (void**)&g_origTextOutA)) {
         HookIAT(hMainBin, "gdi32.dll", "TextOutA",
                  (void*)HookedTextOutA, (void**)&g_origTextOutA);
-    }
-
-    if (!HookIAT(hMainBin, "GDI32.dll", "CreateFontA",
-                 (void*)HookedCreateFontA, (void**)&g_origCreateFontA)) {
-        HookIAT(hMainBin, "gdi32.dll", "CreateFontA",
-                 (void*)HookedCreateFontA, (void**)&g_origCreateFontA);
     }
 
     return 0;
