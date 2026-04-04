@@ -119,43 +119,87 @@ static void* __cdecl TextHookHandler(const char* srcText) {
     return (void*)srcText;
 }
 
+// ---- Register dump handler (for debugging) ----------------------------------
+
+static void __cdecl DumpRegisters(DWORD edi, DWORD esi, DWORD ebp,
+                                   DWORD esp_val, DWORD ebx, DWORD edx,
+                                   DWORD ecx, DWORD eax) {
+    static int dumpCount = 0;
+    if (dumpCount >= 20) return;
+    dumpCount++;
+
+    char buf[512];
+    sprintf_s(buf, "[TrueBluePatch] HOOK FIRED #%d  "
+              "EAX=%08X ECX=%08X EDX=%08X EBX=%08X ESI=%08X EDI=%08X",
+              dumpCount, eax, ecx, edx, ebx, esi, edi);
+    OutputDebugStringA(buf);
+
+    // Try to read ESI as string
+    if (!IsBadReadPointer((void*)esi) && *(char*)esi != 0) {
+        sprintf_s(buf, "[TrueBluePatch]   ESI str: %.80s", (char*)esi);
+        OutputDebugStringA(buf);
+    }
+    // Try EDI as string
+    if (!IsBadReadPointer((void*)edi) && *(char*)edi != 0) {
+        sprintf_s(buf, "[TrueBluePatch]   EDI str: %.80s", (char*)edi);
+        OutputDebugStringA(buf);
+    }
+    // Try EAX as string
+    if (!IsBadReadPointer((void*)eax) && *(char*)eax != 0) {
+        sprintf_s(buf, "[TrueBluePatch]   EAX str: %.80s", (char*)eax);
+        OutputDebugStringA(buf);
+    }
+    // Try EBX as string
+    if (!IsBadReadPointer((void*)ebx) && *(char*)ebx != 0) {
+        sprintf_s(buf, "[TrueBluePatch]   EBX str: %.80s", (char*)ebx);
+        OutputDebugStringA(buf);
+    }
+}
+
+static void (__cdecl *g_dumpPtr)(DWORD, DWORD, DWORD, DWORD,
+                                  DWORD, DWORD, DWORD, DWORD) = &DumpRegisters;
+
 // ---- Naked ASM detour -------------------------------------------------------
 //
 // The hook target at main.bin+0x33794 is mid-function:
 //   C1 E9 02    shr ecx, 2     ; prepare dword count
 //   F3 A5       rep movsd       ; copy dwords from ESI to EDI
 //
-// At this point ESI = source text, EDI = dest buffer, ECX/EDX = byte count.
-// We intercept, call our handler with ESI, and if it returns a different
-// pointer, replace ESI so the copy uses our English text instead.
+// pushad pushes registers in order: EAX ECX EDX EBX ESP EBP ESI EDI
+// Last pushed (EDI) is at top of stack.
+// After pushad:
+//   [ESP+00]=EDI  [ESP+04]=ESI  [ESP+08]=EBP  [ESP+0C]=ESP(orig)
+//   [ESP+10]=EBX  [ESP+14]=EDX  [ESP+18]=ECX  [ESP+1C]=EAX
 
 static __declspec(naked) void TextHookDetour() {
     __asm {
-        // Preserve all registers and flags
         pushad
-        pushfd
 
-        // Call handler: void* TextHookHandler(const char* srcText)
-        // ESI is at [ESP + 0x04] in the pushad frame (pushad order:
-        // EAX ECX EDX EBX ESP EBP ESI EDI, so ESI is at offset 0x08
-        // from top, but with pushfd that adds 4, so ESI = [ESP + 0x0C])
-        // Actually pushad pushes: EDI ESI EBP ESP EBX EDX ECX EAX
-        // So after pushad+pushfd: [ESP+0]=flags, [ESP+4]=EAX, [ESP+8]=ECX,
-        // [ESP+0C]=EDX, [ESP+10]=EBX, [ESP+14]=ESP, [ESP+18]=EBP,
-        // [ESP+1C]=ESI, [ESP+20]=EDI
-        mov eax, [esp + 0x1C]   // saved ESI = source text
-        push eax
-        call [g_handlerPtr]      // returns new pointer in EAX
-        add esp, 4               // clean up cdecl arg
+        // Pass all registers to DumpRegisters for diagnosis
+        // Args pushed right-to-left: eax, ecx, edx, ebx, esp_val, ebp, esi, edi
+        push [esp + 0x1C]  // EAX
+        push [esp + 0x1C]  // ECX (offset shifts by 4 due to push)
+        push [esp + 0x1C]  // EDX
+        push [esp + 0x1C]  // EBX
+        push [esp + 0x1C]  // ESP
+        push [esp + 0x1C]  // EBP
+        push [esp + 0x1C]  // ESI
+        push [esp + 0x1C]  // EDI
+        call [g_dumpPtr]
+        add esp, 32
 
-        // If handler returned a different pointer, update saved ESI
-        mov [esp + 0x1C], eax
+        // Now call the text handler with ESI (source text)
+        // ESI is at [ESP+0x04] in the pushad frame
+        push [esp + 0x04]       // ESI
+        call [g_handlerPtr]
+        add esp, 4
 
-        // Restore everything (ESI now points to English text if matched)
-        popfd
+        // Update saved ESI with handler's return value
+        mov [esp + 0x04], eax
+
         popad
 
-        // Jump to trampoline (executes original 5 bytes + jumps back)
+        // Jump to trampoline (original 5 bytes + return)
         jmp [g_trampolineAddr]
     }
 }
