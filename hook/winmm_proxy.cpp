@@ -63,10 +63,12 @@ static void LoadDictionary() {
 
 static std::unordered_map<std::string, std::string> g_contCache;
 
-static void BuildContinuationCache(const std::string& fullJP, const std::string& fullEN) {
+static void BuildContinuationCache(const std::string& fullJP,
+                                   const std::string& fullEN,
+                                   int firstRowBytes = JP_BYTES_PER_ROW) {
     g_contCache.clear();
 
-    if ((int)fullJP.size() <= JP_BYTES_PER_ROW) return;
+    if ((int)fullJP.size() <= firstRowBytes) return;
 
     // Split EN into word-wrapped rows
     std::vector<std::string> enRows;
@@ -88,13 +90,12 @@ static void BuildContinuationCache(const std::string& fullJP, const std::string&
         }
     }
 
-    // Split JP into rows of JP_BYTES_PER_ROW, respecting SJIS boundaries
-    int jpOff = JP_BYTES_PER_ROW; // first row already matched
+    // Split remaining JP into rows of JP_BYTES_PER_ROW, respecting SJIS boundaries
+    int jpOff = firstRowBytes;
     int enIdx = 1;
     while (jpOff < (int)fullJP.size()) {
         int jpEnd = jpOff + JP_BYTES_PER_ROW;
         if (jpEnd > (int)fullJP.size()) jpEnd = (int)fullJP.size();
-        // Ensure we don't split a 2-byte SJIS character
         int check = jpOff;
         while (check < jpEnd) {
             unsigned char b = (unsigned char)fullJP[check];
@@ -126,7 +127,7 @@ static HFONT GetEnglishFont(HDC hdc) {
     TEXTMETRICA tm;
     if (GetTextMetricsA(hdc, &tm)) {
         g_enFont = CreateFontA(
-            tm.tmHeight, tm.tmAveCharWidth * 2 / 3, 0, 0, tm.tmWeight,
+            tm.tmHeight, tm.tmAveCharWidth * 3 / 5, 0, 0, tm.tmWeight,
             FALSE, FALSE, FALSE,
             DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
             DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS,
@@ -176,8 +177,10 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
     }
 
-    // 1b. Prefix match on continuation cache: the game may merge two
-    //     predicted rows into one wider row (e.g., 44+2 bytes sent as 46).
+    // 1b. Forward prefix: game sent MORE bytes than a predicted cache key
+    //     (e.g., merges two predicted rows into one wider row).
+    // 1c. Reverse prefix: game sent FEWER bytes than a predicted cache key
+    //     (e.g., game wraps narrower than our 44-byte prediction).
     if (!g_contCache.empty()) {
         for (auto& kv : g_contCache) {
             if ((int)text.size() > (int)kv.first.size() &&
@@ -191,6 +194,11 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                 }
                 return RenderEnglish(hdc, x, y,
                                      combinedEN.c_str(), (int)combinedEN.size());
+            }
+            if ((int)kv.first.size() > (int)text.size() &&
+                kv.first.compare(0, text.size(), text) == 0) {
+                return RenderEnglish(hdc, x, y,
+                                     kv.second.c_str(), (int)kv.second.size());
             }
         }
     }
@@ -228,7 +236,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
     //    The game wraps by pixel width, so some first rows are wider than 22
     //    fullwidth chars. Match by checking if the first 44 bytes correspond
     //    to a known multi-row entry.
-    if (c > JP_BYTES_PER_ROW && c < JP_BYTES_PER_ROW * 2) {
+    if (c > JP_BYTES_PER_ROW) {
         std::string prefix = text.substr(0, JP_BYTES_PER_ROW);
         auto fullIt = g_fullDict.find(prefix);
         if (fullIt != g_fullDict.end()) {
@@ -247,19 +255,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                         enRow1 = fullEN;
                     }
 
-                    // Build continuation for the ACTUAL remaining JP bytes
-                    std::string remainJP = fullJP.substr(c);
-                    if (!remainJP.empty()) {
-                        std::string remainEN;
-                        if (fullEN.size() > enRow1.size()) {
-                            size_t pos = enRow1.size();
-                            while (pos < fullEN.size() && fullEN[pos] == ' ')
-                                pos++;
-                            remainEN = fullEN.substr(pos);
-                        }
-                        g_contCache.clear();
-                        g_contCache[remainJP] = remainEN;
-                    }
+                    BuildContinuationCache(fullJP, fullEN, c);
 
                     return RenderEnglish(hdc, x, y,
                                         enRow1.c_str(), (int)enRow1.size());
