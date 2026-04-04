@@ -78,14 +78,41 @@ static bool IsBadReadPointer(const void* ptr) {
 
 // ---- C++ hook handler (called from naked detour via function pointer) --------
 
+static int g_logCount = 0;  // limit debug output to first N calls
+
 static void* __cdecl TextHookHandler(const char* srcText) {
     if (!g_dictLoaded || !srcText) return (void*)srcText;
     if (IsBadReadPointer(srcText)) return (void*)srcText;
     if (srcText[0] == '\0') return (void*)srcText;
 
+    // Log the first 50 texts we see so we can debug matching
+    if (g_logCount < 50) {
+        g_logCount++;
+        char logBuf[512];
+
+        // Show the raw bytes (first 40 bytes) for encoding diagnosis
+        char hexPart[128] = {};
+        int len = (int)strlen(srcText);
+        int show = len < 40 ? len : 40;
+        for (int i = 0; i < show; i++) {
+            sprintf_s(hexPart + i * 3, sizeof(hexPart) - i * 3,
+                      "%02X ", (unsigned char)srcText[i]);
+        }
+
+        sprintf_s(logBuf, "[TrueBluePatch] Text #%d (len=%d): %s",
+                  g_logCount, len, hexPart);
+        OutputDebugStringA(logBuf);
+
+        // Also log as string (may be Shift-JIS)
+        sprintf_s(logBuf, "[TrueBluePatch] Text #%d str: %.100s",
+                  g_logCount, srcText);
+        OutputDebugStringA(logBuf);
+    }
+
     auto it = g_dict.find(std::string(srcText));
     if (it != g_dict.end()) {
         strncpy_s(g_replaceBuffer, it->second.c_str(), sizeof(g_replaceBuffer) - 1);
+        OutputDebugStringA("[TrueBluePatch] >>> MATCH FOUND - replacing!");
         return g_replaceBuffer;
     }
 
