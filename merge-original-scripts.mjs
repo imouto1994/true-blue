@@ -144,12 +144,14 @@ async function main() {
       if (trimmed.length === 0) continue;
 
       // Try to parse inline speech (speaker「content」).
+      // Speech lines don't have leading spaces, so trimmed is fine for parsing.
       const speech = parseSpeech(trimmed);
       if (speech) {
         lines.push(`＃${speech.speaker}`);
         lines.push(speech.content);
       } else {
-        lines.push(trimmed);
+        // Preserve leading whitespace (e.g. full-width space 　) from the original.
+        lines.push(srcLine);
       }
     }
 
