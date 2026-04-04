@@ -173,15 +173,81 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         return g_origTextOutA(hdc, x, y, en.c_str(), (int)en.size());
     }
 
-    // 3. Log misses for debugging
+    // 3. Prefix fallback for rows wider than the predicted 44-byte split.
+    //    The game wraps by pixel width, so some first rows are wider than 22
+    //    fullwidth chars. Match by checking if the first 44 bytes correspond
+    //    to a known multi-row entry.
+    if (c > JP_BYTES_PER_ROW && c < JP_BYTES_PER_ROW * 2) {
+        std::string prefix = text.substr(0, JP_BYTES_PER_ROW);
+        auto fullIt = g_fullDict.find(prefix);
+        if (fullIt != g_fullDict.end()) {
+            size_t tab = fullIt->second.find('\t');
+            if (tab != std::string::npos) {
+                std::string fullJP = fullIt->second.substr(0, tab);
+                std::string fullEN = fullIt->second.substr(tab + 1);
+                if ((int)fullJP.size() >= c &&
+                    fullJP.compare(0, c, text) == 0) {
+                    // Get EN row 1 from the 44-byte fragment in g_dict
+                    auto dictIt = g_dict.find(prefix);
+                    std::string enRow1;
+                    if (dictIt != g_dict.end()) {
+                        enRow1 = dictIt->second;
+                    } else {
+                        enRow1 = fullEN;
+                    }
+
+                    // Build continuation for the ACTUAL remaining JP bytes
+                    std::string remainJP = fullJP.substr(c);
+                    if (!remainJP.empty()) {
+                        // Compute remaining EN: strip enRow1 prefix from fullEN
+                        std::string remainEN;
+                        if (fullEN.size() > enRow1.size()) {
+                            size_t pos = enRow1.size();
+                            while (pos < fullEN.size() && fullEN[pos] == ' ')
+                                pos++;
+                            remainEN = fullEN.substr(pos);
+                        }
+                        g_contCache.clear();
+                        if (!remainEN.empty())
+                            g_contCache[remainJP] = remainEN;
+                    }
+
+                    return g_origTextOutA(hdc, x, y,
+                                          enRow1.c_str(), (int)enRow1.size());
+                }
+            }
+        }
+    }
+
+    // 4. Log misses for debugging (include hex dump to identify the text)
     unsigned char first = (unsigned char)lpString[0];
     bool isSJIS = (first >= 0x81 && first <= 0x9F) ||
                   (first >= 0xE0 && first <= 0xFC);
-    if (isSJIS && c >= 4 && g_logCount < 20) {
+    if (isSJIS && c >= 4 && g_logCount < 50) {
         g_logCount++;
-        char logBuf[256];
-        sprintf_s(logBuf, "MISS #%d (len=%d, y=%d)", g_logCount, c, y);
+        char logBuf[512];
+        sprintf_s(logBuf, "MISS #%d (len=%d, x=%d, y=%d)", g_logCount, c, x, y);
         LogToFile(logBuf);
+
+        // Log hex bytes (up to 64 bytes)
+        char hexBuf[256] = "  HEX: ";
+        int hexOff = 7;
+        int limit = (c < 64) ? c : 64;
+        for (int i = 0; i < limit; i++) {
+            sprintf_s(hexBuf + hexOff, sizeof(hexBuf) - hexOff, "%02X ",
+                      (unsigned char)lpString[i]);
+            hexOff += 3;
+        }
+        if (c > 64) strcat_s(hexBuf, "...");
+        LogToFile(hexBuf);
+
+        // Log raw text (safe to write CP932 bytes to file)
+        char rawBuf[300];
+        int copyLen = (c < 250) ? c : 250;
+        memcpy(rawBuf + 7, lpString, copyLen);
+        memcpy(rawBuf, "  RAW: ", 7);
+        rawBuf[7 + copyLen] = '\0';
+        LogToFile(rawBuf);
     }
 
     return g_origTextOutA(hdc, x, y, lpString, c);
@@ -257,6 +323,7 @@ static DWORD WINAPI HookThread(LPVOID) {
     // (generated alongside dictionary.txt with full entries).
     {
         std::ifstream ff("dictionary_full.txt");
+        int fullAdded = 0;
         if (ff.is_open()) {
             std::string line;
             while (std::getline(ff, line)) {
@@ -266,14 +333,20 @@ static DWORD WINAPI HookThread(LPVOID) {
                 std::string fullJP = line.substr(0, tab);
                 std::string fullEN = line.substr(tab + 1);
                 if ((int)fullJP.size() > JP_BYTES_PER_ROW) {
-                    // Key: first JP_BYTES_PER_ROW bytes of the JP text
                     std::string firstRow = fullJP.substr(0, JP_BYTES_PER_ROW);
                     g_fullDict[firstRow] = fullJP + "\t" + fullEN;
+
+                    // Also add the full (unsplit) entry to g_dict so it matches
+                    // when the game sends the whole line without splitting.
+                    if (g_dict.find(fullJP) == g_dict.end()) {
+                        g_dict[fullJP] = fullEN;
+                        fullAdded++;
+                    }
                 }
             }
             char msg[128];
-            sprintf_s(msg, "[TrueBluePatch] Loaded %d full entries for continuations.",
-                      (int)g_fullDict.size());
+            sprintf_s(msg, "[TrueBluePatch] Loaded %d full entries (%d new) for continuations.",
+                      (int)g_fullDict.size(), fullAdded);
             OutputDebugStringA(msg);
         }
     }
