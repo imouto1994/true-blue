@@ -103,11 +103,28 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         if (it != g_dict.end()) {
             g_matchCount++;
             const std::string& en = it->second;
-            char logBuf[256];
-            sprintf_s(logBuf, ">>> MATCH #%d: [%.60s] -> [%.60s]",
-                      g_matchCount, text.c_str(), en.c_str());
+            char logBuf[512];
+            sprintf_s(logBuf, ">>> MATCH #%d (len %d->%d): [%.80s] -> [%.80s]",
+                      g_matchCount, c, (int)en.size(),
+                      text.c_str(), en.c_str());
             LogToFile(logBuf);
             return g_origTextOutA(hdc, x, y, en.c_str(), (int)en.size());
+        }
+
+        // Log first 10 lookup misses for SJIS text to diagnose
+        static int missCount = 0;
+        if (isSJIS && c >= 4 && missCount < 10) {
+            missCount++;
+            char logBuf[512];
+            // Show raw bytes of the lookup key
+            char hexKey[128] = {};
+            int show = c < 30 ? c : 30;
+            for (int i = 0; i < show; i++)
+                sprintf_s(hexKey + i * 3, sizeof(hexKey) - i * 3,
+                          "%02X ", (unsigned char)text[i]);
+            sprintf_s(logBuf, "MISS #%d (len=%d): hex=[%s]  dictSize=%d",
+                      missCount, c, hexKey, (int)g_dict.size());
+            LogToFile(logBuf);
         }
     }
 
