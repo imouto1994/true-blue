@@ -107,11 +107,29 @@ static void BuildContinuationCache(const std::string& fullJP, const std::string&
         }
         std::string jpFrag = fullJP.substr(jpOff, jpEnd - jpOff);
         std::string enFrag = (enIdx < (int)enRows.size()) ? enRows[enIdx] : "";
-        if (!jpFrag.empty() && !enFrag.empty())
+        if (!jpFrag.empty())
             g_contCache[jpFrag] = enFrag;
         jpOff = jpEnd;
         enIdx++;
     }
+}
+
+// ---- CreateFontA hook -------------------------------------------------------
+
+typedef HFONT (WINAPI *CreateFontA_t)(int, int, int, int, int, DWORD,
+    DWORD, DWORD, DWORD, DWORD, DWORD, DWORD, DWORD, LPCSTR);
+static CreateFontA_t g_origCreateFontA = nullptr;
+
+HFONT WINAPI HookedCreateFontA(int cHeight, int cWidth,
+    int cEscapement, int cOrientation, int cWeight,
+    DWORD bItalic, DWORD bUnderline, DWORD bStrikeOut,
+    DWORD iCharSet, DWORD iOutPrecision, DWORD iClipPrecision,
+    DWORD iQuality, DWORD iPitchAndFamily, LPCSTR pszFaceName)
+{
+    return g_origCreateFontA(cHeight, cWidth, cEscapement, cOrientation,
+        cWeight, bItalic, bUnderline, bStrikeOut,
+        DEFAULT_CHARSET, iOutPrecision, iClipPrecision,
+        iQuality, iPitchAndFamily, "Arial Narrow");
 }
 
 // ---- TextOutA hook ----------------------------------------------------------
@@ -199,7 +217,6 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                     // Build continuation for the ACTUAL remaining JP bytes
                     std::string remainJP = fullJP.substr(c);
                     if (!remainJP.empty()) {
-                        // Compute remaining EN: strip enRow1 prefix from fullEN
                         std::string remainEN;
                         if (fullEN.size() > enRow1.size()) {
                             size_t pos = enRow1.size();
@@ -208,8 +225,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                             remainEN = fullEN.substr(pos);
                         }
                         g_contCache.clear();
-                        if (!remainEN.empty())
-                            g_contCache[remainJP] = remainEN;
+                        g_contCache[remainJP] = remainEN;
                     }
 
                     return g_origTextOutA(hdc, x, y,
@@ -388,6 +404,12 @@ static DWORD WINAPI HookThread(LPVOID) {
                  (void*)HookedTextOutA, (void**)&g_origTextOutA)) {
         HookIAT(hMainBin, "gdi32.dll", "TextOutA",
                  (void*)HookedTextOutA, (void**)&g_origTextOutA);
+    }
+
+    if (!HookIAT(hMainBin, "GDI32.dll", "CreateFontA",
+                 (void*)HookedCreateFontA, (void**)&g_origCreateFontA)) {
+        HookIAT(hMainBin, "gdi32.dll", "CreateFontA",
+                 (void*)HookedCreateFontA, (void**)&g_origCreateFontA);
     }
 
     return 0;
