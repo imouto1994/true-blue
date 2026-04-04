@@ -57,40 +57,56 @@ static void LoadDictionary() {
 typedef BOOL (WINAPI *TextOutA_t)(HDC, int, int, LPCSTR, int);
 static TextOutA_t g_origTextOutA = nullptr;
 
-static int g_logCount = 0;
 static char g_replaceBuffer[4096] = {};
+static int g_sjisLogCount = 0;
+static int g_matchCount = 0;
+
+// Log file for detailed debugging (less spammy than OutputDebugString)
+static FILE* g_logFile = nullptr;
+
+static void LogToFile(const char* msg) {
+    if (!g_logFile) {
+        g_logFile = fopen("patch_log.txt", "w");
+        if (!g_logFile) return;
+    }
+    fprintf(g_logFile, "%s\n", msg);
+    fflush(g_logFile);
+}
 
 BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
     if (g_dictLoaded && lpString && c > 0) {
-        // Build the string (lpString may not be null-terminated, length is c)
         std::string text(lpString, c);
 
-        // Log first 30 SJIS text calls for debugging
-        if (g_logCount < 30) {
-            unsigned char first = (unsigned char)lpString[0];
-            bool isSJIS = (first >= 0x81 && first <= 0x9F) ||
-                          (first >= 0xE0 && first <= 0xFC);
+        // Log first 200 SJIS text fragments to file (not DebugView)
+        unsigned char first = (unsigned char)lpString[0];
+        bool isSJIS = (first >= 0x81 && first <= 0x9F) ||
+                      (first >= 0xE0 && first <= 0xFC);
 
-            if (c >= 2 && isSJIS) {
-                g_logCount++;
-                char logBuf[512];
-                char hexPart[128] = {};
-                int show = c < 30 ? c : 30;
-                for (int i = 0; i < show; i++)
-                    sprintf_s(hexPart + i * 3, sizeof(hexPart) - i * 3,
-                              "%02X ", (unsigned char)lpString[i]);
+        if (isSJIS && c >= 2 && g_sjisLogCount < 200) {
+            g_sjisLogCount++;
+            char logBuf[512];
+            sprintf_s(logBuf, "TextOut #%d (len=%d, x=%d, y=%d): [%.100s]",
+                      g_sjisLogCount, c, x, y, text.c_str());
+            LogToFile(logBuf);
 
-                sprintf_s(logBuf, "[TrueBluePatch] TextOut #%d (len=%d, x=%d, y=%d): %s",
-                          g_logCount, c, x, y, hexPart);
-                OutputDebugStringA(logBuf);
-            }
+            // Also show hex of first 20 bytes
+            char hexPart[80] = {};
+            int show = c < 20 ? c : 20;
+            for (int i = 0; i < show; i++)
+                sprintf_s(hexPart + i * 3, sizeof(hexPart) - i * 3,
+                          "%02X ", (unsigned char)lpString[i]);
+            LogToFile(hexPart);
         }
 
-        // Dictionary lookup
+        // Dictionary lookup (exact match)
         auto it = g_dict.find(text);
         if (it != g_dict.end()) {
+            g_matchCount++;
             const std::string& en = it->second;
-            OutputDebugStringA("[TrueBluePatch] >>> MATCH - replacing text!");
+            char logBuf[256];
+            sprintf_s(logBuf, ">>> MATCH #%d: [%.60s] -> [%.60s]",
+                      g_matchCount, text.c_str(), en.c_str());
+            LogToFile(logBuf);
             return g_origTextOutA(hdc, x, y, en.c_str(), (int)en.size());
         }
     }
