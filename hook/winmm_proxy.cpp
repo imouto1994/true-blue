@@ -1,5 +1,6 @@
 // winmm_proxy.cpp - Proxy DLL for True Blue English patch
-// Hooks TextOutA to replace Japanese text with English at render time.
+// Hooks TextOutA via IAT patching to replace Japanese text with English at render time.
+// Uses Arial Narrow font for English text to fit more characters per row.
 // Build: cl /LD /O2 /EHsc /D_CRT_SECURE_NO_WARNINGS winmm_proxy.cpp /Fe:winmm.dll /link /DEF:winmm.def /MACHINE:X86 user32.lib gdi32.lib
 
 #define WIN32_LEAN_AND_MEAN
@@ -11,16 +12,34 @@
 #include <vector>
 #include <fstream>
 
-// ---- Translation dictionary -------------------------------------------------
+// =============================================================================
+// Translation Dictionary
+// =============================================================================
+//
+// Three lookup structures work together:
+//
+// g_dict: JP fragment (CP932 bytes) -> EN text
+//   Contains both pre-split row fragments from dictionary.txt AND full unsplit
+//   entries from dictionary_full.txt. Pre-split fragments are keyed by the
+//   predicted 44-byte row boundaries. Full entries handle cases where the game
+//   sends the entire text in one TextOutA call.
+//
+// g_fullDict: first 44 bytes of a long JP entry -> "fullJP\tfullEN"
+//   Used to look up the complete entry when only the first row (44 bytes) is
+//   matched. Enables building the continuation cache for subsequent rows.
+//
+// g_contCache: predicted JP fragment -> EN text for that row
+//   Built at runtime when a first-row match is found. Caches the predicted
+//   JP fragments for rows 2+ of the current multi-row line, along with
+//   their corresponding EN text from the word-wrapped full translation.
 
 static std::unordered_map<std::string, std::string> g_dict;
-// Second map: full JP key -> full EN value (for building continuation cache)
 static std::unordered_map<std::string, std::string> g_fullDict;
 static bool g_dictLoaded = false;
 
-static const int JP_CHARS_PER_ROW = 22;  // game wraps at 22 fullwidth chars
-static const int JP_BYTES_PER_ROW = 44;  // 22 * 2 bytes per SJIS char
-static const int EN_CHARS_PER_ROW = 92;  // Arial Narrow at 60% width
+static const int JP_CHARS_PER_ROW = 22;  // game wraps at ~22 fullwidth chars
+static const int JP_BYTES_PER_ROW = 44;  // 22 * 2 bytes per CP932 fullwidth char
+static const int EN_CHARS_PER_ROW = 92;  // Arial Narrow at 60% width fits ~92 chars
 
 static void LoadDictionary() {
     std::ifstream f("dictionary.txt");
@@ -44,22 +63,27 @@ static void LoadDictionary() {
         }
     }
 
-    // Also build the full-entry dictionary from the same file.
-    // Entries where the JP key is exactly JP_BYTES_PER_ROW bytes are
-    // potential first-row fragments. Find the full entry by checking
-    // if the next entry starts where this one ends.
-    // (Simpler: the full entries are those <= JP_BYTES_PER_ROW that are
-    // also in g_dict. The split entries are those == JP_BYTES_PER_ROW.)
-
     g_dictLoaded = true;
     char msg[128];
     sprintf_s(msg, "[TrueBluePatch] Loaded %d translation entries.", count);
     OutputDebugStringA(msg);
 }
 
-// ---- Continuation cache -----------------------------------------------------
-// When a first-row match is found for a long line, we predict what the
-// continuation rows will look like and cache their translations.
+// =============================================================================
+// Continuation Cache
+// =============================================================================
+//
+// When a multi-row JP line is being rendered, the game sends each row as a
+// separate TextOutA call. The continuation cache predicts what those rows
+// will look like and maps them to the corresponding EN text.
+//
+// The cache is rebuilt when alignment shifts (the game wraps at a different
+// byte boundary than predicted). Key state variables:
+//
+// g_activeFullJP/EN: the full entry currently being rendered across rows
+// g_activeEnRow:     which EN word-wrap row to assign next (incremented per row)
+// g_lastMatchedJP/EN: the most recently matched JP/EN pair, used to handle
+//                     shadow rendering (each row drawn twice) and 30fps redraws
 
 static std::unordered_map<std::string, std::string> g_contCache;
 static std::string g_activeFullJP;
@@ -68,6 +92,11 @@ static int g_activeEnRow;
 static std::string g_lastMatchedJP;
 static std::string g_lastMatchedEN;
 
+// Builds the continuation cache for rows after `firstRowBytes`.
+// The full EN text is word-wrapped at EN_CHARS_PER_ROW, and each EN row
+// is paired with the corresponding predicted JP fragment (at 44-byte boundaries).
+// `enRowStart` indicates which EN row index to begin assigning from, so that
+// rebuilds after fuzzy matches don't repeat earlier EN rows.
 static void BuildContinuationCache(const std::string& fullJP,
                                    const std::string& fullEN,
                                    int firstRowBytes = JP_BYTES_PER_ROW,
@@ -79,7 +108,8 @@ static void BuildContinuationCache(const std::string& fullJP,
 
     if ((int)fullJP.size() <= firstRowBytes) return;
 
-    // Split EN into word-wrapped rows
+    // Word-wrap full EN into rows of EN_CHARS_PER_ROW characters.
+    // Breaks at word boundaries (last space before the limit).
     std::vector<std::string> enRows;
     {
         int off = 0, len = (int)fullEN.size();
@@ -99,12 +129,15 @@ static void BuildContinuationCache(const std::string& fullJP,
         }
     }
 
-    // Split remaining JP into rows of JP_BYTES_PER_ROW, respecting SJIS boundaries
+    // Split remaining JP (from firstRowBytes onwards) into predicted fragments
+    // of JP_BYTES_PER_ROW bytes, respecting 2-byte SJIS character boundaries.
+    // Each fragment is paired with the corresponding EN row.
     int jpOff = firstRowBytes;
     int enIdx = enRowStart;
     while (jpOff < (int)fullJP.size()) {
         int jpEnd = jpOff + JP_BYTES_PER_ROW;
         if (jpEnd > (int)fullJP.size()) jpEnd = (int)fullJP.size();
+        // Walk forward to ensure we don't split mid-SJIS character
         int check = jpOff;
         while (check < jpEnd) {
             unsigned char b = (unsigned char)fullJP[check];
@@ -117,6 +150,8 @@ static void BuildContinuationCache(const std::string& fullJP,
         }
         std::string jpFrag = fullJP.substr(jpOff, jpEnd - jpOff);
         std::string enFrag = (enIdx < (int)enRows.size()) ? enRows[enIdx] : "";
+        // Store even empty EN -- prevents fallthrough to g_dict where a
+        // fragment like "た。" could match the wrong entry from another sentence.
         if (!jpFrag.empty())
             g_contCache[jpFrag] = enFrag;
         jpOff = jpEnd;
@@ -124,9 +159,14 @@ static void BuildContinuationCache(const std::string& fullJP,
     }
 }
 
-// ---- English font -----------------------------------------------------------
-// Created lazily on first translated TextOutA call, matching the game's font
-// height but using Arial Narrow for narrower English glyphs.
+// =============================================================================
+// English Font
+// =============================================================================
+//
+// Created lazily on the first translated TextOutA call. Reads the game's
+// current font height/weight via GetTextMetrics, then creates an Arial Narrow
+// font at 60% of the original character width. This gives much narrower
+// English glyphs so more text fits per row (~92 chars vs ~22 fullwidth JP chars).
 
 static HFONT g_enFont = nullptr;
 
@@ -145,7 +185,9 @@ static HFONT GetEnglishFont(HDC hdc) {
     return g_enFont;
 }
 
-// ---- TextOutA hook ----------------------------------------------------------
+// =============================================================================
+// TextOutA Hook
+// =============================================================================
 
 typedef BOOL (WINAPI *TextOutA_t)(HDC, int, int, LPCSTR, int);
 static TextOutA_t g_origTextOutA = nullptr;
@@ -153,6 +195,10 @@ static TextOutA_t g_origTextOutA = nullptr;
 static FILE* g_logFile = nullptr;
 static int g_logCount = 0;
 
+// Renders English text by temporarily selecting the Arial Narrow font into
+// the device context, calling the original TextOutA, then restoring the
+// game's original font. Untranslated JP text bypasses this and uses the
+// game's font directly via g_origTextOutA.
 static BOOL RenderEnglish(HDC hdc, int x, int y, LPCSTR str, int len) {
     HFONT enFont = GetEnglishFont(hdc);
     if (enFont) {
@@ -173,22 +219,42 @@ static void LogToFile(const char* msg) {
     fflush(g_logFile);
 }
 
+// Main hook function. Intercepts every TextOutA call from main.bin.
+// The matching logic handles variable-width game wrapping through a
+// multi-step fallback chain:
+//
+//   Step 0: Shadow/repeat detection (same text as last match)
+//   Step 1a: Exact continuation cache match
+//   Step 1b: Forward prefix match on cache (game row wider than predicted)
+//   Step 1c: Reverse prefix match on cache (game row narrower than predicted)
+//   Step 2: Exact dictionary match (short lines or predicted first-row fragments)
+//   Step 3: Prefix fallback (first row wider than predicted 44 bytes)
+//   Step 4: Miss logging
+//
+// The game wraps text by pixel width, not a fixed character count, so the
+// actual row boundaries vary by +/- a few bytes from our 44-byte prediction.
+// Steps 1b, 1c, and 3 handle this variance. When a fuzzy match detects
+// misalignment, the continuation cache is rebuilt from the actual byte offset.
 BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
     if (!g_dictLoaded || !lpString || c <= 0)
         return g_origTextOutA(hdc, x, y, lpString, c);
 
     std::string text(lpString, c);
 
-    // 0. Shadow/repeat detection: the game draws each row twice (shadow + main)
-    //    and redraws every frame. Serve the same EN without touching the cache.
+    // --- Step 0: Shadow/repeat detection ---
+    // The game draws each row twice per frame (shadow pass at offset -2,-2,
+    // then main pass). It also redraws every frame at ~30fps. If the same
+    // text arrives again, serve the cached result without touching the
+    // continuation cache state.
     if (text == g_lastMatchedJP) {
         return RenderEnglish(hdc, x, y,
                              g_lastMatchedEN.c_str(), (int)g_lastMatchedEN.size());
     }
 
-    // 1. Check continuation cache (rows 2+ of a multi-row line)
+    // --- Step 1: Continuation cache (rows 2+ of a multi-row line) ---
     if (!g_contCache.empty() && !g_activeFullJP.empty()) {
-        // 1a. Exact match -- alignment is correct, no rebuild needed
+
+        // Step 1a: Exact match -- the game split at the same boundary we predicted.
         auto cont = g_contCache.find(text);
         if (cont != g_contCache.end()) {
             g_activeEnRow++;
@@ -198,9 +264,16 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                                  g_lastMatchedEN.c_str(), (int)g_lastMatchedEN.size());
         }
 
-        // 1b/1c. Fuzzy match: forward prefix (wider row) or reverse prefix (narrower row).
-        //        Alignment is off, so rebuild cache from the actual next offset
-        //        with the correct EN row index.
+        // Step 1b/1c: Fuzzy match -- the game split at a different boundary.
+        // 1b (forward): game sent MORE bytes than the predicted cache key.
+        //     The cache key is a prefix of the received text. This happens when
+        //     the game merges what we predicted as two rows into one wider row.
+        //     We combine EN from both predicted rows.
+        // 1c (reverse): game sent FEWER bytes than the predicted cache key.
+        //     The received text is a prefix of the cache key. This happens when
+        //     the game wraps narrower than our prediction.
+        // In both cases, the alignment has shifted, so we rebuild the cache
+        // from the actual next byte offset and advance the EN row counter.
         for (auto& kv : g_contCache) {
             bool forwardHit = ((int)text.size() > (int)kv.first.size() &&
                                text.compare(0, kv.first.size(), kv.first) == 0);
@@ -209,6 +282,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
             if (forwardHit || reverseHit) {
                 std::string en = kv.second;
                 if (forwardHit) {
+                    // Check if the extra bytes match a subsequent cache entry
                     std::string remaining = text.substr(kv.first.size());
                     auto nextIt = g_contCache.find(remaining);
                     if (nextIt != g_contCache.end() && !nextIt->second.empty()) {
@@ -219,7 +293,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                 g_activeEnRow++;
                 g_lastMatchedJP = text;
                 g_lastMatchedEN = en;
-                // Rebuild cache from actual next offset, advancing EN row index
+                // Rebuild cache from actual next offset with correct EN row index
                 size_t pos = g_activeFullJP.find(kv.first);
                 if (pos != std::string::npos) {
                     int nextOff = (int)pos + c;
@@ -232,23 +306,18 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         }
     }
 
-    // 2. Exact dictionary match (short lines or first-row fragments)
+    // --- Step 2: Exact dictionary match ---
+    // Handles single-row lines (<=44 bytes) and predicted first-row fragments
+    // of multi-row lines (exactly 44 bytes). When a 44-byte match is found
+    // and g_fullDict has the corresponding full entry, we build the continuation
+    // cache for the subsequent rows.
     auto it = g_dict.find(text);
     if (it != g_dict.end()) {
         const std::string& en = it->second;
 
-        // If this was a first-row fragment of a longer entry,
-        // build the continuation cache for subsequent rows.
-        // We detect this by checking if the text is exactly JP_BYTES_PER_ROW
-        // and the dictionary value has a "full entry" marker.
-        // (Actually, just check if the original full key is longer.)
-        // For now, we build continuations for all matches with row-length keys.
         if (c == JP_BYTES_PER_ROW) {
-            // Search for a full entry that starts with this text
-            // (stored with a special prefix in the dictionary)
             auto fullIt = g_fullDict.find(text);
             if (fullIt != g_fullDict.end()) {
-                // fullIt->second format: "fullJP\tfullEN"
                 size_t tab = fullIt->second.find('\t');
                 if (tab != std::string::npos) {
                     std::string fullJP = fullIt->second.substr(0, tab);
@@ -263,10 +332,11 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         return RenderEnglish(hdc, x, y, en.c_str(), (int)en.size());
     }
 
-    // 3. Prefix fallback for rows wider than the predicted 44-byte split.
-    //    The game wraps by pixel width, so some first rows are wider than 22
-    //    fullwidth chars. Match by checking if the first 44 bytes correspond
-    //    to a known multi-row entry.
+    // --- Step 3: Prefix fallback for wider first rows ---
+    // The game wraps by pixel width, so some first rows are wider than 44 bytes
+    // (e.g., 46 bytes = 23 fullwidth chars). We check if the first 44 bytes
+    // match a g_fullDict entry, verify the full JP starts with the received text,
+    // then serve EN row 1 and build the continuation cache from the actual offset.
     if (c > JP_BYTES_PER_ROW) {
         std::string prefix = text.substr(0, JP_BYTES_PER_ROW);
         auto fullIt = g_fullDict.find(prefix);
@@ -277,7 +347,6 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                 std::string fullEN = fullIt->second.substr(tab + 1);
                 if ((int)fullJP.size() >= c &&
                     fullJP.compare(0, c, text) == 0) {
-                    // Get EN row 1 from the 44-byte fragment in g_dict
                     auto dictIt = g_dict.find(prefix);
                     std::string enRow1;
                     if (dictIt != g_dict.end()) {
@@ -286,6 +355,7 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
                         enRow1 = fullEN;
                     }
 
+                    // Build cache from actual row 1 size, not predicted 44
                     BuildContinuationCache(fullJP, fullEN, c);
 
                     g_lastMatchedJP = text;
@@ -297,7 +367,9 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         }
     }
 
-    // 4. Log misses for debugging (include hex dump to identify the text)
+    // --- Step 4: Miss logging ---
+    // Logs unmatched SJIS text with hex dump for debugging. Only logs
+    // the first 50 misses to avoid flooding the log file.
     unsigned char first = (unsigned char)lpString[0];
     bool isSJIS = (first >= 0x81 && first <= 0x9F) ||
                   (first >= 0xE0 && first <= 0xFC);
@@ -307,7 +379,6 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         sprintf_s(logBuf, "MISS #%d (len=%d, x=%d, y=%d)", g_logCount, c, x, y);
         LogToFile(logBuf);
 
-        // Log hex bytes (up to 64 bytes)
         char hexBuf[256] = "  HEX: ";
         int hexOff = 7;
         int limit = (c < 64) ? c : 64;
@@ -319,7 +390,6 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
         if (c > 64) strcat_s(hexBuf, "...");
         LogToFile(hexBuf);
 
-        // Log raw text (safe to write CP932 bytes to file)
         char rawBuf[300];
         int copyLen = (c < 250) ? c : 250;
         memcpy(rawBuf + 7, lpString, copyLen);
@@ -331,7 +401,13 @@ BOOL WINAPI HookedTextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c) {
     return g_origTextOutA(hdc, x, y, lpString, c);
 }
 
-// ---- IAT hook ---------------------------------------------------------------
+// =============================================================================
+// IAT Hook
+// =============================================================================
+//
+// Patches the Import Address Table of a PE module to redirect calls to a
+// specific imported function. Used to redirect main.bin's TextOutA import
+// to our HookedTextOutA.
 
 static bool HookIAT(HMODULE hModule, const char* dllName,
                      const char* funcName, void* hookFunc, void** origFunc) {
@@ -370,9 +446,12 @@ static bool HookIAT(HMODULE hModule, const char* dllName,
     return false;
 }
 
-// ---- Hook thread ------------------------------------------------------------
+// =============================================================================
+// Hook Thread
+// =============================================================================
 
-// Separated from HookThread so SEH (__try) doesn't coexist with C++ objects.
+// Separated from HookThread so SEH (__try/__except) doesn't coexist with
+// C++ objects that require destructor unwinding (MSVC error C2712).
 static bool SafeProbeModule(void* base, HMODULE* outModule) {
     __try {
         BYTE* p = (BYTE*)base;
@@ -391,14 +470,14 @@ static bool SafeProbeModule(void* base, HMODULE* outModule) {
 }
 
 static DWORD WINAPI HookThread(LPVOID) {
+    // 1. Load the pre-split dictionary (dictionary.txt)
     LoadDictionary();
     if (!g_dictLoaded || g_dict.empty()) return 0;
 
-    // Build the full-entry lookup table for continuation cache.
-    // For each dictionary entry whose JP key is exactly JP_BYTES_PER_ROW bytes,
-    // we need to know the FULL original entry it came from.
-    // We rebuild this from translation-map by reading dictionary_full.txt
-    // (generated alongside dictionary.txt with full entries).
+    // 2. Load full (unsplit) entries from dictionary_full.txt.
+    //    For entries longer than 44 bytes, store two things:
+    //    a) g_fullDict[first 44 bytes] = "fullJP\tfullEN" (for continuation lookup)
+    //    b) g_dict[fullJP] = fullEN (for direct matching when game doesn't split)
     {
         std::ifstream ff("dictionary_full.txt");
         int fullAdded = 0;
@@ -414,8 +493,6 @@ static DWORD WINAPI HookThread(LPVOID) {
                     std::string firstRow = fullJP.substr(0, JP_BYTES_PER_ROW);
                     g_fullDict[firstRow] = fullJP + "\t" + fullEN;
 
-                    // Also add the full (unsplit) entry to g_dict so it matches
-                    // when the game sends the whole line without splitting.
                     if (g_dict.find(fullJP) == g_dict.end()) {
                         g_dict[fullJP] = fullEN;
                         fullAdded++;
@@ -429,6 +506,9 @@ static DWORD WINAPI HookThread(LPVOID) {
         }
     }
 
+    // 3. Wait for main.bin to appear in memory.
+    //    The game extracts it at runtime as a temp file. Try GetModuleHandle
+    //    first, then fall back to scanning memory for an MZ/PE header.
     OutputDebugStringA("[TrueBluePatch] Waiting for main.bin...");
 
     HMODULE hMainBin = nullptr;
@@ -462,6 +542,8 @@ static DWORD WINAPI HookThread(LPVOID) {
     sprintf_s(msg, "[TrueBluePatch] main.bin at 0x%08X", (DWORD)hMainBin);
     OutputDebugStringA(msg);
 
+    // 4. Patch main.bin's IAT to redirect TextOutA to our hook.
+    //    Try both "GDI32.dll" and "gdi32.dll" casing.
     if (!HookIAT(hMainBin, "GDI32.dll", "TextOutA",
                  (void*)HookedTextOutA, (void**)&g_origTextOutA)) {
         HookIAT(hMainBin, "gdi32.dll", "TextOutA",
@@ -471,7 +553,14 @@ static DWORD WINAPI HookThread(LPVOID) {
     return 0;
 }
 
-// ---- Winmm proxy ------------------------------------------------------------
+// =============================================================================
+// Winmm Proxy
+// =============================================================================
+//
+// The game imports winmm.dll. By placing our DLL named winmm.dll in the game
+// folder, Windows loads ours instead of the system one. We load the real
+// system winmm.dll and forward all 25 imported functions via naked trampolines.
+// The .def file maps each export name (e.g., mmioOpenA) to proxy_N.
 
 static HMODULE g_realWinmm = nullptr;
 static FARPROC g_origFuncs[64] = {};
@@ -507,6 +596,8 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID) {
     return TRUE;
 }
 
+// Naked trampolines: each just jumps to the real winmm function.
+// The .def file maps export names to these (e.g., mmioOpenA = proxy_0).
 #define TRAMPOLINE(idx) \
     extern "C" __declspec(naked, dllexport) void __stdcall proxy_##idx() { \
         __asm { jmp dword ptr [g_origFuncs + idx * 4] } \
